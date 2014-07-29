@@ -1,0 +1,60 @@
+<?php
+/**
+ * add data to tag head of html: page home - slideshow
+ */
+?>
+
+<link rel="stylesheet" href="<?php echo Mage::helper('featured/link')->getSkin();?>swiper/css/idangerous.swiper.css"/>
+<style>
+    .swiper-container {
+        width: 660px;
+        height: 250px;
+        color: #fff;
+    }
+    .red-slide {
+        background: #ca4040;
+    }
+    .blue-slide {
+        background: #4390ee;
+    }
+    .orange-slide {
+        background: #ff8604;
+    }
+    .green-slide {
+        background: #49a430;
+    }
+    .pink-slide {
+        background: #973e76;
+    }
+    .swiper-slide .title {
+        font-style: italic;
+        font-size: 42px;
+        margin-top: 80px;
+        margin-bottom: 0;
+        line-height: 45px;
+    }
+    .pagination {
+        position: absolute;
+        z-index: 20;
+        left: 10px;
+        bottom: 10px;
+    }
+    .swiper-pagination-switch {
+        display: inline-block;
+        width: 8px;
+        height: 8px;
+        border-radius: 8px;
+        background: #222;
+        margin-right: 5px;
+        opacity: 0.8;
+        border: 1px solid #fff;
+        cursor: pointer;
+    }
+    .swiper-visible-switch {
+        background: #aaa;
+    }
+    .swiper-active-switch {
+        background: #fff;
+    }
+
+</style>

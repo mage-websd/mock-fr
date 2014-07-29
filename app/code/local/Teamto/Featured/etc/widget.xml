@@ -1,0 +1,6 @@
+<widgets>
+    <featured_slideshow type="featured/featured_widget_slideshow">
+        <name>Featured: Slideshow</name>
+        <description type="desc">Slideshow view featured product</description>
+    </featured_slideshow>
+</widgets>

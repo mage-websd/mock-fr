@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<layout version="0.1.0">
+    <cms_index_index>
+        <reference name="head">
+            <block name="head.add.layout" type="core/template"
+                   template="teamto/layout/head.phtml"/>
+            <block name="head.add.feature.home" type="core/template"
+                   template="teamto/layout/head_feature_slide.phtml"/>
+        </reference>
+    </cms_index_index>
+</layout>
