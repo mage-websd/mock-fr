@@ -1,8 +1,12 @@
 /app/etc/local.xml
+/var/
+/app/code/core/
+/app/design/frontend/base/
+/media/
+/.htaccess
 /giangnt.pub
 /giangnt_key.pub
 /mock_giangnt.pub
 /giangnt
 /giangnt_key
 /mock_giangnt
-/var/
