@@ -116,13 +116,7 @@
     Options +FollowSymLinks
     RewriteEngine on
 
-RewriteCond %{HTTP_HOST} ^(.*)giangnt.mock.local
-RewriteRule ^ - [E=MAGE_RUN_CODE:shop_au]
-
-RewriteCond %{HTTP_HOST} ^(.*)web.mock.local
-RewriteRule ^ - [E=MAGE_RUN_CODE:default]
-
-RewriteCond %{HTTP_HOST} ^(.*)mock.local
+RewriteCond %{HTTP_HOST} ^(.*)tuyen.mock.local
 RewriteRule ^ - [E=MAGE_RUN_CODE:default]
 
 ############################################

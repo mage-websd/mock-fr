@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<layout version="0.1.0">
+<!--    <default>
+        <reference name="right">
+            <block type="core/text" name="hello">
+            </block>
+        </reference>
+
+    </default>-->
+<!--    <default>
+        <reference name="content">
+            <block type="catalog/product_new" name="home.catalog.product.new" template="catalog/product/new.phtml" after="cms_page">
+                <action method="setProductsCount">
+                    <count>12</count>
+                </action>
+                <action method="addPriceBlockType">
+                    <type>bundle</type>
+                    <block>bundle/catalog_product_price</block>
+                    <template>bundle/catalog/product/price.phtml</template>
+                </action>
+                <action method="setColumnCount">
+                    <count>4</count>
+                </action>
+            </block>
+        </reference>
+    </default>-->
+</layout>

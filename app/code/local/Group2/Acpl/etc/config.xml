@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+To change this template, choose Tools | Templates
+and open the template in the editor.
+-->
+<config>
+    <modules>
+        <Group2_Acpl>
+            <version>0.1.0</version>
+        </Group2_Acpl>
+    </modules>
+    <frontend>
+        <routers>
+            <group2_acpl>
+                <use>standard</use>
+                <args>
+                    <module>Group2_Acpl</module>
+                    <frontName>acpl</frontName>
+                </args>
+            </group2_acpl>
+        </routers>
+        <layout>
+            <updates>
+                <group2_acpl>
+                    <file>home.xml</file>
+                </group2_acpl>
+            </updates>
+        </layout>
+    </frontend>
+    <global>
+        <page>
+            <layouts>
+                <custom_static_page_one>
+                    <label>group2 home page</label>
+                    <template>page/home-group2.phtml</template>
+                </custom_static_page_one>
+            </layouts>
+        </page>
+<!--        <blocks>
+            <catalog>
+                <rewrite>
+                    <product_new>Group2_Acpl_Block_Product_Newproducts</product_new>
+                </rewrite>
+            </catalog>
+        </blocks>-->
+    </global>
+</config>
