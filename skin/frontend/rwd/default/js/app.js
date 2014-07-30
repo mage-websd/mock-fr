@@ -189,27 +189,10 @@ $j(document).ready(function () {
     }).on('click', function (event) {
         var elem = $j(this);
         if (elem.data('has-touch')) {
-            elem.data('has-touch', false);
-            event.preventDefault();
-            return;
-        }
-
-        if(Modernizr.mq("screen and (max-width:" + bp.medium + "px)")) {
-            var elem = $j(this).parent();
-
-            var alreadyExpanded = elem.hasClass('menu-active');
-
-            nav.find('li.level0').removeClass('menu-active');
-
-            // Collapse all active sub-menus
-            nav.find('.sub-menu-active').removeClass('sub-menu-active');
-
-            if (!alreadyExpanded) {
-                elem.addClass('menu-active');
-            }
-
             event.preventDefault();
         }
+
+        elem.data('has-touch', false);
     }).on('touchstart', function(event) {
         $j(this).data('has-touch');
         MenuManagerState.touchStartPosition = $j(window).scrollTop();
