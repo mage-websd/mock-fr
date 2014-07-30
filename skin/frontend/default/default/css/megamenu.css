@@ -1,0 +1,73 @@
+.clear-both{
+    clear: both;
+}
+ul#nav-mega{
+    width: 950px;
+    margin: 0px auto;
+}
+#nav-mega ul {
+    position:absolute;
+    display:none;
+}
+ul#nav-mega a{
+    text-decoration: none;
+    color: white;
+}
+
+/*grade 1*/
+li.mega-level0{
+    float: left;
+    position: relative;
+    margin: 10px 20px;
+}
+li.mega-level0.no-0{
+    /*margin-left: 0px;*/
+}
+li.mega-level0 a{
+    padding: 10px 20px;
+}
+li.mega-level0 a:hover{
+    background-color: #565656;
+}
+
+/*grade 2*/
+#nav-mega li:hover ul{
+    display: block;
+}
+ul.mega-level0{
+    background-color: white;
+    top:25px;
+    padding: 10px 10px;
+    border-radius: 5px;
+    clear: both;
+}
+ul.mega-level0 li.mega-level1{
+    min-width: 200px;
+    float: left;
+    text-align: left;
+    position: relative;
+    margin-bottom: 20px;
+}
+li.mega-level1{
+    float: left;
+}
+#nav-mega li.mega-level1 a{
+    color: #0044ff;
+    padding: 5px 0px;
+    font-weight: bold;
+}
+#nav-mega li.mega-level1 a:hover{
+    color: red;
+    background: none;
+}
+/*grade 3*/
+ul.mega-level1{
+
+}
+li.mega-level2{
+
+}
+#nav-mega li.mega-level1 ul li a{
+    color: #000000;
+    font-weight: normal;
+}

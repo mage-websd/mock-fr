@@ -50,7 +50,6 @@
     jQuery(document).ready(function(){
         function nextSlile() {
             $slideActive = jQuery('.pagination').find('.swiper-active-switch');
-            //alert($slideActive);
             if($slideActive.is(':last-child')){
                 jQuery('.pagination').children().first().click();
             }
@@ -58,13 +57,6 @@
                 $slideActive.next().click();
             }
         }
-        /*$(document).on('click','#widget-slideshow-home',function(){
-            alert(1212);
-        });*/
-        /*$(document).on
-        ('click','.pagination span',function(){
-            alert(12122);
-        });*/
         setInterval(function(){
             nextSlile();
         },5000);

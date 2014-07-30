@@ -1,0 +1,45 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <Teamto_Megamenu>
+            <version>0.1.0</version>
+        </Teamto_Megamenu>
+    </modules>
+    <global>
+        <models>
+            <megamenu>
+                <class>Teamto_Megamenu_Model</class>
+            </megamenu>
+        </models>
+        <blocks>
+            <megamenu>
+                <class>Teamto_Megamenu_Block</class>
+            </megamenu>
+
+            <page>
+                <rewrite>
+                    <html_topmenu>Teamto_Megamenu_Block_Megamenu</html_topmenu>
+                </rewrite>
+            </page>
+        </blocks>
+    </global>
+    <frontend>
+        <routers>
+            <megamenu>
+                <use>standard</use>
+                <args>
+                    <module>Teamto_Megamenu</module>
+                    <frontName>megamenu</frontName>
+                </args>
+            </megamenu>
+        </routers>
+
+        <layout>
+            <updates>
+                <megamenu>
+                    <file>megamenu.xml</file>
+                </megamenu>
+            </updates>
+        </layout>
+    </frontend>
+</config>
