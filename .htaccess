@@ -116,6 +116,15 @@
     Options +FollowSymLinks
     RewriteEngine on
 
+RewriteCond %{HTTP_HOST} ^(.*)giangnt.mock.local
+RewriteRule ^ - [E=MAGE_RUN_CODE:shop_au]
+
+RewriteCond %{HTTP_HOST} ^(.*)web.mock.local
+RewriteRule ^ - [E=MAGE_RUN_CODE:default]
+
+RewriteCond %{HTTP_HOST} ^(.*)mock.local
+RewriteRule ^ - [E=MAGE_RUN_CODE:default]
+
 ############################################
 ## you can put here your magento root folder
 ## path relative to web root
