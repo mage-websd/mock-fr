@@ -1,12 +1,12 @@
 <?xml version="1.0"?>
 <layout version="0.1.0">
-<!--    <default>
-        <reference name="right">
-            <block type="core/text" name="hello">
-            </block>
+    <default>
+       <reference name="footer">
+            <block type="page/html" name="block_sub" as="block_sub" before="-"
+                   template="block/subscribe.phtml" />
         </reference>
 
-    </default>-->
+    </default>
 <!--    <default>
         <reference name="content">
             <block type="catalog/product_new" name="home.catalog.product.new" template="catalog/product/new.phtml" after="cms_page">
