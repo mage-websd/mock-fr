@@ -79,8 +79,11 @@ if (isset($_SERVER['MAGE_IS_DEVELOPER_MODE'])) {
 umask(0);
 
 // Library for geo IP
-define("GEOIP_DAT_FILE", $_SERVER['DOCUMENT_ROOT']."/mockup_tuyenbv/var/geoip/GeoIP.dat");
-define("GEOIP_INC_FILE", $_SERVER['DOCUMENT_ROOT']."/mockup_tuyenbv/var/geoip/geoip.inc");
+//define("GEOIP_DAT_FILE", $_SERVER['DOCUMENT_ROOT']."/mockup_tuyenbv/var/geoip/GeoIP.dat");
+//define("GEOIP_INC_FILE", $_SERVER['DOCUMENT_ROOT']."/mockup_tuyenbv/var/geoip/geoip.inc");
+
+define("GEOIP_DAT_FILE", dirname($_SERVER['SCRIPT_FILENAME']).'/lib/geoip/GeoIP.dat');
+define("GEOIP_INC_FILE", dirname($_SERVER['SCRIPT_FILENAME']).'/lib/geoip/geoip.inc');
 include(GEOIP_INC_FILE);
 $geoip = geoip_open(GEOIP_DAT_FILE ,GEOIP_STANDARD);
 $country_code = geoip_country_code_by_addr($geoip,$_SERVER['REMOTE_ADDR']); 
@@ -88,23 +91,27 @@ $country_code = geoip_country_code_by_addr($geoip,$_SERVER['REMOTE_ADDR']);
 geoip_close($geoip);
 
 //var_dump($_SERVER['REMOTE_ADDR']);
-var_dump($country_code);
+//var_dump($country_code);
 switch($country_code)
 { 
-    case "US":
-        $mageRunCode = 'default';
-        $mageRunType = 'store';
-        break;
-    case "DE":
-        $mageRunCode = 'german';
-        $mageRunType = 'store';
-        break;
-    case "FR":
-        $mageRunCode = 'french';
+//    case "US":
+//        $mageRunCode = 'default';
+//        $mageRunType = 'store';
+//        break;
+//    case "DE":
+//        $mageRunCode = 'german';
+//        $mageRunType = 'store';
+//        break;
+//    case "FR":
+//        $mageRunCode = 'french';
+//        $mageRunType = 'store';
+//        break;
+    case "AU":
+        $mageRunCode = 'Australlia';
         $mageRunType = 'store';
         break;
     default:
-        $mageRunCode = 'french';
+        $mageRunCode = 'default';
         $mageRunType = 'store';
         break;
 }
