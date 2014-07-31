@@ -1,0 +1,98 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <Teamto_Megamenu>
+            <version>0.1.0</version>
+        </Teamto_Megamenu>
+    </modules>
+    <global>
+        <models>
+            <megamenu>
+                <class>Teamto_Megamenu_Model</class>
+            </megamenu>
+        </models>
+        <blocks>
+            <megamenu>
+                <class>Teamto_Megamenu_Block</class>
+            </megamenu>
+
+            <!--<page>
+                <rewrite>
+                    <html_topmenu>Teamto_Megamenu_Block_Megamenu</html_topmenu>
+                </rewrite>
+            </page>-->
+        </blocks>
+
+        <!--<resources>
+            <teamto_megamenu_setup>
+                <setup>
+                    <module>Teamto_Megamenu</module>
+                    <class>Teamto_Megamenu_Model_Resource_Setup_Category</class>
+                </setup>
+            </teamto_megamenu_setup>
+        </resources>-->
+        <resources>
+            <teamto_megamenu_setup>
+                <setup>
+                    <module>Teamto_Megamenu</module>
+                    <class>Mage_Catalog_Model_Resource_Eav_Mysql4_Setup</class>
+                </setup>
+                <connection>
+                    <use>core_setup</use>
+                </connection>
+            </teamto_megamenu_setup>
+            <teamto_megamenu_setup_write>
+                <connection>
+                    <use>core_write</use>
+                </connection>
+            </teamto_megamenu_setup_write>
+            <teamto_megamenu_setup_read>
+                <connection>
+                    <use>core_read</use>
+                </connection>
+            </teamto_megamenu_setup_read>
+        </resources>
+    </global>
+    <frontend>
+        <routers>
+            <megamenu>
+                <use>standard</use>
+                <args>
+                    <module>Teamto_Megamenu</module>
+                    <frontName>megamenu</frontName>
+                </args>
+            </megamenu>
+        </routers>
+
+        <layout>
+            <updates>
+                <megamenu>
+                    <file>megamenu.xml</file>
+                </megamenu>
+            </updates>
+        </layout>
+    </frontend>
+
+    <admin>
+        <routers>
+            <adminhtml>
+                <args>
+                    <modules>
+                        <megamenu before="Mage_Adminhtml">Teamto_Megamenu_Adminhtml</megamenu>
+                    </modules>
+                </args>
+            </adminhtml>
+        </routers>
+    </admin>
+
+    <adminhtml>
+        <layout>
+            <updates>
+                <megamenu module="teamto_megamenu">
+                    <file>teamto_megamenu.xml</file>
+                </megamenu>
+            </updates>
+        </layout>
+    </adminhtml>
+
+</config>
