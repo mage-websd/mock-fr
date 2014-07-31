@@ -2,7 +2,7 @@
 <layout version="0.1.0">
     <default>
        <reference name="footer">
-            <block type="page/html" name="block_sub" as="block_sub" before="-"
+            <block type="page/html" name="block_sub" as="block_sub"
                    template="block/subscribe.phtml" />
         </reference>
 
