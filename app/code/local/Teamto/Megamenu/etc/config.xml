@@ -16,12 +16,42 @@
                 <class>Teamto_Megamenu_Block</class>
             </megamenu>
 
-            <page>
+            <!--<page>
                 <rewrite>
                     <html_topmenu>Teamto_Megamenu_Block_Megamenu</html_topmenu>
                 </rewrite>
-            </page>
+            </page>-->
         </blocks>
+
+        <!--<resources>
+            <teamto_megamenu_setup>
+                <setup>
+                    <module>Teamto_Megamenu</module>
+                    <class>Teamto_Megamenu_Model_Resource_Setup_Category</class>
+                </setup>
+            </teamto_megamenu_setup>
+        </resources>-->
+        <resources>
+            <teamto_megamenu_setup>
+                <setup>
+                    <module>Teamto_Megamenu</module>
+                    <class>Mage_Catalog_Model_Resource_Eav_Mysql4_Setup</class>
+                </setup>
+                <connection>
+                    <use>core_setup</use>
+                </connection>
+            </teamto_megamenu_setup>
+            <teamto_megamenu_setup_write>
+                <connection>
+                    <use>core_write</use>
+                </connection>
+            </teamto_megamenu_setup_write>
+            <teamto_megamenu_setup_read>
+                <connection>
+                    <use>core_read</use>
+                </connection>
+            </teamto_megamenu_setup_read>
+        </resources>
     </global>
     <frontend>
         <routers>
@@ -42,4 +72,27 @@
             </updates>
         </layout>
     </frontend>
+
+    <admin>
+        <routers>
+            <adminhtml>
+                <args>
+                    <modules>
+                        <megamenu before="Mage_Adminhtml">Teamto_Megamenu_Adminhtml</megamenu>
+                    </modules>
+                </args>
+            </adminhtml>
+        </routers>
+    </admin>
+
+    <adminhtml>
+        <layout>
+            <updates>
+                <megamenu module="teamto_megamenu">
+                    <file>teamto_megamenu.xml</file>
+                </megamenu>
+            </updates>
+        </layout>
+    </adminhtml>
+
 </config>

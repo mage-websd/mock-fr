@@ -284,7 +284,23 @@
                 <setup>
                     <module>Phoenix_Moneybookers</module>
                 </setup>
-            </moneybookers_setup><db>
+            </moneybookers_setup><teamto_megamenu_setup>
+                <setup>
+                    <module>Teamto_Megamenu</module>
+                    <class>Mage_Catalog_Model_Resource_Eav_Mysql4_Setup</class>
+                </setup>
+                <connection>
+                    <use>core_setup</use>
+                </connection>
+            </teamto_megamenu_setup><teamto_megamenu_setup_write>
+                <connection>
+                    <use>core_write</use>
+                </connection>
+            </teamto_megamenu_setup_write><teamto_megamenu_setup_read>
+                <connection>
+                    <use>core_read</use>
+                </connection>
+            </teamto_megamenu_setup_read><db>
                 <table_prefix />
             </db></resources>
         <resource>
@@ -1753,9 +1769,7 @@
             </core>
         <page>
                 <class>Mage_Page_Block</class>
-            <rewrite>
-                    <html_topmenu>Teamto_Megamenu_Block_Megamenu</html_topmenu>
-                </rewrite></page><install>
+            </page><install>
                 <class>Mage_Install_Block</class>
             </install><admin>
                 <class>Mage_Admin_Block</class>
@@ -2756,7 +2770,10 @@
                     <template>page/3columns.phtml</template>
                     <layout_handle>page_three_columns</layout_handle>
                 </three_columns>
-            </layouts>
+            <custom_static_page_one>
+                    <label>teamto home page</label>
+                    <template>page/home-teamto.phtml</template>
+                </custom_static_page_one></layouts>
         </page><currency>
             <import>
                 <services>
@@ -6346,7 +6363,9 @@ Mage_Persistent_Model_Session
             <active>true</active>
 		</Opencommercellc_Commercebug><Phoenix_Moneybookers>
             <version>1.6.0.0</version>
-        </Phoenix_Moneybookers><Teamto_Featured>
+        </Phoenix_Moneybookers><Teamto_Acpl>
+            <version>0.1.0</version>
+        </Teamto_Acpl><Teamto_Featured>
             <version>0.1.0</version>
         </Teamto_Featured><Teamto_Megamenu>
             <version>0.1.0</version>
@@ -6557,7 +6576,13 @@ Mage_Persistent_Model_Session
                     <module>Phoenix_Moneybookers</module>
                     <frontName>moneybookers</frontName>
                 </args>
-            </moneybookers><featured>
+            </moneybookers><teamto_acpl>
+                <use>standard</use>
+                <args>
+                    <module>Teamto_Acpl</module>
+                    <frontName>acpl</frontName>
+                </args>
+            </teamto_acpl><featured>
                 <use>standard</use>
                 <args>
                     <module>Teamto_Featured</module>
@@ -6840,7 +6865,9 @@ Mage_Persistent_Model_Session
                     <file>xmlconnect.xml</file>
                 </xmlconnect><moneybookers>
                     <file>moneybookers.xml</file>
-                </moneybookers><featured>
+                </moneybookers><teamto_acpl>
+                    <file>home.xml</file>
+                </teamto_acpl><featured>
                     <file>featured.xml</file>
                 </featured><megamenu>
                     <file>megamenu.xml</file>
@@ -8131,7 +8158,9 @@ Mage_Persistent_Model_Session
                     <file>xmlconnect.xml</file>
                 </mage_xmlconnect><moneybookers>
                     <file>moneybookers.xml</file>
-                </moneybookers></updates>
+                </moneybookers><megamenu module="teamto_megamenu">
+                    <file>teamto_megamenu.xml</file>
+                </megamenu></updates>
         </layout><global_search>
             <products>
                 <class>adminhtml/search_catalog</class>
@@ -8474,7 +8503,7 @@ Mage_Persistent_Model_Session
                     
                 <modules>
                         <Mage_Index before="Mage_Adminhtml">Mage_Index_Adminhtml</Mage_Index>
-                    <Mage_Paygate before="Mage_Adminhtml">Mage_Paygate_Adminhtml</Mage_Paygate><Mage_Paypal before="Mage_Adminhtml">Mage_Paypal_Adminhtml</Mage_Paypal><widget before="Mage_Adminhtml">Mage_Widget_Adminhtml</widget><oauth before="Mage_Adminhtml">Mage_Oauth_Adminhtml</oauth><Mage_Authorizenet before="Mage_Adminhtml">Mage_Authorizenet_Adminhtml</Mage_Authorizenet><Mage_Bundle before="Mage_Adminhtml">Mage_Bundle_Adminhtml</Mage_Bundle><captcha>Mage_Captcha_Adminhtml</captcha><Mage_Centinel before="Mage_Adminhtml">Mage_Centinel_Adminhtml</Mage_Centinel><Mage_Compiler before="Mage_Adminhtml">Mage_Compiler_Adminhtml</Mage_Compiler><connect before="Mage_Adminhtml">Mage_Connect_Adminhtml</connect><Mage_Downloadable before="Mage_Adminhtml">Mage_Downloadable_Adminhtml</Mage_Downloadable><importexport before="Mage_Adminhtml">Mage_ImportExport_Adminhtml</importexport><api2 before="Mage_Adminhtml">Mage_Api2_Adminhtml</api2><Mage_PageCache before="Mage_Adminhtml">Mage_PageCache_Adminhtml</Mage_PageCache><currencysymbol>Mage_CurrencySymbol_Adminhtml</currencysymbol><xmlconnect before="Mage_Adminhtml">Mage_XmlConnect_Adminhtml</xmlconnect><moneybookers after="Mage_Adminhtml">Phoenix_Moneybookers</moneybookers></modules><frontName><![CDATA[admin]]></frontName></args>
+                    <Mage_Paygate before="Mage_Adminhtml">Mage_Paygate_Adminhtml</Mage_Paygate><Mage_Paypal before="Mage_Adminhtml">Mage_Paypal_Adminhtml</Mage_Paypal><widget before="Mage_Adminhtml">Mage_Widget_Adminhtml</widget><oauth before="Mage_Adminhtml">Mage_Oauth_Adminhtml</oauth><Mage_Authorizenet before="Mage_Adminhtml">Mage_Authorizenet_Adminhtml</Mage_Authorizenet><Mage_Bundle before="Mage_Adminhtml">Mage_Bundle_Adminhtml</Mage_Bundle><captcha>Mage_Captcha_Adminhtml</captcha><Mage_Centinel before="Mage_Adminhtml">Mage_Centinel_Adminhtml</Mage_Centinel><Mage_Compiler before="Mage_Adminhtml">Mage_Compiler_Adminhtml</Mage_Compiler><connect before="Mage_Adminhtml">Mage_Connect_Adminhtml</connect><Mage_Downloadable before="Mage_Adminhtml">Mage_Downloadable_Adminhtml</Mage_Downloadable><importexport before="Mage_Adminhtml">Mage_ImportExport_Adminhtml</importexport><api2 before="Mage_Adminhtml">Mage_Api2_Adminhtml</api2><Mage_PageCache before="Mage_Adminhtml">Mage_PageCache_Adminhtml</Mage_PageCache><currencysymbol>Mage_CurrencySymbol_Adminhtml</currencysymbol><xmlconnect before="Mage_Adminhtml">Mage_XmlConnect_Adminhtml</xmlconnect><moneybookers after="Mage_Adminhtml">Phoenix_Moneybookers</moneybookers><megamenu before="Mage_Adminhtml">Teamto_Megamenu_Adminhtml</megamenu></modules><frontName><![CDATA[admin]]></frontName></args>
             </adminhtml>
         </routers>
     <fieldsets>

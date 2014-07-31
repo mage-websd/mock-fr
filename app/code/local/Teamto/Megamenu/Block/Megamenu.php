@@ -3,24 +3,22 @@
 /**
  * Class Teamto_Megamenu_Block_Megamenu
  *
- * override class Block: Mage_Page_Block_Html_Topmenu
  */
-class Teamto_Megamenu_Block_Megamenu extends Mage_Page_Block_Html_Topmenu
+class Teamto_Megamenu_Block_Megamenu extends Mage_Core_Block_Template
 {
-    /**
-     * override _getHtml() of class Mage_Page_Block_Html_Topmenu
-     *
-     * @param Varien_Data_Tree_Node $menuTree
-     * @param string $childrenWrapClass
-     * @return string
-     */
-    protected function _getHtml(Varien_Data_Tree_Node $menuTree, $childrenWrapClass)
+    private $_cate_current_id; //category current id
+    public function __construct()
+    {
+        $this->_cate_current_id = Mage::registry('current_category')->getData('entity_id');
+        parent::__construct();
+    }
+
+    public function getHtml()
     {
         $singleton = Mage::getSingleton('catalog/category');
         $rootcatID = Mage::app()->getStore()->getRootCategoryId();
         return $this->_getSubCategory($singleton, $rootcatID,0);
     }
-
     /**
      * get category and all sub category
      *
@@ -38,14 +36,23 @@ class Teamto_Megamenu_Block_Megamenu extends Mage_Page_Block_Html_Topmenu
         if($level>5)
             return '';
         if ($level > 1) {
-            $option_tagli = ' class="mega-level'.($level-2).' no-'.$no.'"'; // add class for li
+            $option_tagli = ' class="mega-level'.($level-2).' no-'.$no; // add class for li
+            if($id_category == $this->_cate_current_id)
+                $option_tagli .= ' active';
 
+            $option_tagli .= '"';
             $html .= '<li' . $option_tagli . '>
                 <a href="' . $this->getUrl($cate->getData('url_path')). '">'
                 . $cate->getData('name')
                 . '</a>';
+            //check status category
             if($level==3) {
-                $html .= '<span class="mega-menu-status hot">Hot</span>';
+                $status = Mage::getSingleton('catalog/category')->load($id_category)->getData('status');
+                if(strtolower($status) != 'normal'){
+                    $option_status = strtolower($status);
+                    $html .= "<span class='mega-menu-status {$option_status}'>{$status}</span>";
+                }
+
             }
         }
         if ($cate->getData('children_count') > 0) {
@@ -71,7 +78,6 @@ class Teamto_Megamenu_Block_Megamenu extends Mage_Page_Block_Html_Topmenu
         if ($level > 1) {
             $html .= '</li>';
         }
-
         return $html;
     }
 

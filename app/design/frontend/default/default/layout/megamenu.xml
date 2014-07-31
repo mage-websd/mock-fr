@@ -6,7 +6,7 @@
                    template="teamto/layout/head.phtml"/>
         </reference>
         <reference name="topMenu">
-            <block type="page/html_topmenu" name="catalog.topnav" template="teamto/megamenu/topmenu.phtml"/>
+            <block type="megamenu/megamenu" name="catalog.topnav" template="teamto/megamenu/topmenu.phtml"/>
         </reference>
     </default>
 

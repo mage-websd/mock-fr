@@ -4,10 +4,13 @@
 ul#nav-mega{
     width: 950px;
     margin: 0px auto;
+    position: relative;
+    z-index: 9;
 }
 #nav-mega ul {
     position:absolute;
     display:none;
+    z-index: 10;
 }
 ul#nav-mega a{
     text-decoration: none;
@@ -29,7 +32,9 @@ li.mega-level0 a{
 li.mega-level0 a:hover{
     background-color: #565656;
 }
-
+li.mega-level0.active a{
+    background-color: #565656;
+}
 /*grade 2*/
 #nav-mega li:hover ul{
     display: block;
@@ -39,7 +44,21 @@ ul.mega-level0{
     top:25px;
     padding: 10px 10px;
     border-radius: 5px;
-    clear: both;
+}
+ul.mega-level0.no-2{
+    margin-left: -110px;
+}
+ul.mega-level0.no-3{
+    margin-left: -260px;
+}
+ul.mega-level0.no-4{
+    margin-left: -420px;
+}
+ul.mega-level0.no-5{
+    margin-left: -590px;
+}
+ul.mega-level0.no-6{
+    margin-left: -770px;
 }
 ul.mega-level0 li.mega-level1{
     min-width: 200px;
@@ -49,7 +68,6 @@ ul.mega-level0 li.mega-level1{
     margin-bottom: 20px;
 }
 li.mega-level1{
-    float: left;
 }
 #nav-mega li.mega-level1 a{
     color: #0044ff;
@@ -60,12 +78,23 @@ li.mega-level1{
     color: red;
     background: none;
 }
+span.mega-menu-status{
+    display: inline-block;
+    margin-left: 10px;
+}
+span.mega-menu-status.hot{
+    color: red;
+}
+span.mega-menu-status.new{
+    color: #008800;
+}
 /*grade 3*/
 ul.mega-level1{
 
 }
 li.mega-level2{
-
+    margin-bottom: 5px;
+    margin-top: 5px;
 }
 #nav-mega li.mega-level1 ul li a{
     color: #000000;
