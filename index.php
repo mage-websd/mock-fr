@@ -1,7 +1,5 @@
 <?php
-
 /**
-made by ty
  * Magento
  *
  * NOTICE OF LICENSE
