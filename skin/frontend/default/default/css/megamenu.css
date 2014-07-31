@@ -32,7 +32,7 @@ li.mega-level0 a{
 li.mega-level0 a:hover{
     background-color: #565656;
 }
-li.mega-level0.active a{
+li.mega-level0.active > a{
     background-color: #565656;
 }
 /*grade 2*/

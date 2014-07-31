@@ -15,22 +15,7 @@
             <megamenu>
                 <class>Teamto_Megamenu_Block</class>
             </megamenu>
-
-            <!--<page>
-                <rewrite>
-                    <html_topmenu>Teamto_Megamenu_Block_Megamenu</html_topmenu>
-                </rewrite>
-            </page>-->
         </blocks>
-
-        <!--<resources>
-            <teamto_megamenu_setup>
-                <setup>
-                    <module>Teamto_Megamenu</module>
-                    <class>Teamto_Megamenu_Model_Resource_Setup_Category</class>
-                </setup>
-            </teamto_megamenu_setup>
-        </resources>-->
         <resources>
             <teamto_megamenu_setup>
                 <setup>
@@ -73,7 +58,7 @@
         </layout>
     </frontend>
 
-    <admin>
+    <!--<admin>
         <routers>
             <adminhtml>
                 <args>
@@ -93,6 +78,6 @@
                 </megamenu>
             </updates>
         </layout>
-    </adminhtml>
+    </adminhtml>-->
 
 </config>

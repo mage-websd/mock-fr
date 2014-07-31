@@ -7,9 +7,15 @@
 class Teamto_Megamenu_Block_Megamenu extends Mage_Core_Block_Template
 {
     private $_cate_current_id; //category current id
+
+    /**
+     * get current category id
+     */
     public function __construct()
     {
-        $this->_cate_current_id = Mage::registry('current_category')->getData('entity_id');
+        $cate_current = Mage::registry('current_category');
+        if($cate_current)
+            $this->_cate_current_id = $cate_current->getData('entity_id');
         parent::__construct();
     }
 
