@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-<<<<<<< HEAD
-      <module fileurl="file://$PROJECT_DIR$/.idea/mockup_tuanpv.iml" filepath="$PROJECT_DIR$/.idea/mockup_tuanpv.iml" />
-=======
-      <module fileurl="file://$PROJECT_DIR$/.idea/gitlab_mock.iml" filepath="$PROJECT_DIR$/.idea/gitlab_mock.iml" />
->>>>>>> 014f8960faa42ed8c4e153280898ec541e8e9337
+      <module fileurl="file://$PROJECT_DIR$/.idea/mockupprojectfr04.iml" filepath="$PROJECT_DIR$/.idea/mockupprojectfr04.iml" />
     </modules>
   </component>
 </project>
