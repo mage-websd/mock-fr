@@ -4,28 +4,28 @@
             <div class="swiper-slide red-slide">
                 <div class="img">
                     <a href="#">
-                        <img src="<?php echo Mage::helper('featured/link')->getSkin();?>swiper/img/slider1-1.png">
+                        <img src="<?php echo Mage::helper('link')->getSkinFrontend();?>swiper/img/slider1-1.png">
                     </a>
                 </div>
             </div>
             <div class="swiper-slide blue-slide">
                 <div class="img">
                     <a href="#">
-                        <img src="<?php echo Mage::helper('featured/link')->getSkin();?>swiper/img/slider1-2.png">
+                        <img src="<?php echo Mage::helper('link')->getSkinFrontend();?>swiper/img/slider1-2.png">
                     </a>
                 </div>
             </div>
             <div class="swiper-slide orange-slide">
                 <div class="img">
                     <a href="#">
-                        <img src="<?php echo Mage::helper('featured/link')->getSkin();?>swiper/img/slider1-1.png">
+                        <img src="<?php echo Mage::helper('link')->getSkinFrontend();?>swiper/img/slider1-1.png">
                     </a>
                 </div>
             </div>
             <div class="swiper-slide green-slide">
                 <div class="img">
                     <a href="#">
-                        <img src="<?php echo Mage::helper('featured/link')->getSkin();?>swiper/img/slider1-2.png">
+                        <img src="<?php echo Mage::helper('link')->getSkinFrontend();?>swiper/img/slider1-2.png">
                     </a>
                 </div>
             </div>
@@ -37,7 +37,7 @@
     </div>
 </div>
 
-<script src="<?php echo Mage::helper('featured/link')->getSkin();?>swiper/js/idangerous.swiper-2.1.min.js"></script>
+<script src="<?php echo Mage::helper('link')->getSkinFrontend();?>swiper/js/idangerous.swiper-2.1.min.js"></script>
 <script>
     var mySwiper = new Swiper('.swiper-container',{
         pagination: '.pagination',
@@ -50,7 +50,6 @@
     jQuery(document).ready(function(){
         function nextSlile() {
             $slideActive = jQuery('.pagination').find('.swiper-active-switch');
-            //alert($slideActive);
             if($slideActive.is(':last-child')){
                 jQuery('.pagination').children().first().click();
             }
@@ -58,13 +57,6 @@
                 $slideActive.next().click();
             }
         }
-        /*$(document).on('click','#widget-slideshow-home',function(){
-            alert(1212);
-        });*/
-        /*$(document).on
-        ('click','.pagination span',function(){
-            alert(12122);
-        });*/
         setInterval(function(){
             nextSlile();
         },5000);

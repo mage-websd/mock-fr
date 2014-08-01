@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+To change this template, choose Tools | Templates
+and open the template in the editor.
+-->
+<config>
+    <modules>
+        <Teamto_Acpl>
+            <version>0.1.0</version>
+        </Teamto_Acpl>
+    </modules>
+    <frontend>
+        <routers>
+            <teamto_acpl>
+                <use>standard</use>
+                <args>
+                    <module>Teamto_Acpl</module>
+                    <frontName>acpl</frontName>
+                </args>
+            </teamto_acpl>
+        </routers>
+        <layout>
+            <updates>
+                <teamto_acpl>
+                    <file>home.xml</file>
+                </teamto_acpl>
+            </updates>
+        </layout>
+    </frontend>
+    <global>
+        <page>
+            <layouts>
+                <custom_static_page_one>
+                    <label>teamto home page</label>
+                    <template>page/home-teamto.phtml</template>
+                </custom_static_page_one>
+            </layouts>
+        </page>
+<!--        <blocks>
+            <catalog>
+                <rewrite>
+                    <product_new>Teamto_Acpl_Block_Product_Newproducts</product_new>
+                </rewrite>
+            </catalog>
+        </blocks>-->
+    </global>
+</config>

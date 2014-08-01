@@ -23,7 +23,7 @@
  * @copyright  Copyright (c) 2008 Irubin Consulting Inc. DBA Varien (http://www.varien.com)
  * @license    http://opensource.org/licenses/osl-3.0.php  Open Software License (OSL 3.0)
  */
-
+//var_dump($_SERVER['REMOTE_ADDR']);
 if (version_compare(phpversion(), '5.2.0', '<')===true) {
     echo  '<div style="font:12px/1.35em arial, helvetica, sans-serif;">
 <div style="margin:0 0 25px 0; border-bottom:1px solid #ccc;">
@@ -78,10 +78,49 @@ if (isset($_SERVER['MAGE_IS_DEVELOPER_MODE'])) {
 
 umask(0);
 
-/* Store or website code */
-$mageRunCode = isset($_SERVER['MAGE_RUN_CODE']) ? $_SERVER['MAGE_RUN_CODE'] : '';
+// Library for geo IP
+//define("GEOIP_DAT_FILE", $_SERVER['DOCUMENT_ROOT']."/mockup_tuyenbv/var/geoip/GeoIP.dat");
+//define("GEOIP_INC_FILE", $_SERVER['DOCUMENT_ROOT']."/mockup_tuyenbv/var/geoip/geoip.inc");
 
-/* Run store or run website */
-$mageRunType = isset($_SERVER['MAGE_RUN_TYPE']) ? $_SERVER['MAGE_RUN_TYPE'] : 'store';
+define("GEOIP_DAT_FILE", dirname($_SERVER['SCRIPT_FILENAME']).'/lib/geoip/GeoIP.dat');
+define("GEOIP_INC_FILE", dirname($_SERVER['SCRIPT_FILENAME']).'/lib/geoip/geoip.inc');
+include(GEOIP_INC_FILE);
+$geoip = geoip_open(GEOIP_DAT_FILE ,GEOIP_STANDARD);
+$country_code = geoip_country_code_by_addr($geoip,$_SERVER['REMOTE_ADDR']); 
 
+geoip_close($geoip);
+
+//var_dump($_SERVER['REMOTE_ADDR']);
+//var_dump($country_code);
+switch($country_code)
+{ 
+//    case "US":
+//        $mageRunCode = 'default';
+//        $mageRunType = 'store';
+//        break;
+//    case "DE":
+//        $mageRunCode = 'german';
+//        $mageRunType = 'store';
+//        break;
+//    case "FR":
+//        $mageRunCode = 'french';
+//        $mageRunType = 'store';
+//        break;
+    case "AU":
+        $mageRunCode = 'Australlia';
+        $mageRunType = 'store';
+        break;
+    default:
+        $mageRunCode = 'default';
+        $mageRunType = 'store';
+        break;
+}
 Mage::run($mageRunCode, $mageRunType);
+
+///* Store or website code */
+//$mageRunCode = isset($_SERVER['MAGE_RUN_CODE']) ? $_SERVER['MAGE_RUN_CODE'] : '';
+//
+///* Run store or run website */
+//$mageRunType = isset($_SERVER['MAGE_RUN_TYPE']) ? $_SERVER['MAGE_RUN_TYPE'] : 'store';
+//
+//Mage::run($mageRunCode, $mageRunType);
