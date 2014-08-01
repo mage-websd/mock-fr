@@ -1,6 +1,14 @@
+<<<<<<< HEAD
 Cyber source test account details
 
 
 company : corratech2012
 user name : corratech2012
+=======
+Cyber source test account details
+
+
+company : corratech2012
+user name : corratech2012
+>>>>>>> 014f8960faa42ed8c4e153280898ec541e8e9337
 pwd corratech123
