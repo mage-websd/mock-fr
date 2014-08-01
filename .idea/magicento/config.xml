@@ -264,7 +264,23 @@
                     <module>Mage_XmlConnect</module>
                     <class>Mage_XmlConnect_Model_Resource_Setup</class>
                 </setup>
-            </xmlconnect_setup><commercebug_setup>
+            </xmlconnect_setup><smtppro_setup>
+				<setup>
+					<module>Aschroder_SMTPPro</module>
+					<class>Aschroder_SMTPPro_Model_Mysql4_Setup</class>
+				</setup>
+				<connection>
+					<use>core_setup</use>
+				</connection>
+			</smtppro_setup><smtppro_write>
+                <connection>
+                    <use>core_write</use>
+                </connection>
+            </smtppro_write><smtppro_read>
+                <connection>
+                    <use>core_read</use>
+                </connection>
+            </smtppro_read><commercebug_setup>
 				<setup>
 					<module>Opencommercellc_Commercebug</module>
 					<class>Opencommercellc_Commercebug_Model_Resource_Mysql4_Setup</class>
@@ -300,7 +316,23 @@
                 <connection>
                     <use>core_read</use>
                 </connection>
-            </teamto_megamenu_setup_read><db>
+            </teamto_megamenu_setup_read><teamto_mirrored_setup>
+                <setup>
+                    <module>Teamto_Mirrored</module>
+                    <class>Mage_Catalog_Model_Resource_Setup</class>
+                </setup>
+                <connection>
+                    <use>core_setup</use>
+                </connection>
+            </teamto_mirrored_setup><teamto_mirrored_setup_write>
+                <connection>
+                    <use>core_write</use>
+                </connection>
+            </teamto_mirrored_setup_write><teamto_mirrored_setup_read>
+                <connection>
+                    <use>core_read</use>
+                </connection>
+            </teamto_mirrored_setup_read><db>
                 <table_prefix />
             </db></resources>
         <resource>
@@ -322,8 +354,9 @@
                 <class>Mage_Core_Model</class>
                 <resourceModel>core_resource</resourceModel>
             <rewrite>
-					<layout_update>Opencommercellc_Commercebug_Model_Layout_Update</layout_update>
-				</rewrite></core>
+					<email>Aschroder_SMTPPro_Model_Email</email>
+					<email_template>Aschroder_SMTPPro_Model_Email_Template</email_template>
+				<layout_update>Opencommercellc_Commercebug_Model_Layout_Update</layout_update></rewrite></core>
             <core_resource>
                 <class>Mage_Core_Model_Resource</class>
                 <deprecatedNode>core_mysql4</deprecatedNode>
@@ -1743,7 +1776,15 @@
                     <configData><table>xmlconnect_config_data</table></configData>
                     <images><table>xmlconnect_images</table></images>
                 </entities>
-            </xmlconnect_resource><commercebug>
+            </xmlconnect_resource><smtppro>
+                <class>Aschroder_SMTPPro_Model</class>
+				<resourceModel>smtppro_mysql4</resourceModel>
+            </smtppro><smtppro_mysql4>
+                <class>Aschroder_SMTPPro_Model_Mysql4</class>
+                <entities>
+                    <email_log><table>smtppro_email_log</table></email_log>
+                </entities>
+            </smtppro_mysql4><commercebug>
 				<class>Opencommercellc_Commercebug_Model</class>
 				<resourceModel>commercebug_mysql4</resourceModel>
 			</commercebug><commercebug_mysql4>
@@ -1762,7 +1803,10 @@
                 <class>Teamto_Featured_Model</class>
             </featured><megamenu>
                 <class>Teamto_Megamenu_Model</class>
-            </megamenu></models>
+            </megamenu><mirrored>
+                <class>Teamto_Mirrored_Model</class>
+                <resourceModel>teamto_mirrored_resource</resourceModel>
+            </mirrored></models>
     <blocks>
             <core>
                 <class>Mage_Core_Block</class>
@@ -1843,13 +1887,17 @@
                 <class>Mage_CurrencySymbol_Block</class>
             </currencysymbol><xmlconnect>
                 <class>Mage_XmlConnect_Block</class>
-            </xmlconnect><commercebug>
+            </xmlconnect><smtppro>
+				<class>Aschroder_SMTPPro_Block</class>
+			</smtppro><commercebug>
 				<class>Opencommercellc_Commercebug_Block</class>
 			</commercebug><moneybookers><class>Phoenix_Moneybookers_Block</class></moneybookers><featured>
                 <class>Teamto_Featured_Block</class>
             </featured><megamenu>
                 <class>Teamto_Megamenu_Block</class>
-            </megamenu></blocks><helpers>
+            </megamenu><mirrored>
+                <class>Teamto_Mirrored_Block</class>
+            </mirrored></blocks><helpers>
             <core>
                 <encryption_model>Mage_Core_Model_Encryption</encryption_model>
             </core>
@@ -1887,13 +1935,17 @@
                 <class>Mage_CurrencySymbol_Helper</class>
             </currencysymbol><xmlconnect>
                 <class>Mage_XmlConnect_Helper</class>
-            </xmlconnect><commercebug>
+            </xmlconnect><smtppro><class>Aschroder_SMTPPro_Helper</class></smtppro><commercebug>
 				<class>Opencommercellc_Commercebug_Helper</class>
 			</commercebug><moneybookers>
                 <class>Phoenix_Moneybookers_Helper</class>
             </moneybookers><featured>
                 <class>Teamto_Featured_Helper</class>
-            </featured></helpers><template>
+            </featured><link>
+                <class>Teamto_Link_Helper</class>
+            </link><mirrored>
+                <class>Teamto_Mirrored_Helper</class>
+            </mirrored></helpers><template>
             <email><admin_emails_forgot_email_template translate="label" module="adminhtml">
                     <label>Forgot Admin Password</label>
                     <file>admin_password_reset_confirmation.html</file>
@@ -2223,7 +2275,11 @@
                 <reports>
                         <class>reports/event_observer</class>
                         <method>eventClean</method>
-                    </reports></observers>
+                    </reports><smtppro_email_log_clean>
+                        <type>singleton</type>
+                        <class>smtppro/observer</class>
+                        <method>cleanOldLogs</method>
+                    </smtppro_email_log_clean></observers>
             </log_log_clean_after><page_block_html_topmenu_gethtml_before>
                 <observers>
                     <catalog_add_topmenu_items>
@@ -2643,7 +2699,31 @@
                         <method>clearCategoryImagesCache</method>
                     </xmlconnect>
                 </observers>
-            </clean_catalog_images_cache_after><core_block_abstract_to_html_before>
+            </clean_catalog_images_cache_after><aschroder_smtppro_after_send>
+                <observers>
+                    <smtppro_email_after_send_observer>
+                        <type>singleton</type>
+                        <class>smtppro/observer</class>
+                        <method>log</method>
+                    </smtppro_email_after_send_observer>
+                </observers>
+            </aschroder_smtppro_after_send><aschroder_smtppro_before_send>
+                <observers>
+                    <aschroder_smtppro_before_send_observer>
+                        <type>singleton</type>
+                        <class>smtppro/observer</class>
+                        <method>beforeSend</method>
+                    </aschroder_smtppro_before_send_observer>
+                </observers>
+            </aschroder_smtppro_before_send><aschroder_smtppro_template_before_send>
+                <observers>
+                    <aschroder_smtppro_template_before_send_observer>
+                        <type>singleton</type>
+                        <class>smtppro/observer</class>
+                        <method>beforeSendTemplate</method>
+                    </aschroder_smtppro_template_before_send_observer>
+                </observers>
+            </aschroder_smtppro_template_before_send><core_block_abstract_to_html_before>
 				<observers>
 					<commercebug_for_graph>
 						<type>singleton</type>
@@ -6173,7 +6253,29 @@ T: {{var telephone}}
             <airmail>
                 <broadcast_url>https://go.urbanairship.com/api/airmail/send/broadcast/</broadcast_url>
             </airmail>
-        </xmlconnect><commercebug>
+        </xmlconnect><smtppro>
+            <general>
+                <option>disabled</option>
+                <googleapps_email />
+                <googleapps_gpassword backend_model="adminhtml/system_config_backend_encrypted" />
+                <sendgrid_email />
+                <sendgrid_password backend_model="adminhtml/system_config_backend_encrypted" />
+                <ses_access_key />
+                <ses_private_key backend_model="adminhtml/system_config_backend_encrypted" />
+                <smtp_authentication />
+                <smtp_username />
+                <smtp_password backend_model="adminhtml/system_config_backend_encrypted" />
+                <smtp_host />
+                <smtp_port>25</smtp_port>
+                <smtp_ssl />
+            </general>
+            <debug>
+                <logenabled>0</logenabled>
+                <cleanlog>1</cleanlog>
+                <cleanlog_after_days>90</cleanlog_after_days>
+                <log_debug>0</log_debug>
+            </debug>
+		</smtppro><commercebug>
 			<options>
 				<show_interface>1</show_interface>
 				<path_skin>{{base_skin}}/frontend/commercebug</path_skin>				
@@ -6357,7 +6459,9 @@ Mage_Persistent_Model_Session
         </Mage_CurrencySymbol><Mage_XmlConnect>
             <version>1.6.0.0.1</version>
             <innerVersion>23.1</innerVersion>
-        </Mage_XmlConnect><Opencommercellc_Commercebug>
+        </Mage_XmlConnect><Aschroder_SMTPPro>
+			<version>2.0.3</version>
+		</Aschroder_SMTPPro><Opencommercellc_Commercebug>
 			<version>2.0.0</version>
             <codePool>local</codePool>
             <active>true</active>
@@ -6367,9 +6471,13 @@ Mage_Persistent_Model_Session
             <version>0.1.0</version>
         </Teamto_Acpl><Teamto_Featured>
             <version>0.1.0</version>
-        </Teamto_Featured><Teamto_Megamenu>
+        </Teamto_Featured><Teamto_Link>
             <version>0.1.0</version>
-        </Teamto_Megamenu></modules><frontend>
+        </Teamto_Link><Teamto_Megamenu>
+            <version>0.1.0</version>
+        </Teamto_Megamenu><Teamto_Mirrored>
+            <version>0.1.0</version>
+        </Teamto_Mirrored></modules><frontend>
         <routers>
             <core>
                 <use>standard</use>
@@ -6564,7 +6672,13 @@ Mage_Persistent_Model_Session
                     <module>Mage_XmlConnect</module>
                     <frontName>xmlconnect</frontName>
                 </args>
-            </xmlconnect><commercebug>
+            </xmlconnect><smtppro>
+  				  <use>standard</use>
+   				 <args>
+   				   <module>Aschroder_SMTPPro</module>
+   				   <frontName>smtppro</frontName>
+   				 </args>
+  			</smtppro><commercebug>
                 <use>standard</use>
                 <args>
                     <module>Opencommercellc_Commercebug</module>
@@ -6594,7 +6708,13 @@ Mage_Persistent_Model_Session
                     <module>Teamto_Megamenu</module>
                     <frontName>megamenu</frontName>
                 </args>
-            </megamenu></routers>
+            </megamenu><mirrored>
+                <use>standard</use>
+                <args>
+                    <module>Teamto_Mirrored</module>
+                    <frontName>abcde</frontName>
+                </args>
+            </mirrored></routers>
         <translate>
             <modules>
                 <Mage_Core>
@@ -7692,7 +7812,11 @@ Mage_Persistent_Model_Session
                     <files>
                         <default>Mage_XmlConnect.csv</default>
                     </files>
-                </Mage_XmlConnect><Phoenix_Moneybookers>
+                </Mage_XmlConnect><Aschroder_SMTPPro>
+                    <files>
+                        <default>Aschroder_SMTPPro.csv</default>
+                    </files>
+                </Aschroder_SMTPPro><Phoenix_Moneybookers>
                     <files>
                         <default>Phoenix_Moneybookers.csv</default>
                     </files>
@@ -8158,9 +8282,9 @@ Mage_Persistent_Model_Session
                     <file>xmlconnect.xml</file>
                 </mage_xmlconnect><moneybookers>
                     <file>moneybookers.xml</file>
-                </moneybookers><megamenu module="teamto_megamenu">
-                    <file>teamto_megamenu.xml</file>
-                </megamenu></updates>
+                </moneybookers><mirrored module="teamto_mirrored">
+                    <file>teamto_mirrored.xml</file>
+                </mirrored></updates>
         </layout><global_search>
             <products>
                 <class>adminhtml/search_catalog</class>
@@ -8230,27 +8354,49 @@ Mage_Persistent_Model_Session
                 <resize_width>100</resize_width>
                 <resize_height>75</resize_height>
             </browser>
-        </cms><acl>
-            <resources>
-                <admin>
-                    <children>
-                        <system>
-                            <children>
-                                <config>
-                                    <children>
-                                        <commercebug>
+        </cms><menu>
+            <system>
+                <children>
+                    <tools>
+                        <children>
+                            <smtppro translate="title" module="smtppro">
+                                <title>SMTPPro - Email Log</title>
+                                <action>adminhtml/smtp_log</action>
+                            </smtppro>
+                        </children>
+                    </tools>
+                </children>
+            </system>
+        </menu><acl>
+			<resources>
+				<admin>
+					<children>
+						<system>
+							<children>
+								<config>
+									<children>
+										<smtppro translate="title" module="smtppro">
+											<title>SMTP Pro Email Settings</title>
+										</smtppro>
+									<commercebug>
                                             <title>Configuration for Advanced Debugger</title>
-                                        </commercebug>
-                                    <moneybookers translate="title" module="moneybookers">
+                                        </commercebug><moneybookers translate="title" module="moneybookers">
                                             <title>Moneybookers Settings</title>
                                         </moneybookers></children>
-                                </config>
-                            </children>
-                        </system>
-                    </children>
-                </admin>
-            </resources>
-        </acl></adminhtml><install>
+								</config>
+					            <tools>
+					              <children>
+					                <smtppro translate="title" module="smtppro">
+					                  <title>Email Log</title>
+					                </smtppro>
+					              </children>
+					            </tools>
+							</children>
+						</system>
+					</children>
+				</admin>
+			</resources>
+		</acl></adminhtml><install>
         <translate>
             <modules>
                 <Mage_Core>
@@ -8503,7 +8649,7 @@ Mage_Persistent_Model_Session
                     
                 <modules>
                         <Mage_Index before="Mage_Adminhtml">Mage_Index_Adminhtml</Mage_Index>
-                    <Mage_Paygate before="Mage_Adminhtml">Mage_Paygate_Adminhtml</Mage_Paygate><Mage_Paypal before="Mage_Adminhtml">Mage_Paypal_Adminhtml</Mage_Paypal><widget before="Mage_Adminhtml">Mage_Widget_Adminhtml</widget><oauth before="Mage_Adminhtml">Mage_Oauth_Adminhtml</oauth><Mage_Authorizenet before="Mage_Adminhtml">Mage_Authorizenet_Adminhtml</Mage_Authorizenet><Mage_Bundle before="Mage_Adminhtml">Mage_Bundle_Adminhtml</Mage_Bundle><captcha>Mage_Captcha_Adminhtml</captcha><Mage_Centinel before="Mage_Adminhtml">Mage_Centinel_Adminhtml</Mage_Centinel><Mage_Compiler before="Mage_Adminhtml">Mage_Compiler_Adminhtml</Mage_Compiler><connect before="Mage_Adminhtml">Mage_Connect_Adminhtml</connect><Mage_Downloadable before="Mage_Adminhtml">Mage_Downloadable_Adminhtml</Mage_Downloadable><importexport before="Mage_Adminhtml">Mage_ImportExport_Adminhtml</importexport><api2 before="Mage_Adminhtml">Mage_Api2_Adminhtml</api2><Mage_PageCache before="Mage_Adminhtml">Mage_PageCache_Adminhtml</Mage_PageCache><currencysymbol>Mage_CurrencySymbol_Adminhtml</currencysymbol><xmlconnect before="Mage_Adminhtml">Mage_XmlConnect_Adminhtml</xmlconnect><moneybookers after="Mage_Adminhtml">Phoenix_Moneybookers</moneybookers><megamenu before="Mage_Adminhtml">Teamto_Megamenu_Adminhtml</megamenu></modules><frontName><![CDATA[admin]]></frontName></args>
+                    <Mage_Paygate before="Mage_Adminhtml">Mage_Paygate_Adminhtml</Mage_Paygate><Mage_Paypal before="Mage_Adminhtml">Mage_Paypal_Adminhtml</Mage_Paypal><widget before="Mage_Adminhtml">Mage_Widget_Adminhtml</widget><oauth before="Mage_Adminhtml">Mage_Oauth_Adminhtml</oauth><Mage_Authorizenet before="Mage_Adminhtml">Mage_Authorizenet_Adminhtml</Mage_Authorizenet><Mage_Bundle before="Mage_Adminhtml">Mage_Bundle_Adminhtml</Mage_Bundle><captcha>Mage_Captcha_Adminhtml</captcha><Mage_Centinel before="Mage_Adminhtml">Mage_Centinel_Adminhtml</Mage_Centinel><Mage_Compiler before="Mage_Adminhtml">Mage_Compiler_Adminhtml</Mage_Compiler><connect before="Mage_Adminhtml">Mage_Connect_Adminhtml</connect><Mage_Downloadable before="Mage_Adminhtml">Mage_Downloadable_Adminhtml</Mage_Downloadable><importexport before="Mage_Adminhtml">Mage_ImportExport_Adminhtml</importexport><api2 before="Mage_Adminhtml">Mage_Api2_Adminhtml</api2><Mage_PageCache before="Mage_Adminhtml">Mage_PageCache_Adminhtml</Mage_PageCache><currencysymbol>Mage_CurrencySymbol_Adminhtml</currencysymbol><xmlconnect before="Mage_Adminhtml">Mage_XmlConnect_Adminhtml</xmlconnect><smtppro after="Mage_Adminhtml">Aschroder_SMTPPro</smtppro><moneybookers after="Mage_Adminhtml">Phoenix_Moneybookers</moneybookers><mirrored before="Mage_Adminhtml">Teamto_Megamenu_Adminhtml</mirrored></modules><frontName><![CDATA[admin]]></frontName></args>
             </adminhtml>
         </routers>
     <fieldsets>

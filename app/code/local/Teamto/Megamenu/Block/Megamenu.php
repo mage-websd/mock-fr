@@ -6,37 +6,38 @@
  */
 class Teamto_Megamenu_Block_Megamenu extends Mage_Core_Block_Template
 {
-    private $_cate_current_id; //category current id
-
+    private $_cate_current_id = 0; //category current id
+    private $_singleton; //singleton catalog_category
     /**
      * get current category id
      */
     public function __construct()
     {
+        $this->_singleton = Mage::getSingleton('catalog/category');
         $cate_current = Mage::registry('current_category');
-        if($cate_current)
-            $this->_cate_current_id = $cate_current->getData('entity_id');
+        if($cate_current){
+            $this->_cate_current_id = $this->_getIdCurrentCateLevel2($cate_current);//$cate_current->getData('entity_id');
+        }
         parent::__construct();
     }
 
     public function getHtml()
     {
-        $singleton = Mage::getSingleton('catalog/category');
         $rootcatID = Mage::app()->getStore()->getRootCategoryId();
-        return $this->_getSubCategory($singleton, $rootcatID,0);
+        return $this->_getSubCategory($rootcatID,0);
     }
     /**
      * get category and all sub category
      *
-     * @param $singleton: singletion catalog/category
+     * 
      * @param $id_category: id category
      * @param $no: #no level
      * @return string
      */
-    protected function _getSubCategory($singleton, $id_category, $no)
+    protected function _getSubCategory($id_category, $no)
     {
         $html = '';
-        $cate = $singleton->load($id_category);
+        $cate = $this->_singleton->load($id_category);
         $level = $cate->getData('level');
         //not display category have level > 5
         if($level>5)
@@ -53,12 +54,11 @@ class Teamto_Megamenu_Block_Megamenu extends Mage_Core_Block_Template
                 . '</a>';
             //check status category
             if($level==3) {
-                $status = Mage::getSingleton('catalog/category')->load($id_category)->getData('status');
-                if(strtolower($status) != 'normal'){
+                $status = $cate->getData('status');
+                if(strtolower($status) != 'normal' && $status != ''){
                     $option_status = strtolower($status);
                     $html .= "<span class='mega-menu-status {$option_status}'>{$status}</span>";
                 }
-
             }
         }
         if ($cate->getData('children_count') > 0) {
@@ -74,7 +74,7 @@ class Teamto_Megamenu_Block_Megamenu extends Mage_Core_Block_Template
             }
             $no_sub = 0;
             foreach (explode(',', $cate->getChildren()) as $idChild) {
-                $html .= $this->_getSubCategory($singleton, $idChild,$no_sub);
+                $html .= $this->_getSubCategory($idChild,$no_sub);
                 $no_sub++;
             }
 
@@ -85,6 +85,24 @@ class Teamto_Megamenu_Block_Megamenu extends Mage_Core_Block_Template
             $html .= '</li>';
         }
         return $html;
+    }
+
+    /**
+     * get id catagory current level 2
+     *
+     * @param $cate_current
+     * @return id category current level 2
+     */
+    private function _getIdCurrentCateLevel2($cate_current)
+    {
+        if($cate_current->getData('level') == 2) {
+            return $cate_current->getData('entity_id');
+        }
+        $cate_parrent = $this->_singleton->load($cate_current->getData('parent_id'));
+        while($cate_parrent->getData('level') > 2) {
+            $cate_parrent = $this->_singleton->load($cate_parrent->getData('parent_id'));
+        }
+        return $cate_parrent->getData('entity_id');
     }
 
 }
