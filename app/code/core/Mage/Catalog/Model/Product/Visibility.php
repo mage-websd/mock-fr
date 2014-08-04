@@ -26,7 +26,7 @@
 
 
 /**
- * Catalog Product visibilite model and attribute source model
+ * Catalogedit Product visibilite model and attribute source model
  *
  * @category   Mage
  * @package    Mage_Catalog
@@ -137,9 +137,9 @@ class Mage_Catalog_Model_Product_Visibility extends Varien_Object
     {
         return array(
             self::VISIBILITY_NOT_VISIBLE=> Mage::helper('catalog')->__('Not Visible Individually'),
-            self::VISIBILITY_IN_CATALOG => Mage::helper('catalog')->__('Catalog'),
+            self::VISIBILITY_IN_CATALOG => Mage::helper('catalog')->__('Catalogedit'),
             self::VISIBILITY_IN_SEARCH  => Mage::helper('catalog')->__('Search'),
-            self::VISIBILITY_BOTH       => Mage::helper('catalog')->__('Catalog, Search')
+            self::VISIBILITY_BOTH       => Mage::helper('catalog')->__('Catalogedit, Search')
         );
     }
 
@@ -205,7 +205,7 @@ class Mage_Catalog_Model_Product_Visibility extends Varien_Object
         } else {
             $column['type']     = Varien_Db_Ddl_Table::TYPE_SMALLINT;
             $column['nullable'] = true;
-            $column['comment']  = 'Catalog Product Visibility ' . $attributeCode . ' column';
+            $column['comment']  = 'Catalogedit Product Visibility ' . $attributeCode . ' column';
         }
 
         return array($attributeCode => $column);

@@ -30,7 +30,7 @@
  *
  * @category Mage
  * @package  Mage_Catalog
- * @module   Catalog
+ * @module   Catalogedit
  * @author   Magento Core Team <core@magentocommerce.com>
  */
 class Mage_Catalog_Block_Product_View extends Mage_Catalog_Block_Product_Abstract

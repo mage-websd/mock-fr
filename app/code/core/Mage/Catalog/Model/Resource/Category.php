@@ -26,7 +26,7 @@
 
 
 /**
- * Catalog category model
+ * Catalogedit category model
  *
  * @category    Mage
  * @package     Mage_Catalog
@@ -42,7 +42,7 @@ class Mage_Catalog_Model_Resource_Category extends Mage_Catalog_Model_Resource_A
     protected $_tree;
 
     /**
-     * Catalog products table name
+     * Catalogedit products table name
      *
      * @var string
      */

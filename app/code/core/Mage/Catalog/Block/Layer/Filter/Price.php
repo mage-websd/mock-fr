@@ -25,7 +25,7 @@
  */
 
 /**
- * Catalog layer price filter
+ * Catalogedit layer price filter
  *
  * @category   Mage
  * @package    Mage_Catalog

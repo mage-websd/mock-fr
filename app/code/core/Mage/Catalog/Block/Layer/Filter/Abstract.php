@@ -25,7 +25,7 @@
  */
 
 /**
- * Catalog layer filter abstract
+ * Catalogedit layer filter abstract
  *
  * @category   Mage
  * @package    Mage_Catalog
@@ -34,7 +34,7 @@
 abstract class Mage_Catalog_Block_Layer_Filter_Abstract extends Mage_Core_Block_Template
 {
     /**
-     * Catalog Layer Filter Attribute model
+     * Catalogedit Layer Filter Attribute model
      *
      * @var Mage_Catalog_Model_Layer_Filter_Attribute
      */

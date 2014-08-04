@@ -25,7 +25,7 @@
  */
 
 /**
- * Backend Catalog Price Rules controller
+ * Backend Catalogedit Price Rules controller
  *
  * @category    Mage
  * @package     Mage_Adminhtml
@@ -53,7 +53,7 @@ class Mage_Adminhtml_Promo_CatalogController extends Mage_Adminhtml_Controller_A
 
     public function indexAction()
     {
-        $this->_title($this->__('Promotions'))->_title($this->__('Catalog Price Rules'));
+        $this->_title($this->__('Promotions'))->_title($this->__('Catalogedit Price Rules'));
 
         $dirtyRules = Mage::getModel('catalogrule/flag')->loadSelf();
         if ($dirtyRules->getState()) {
@@ -62,8 +62,8 @@ class Mage_Adminhtml_Promo_CatalogController extends Mage_Adminhtml_Controller_A
 
         $this->_initAction()
             ->_addBreadcrumb(
-                Mage::helper('catalogrule')->__('Catalog'),
-                Mage::helper('catalogrule')->__('Catalog')
+                Mage::helper('catalogrule')->__('Catalogedit'),
+                Mage::helper('catalogrule')->__('Catalogedit')
             )
             ->renderLayout();
     }
@@ -75,7 +75,7 @@ class Mage_Adminhtml_Promo_CatalogController extends Mage_Adminhtml_Controller_A
 
     public function editAction()
     {
-        $this->_title($this->__('Promotions'))->_title($this->__('Catalog Price Rules'));
+        $this->_title($this->__('Promotions'))->_title($this->__('Catalogedit Price Rules'));
 
         $id = $this->getRequest()->getParam('id');
         $model = Mage::getModel('catalogrule/rule');

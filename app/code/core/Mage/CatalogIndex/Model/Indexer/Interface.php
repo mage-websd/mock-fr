@@ -26,7 +26,7 @@
 
 
 /**
- * Catalog indexer interface
+ * Catalogedit indexer interface
  *
  * @author      Magento Core Team <core@magentocommerce.com>
  */

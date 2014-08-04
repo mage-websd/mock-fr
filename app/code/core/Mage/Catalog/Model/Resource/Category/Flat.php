@@ -89,14 +89,14 @@ class Mage_Catalog_Model_Resource_Category_Flat extends Mage_Index_Model_Resourc
     protected $_inactiveCategoryIds      = null;
 
     /**
-     * Store flag which defines if Catalog Category Flat Data has been initialized
+     * Store flag which defines if Catalogedit Category Flat Data has been initialized
      *
      * @var array
      */
     protected $_isBuilt                  = array();
 
     /**
-     * Store flag which defines if Catalog Category Flat Data has been initialized
+     * Store flag which defines if Catalogedit Category Flat Data has been initialized
      *
      * @deprecated after 1.7.0.0 use $this->_isBuilt instead
      *
@@ -460,7 +460,7 @@ class Mage_Catalog_Model_Resource_Category_Flat extends Mage_Index_Model_Resourc
     }
 
     /**
-     * Check if Catalog Category Flat Data has been initialized
+     * Check if Catalogedit Category Flat Data has been initialized
      *
      * @param bool|int|\Mage_Core_Model_Store|null $storeView Store(id) for which the value is checked
      * @return bool
@@ -585,7 +585,7 @@ class Mage_Catalog_Model_Resource_Category_Flat extends Mage_Index_Model_Resourc
         $_writeAdapter->dropTable($tableName);
         $table = $this->_getWriteAdapter()
             ->newTable($tableName)
-            ->setComment(sprintf('Catalog Category Flat (Store %d)', $store));
+            ->setComment(sprintf('Catalogedit Category Flat (Store %d)', $store));
 
         //Adding columns
         if ($this->_columnsSql === null) {
@@ -1495,7 +1495,7 @@ class Mage_Catalog_Model_Resource_Category_Flat extends Mage_Index_Model_Resourc
     }
 
     /**
-     * Check if Catalog Category Flat Data has been initialized
+     * Check if Catalogedit Category Flat Data has been initialized
      *
      * @deprecated use Mage_Catalog_Model_Resource_Category_Flat::isBuilt() instead
      *

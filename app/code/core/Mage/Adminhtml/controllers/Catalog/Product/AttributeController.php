@@ -25,7 +25,7 @@
  */
 
 /**
- * Catalog product attribute controller
+ * Catalogedit product attribute controller
  *
  * @category   Mage
  * @package    Mage_Adminhtml
@@ -45,7 +45,7 @@ class Mage_Adminhtml_Catalog_Product_AttributeController extends Mage_Adminhtml_
 
     protected function _initAction()
     {
-        $this->_title($this->__('Catalog'))
+        $this->_title($this->__('Catalogedit'))
              ->_title($this->__('Attributes'))
              ->_title($this->__('Manage Attributes'));
 
@@ -54,7 +54,7 @@ class Mage_Adminhtml_Catalog_Product_AttributeController extends Mage_Adminhtml_
         } else {
             $this->loadLayout()
                 ->_setActiveMenu('catalog/attributes')
-                ->_addBreadcrumb(Mage::helper('catalog')->__('Catalog'), Mage::helper('catalog')->__('Catalog'))
+                ->_addBreadcrumb(Mage::helper('catalog')->__('Catalogedit'), Mage::helper('catalog')->__('Catalogedit'))
                 ->_addBreadcrumb(
                     Mage::helper('catalog')->__('Manage Product Attributes'),
                     Mage::helper('catalog')->__('Manage Product Attributes'))

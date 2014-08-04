@@ -26,7 +26,7 @@
 
 
 /**
- * Catalog Configurable Product Attribute Collection
+ * Catalogedit Configurable Product Attribute Collection
  *
  * @category    Mage
  * @package     Mage_Catalog

@@ -38,7 +38,7 @@ class Mage_Adminhtml_TagController extends Mage_Adminhtml_Controller_Action
     {
         $this->loadLayout()
             ->_setActiveMenu('catalog/tag')
-            ->_addBreadcrumb(Mage::helper('adminhtml')->__('Catalog'), Mage::helper('adminhtml')->__('Catalog'))
+            ->_addBreadcrumb(Mage::helper('adminhtml')->__('Catalogedit'), Mage::helper('adminhtml')->__('Catalogedit'))
             ->_addBreadcrumb(Mage::helper('adminhtml')->__('Tags'), Mage::helper('adminhtml')->__('Tags'));
 
         return $this;
@@ -75,7 +75,7 @@ class Mage_Adminhtml_TagController extends Mage_Adminhtml_Controller_Action
      */
     public function indexAction()
     {
-        $this->_title($this->__('Catalog'))
+        $this->_title($this->__('Catalogedit'))
              ->_title($this->__('Tags'))
              ->_title($this->__('All Tags'));
 
@@ -120,7 +120,7 @@ class Mage_Adminhtml_TagController extends Mage_Adminhtml_Controller_Action
      */
     public function editAction()
     {
-        $this->_title($this->__('Catalog'))
+        $this->_title($this->__('Catalogedit'))
              ->_title($this->__('Tags'));
 
         if (! (int) $this->getRequest()->getParam('store')) {
@@ -227,7 +227,7 @@ class Mage_Adminhtml_TagController extends Mage_Adminhtml_Controller_Action
      */
     public function pendingAction()
     {
-        $this->_title($this->__('Catalog'))
+        $this->_title($this->__('Catalogedit'))
              ->_title($this->__('Tags'))
              ->_title($this->__('Pending Tags'));
 

@@ -25,7 +25,7 @@
  */
 
 /**
- * Catalog product controller
+ * Catalogedit product controller
  *
  * @category   Mage
  * @package    Mage_Adminhtml
@@ -58,7 +58,7 @@ class Mage_Adminhtml_Catalog_ProductController extends Mage_Adminhtml_Controller
      */
     protected function _initProduct()
     {
-        $this->_title($this->__('Catalog'))
+        $this->_title($this->__('Catalogedit'))
              ->_title($this->__('Manage Products'));
 
         $productId  = (int) $this->getRequest()->getParam('id');
@@ -173,7 +173,7 @@ class Mage_Adminhtml_Catalog_ProductController extends Mage_Adminhtml_Controller
      */
     public function indexAction()
     {
-        $this->_title($this->__('Catalog'))
+        $this->_title($this->__('Catalogedit'))
              ->_title($this->__('Manage Products'));
 
         $this->loadLayout();

@@ -26,7 +26,7 @@
 
 
 /**
- * Catalog Config Resource Model
+ * Catalogedit Config Resource Model
  *
  * @category    Mage
  * @package     Mage_Catalog

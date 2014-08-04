@@ -25,7 +25,7 @@
  */
 
 /**
- * Catalog xml renderer
+ * Catalogedit xml renderer
  *
  * @category    Mage
  * @package     Mage_Xmlconnect

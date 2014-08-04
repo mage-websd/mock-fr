@@ -36,7 +36,7 @@ CREATE TABLE `{$this->getTable('cataloginventory_stock')}` (
   `stock_id` smallint(4) unsigned NOT NULL auto_increment,
   `stock_name` varchar(255) NOT NULL default '',
   PRIMARY KEY  (`stock_id`)
-) ENGINE=InnoDB DEFAULT CHARSET=utf8 COMMENT='Catalog inventory Stocks list';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8 COMMENT='Catalogedit inventory Stocks list';
 
 insert into `{$this->getTable('cataloginventory_stock')}`(`stock_id`,`stock_name`) values (1, 'Default');
 

@@ -26,7 +26,7 @@
 
 
 /**
- * Catalog Category *_sort_by Attributes Source Model
+ * Catalogedit Category *_sort_by Attributes Source Model
  *
  * @category   Mage
  * @package    Mage_Catalog
@@ -36,7 +36,7 @@ class Mage_Catalog_Model_Category_Attribute_Source_Sortby
     extends Mage_Eav_Model_Entity_Attribute_Source_Abstract
 {
     /**
-     * Retrieve Catalog Config Singleton
+     * Retrieve Catalogedit Config Singleton
      *
      * @return Mage_Catalog_Model_Config
      */

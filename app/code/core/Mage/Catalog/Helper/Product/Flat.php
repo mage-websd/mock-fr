@@ -25,7 +25,7 @@
  */
 
 /**
- * Catalog Product Flat Helper
+ * Catalogedit Product Flat Helper
  *
  * @category   Mage
  * @package    Mage_Catalog
@@ -34,7 +34,7 @@
 class Mage_Catalog_Helper_Product_Flat extends Mage_Catalog_Helper_Flat_Abstract
 {
     /**
-     * Catalog Product Flat Config
+     * Catalogedit Product Flat Config
      */
     const XML_PATH_USE_PRODUCT_FLAT          = 'catalog/frontend/flat_catalog_product';
     const XML_NODE_ADD_FILTERABLE_ATTRIBUTES = 'global/catalog/product/flat/add_filterable_attributes';
@@ -46,26 +46,26 @@ class Mage_Catalog_Helper_Product_Flat extends Mage_Catalog_Helper_Flat_Abstract
     const XML_PATH_FLAT_FLAG                 = 'global/catalog/product/flat/flag/model';
 
     /**
-     * Catalog Flat Product index process code
+     * Catalogedit Flat Product index process code
      */
     const CATALOG_FLAT_PROCESS_CODE = 'catalog_product_flat';
 
     /**
-     * Catalog Product Flat index process code
+     * Catalogedit Product Flat index process code
      *
      * @var string
      */
     protected $_indexerCode = self::CATALOG_FLAT_PROCESS_CODE;
 
     /**
-     * Catalog Product Flat index process instance
+     * Catalogedit Product Flat index process instance
      *
      * @var Mage_Index_Model_Process|null
      */
     protected $_process = null;
 
     /**
-     * Store flags which defines if Catalog Product Flat functionality is enabled
+     * Store flags which defines if Catalogedit Product Flat functionality is enabled
      *
      * @deprecated after 1.7.0.0
      *
@@ -74,14 +74,14 @@ class Mage_Catalog_Helper_Product_Flat extends Mage_Catalog_Helper_Flat_Abstract
     protected $_isEnabled = array();
 
     /**
-     * Catalog Product Flat Flag object
+     * Catalogedit Product Flat Flag object
      *
      * @var Mage_Catalog_Model_Product_Flat_Flag
      */
     protected $_flagObject;
 
     /**
-     * Retrieve Catalog Product Flat Flag object
+     * Retrieve Catalogedit Product Flat Flag object
      *
      * @return Mage_Catalog_Model_Product_Flat_Flag
      */
@@ -96,7 +96,7 @@ class Mage_Catalog_Helper_Product_Flat extends Mage_Catalog_Helper_Flat_Abstract
     }
 
     /**
-     * Check Catalog Product Flat functionality is enabled
+     * Check Catalogedit Product Flat functionality is enabled
      *
      * @param int|string|null|Mage_Core_Model_Store $store this parameter is deprecated and no longer in use
      *
@@ -108,7 +108,7 @@ class Mage_Catalog_Helper_Product_Flat extends Mage_Catalog_Helper_Flat_Abstract
     }
 
     /**
-     * Check if Catalog Product Flat Data has been initialized
+     * Check if Catalogedit Product Flat Data has been initialized
      *
      * @param null|bool|int|Mage_Core_Model_Store $store Store(id) for which the value is checked
      * @return bool
@@ -122,7 +122,7 @@ class Mage_Catalog_Helper_Product_Flat extends Mage_Catalog_Helper_Flat_Abstract
     }
 
     /**
-     * Check if Catalog Product Flat Data has been initialized for all stores
+     * Check if Catalogedit Product Flat Data has been initialized for all stores
      *
      * @return bool
      */

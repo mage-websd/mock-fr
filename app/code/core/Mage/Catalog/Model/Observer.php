@@ -26,7 +26,7 @@
 
 
 /**
- * Catalog Observer
+ * Catalogedit Observer
  *
  * @category   Mage
  * @package    Mage_Catalog
@@ -150,7 +150,7 @@ class Mage_Catalog_Model_Observer
     }
 
     /**
-     * Catalog Product Compare Items Clean
+     * Catalogedit Product Compare Items Clean
      *
      * @param Varien_Event_Observer $observer
      * @return Mage_Catalog_Model_Observer

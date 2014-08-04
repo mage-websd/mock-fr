@@ -26,7 +26,7 @@
 
 
 /**
- * Catalog Category Attribute Default and Available Sort By Backend Model
+ * Catalogedit Category Attribute Default and Available Sort By Backend Model
  *
  * @category   Mage
  * @package    Mage_Catalog

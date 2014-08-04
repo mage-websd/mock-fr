@@ -25,7 +25,7 @@
  */
 
 /**
- * Catalog Rules Grid
+ * Catalogedit Rules Grid
  *
  * @category Mage
  * @package Mage_Adminhtml

@@ -45,7 +45,7 @@
 /************** PAGE-SPECIFIC ***************
     Login
     Sales
-    Catalog
+    Catalogedit
     Customers
     Newsletter
     System
@@ -218,7 +218,7 @@ table.actions td                { vertical-align:top; }
 .grid table.border tfoot tr td  { background:#D7E5EF !important; }
 
 
-/* Dynamic Grid */ /* Used in pages like Catalog -> Attributes */
+/* Dynamic Grid */ /* Used in pages like Catalogedit -> Attributes */
 .dynamic-grid th                { padding:2px;width:100px; }
 .dynamic-grid td                { padding:2px; }
 .dynamic-grid td input          { width:94px; }
@@ -624,8 +624,8 @@ div.autocomplete ul li { padding:.5em .7em; min-height:32px; cursor:pointer; tex
 /* COLUMNS
 ********************************************************************************************/
 
-.catalog-categories .side-col   { width:25em; padding-right:25px; }  /* Catalog/Categories */
-.catalog-categories .main-col   { padding-left:25px; margin-left:25em; }              /* Catalog/Categories */
+.catalog-categories .side-col   { width:25em; padding-right:25px; }  /* Catalogedit/Categories */
+.catalog-categories .main-col   { padding-left:25px; margin-left:25em; }              /* Catalogedit/Categories */
 .order-summary .side-col        { padding-right:25px; }             /* Order/Create */
 .order-summary .main-col        { padding-left:25px; }              /* Order/Create */
 
@@ -649,7 +649,7 @@ div.autocomplete ul li { padding:.5em .7em; min-height:32px; cursor:pointer; tex
 .content-header button,
 .filter-actions button          { margin:0 0 0 5px; }
 .side-col .content-header       { border-bottom:0; margin-right:12px; margin-bottom:.6em; }
-.catalog-categories .side-col .content-header { margin-right:0; }  /* Catalog/Categories */
+.catalog-categories .side-col .content-header { margin-right:0; }  /* Catalogedit/Categories */
 
 .left-col-block { width:200px; }
 

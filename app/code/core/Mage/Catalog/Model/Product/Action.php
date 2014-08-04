@@ -26,7 +26,7 @@
 
 
 /**
- * Catalog Product Mass Action processing model
+ * Catalogedit Product Mass Action processing model
  *
  * @category    Mage
  * @package     Mage_Catalog

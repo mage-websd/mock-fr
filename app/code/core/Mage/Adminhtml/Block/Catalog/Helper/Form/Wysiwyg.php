@@ -25,7 +25,7 @@
  */
 
 /**
- * Catalog textarea attribute WYSIWYG button
+ * Catalogedit textarea attribute WYSIWYG button
  *
  * @category   Mage
  * @package    Mage_Adminhtml

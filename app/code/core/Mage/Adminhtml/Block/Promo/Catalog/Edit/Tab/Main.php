@@ -25,7 +25,7 @@
  */
 
 /**
- * Catalog Rule General Information Tab
+ * Catalogedit Rule General Information Tab
  *
  * @category Mage
  * @package Mage_Adminhtml

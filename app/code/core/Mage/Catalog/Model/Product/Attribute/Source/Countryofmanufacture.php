@@ -25,7 +25,7 @@
  */
 
 /**
- * Catalog product country attribute source
+ * Catalogedit product country attribute source
  *
  * @category   Mage
  * @package    Mage_Catalog

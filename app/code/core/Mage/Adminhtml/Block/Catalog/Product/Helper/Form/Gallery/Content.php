@@ -26,7 +26,7 @@
 
 
 /**
- * Catalog product form gallery content
+ * Catalogedit product form gallery content
  *
  * @category   Mage
  * @package    Mage_Adminhtml

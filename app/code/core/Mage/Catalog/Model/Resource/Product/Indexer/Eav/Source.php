@@ -26,7 +26,7 @@
 
 
 /**
- * Catalog Product Eav Select and Multiply Select Attributes Indexer resource model
+ * Catalogedit Product Eav Select and Multiply Select Attributes Indexer resource model
  *
  * @category    Mage
  * @package     Mage_Catalog

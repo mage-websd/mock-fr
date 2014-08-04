@@ -115,9 +115,9 @@ class Mage_XmlConnect_Block_Adminhtml_Mobile_Edit_Tab_General
         $yesNoValues = Mage::getModel('adminhtml/system_config_source_yesno')->toOptionArray();
 
         $fieldset->addField('browsing_mode', 'select', array(
-            'label'     => $this->__('Catalog Only App?'),
+            'label'     => $this->__('Catalogedit Only App?'),
             'name'      => 'browsing_mode',
-            'note'      => $this->__('A Catalog Only App will not support functions such as add to cart, add to wishlist, or login.'),
+            'note'      => $this->__('A Catalogedit Only App will not support functions such as add to cart, add to wishlist, or login.'),
             'value'     => $model->getBrowsingMode(),
             'values'    => $yesNoValues
         ));

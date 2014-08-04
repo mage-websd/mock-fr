@@ -26,7 +26,7 @@
 
 
 /**
- * Catalog product custom option resource model
+ * Catalogedit product custom option resource model
  *
  * @category    Mage
  * @package     Mage_Catalog

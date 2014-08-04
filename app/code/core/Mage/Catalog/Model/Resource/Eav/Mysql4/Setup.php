@@ -26,7 +26,7 @@
 
 
 /**
- * Catalog entity setup
+ * Catalogedit entity setup
  *
  * @category    Mage
  * @package     Mage_Catalog

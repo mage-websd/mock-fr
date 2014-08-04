@@ -26,7 +26,7 @@
 
 
 /**
- * Catalog category flat collection
+ * Catalogedit category flat collection
  *
  * @category    Mage
  * @package     Mage_Catalog
@@ -56,7 +56,7 @@ class Mage_Catalog_Model_Resource_Category_Flat_Collection extends Mage_Core_Mod
     protected $_storeId        = null;
 
     /**
-     * Catalog factory instance
+     * Catalogedit factory instance
      *
      * @var Mage_Catalog_Model_Factory
      */

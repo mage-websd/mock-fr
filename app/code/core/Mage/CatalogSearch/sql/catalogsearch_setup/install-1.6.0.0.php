@@ -80,7 +80,7 @@ $table = $installer->getConnection()
     ->addForeignKey($installer->getFkName('catalogsearch/search_query', 'store_id', 'core/store', 'store_id'),
         'store_id', $installer->getTable('core/store'), 'store_id',
         Varien_Db_Ddl_Table::ACTION_CASCADE, Varien_Db_Ddl_Table::ACTION_CASCADE)
-    ->setComment('Catalog search query table');
+    ->setComment('Catalogedit search query table');
 $installer->getConnection()->createTable($table);
 
 /**
@@ -110,7 +110,7 @@ $table = $installer->getConnection()
     ->addForeignKey($installer->getFkName('catalogsearch/result', 'product_id', 'catalog/product', 'entity_id'),
         'product_id', $installer->getTable('catalog/product'), 'entity_id',
         Varien_Db_Ddl_Table::ACTION_CASCADE, Varien_Db_Ddl_Table::ACTION_CASCADE)
-    ->setComment('Catalog search result table');
+    ->setComment('Catalogedit search result table');
 $installer->getConnection()->createTable($table);
 
 /**
@@ -151,7 +151,7 @@ $table = $installer->getConnection()
         'data_index',
         array('type' => Varien_Db_Adapter_Interface::INDEX_TYPE_FULLTEXT))
     ->setOption('type', 'MyISAM')
-    ->setComment('Catalog search result table');
+    ->setComment('Catalogedit search result table');
 $installer->getConnection()->createTable($table);
 
 $installer->endSetup();

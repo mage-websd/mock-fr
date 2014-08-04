@@ -25,7 +25,7 @@
  */
 
 /**
- * Catalog product type api V2
+ * Catalogedit product type api V2
  *
  * @category   Mage
  * @package    Mage_Catalog

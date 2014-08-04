@@ -26,7 +26,7 @@
 
 
 /**
- * Catalog super product attribute resource model
+ * Catalogedit super product attribute resource model
  *
  * @category    Mage
  * @package     Mage_Catalog

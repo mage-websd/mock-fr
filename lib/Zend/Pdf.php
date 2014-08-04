@@ -384,7 +384,7 @@ class Zend_Pdf
              * Document catalog indirect object.
              */
             $docCatalog = $this->_objFactory->newObject(new Zend_Pdf_Element_Dictionary());
-            $docCatalog->Type    = new Zend_Pdf_Element_Name('Catalog');
+            $docCatalog->Type    = new Zend_Pdf_Element_Name('Catalogedit');
             $docCatalog->Version = new Zend_Pdf_Element_Name(Zend_Pdf::PDF_VERSION);
             $this->_trailer->Root = $docCatalog;
 

@@ -26,7 +26,7 @@
 
 
 /**
- * Catalog super product attribute resource model
+ * Catalogedit super product attribute resource model
  *
  * @category    Mage
  * @package     Mage_Catalog
@@ -60,7 +60,7 @@ class Mage_Catalog_Model_Resource_Product_Type_Configurable_Attribute extends Ma
     }
 
     /**
-     * Retrieve Catalog Helper
+     * Retrieve Catalogedit Helper
      *
      * @return Mage_Catalog_Helper_Data
      */
