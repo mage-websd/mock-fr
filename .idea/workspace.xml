@@ -2,6 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="229d8a55-5c27-4451-afd4-bab1da4462b6" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/catalog/product/cache/1/thumbnail/1000x/9df78eab33525d08d6e5fb8d27136e95/h/d/hdb000_1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/catalog/product/cache/1/thumbnail/300x/9df78eab33525d08d6e5fb8d27136e95/h/d/hdb000_1.jpg" />
       <change type="DELETED" beforePath="E:\xampp\htdocs\mockup_tuanpv\.idea\mockupprojectfr04.iml" afterPath="" />
       <change type="DELETED" beforePath="E:\xampp\htdocs\mockup_tuanpv\0987654.idea987654321\.name" afterPath="" />
       <change type="DELETED" beforePath="E:\xampp\htdocs\mockup_tuanpv\0987654.idea987654321\encodings.xml" afterPath="" />
@@ -191,6 +193,10 @@
               <option name="myItemId" value="sql" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="teamto_featured_setup_ver4" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -277,6 +283,19 @@
     </key>
   </component>
   <component name="RunManager">
+    <configuration default="true" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
+      <TestRunner />
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpLocalRunConfigurationType" factoryName="PHP Console">
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug" singleton="true">
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpUnitRemoteRunConfigurationType" factoryName="PHPUnit on Server">
+      <method />
+    </configuration>
     <list size="0" />
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
