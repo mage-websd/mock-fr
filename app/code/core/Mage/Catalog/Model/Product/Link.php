@@ -26,7 +26,7 @@
 
 
 /**
- * Catalog product link model
+ * Catalogedit product link model
  *
  * @method Mage_Catalog_Model_Resource_Product_Link _getResource()
  * @method Mage_Catalog_Model_Resource_Product_Link getResource()

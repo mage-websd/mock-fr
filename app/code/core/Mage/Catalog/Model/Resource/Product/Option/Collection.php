@@ -26,7 +26,7 @@
 
 
 /**
- * Catalog product options collection
+ * Catalogedit product options collection
  *
  * @category    Mage
  * @package     Mage_Catalog

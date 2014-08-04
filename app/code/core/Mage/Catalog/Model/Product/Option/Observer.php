@@ -25,7 +25,7 @@
  */
 
 /**
- * Catalog Custom Options Observer
+ * Catalogedit Custom Options Observer
  *
  * @category    Mage
  * @package     Mage_Catalog

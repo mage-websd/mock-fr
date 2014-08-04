@@ -26,7 +26,7 @@
 
 
 /**
- * Catalog product WEEE tax backend attribute model
+ * Catalogedit product WEEE tax backend attribute model
  *
  * @category    Mage
  * @package     Mage_Weee

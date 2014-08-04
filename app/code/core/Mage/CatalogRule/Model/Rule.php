@@ -26,7 +26,7 @@
 
 
 /**
- * Catalog Rule data model
+ * Catalogedit Rule data model
  *
  * @method Mage_CatalogRule_Model_Resource_Rule _getResource()
  * @method Mage_CatalogRule_Model_Resource_Rule getResource()

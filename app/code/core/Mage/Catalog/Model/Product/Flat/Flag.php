@@ -90,7 +90,7 @@ class Mage_Catalog_Model_Product_Flat_Flag extends Mage_Core_Model_Flag
     }
 
     /**
-     * Retrieve Catalog Product Flat Data is built flag
+     * Retrieve Catalogedit Product Flat Data is built flag
      *
      * @return bool
      */
@@ -105,7 +105,7 @@ class Mage_Catalog_Model_Product_Flat_Flag extends Mage_Core_Model_Flag
     }
 
     /**
-     * Set Catalog Product Flat Data is built flag
+     * Set Catalogedit Product Flat Data is built flag
      *
      * @param bool $flag
      *
@@ -120,7 +120,7 @@ class Mage_Catalog_Model_Product_Flat_Flag extends Mage_Core_Model_Flag
     }
 
     /**
-     * Set Catalog Product Flat Data is built flag
+     * Set Catalogedit Product Flat Data is built flag
      *
      * @deprecated after 1.7.0.0 use Mage_Catalog_Model_Product_Flat_Flag::setIsBuilt() instead
      *

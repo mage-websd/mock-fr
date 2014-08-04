@@ -143,7 +143,7 @@ class Mage_CatalogInventory_Model_Stock_Status extends Mage_Core_Model_Abstract
     }
 
     /**
-     * Retrieve Catalog Product Status Model
+     * Retrieve Catalogedit Product Status Model
      *
      * @return Mage_Catalog_Model_Product_Status
      */

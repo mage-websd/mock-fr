@@ -25,7 +25,7 @@
  */
 
 /**
- * Catalog price rules
+ * Catalogedit price rules
  *
  * @category    Mage
  * @category   Mage

@@ -26,7 +26,7 @@
 
 
 /**
- * Catalog Layer Decimal attribute Filter Resource Model
+ * Catalogedit Layer Decimal attribute Filter Resource Model
  *
  * @category    Mage
  * @package     Mage_Catalog

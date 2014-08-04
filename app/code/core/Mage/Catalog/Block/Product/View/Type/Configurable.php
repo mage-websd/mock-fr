@@ -26,7 +26,7 @@
 
 
 /**
- * Catalog super product configurable part block
+ * Catalogedit super product configurable part block
  *
  * @category   Mage
  * @package    Mage_Catalog

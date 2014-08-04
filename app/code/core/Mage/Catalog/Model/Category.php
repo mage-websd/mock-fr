@@ -27,7 +27,7 @@
 
 
 /**
- * Catalog category
+ * Catalogedit category
  *
  * @category   Mage
  * @package    Mage_Catalog

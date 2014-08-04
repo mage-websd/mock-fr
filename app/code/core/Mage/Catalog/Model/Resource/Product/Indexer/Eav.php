@@ -26,7 +26,7 @@
 
 
 /**
- * Catalog Product Eav Indexer Resource Model
+ * Catalogedit Product Eav Indexer Resource Model
  *
  * @category    Mage
  * @package     Mage_Catalog
@@ -153,7 +153,7 @@ class Mage_Catalog_Model_Resource_Product_Indexer_Eav extends Mage_Catalog_Model
     }
 
     /**
-     * Process Catalog Eav Attribute Save
+     * Process Catalogedit Eav Attribute Save
      *
      * @param Mage_Index_Model_Event $event
      * @return Mage_Catalog_Model_Resource_Product_Indexer_Eav

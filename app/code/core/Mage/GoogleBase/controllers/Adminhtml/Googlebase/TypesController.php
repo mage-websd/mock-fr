@@ -48,7 +48,7 @@ class Mage_GoogleBase_Adminhtml_Googlebase_TypesController extends Mage_Adminhtm
 
     protected function _initItemType()
     {
-        $this->_title($this->__('Catalog'))
+        $this->_title($this->__('Catalogedit'))
              ->_title($this->__('Google Base'))
              ->_title($this->__('Manage Attributes'));
 
@@ -63,14 +63,14 @@ class Mage_GoogleBase_Adminhtml_Googlebase_TypesController extends Mage_Adminhtm
     {
         $this->loadLayout()
             ->_setActiveMenu('catalog/googlebase/types')
-            ->_addBreadcrumb(Mage::helper('adminhtml')->__('Catalog'), Mage::helper('adminhtml')->__('Catalog'))
+            ->_addBreadcrumb(Mage::helper('adminhtml')->__('Catalogedit'), Mage::helper('adminhtml')->__('Catalogedit'))
             ->_addBreadcrumb(Mage::helper('adminhtml')->__('Google Base'), Mage::helper('adminhtml')->__('Google Base'));
         return $this;
     }
 
     public function indexAction()
     {
-        $this->_title($this->__('Catalog'))
+        $this->_title($this->__('Catalogedit'))
              ->_title($this->__('Google base'))
              ->_title($this->__('Manage Attributes'));
 
@@ -109,7 +109,7 @@ class Mage_GoogleBase_Adminhtml_Googlebase_TypesController extends Mage_Adminhtm
 
     public function editAction()
     {
-        $this->_title($this->__('Catalog'))
+        $this->_title($this->__('Catalogedit'))
              ->_title($this->__('Google base'))
              ->_title($this->__('Manage Attributes'));
 

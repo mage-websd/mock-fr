@@ -25,7 +25,7 @@
  */
 
 /**
- * Catalog product random items block
+ * Catalogedit product random items block
  *
  * @category   Mage
  * @package    Mage_Catalog

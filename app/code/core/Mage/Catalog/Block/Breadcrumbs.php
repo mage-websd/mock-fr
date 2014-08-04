@@ -25,7 +25,7 @@
  */
  
 /**
- * Catalog breadcrumbs
+ * Catalogedit breadcrumbs
  *
  * @category    Mage
  * @package     Mage_Catalog

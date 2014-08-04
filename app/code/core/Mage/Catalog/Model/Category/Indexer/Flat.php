@@ -26,7 +26,7 @@
 
 
 /**
- * Catalog Category Flat Indexer Model
+ * Catalogedit Category Flat Indexer Model
  *
  * @category    Mage
  * @package     Mage_Catalog
@@ -90,7 +90,7 @@ class Mage_Catalog_Model_Category_Indexer_Flat extends Mage_Index_Model_Indexer_
     }
 
     /**
-     * Retrieve Catalog Category Flat Indexer model
+     * Retrieve Catalogedit Category Flat Indexer model
      *
      * @return Mage_Catalog_Model_Resource_Eav_Mysql4_Category_Flat
      */

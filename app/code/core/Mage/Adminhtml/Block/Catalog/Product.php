@@ -25,7 +25,7 @@
  */
 
 /**
- * Catalog manage products block
+ * Catalogedit manage products block
  *
  * @category   Mage
  * @package    Mage_Adminhtml

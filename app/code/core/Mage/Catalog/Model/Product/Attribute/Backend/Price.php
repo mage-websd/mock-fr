@@ -26,7 +26,7 @@
 
 
 /**
- * Catalog product price attribute backend model
+ * Catalogedit product price attribute backend model
  *
  * @category   Mage
  * @package    Mage_Catalog

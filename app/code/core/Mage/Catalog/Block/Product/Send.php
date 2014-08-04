@@ -30,7 +30,7 @@
  *
  * @category   Mage
  * @package    Mage_Catalog
- * @module     Catalog
+ * @module     Catalogedit
  */
 class Mage_Catalog_Block_Product_Send extends Mage_Catalog_Block_Product_Abstract
 {

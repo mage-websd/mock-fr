@@ -25,7 +25,7 @@
  */
 
 /**
- * Catalog flat abstract helper
+ * Catalogedit flat abstract helper
  *
  * @category   Mage
  * @package    Mage_Catalog
@@ -34,7 +34,7 @@
 abstract class Mage_Catalog_Helper_Flat_Abstract extends Mage_Core_Helper_Abstract
 {
     /**
-     * Catalog Flat index process code
+     * Catalogedit Flat index process code
      *
      * @var null|string
      */
@@ -48,7 +48,7 @@ abstract class Mage_Catalog_Helper_Flat_Abstract extends Mage_Core_Helper_Abstra
     protected $_process = null;
 
     /**
-     * Check if Catalog Flat Data has been initialized
+     * Check if Catalogedit Flat Data has been initialized
      *
      * @param null|bool|int|Mage_Core_Model_Store $store Store(id) for which the value is checked
      * @return bool
@@ -56,7 +56,7 @@ abstract class Mage_Catalog_Helper_Flat_Abstract extends Mage_Core_Helper_Abstra
     abstract public function isBuilt($store = null);
 
     /**
-     * Check if Catalog Category Flat Data is enabled
+     * Check if Catalogedit Category Flat Data is enabled
      *
      * @param mixed $deprecatedParam this parameter is deprecated and no longer in use
      *
@@ -65,7 +65,7 @@ abstract class Mage_Catalog_Helper_Flat_Abstract extends Mage_Core_Helper_Abstra
     abstract public function isEnabled($deprecatedParam = false);
 
     /**
-     * Check if Catalog Category Flat Data is available
+     * Check if Catalogedit Category Flat Data is available
      * without lock check
      *
      * @return bool
@@ -76,7 +76,7 @@ abstract class Mage_Catalog_Helper_Flat_Abstract extends Mage_Core_Helper_Abstra
     }
 
     /**
-     * Check if Catalog Category Flat Data is available for use
+     * Check if Catalogedit Category Flat Data is available for use
      *
      * @return bool
      */
@@ -86,7 +86,7 @@ abstract class Mage_Catalog_Helper_Flat_Abstract extends Mage_Core_Helper_Abstra
     }
 
     /**
-     * Retrieve Catalog Flat index process
+     * Retrieve Catalogedit Flat index process
      *
      * @return Mage_Index_Model_Process
      */

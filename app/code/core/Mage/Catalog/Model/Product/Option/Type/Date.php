@@ -25,7 +25,7 @@
  */
 
 /**
- * Catalog product option date type
+ * Catalogedit product option date type
  *
  * @category   Mage
  * @package    Mage_Catalog

@@ -25,7 +25,7 @@
  */
 
 /**
- * Catalog category url
+ * Catalogedit category url
  *
  * @category   Mage
  * @package    Mage_Catalog

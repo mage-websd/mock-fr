@@ -529,7 +529,7 @@ CREATE TABLE `{$installer->getTable('catalog_product_entity_media_gallery')}` (
   KEY `FK_CATALOG_PRODUCT_MEDIA_GALLERY_ENTITY` (`entity_id`),
   CONSTRAINT `FK_CATALOG_PRODUCT_MEDIA_GALLERY_ATTRIBUTE` FOREIGN KEY (`attribute_id`) REFERENCES `{$installer->getTable('eav_attribute')}` (`attribute_id`) ON DELETE CASCADE,
   CONSTRAINT `FK_CATALOG_PRODUCT_MEDIA_GALLERY_ENTITY` FOREIGN KEY (`entity_id`) REFERENCES `{$installer->getTable('catalog_product_entity')}` (`entity_id`) ON DELETE CASCADE
-) ENGINE=InnoDB DEFAULT CHARSET=utf8 COMMENT='Catalog product media gallery';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8 COMMENT='Catalogedit product media gallery';
 
 -- DROP TABLE IF EXISTS `{$installer->getTable('catalog_product_entity_media_gallery_value')}`;
 CREATE TABLE `{$installer->getTable('catalog_product_entity_media_gallery_value')}` (
@@ -542,7 +542,7 @@ CREATE TABLE `{$installer->getTable('catalog_product_entity_media_gallery_value'
   KEY `FK_CATALOG_PRODUCT_MEDIA_GALLERY_VALUE_STORE` (`store_id`),
   CONSTRAINT `FK_CATALOG_PRODUCT_MEDIA_GALLERY_VALUE_GALLERY` FOREIGN KEY (`value_id`) REFERENCES `{$installer->getTable('catalog_product_entity_media_gallery')}` (`value_id`) ON DELETE CASCADE,
   CONSTRAINT `FK_CATALOG_PRODUCT_MEDIA_GALLERY_VALUE_STORE` FOREIGN KEY (`store_id`) REFERENCES `{$installer->getTable('core_store')}` (`store_id`) ON DELETE CASCADE
-) ENGINE=InnoDB DEFAULT CHARSET=utf8 COMMENT='Catalog product media gallery values';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8 COMMENT='Catalogedit product media gallery values';
 
 ");
 
@@ -556,8 +556,7 @@ $installer->getConnection()->addConstraint('FK_CORE_URL_REWRITE_PRODUCT', $insta
 $installer->run("
 UPDATE `{$installer->getTable('eav_attribute')}` SET `position` = 1 WHERE `position` = 0 AND `attribute_code` != 'price';
 
--- DROP TABLE IF EXISTS `{$installer->getTable('catalog/product_option')}`;
-CREATE TABLE `{$installer->getTable('catalog/product_option')}` (
+catalogATE TABLE `{$installer->getTable('catalog/product_option')}` (
   `option_id` int(10) unsigned NOT NULL auto_increment,
   `product_id` int(10) unsigned NOT NULL default '0',
   `type` varchar(50) NOT NULL default '',
@@ -573,8 +572,7 @@ CREATE TABLE `{$installer->getTable('catalog/product_option')}` (
   CONSTRAINT `FK_CATALOG_PRODUCT_OPTION_PRODUCT` FOREIGN KEY (`product_id`) REFERENCES `{$installer->getTable('catalog/product')}` (`entity_id`) ON DELETE CASCADE ON UPDATE CASCADE
 )ENGINE=InnoDB default CHARSET=utf8;
 
--- DROP TABLE IF EXISTS `{$installer->getTable('catalog/product_option_price')}`;
-CREATE TABLE `{$installer->getTable('catalog/product_option_price')}` (
+-- DROP TABLcatalog$installer->getTable('catalog/product_option_price')}` (
   `option_price_id` int(10) unsigned NOT NULL auto_increment,
   `option_id` int(10) unsigned NOT NULL default '0',
   `store_id` smallint(5) unsigned NOT NULL default '0',
@@ -588,8 +586,7 @@ CREATE TABLE `{$installer->getTable('catalog/product_option_price')}` (
   CONSTRAINT `FK_CATALOG_PRODUCT_OPTION_PRICE_STORE` FOREIGN KEY (`store_id`) REFERENCES `{$installer->getTable('core/store')}` (`store_id`) ON DELETE CASCADE ON UPDATE CASCADE
 )ENGINE=InnoDB default CHARSET=utf8;
 
--- DROP TABLE IF EXISTS `{$installer->getTable('catalog/product_option_title')}`;
-CREATE TABLE `{$installer->getTable('catalog/product_option_title')}` (
+-- DROP TABLE IF EXISTS cataloggetTable('catalog/product_option_title')}` (
   `option_title_id` int(10) unsigned NOT NULL auto_increment,
   `option_id` int(10) unsigned NOT NULL default '0',
   `store_id` smallint(5) unsigned NOT NULL default '0',
@@ -602,8 +599,7 @@ CREATE TABLE `{$installer->getTable('catalog/product_option_title')}` (
   CONSTRAINT `FK_CATALOG_PRODUCT_OPTION_TITLE_STORE` FOREIGN KEY (`store_id`) REFERENCES `{$installer->getTable('core/store')}` (`store_id`) ON DELETE CASCADE ON UPDATE CASCADE
 )ENGINE=InnoDB default CHARSET=utf8;
 
--- DROP TABLE IF EXISTS `{$installer->getTable('catalog/product_option_type_value')}`;
-CREATE TABLE `{$installer->getTable('catalog/product_option_type_value')}` (
+-- DROP TABLE IF EXISTS `{$installercatalogtalog/product_option_type_value')}` (
   `option_type_id` int(10) unsigned NOT NULL auto_increment,
   `option_id` int(10) unsigned NOT NULL default '0',
   `sku` varchar(64) NOT NULL default '',
@@ -613,8 +609,7 @@ CREATE TABLE `{$installer->getTable('catalog/product_option_type_value')}` (
   CONSTRAINT `FK_CATALOG_PRODUCT_OPTION_TYPE_VALUE_OPTION` FOREIGN KEY (`option_id`) REFERENCES `{$installer->getTable('catalog/product_option')}` (`option_id`) ON DELETE CASCADE ON UPDATE CASCADE
 )ENGINE=InnoDB default CHARSET=utf8;
 
--- DROP TABLE IF EXISTS `{$installer->getTable('catalog/product_option_type_price')}`;
-CREATE TABLE `{$installer->getTable('catalog/product_option_type_price')}` (
+-- DROP TABLE IF EXISTS `{$installer->getTable('catalogt_option_type_price')}` (
   `option_type_price_id` int(10) unsigned NOT NULL auto_increment,
   `option_type_id` int(10) unsigned NOT NULL default '0',
   `store_id` smallint(5) unsigned NOT NULL default '0',
@@ -628,8 +623,7 @@ CREATE TABLE `{$installer->getTable('catalog/product_option_type_price')}` (
   CONSTRAINT `FK_CATALOG_PRODUCT_OPTION_TYPE_PRICE_STORE` FOREIGN KEY (`store_id`) REFERENCES `{$installer->getTable('core/store')}` (`store_id`) ON DELETE CASCADE ON UPDATE CASCADE
 )ENGINE=InnoDB default CHARSET=utf8;
 
--- DROP TABLE IF EXISTS `{$installer->getTable('catalog/product_option_type_title')}`;
-CREATE TABLE `{$installer->getTable('catalog/product_option_type_title')}` (
+-- DROP TABLE IF EXISTS `{$installer->getTable('catalog/prodcataloge_title')}` (
   `option_type_title_id` int(10) unsigned NOT NULL auto_increment,
   `option_type_id` int(10) unsigned NOT NULL default '0',
   `store_id` smallint(5) unsigned NOT NULL default '0',
@@ -682,12 +676,12 @@ $installer->installEntities();
 
 
 
-// Create Root Catalog Node
+// Create Root Catalogedit Node
 Mage::getModel('catalog/category')
     ->setStoreId(0)
     ->setId(1)
     ->setPath(1)
-    ->setName('Root Catalog')
+    ->setName('Root Catalogedit')
     ->setInitialSetupFlag(true)
     ->save();
 

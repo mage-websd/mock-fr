@@ -14,7 +14,12 @@ class Teamto_Mirrored_IndexController extends Mage_Core_Controller_Front_Action
             var_dump($idProduct);
         }
         exit;*/
-        var_dump(Mage::getModel('catalog/product')->load(237)->getCategoryIds());exit;
+        /*$p = Mage::getModel('catalog/product')->load(237);
+        $array = $p->getCategoryIds();
+        var_dump($array);*/
+        $ca = Mage::getModel('catalog/product')->load(237);
+        var_dump($ca->getCategoryIds());
+        exit;
         //$collection = $category->getProductPosition();//->addAttributeToSort('position');
         //Mage::getModel('catalog/layer')->prepareProductCollection($collection);
         //var_dump($collection);

@@ -25,7 +25,7 @@
  */
 
 /**
- * Catalog rule indexer
+ * Catalogedit rule indexer
  *
  * @category    Mage
  * @package     Mage_CatalogRule

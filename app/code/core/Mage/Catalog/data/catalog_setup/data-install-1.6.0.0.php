@@ -27,7 +27,7 @@
 /* @var $installer Mage_Catalog_Model_Resource_Eav_Mysql4_Setup */
 $installer = $this;
 
-// Create Root Catalog Node
+// Create Root Catalogedit Node
 Mage::getModel('catalog/category')
     ->load(1)
     ->setId(1)
@@ -36,7 +36,7 @@ Mage::getModel('catalog/category')
     ->setLevel(0)
     ->setPosition(0)
     ->setChildrenCount(0)
-    ->setName('Root Catalog')
+    ->setName('Root Catalogedit')
     ->setInitialSetupFlag(true)
     ->save();
 
@@ -200,7 +200,7 @@ $data = array(
 $installer->getConnection()->insertMultiple($installer->getTable('catalog/product_link_attribute'), $data);
 
 /**
- * Remove Catalog specified attribute options (columns) from eav/attribute table
+ * Remove Catalogedit specified attribute options (columns) from eav/attribute table
  *
  */
 $describe = $installer->getConnection()->describeTable($installer->getTable('catalog/eav_attribute'));

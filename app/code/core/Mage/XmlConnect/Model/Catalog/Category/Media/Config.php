@@ -25,7 +25,7 @@
  */
 
 /**
- * Catalog category media config
+ * Catalogedit category media config
  *
  * @category    Mage
  * @package     Mage_Catalog
@@ -34,7 +34,7 @@
 class Mage_XmlConnect_Model_Catalog_Category_Media_Config extends Mage_Catalog_Model_Product_Media_Config
 {
     /**
-     * Getter, return Catalog baseMediaPath
+     * Getter, return Catalogedit baseMediaPath
      *
      * @return string
      */

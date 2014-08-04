@@ -25,7 +25,7 @@
  */
 
 /**
- * Catalog attribute model
+ * Catalogedit attribute model
  *
  * @method Mage_Catalog_Model_Resource_Attribute _getResource()
  * @method Mage_Catalog_Model_Resource_Attribute getResource()

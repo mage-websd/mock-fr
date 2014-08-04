@@ -25,7 +25,7 @@
  */
 
 /**
- * Catalog session model
+ * Catalogedit session model
  *
  * @category   Mage
  * @package    Mage_Catalog

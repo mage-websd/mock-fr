@@ -38,10 +38,10 @@ class Mage_Adminhtml_Catalog_SearchController extends Mage_Adminhtml_Controller_
 
     public function indexAction()
     {
-        $this->_title($this->__('Catalog'))->_title($this->__('Search Terms'));
+        $this->_title($this->__('Catalogedit'))->_title($this->__('Search Terms'));
 
         $this->_initAction()
-            ->_addBreadcrumb(Mage::helper('catalog')->__('Catalog'), Mage::helper('catalog')->__('Catalog'))
+            ->_addBreadcrumb(Mage::helper('catalog')->__('Catalogedit'), Mage::helper('catalog')->__('Catalogedit'))
             ->_addContent($this->getLayout()->createBlock('adminhtml/catalog_search'))
             ->renderLayout();
     }
@@ -53,7 +53,7 @@ class Mage_Adminhtml_Catalog_SearchController extends Mage_Adminhtml_Controller_
 
     public function editAction()
     {
-        $this->_title($this->__('Catalog'))->_title($this->__('Search Terms'));
+        $this->_title($this->__('Catalogedit'))->_title($this->__('Search Terms'));
 
         $id = $this->getRequest()->getParam('id');
         $model = Mage::getModel('catalogsearch/query');

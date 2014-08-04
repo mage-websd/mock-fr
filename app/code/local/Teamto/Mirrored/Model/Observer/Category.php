@@ -8,6 +8,8 @@ class Teamto_Mirrored_Model_Observer_Category
         $cate = $observer->getEvent();
         $cate = $cate['category'];
 
+        
+
         if (!$cate->getData('entity_id')) { //if add new category, do not nothing
             $cate->setData('mirrored_to','');
             return;
@@ -25,18 +27,17 @@ class Teamto_Mirrored_Model_Observer_Category
         if ($mirrored_to_old_id != $mirrored_to_id) { //if mirrored change
             if (!$mirrored_to_old_id) { //if mirrored old is null
                 if ($mirrored_to_id) { //if mirrored submit not null
+                    $this->_addCateForPro($mirrored_to_id, $cate);
                     $this->_copyData($this->_getModelCategory()->load($mirrored_to_id), $cate);
                 }
 
             } else { //mirrored old is not null
-                //$this->_deleteAllProduct($cate);
-                //$this->_deleteCateSub($cate);
+                $this->_deleteAllProduct($cate->getData('entity_id'));
+                $this->_deleteCateSub($cate->getData('entity_id'));
 
                 if ($mirrored_to_id) { //if mirrored submit not null
-                    $this->_copyData(
-                        $this->_getModelCategory()->load($mirrored_to_id),
-                        $cate
-                    );
+                    $this->_addCateForPro($mirrored_to_id, $cate);
+                    $this->_copyData($this->_getModelCategory()->load($mirrored_to_id), $cate);
                 }
             }
         }
@@ -53,10 +54,9 @@ class Teamto_Mirrored_Model_Observer_Category
     {
         $this->_copySetting($cate_parent, $cate_child);
 
-        //add category for product of category mirrored parent
-        $this->_addCateForPro($cate_parent->getData('entity_id'), $cate_child);
 
-        //$this->_copyCateSub($cate_parent, $cate_child);
+
+        $this->_copyCateSub($cate_parent, $cate_child);
     }
 
     /**
@@ -154,9 +154,6 @@ class Teamto_Mirrored_Model_Observer_Category
                 //add category for product of sub category mirrored parent
                 $this->_addCateForPro($id_sub, $cateNew);
 
-
-                //$this->console($this->toString($cateNew->getData()));
-
                 $this->_addNewAllCateSub(
                     $id_sub,
                     $cateNew->getData('entity_id'),
@@ -175,29 +172,36 @@ class Teamto_Mirrored_Model_Observer_Category
             ->getCollection()
             ->joinField('category_id', 'catalog/category_product', 'category_id',
                 'product_id = entity_id')
-            ->addAttributeToSelect('*')
+            //->addAttributeToSelect('*')
             ->addAttributeToFilter('category_id', array('eq' => $id_cate_parent));
 
         if($collection)
-            foreach ($collection as $p) {
-                $idProduct = $p->getData('entity_id');
-                $this->console('idfor: '.$idProduct);
-                $product = $this->_getModelProduct()->load($idProduct);
-
+            foreach ($collection as $product) {
                 $arrayCategory = $product->getCategoryIds();
-                $arrayCategory[] = $cate_child->getData('entity_id'); //add category for product
                 $this->console('array cate: '.$this->toString($arrayCategory));
+                $arrayCategory[] = $cate_child->getData('entity_id'); //add category for product
                 $product->setCategoryIds($arrayCategory);
+                Mage::log($arrayCategory);
                 $product->save();
                 $this->console('after save: '.$this->toString($product->getCategoryIds()));
             }
 
     }
 
-
-    private function _deleteCateSub(&$cate_mirrored_child)
+    private function _deleteCateSub($id_cate_mirrored_child)
     {
-
+        //find all sub category
+        $categoryResource = Mage::getResourceModel('catalog/category_collection')
+            //->addAttributeToSelect('*')
+            ->addAttributeToFilter('is_active', array('in' => array(0,1)))
+            ->addAttributeToFilter('parent_id', $id_cate_mirrored_child);
+        if($categoryResource) {
+            foreach($categoryResource as $_cate) {
+                $idSub = $_cate->getData('entity_id');
+                $this->_deleteCateSub($idSub);
+                $this->_getModelCategory()->load($idSub)->delete();
+            }
+        }
     }
 
     private function _deleteAllProduct($id_cate_mirrored_child)
@@ -206,60 +210,39 @@ class Teamto_Mirrored_Model_Observer_Category
             ->getCollection()
             ->joinField('category_id', 'catalog/category_product', 'category_id',
                 'product_id = entity_id')
-            ->addAttributeToSelect('*')
+            //->addAttributeToSelect('*')
             ->addAttributeToFilter('category_id', 
                 array('eq' => $id_cate_mirrored_child)
             );
 
         if($collection){
-            foreach ($collection as $p) {
-                $idProduct = $p->getData('entity_id');
-                $product = $this->_getModelProduct()->load($idProduct);
+            foreach ($collection as $product) {
+                /*$idProduct = $p->getData('entity_id');
+                $product = $this->_getModelProduct()->load($idProduct);*/
 
                 $arrayCategory = $product->getCategoryIds();
 
                 $key = array_search($id_cate_mirrored_child,$arrayCategory);
-                unset($arrayCategory[$key]);
-
-                $product->setCategoryIds($arrayCategory);
-                $product->save();
+                if($key){
+                    unset($arrayCategory[$key]);
+                    $product->setCategoryIds($arrayCategory);
+                    $product->save();
+                }
             }
         }
 
+        //find all sub category
         $categoryResource = Mage::getResourceModel('catalog/category_collection')
-            ->addAttributeToSelect('*')
+            //->addAttributeToSelect('*')
             ->addAttributeToFilter('is_active', array('in' => array(0,1)))
             ->addAttributeToFilter('parent_id', $id_cate_mirrored_child);
-        if($categoryResource)
+        if($categoryResource) {
             foreach($categoryResource as $_cate) {
                 $this->_deleteAllProduct(
                     $_cate->getData('entity_id')
                 );
             }
-    }
-
-    /**
-     * get all product of category
-     *
-     * @param $idCategory
-     * @return array
-     */
-    private function _getAllProduct($idCategory)
-    {
-        $arrayProduct = array(); //array data product
-
-        $productCollection = $this->_getModelProduct()->getCollection();
-
-        foreach ($productCollection as $pro) {
-            $idProduct = $pro->getData('entity_id');
-            $product = Mage::getModel('catalog/product')->load($idProduct);
-            $arrayCategory = $product->getCategoryIds();
-            if (in_array($idCategory, $arrayCategory)) {
-                $arrayProduct[] = $product->getData();
-            }
         }
-
-        return $arrayProduct;
     }
 
     /**

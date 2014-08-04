@@ -45,7 +45,7 @@ class Mage_Catalog_Model_Resource_Product_Collection extends Mage_Catalog_Model_
     const MAIN_TABLE_ALIAS = 'e';
 
     /**
-     * Catalog Product Flat is enabled cache per store
+     * Catalogedit Product Flat is enabled cache per store
      *
      * @var array
      */
@@ -209,7 +209,7 @@ class Mage_Catalog_Model_Resource_Product_Collection extends Mage_Catalog_Model_
     protected $_catalogPreparePriceSelect = null;
 
     /**
-     * Catalog factory instance
+     * Catalogedit factory instance
      *
      * @var Mage_Catalog_Model_Factory
      */
@@ -312,7 +312,7 @@ class Mage_Catalog_Model_Resource_Product_Collection extends Mage_Catalog_Model_
     }
 
     /**
-     * Retrieve Catalog Product Flat Helper object
+     * Retrieve Catalogedit Product Flat Helper object
      *
      * @return Mage_Catalog_Helper_Product_Flat
      */

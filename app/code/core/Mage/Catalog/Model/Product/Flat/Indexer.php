@@ -26,7 +26,7 @@
 
 
 /**
- * Catalog Product Flat Indexer Model
+ * Catalogedit Product Flat Indexer Model
  *
  * @method Mage_Catalog_Model_Resource_Product_Flat_Indexer _getResource()
  * @method Mage_Catalog_Model_Resource_Product_Flat_Indexer getResource()
@@ -54,7 +54,7 @@
 class Mage_Catalog_Model_Product_Flat_Indexer extends Mage_Core_Model_Abstract
 {
     /**
-     * Catalog product flat entity for indexers
+     * Catalogedit product flat entity for indexers
      */
     const ENTITY = 'catalog_product_flat';
 
@@ -73,7 +73,7 @@ class Mage_Catalog_Model_Product_Flat_Indexer extends Mage_Core_Model_Abstract
     }
 
     /**
-     * Rebuild Catalog Product Flat Data
+     * Rebuild Catalogedit Product Flat Data
      *
      * @param mixed $store
      * @return Mage_Catalog_Model_Product_Flat_Indexer
@@ -192,7 +192,7 @@ class Mage_Catalog_Model_Product_Flat_Indexer extends Mage_Core_Model_Abstract
     }
 
     /**
-     * Update Catalog Product Flat data
+     * Update Catalogedit Product Flat data
      *
      * @param int|array $productIds
      * @param int $store
@@ -223,7 +223,7 @@ class Mage_Catalog_Model_Product_Flat_Indexer extends Mage_Core_Model_Abstract
     }
 
     /**
-     * Save Catalog Product(s) Flat data
+     * Save Catalogedit Product(s) Flat data
      *
      * @param int|array $productIds
      * @param int $store
@@ -287,7 +287,7 @@ class Mage_Catalog_Model_Product_Flat_Indexer extends Mage_Core_Model_Abstract
     }
 
     /**
-     * Rebuild Catalog Product Flat Data for all stores
+     * Rebuild Catalogedit Product Flat Data for all stores
      *
      * @return Mage_Catalog_Model_Product_Flat_Indexer
      */

@@ -26,7 +26,7 @@
 
 
 /**
- * Catalog product related items block
+ * Catalogedit product related items block
  *
  * @category   Mage
  * @package    Mage_Catalog

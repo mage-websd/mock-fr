@@ -25,7 +25,7 @@
  */
 
 /**
- * Catalog category link model
+ * Catalogedit category link model
  *
  * @category    Mage
  * @package     Mage_XmlConnect

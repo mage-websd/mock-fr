@@ -42,7 +42,7 @@ class Mage_CatalogSearch_Block_Advanced_Form extends Mage_Core_Block_Template
                 'title'=>Mage::helper('catalogsearch')->__('Go to Home Page'),
                 'link'=>Mage::getBaseUrl()
             ))->addCrumb('search', array(
-                'label'=>Mage::helper('catalogsearch')->__('Catalog Advanced Search')
+                'label'=>Mage::helper('catalogsearch')->__('Catalogedit Advanced Search')
             ));
         }
         return parent::_prepareLayout();

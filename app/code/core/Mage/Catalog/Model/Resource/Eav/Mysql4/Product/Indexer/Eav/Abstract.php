@@ -26,7 +26,7 @@
 
 
 /**
- * Catalog Product Eav Attributes abstract indexer resource model
+ * Catalogedit Product Eav Attributes abstract indexer resource model
  *
  * @category    Mage
  * @package     Mage_Catalog

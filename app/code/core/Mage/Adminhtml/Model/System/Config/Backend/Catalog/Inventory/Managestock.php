@@ -26,7 +26,7 @@
 
 
 /**
- * Adminhtml Catalog Inventory Manage Stock Config Backend Model
+ * Adminhtml Catalogedit Inventory Manage Stock Config Backend Model
  *
  * @category   Mage
  * @package    Mage_Adminhtml
@@ -52,7 +52,7 @@ class Mage_Adminhtml_Model_System_Config_Backend_Catalog_Inventory_Managestock
     }
 
     /**
-     * After change Catalog Inventory Manage value process
+     * After change Catalogedit Inventory Manage value process
      *
      * @return Mage_Adminhtml_Model_System_Config_Backend_Catalog_Inventory_Managestock
      */

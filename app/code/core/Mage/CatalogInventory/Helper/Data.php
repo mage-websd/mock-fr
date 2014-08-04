@@ -37,7 +37,7 @@ class Mage_CatalogInventory_Helper_Data extends Mage_Core_Helper_Abstract
     const XML_PATH_DISPLAY_PRODUCT_STOCK_STATUS = 'cataloginventory/options/display_product_stock_status';
 
     /**
-     * Error codes, that Catalog Inventory module can set to quote or quote items
+     * Error codes, that Catalogedit Inventory module can set to quote or quote items
      */
     const ERROR_QTY =               1;
     const ERROR_QTY_INCREMENTS =    2;
