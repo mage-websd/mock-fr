@@ -1,9 +1,0 @@
-#widget-slideshow-home{
-    float: left;
-    position: relative;
-    margin-top: -25px;
-}
-.swiper-slide div.img img{
-    width: 220px;
-    height: 250px;
-}
