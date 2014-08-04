@@ -3,6 +3,8 @@
 /app/code/core/
 /app/design/frontend/base/
 /media/
+/.idea/
+/nbproject/
 /.htaccess
 /giangnt.pub
 /giangnt_key.pub
