@@ -7,27 +7,36 @@
     </modules>
     <global>
         <models>
-            <featured>
+            <teamto_featured>
                 <class>Teamto_Featured_Model</class>
-            </featured>
+                <resourceModel>teamto_featured_resource</resourceModel>
+            </teamto_featured>
+
+            <teamto_featured_resource>
+                <class>Teamto_Featured_Model_Resource</class>
+            </teamto_featured_resource>
         </models>
+
         <blocks>
             <featured>
                 <class>Teamto_Featured_Block</class>
             </featured>
         </blocks>
+
         <helpers>
             <featured>
                 <class>Teamto_Featured_Helper</class>
             </featured>
         </helpers>
-        <!--<resources>
-            <teamto_featured_setup>
+
+        <resources>
+            <teamto_featured_setup_ver4>
                 <setup>
                     <module>Teamto_Featured</module>
+                    <class>Teamto_Featured_Model_Resource_Setup</class>
                 </setup>
-            </teamto_featured_setup>
-        </resources>-->
+            </teamto_featured_setup_ver4>
+        </resources>
     </global>
 
     <frontend>
@@ -49,4 +58,6 @@
             </updates>
         </layout>
     </frontend>
+
+
 </config>

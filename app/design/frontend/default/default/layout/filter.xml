@@ -1,0 +1,36 @@
+<layout version="1.0">
+    <catalog_category_layered>
+        <reference name="head">
+            <action method="addItem">
+                <type>skin_js</type>
+                <name>js/filter/jquery-1.js</name>
+            </action>
+
+            <action method="addItem">
+                <type>skin_js</type>
+                <name>js/filter/jquery-ui.js</name>
+            </action>
+
+            <action method="addItem">
+                <type>skin_css</type>
+                <name>css/filter/jquery-ui.css</name>
+            </action>
+        </reference>
+
+        <!--<reference name="catalog.leftnav">-->
+            <!--<remove>-->
+            <!--<action method="setTemplate">-->
+                <!--<template>Teamto/filter/filter.phtml</template>-->
+            <!--</action>-->
+        <!--</reference>-->
+
+        <reference name="left">
+            <remove name="catalog.leftnav"/>
+            <block type="teamto_filter/layer_view" name="filter" after="currency" template="Teamto/filter/filter.phtml"/>
+            <!--<action method="setTemplate">-->
+                <!--<template>Teamto/filter/filter.phtml</template>-->
+            <!--</action>-->
+
+        </reference>
+    </catalog_category_layered>
+</layout>
