@@ -26,7 +26,7 @@
 
 
 /**
- * Catalogedit Rule Product Aggregated Price per date Model
+ * Catalog Rule Product Aggregated Price per date Model
  *
  * @method Mage_CatalogRule_Model_Resource_Rule_Product_Price _getResource()
  * @method Mage_CatalogRule_Model_Resource_Rule_Product_Price getResource()

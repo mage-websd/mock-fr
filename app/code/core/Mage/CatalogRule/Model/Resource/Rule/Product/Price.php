@@ -26,7 +26,7 @@
 
 
 /**
- * Catalogedit Rule Product Aggregated Price per date Resource Model
+ * Catalog Rule Product Aggregated Price per date Resource Model
  *
  * @category    Mage
  * @package     Mage_CatalogRule

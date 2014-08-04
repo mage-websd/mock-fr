@@ -25,7 +25,7 @@
  */
 
 /**
- * Catalogedit product model
+ * Catalog product model
  *
  * @method Mage_Catalog_Model_Resource_Product getResource()
  * @method Mage_Catalog_Model_Product setHasError(bool $value)
@@ -1778,7 +1778,7 @@ class Mage_Catalog_Model_Product extends Mage_Catalog_Model_Abstract
     }
 
     /**
-     * Return Catalogedit Product Image helper instance
+     * Return Catalog Product Image helper instance
      *
      * @return Mage_Catalog_Helper_Image
      */

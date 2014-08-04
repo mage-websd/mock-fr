@@ -26,7 +26,7 @@
 
 
 /**
- * Catalogedit Product Indexer Abstract Resource Model
+ * Catalog Product Indexer Abstract Resource Model
  *
  * @category    Mage
  * @package     Mage_Catalog

@@ -60,7 +60,7 @@ class Mage_Rss_Block_Catalog_Abstract extends Mage_Rss_Block_Abstract
     /**
      * Return Price Block renderer for specified product type
      *
-     * @param string $productTypeId Catalogedit Product type
+     * @param string $productTypeId Catalog Product type
      * @return Mage_Core_Block_Abstract
      */
     protected function _getPriceBlock($productTypeId)
@@ -80,7 +80,7 @@ class Mage_Rss_Block_Catalog_Abstract extends Mage_Rss_Block_Abstract
     /**
      * Return template for Price Block renderer
      *
-     * @param string $productTypeId Catalogedit Product type
+     * @param string $productTypeId Catalog Product type
      * @return string
      */
     protected function _getPriceBlockTemplate($productTypeId)
@@ -120,7 +120,7 @@ class Mage_Rss_Block_Catalog_Abstract extends Mage_Rss_Block_Abstract
     /**
      * Adding customized price template for product type, used as action in layouts
      *
-     * @param string $type Catalogedit Product Type
+     * @param string $type Catalog Product Type
      * @param string $block Block Type
      * @param string $template Template
      */

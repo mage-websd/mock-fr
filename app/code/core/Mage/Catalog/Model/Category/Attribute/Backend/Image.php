@@ -26,7 +26,7 @@
 
 
 /**
- * Catalogedit category image attribute backend model
+ * Catalog category image attribute backend model
  *
  * @category   Mage
  * @package    Mage_Catalog

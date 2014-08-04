@@ -26,7 +26,7 @@
 
 
 /**
- * Catalogedit category flat collection
+ * Catalog category flat collection
  *
  * @category    Mage
  * @package     Mage_Catalog

@@ -26,7 +26,7 @@
 
 
 /**
- * Catalogedit view layer model
+ * Catalog view layer model
  *
  * @category    Mage
  * @package     Mage_Catalog

@@ -25,7 +25,7 @@
  */
 
 /**
- * Catalogedit inventory module observer
+ * Catalog inventory module observer
  *
  * @category   Mage
  * @package    Mage_CatalogInventory
@@ -841,7 +841,7 @@ class Mage_CatalogInventory_Model_Observer
     }
 
     /**
-     * Catalogedit Product website update
+     * Catalog Product website update
      *
      * @param Varien_Event_Observer $observer
      * @return Mage_CatalogInventory_Model_Observer

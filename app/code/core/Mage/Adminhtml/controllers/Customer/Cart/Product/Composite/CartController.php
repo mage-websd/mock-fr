@@ -25,7 +25,7 @@
  */
 
 /**
- * Catalogedit composite product configuration controller
+ * Catalog composite product configuration controller
  *
  * @category    Mage
  * @package     Mage_Adminhtml

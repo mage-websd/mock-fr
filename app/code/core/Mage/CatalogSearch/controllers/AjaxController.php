@@ -25,11 +25,11 @@
  */
 
 /**
- * Catalogedit Search Controller
+ * Catalog Search Controller
  *
  * @category   Mage
  * @package    Mage_CatalogSearch
- * @module     Catalogedit
+ * @module     Catalog
  */
 class Mage_CatalogSearch_AjaxController extends Mage_Core_Controller_Front_Action
 {

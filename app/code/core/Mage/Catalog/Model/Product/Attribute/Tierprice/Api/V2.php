@@ -25,7 +25,7 @@
  */
 
 /**
- * Catalogedit Product tier price api V2
+ * Catalog Product tier price api V2
  *
  * @category   Mage
  * @package    Mage_Catalog

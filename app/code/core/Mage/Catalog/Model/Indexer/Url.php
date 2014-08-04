@@ -25,7 +25,7 @@
  */
 
 /**
- * Catalogedit url rewrites index model.
+ * Catalog url rewrites index model.
  * Responsibility for system actions:
  *  - Product save (changed assigned categories list, assigned websites or url key)
  *  - Category save (changed assigned products list, category move, changed url key)
@@ -80,7 +80,7 @@ class Mage_Catalog_Model_Indexer_Url extends Mage_Index_Model_Indexer_Abstract
      */
     public function getName()
     {
-        return Mage::helper('catalog')->__('Catalogedit URL Rewrites');
+        return Mage::helper('catalog')->__('Catalog URL Rewrites');
     }
 
     /**

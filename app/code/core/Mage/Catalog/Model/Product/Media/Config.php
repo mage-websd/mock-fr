@@ -26,7 +26,7 @@
 
 
 /**
- * Catalogedit product media config
+ * Catalog product media config
  *
  * @category    Mage
  * @package     Mage_Catalog

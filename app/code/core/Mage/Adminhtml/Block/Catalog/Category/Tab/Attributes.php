@@ -26,7 +26,7 @@
 
 
 /**
- * Adminhtml Catalogedit Category Attributes per Group Tab block
+ * Adminhtml Catalog Category Attributes per Group Tab block
  *
  * @category   Mage
  * @package    Mage_Adminhtml

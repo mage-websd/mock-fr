@@ -25,7 +25,7 @@
  */
 
 /**
- * Catalogedit admin controller
+ * Catalog admin controller
  *
  * @category   Mage
  * @package    Mage_Adminhtml
@@ -37,7 +37,7 @@ class Mage_Adminhtml_CatalogController extends Mage_Adminhtml_Controller_Action
     {
         $this->loadLayout();
         $this->_setActiveMenu('catalog');
-        $this->_addBreadcrumb(Mage::helper('adminhtml')->__('Catalogedit'), Mage::helper('adminhtml')->__('Catalogedit'));
+        $this->_addBreadcrumb(Mage::helper('adminhtml')->__('Catalog'), Mage::helper('adminhtml')->__('Catalog'));
 
         $this->_addContent($this->getLayout()->createBlock('adminhtml/catalog'));
         $this->renderLayout();

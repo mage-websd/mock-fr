@@ -26,7 +26,7 @@
 
 
 /**
- * Catalogedit Config Resource Model
+ * Catalog Config Resource Model
  *
  * @category    Mage
  * @package     Mage_Catalog
@@ -97,7 +97,7 @@ class Mage_Catalog_Model_Resource_Config extends Mage_Core_Model_Resource_Db_Abs
     }
 
     /**
-     * Retrieve Product Attributes Used in Catalogedit Product listing
+     * Retrieve Product Attributes Used in Catalog Product listing
      *
      * @return array
      */
@@ -124,7 +124,7 @@ class Mage_Catalog_Model_Resource_Config extends Mage_Core_Model_Resource_Db_Abs
     }
 
     /**
-     * Retrieve Used Product Attributes for Catalogedit Product Listing Sort By
+     * Retrieve Used Product Attributes for Catalog Product Listing Sort By
      *
      * @return array
      */

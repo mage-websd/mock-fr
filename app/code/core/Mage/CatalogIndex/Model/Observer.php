@@ -383,7 +383,7 @@ class Mage_CatalogIndex_Model_Observer extends Mage_Core_Model_Abstract
     }
 
     /**
-     * Catalogedit Product Flat update product(s)
+     * Catalog Product Flat update product(s)
      *
      * @param Varien_Event_Observer $observer
      * @return Mage_CatalogIndex_Model_Observer

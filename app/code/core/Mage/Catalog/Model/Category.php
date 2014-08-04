@@ -1,4 +1,3 @@
-
 <?php
 /**
  * Magento
@@ -27,7 +26,7 @@
 
 
 /**
- * Catalogedit category
+ * Catalog category
  *
  * @category   Mage
  * @package    Mage_Catalog

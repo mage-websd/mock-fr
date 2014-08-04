@@ -25,7 +25,7 @@
  */
 
 /**
- * Catalogedit url model
+ * Catalog url model
  *
  * @category   Mage
  * @package    Mage_Catalog
@@ -98,7 +98,7 @@ class Mage_Catalog_Model_Url
     protected $_categoryUrlSuffix = array();
 
     /**
-     * Flag to overwrite config settings for Catalogedit URL rewrites history maintainance
+     * Flag to overwrite config settings for Catalog URL rewrites history maintainance
      *
      * @var bool
      */

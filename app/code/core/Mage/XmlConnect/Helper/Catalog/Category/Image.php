@@ -25,7 +25,7 @@
  */
 
 /**
- * Catalogedit image helper
+ * Catalog image helper
  *
  * Helper used to display thumbnail image for category
  * Prepare category image for cache and resize for mobile devices

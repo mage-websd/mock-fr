@@ -26,7 +26,7 @@
 
 
 /**
- * Catalogedit Product Flat observer
+ * Catalog Product Flat observer
  *
  * @category   Mage
  * @package    Mage_Catalog
@@ -35,7 +35,7 @@
 class Mage_Catalog_Model_Product_Flat_Observer
 {
     /**
-     * Retrieve Catalogedit Product Flat Helper
+     * Retrieve Catalog Product Flat Helper
      *
      * @return Mage_Catalog_Helper_Product_Flat
      */
@@ -45,7 +45,7 @@ class Mage_Catalog_Model_Product_Flat_Observer
     }
 
     /**
-     * Retrieve Catalogedit Product Flat Indexer model
+     * Retrieve Catalog Product Flat Indexer model
      *
      * @return Mage_Catalog_Model_Product_Flat_Indexer
      */
@@ -54,7 +54,7 @@ class Mage_Catalog_Model_Product_Flat_Observer
     }
 
     /**
-     * Catalogedit Entity attribute after save process
+     * Catalog Entity attribute after save process
      *
      * @param Varien_Event_Observer $observer
      * @return Mage_Catalog_Model_Product_Flat_Observer
@@ -93,7 +93,7 @@ class Mage_Catalog_Model_Product_Flat_Observer
     }
 
     /**
-     * Catalogedit Product Status Update
+     * Catalog Product Status Update
      *
      * @param Varien_Event_Observer $observer
      * @return Mage_Catalog_Model_Product_Flat_Observer
@@ -115,7 +115,7 @@ class Mage_Catalog_Model_Product_Flat_Observer
     }
 
     /**
-     * Catalogedit Product Website(s) update
+     * Catalog Product Website(s) update
      *
      * @param Varien_Event_Observer $observer
      * @return Mage_Catalog_Model_Product_Flat_Observer
@@ -145,7 +145,7 @@ class Mage_Catalog_Model_Product_Flat_Observer
     }
 
     /**
-     * Catalogedit Product After Save
+     * Catalog Product After Save
      *
      * @param Varien_Event_Observer $observer
      * @return Mage_Catalog_Model_Product_Flat_Observer
@@ -249,7 +249,7 @@ class Mage_Catalog_Model_Product_Flat_Observer
     }
 
     /**
-     * Catalogedit Product Import After process
+     * Catalog Product Import After process
      *
      * @param Varien_Event_Observer $observer
      * @return Mage_Catalog_Model_Product_Flat_Observer

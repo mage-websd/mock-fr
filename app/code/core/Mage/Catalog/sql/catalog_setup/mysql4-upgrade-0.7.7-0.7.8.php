@@ -56,7 +56,7 @@ $installer->run("
         CONSTRAINT `FK_CATALOG_PRODUCT_MEDIA_GALLERY_ATTRIBUTE` FOREIGN KEY (`attribute_id`) REFERENCES `{$this->getTable('eav_attribute')}` (`attribute_id`) ON DELETE CASCADE,
         CONSTRAINT `FK_CATALOG_PRODUCT_MEDIA_GALLERY_ENTITY` FOREIGN KEY (`entity_id`) REFERENCES `{$this->getTable('catalog_product_entity')}` (`entity_id`) ON DELETE CASCADE,
         CONSTRAINT `FK_CATALOG_PRODUCT_MEDIA_GALLERY_ENTITY_TYPE` FOREIGN KEY (`entity_type_id`) REFERENCES `{$this->getTable('eav_entity_type')}` (`entity_type_id`) ON DELETE CASCADE
-      ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COMMENT='Catalogedit product media gallery';
+      ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COMMENT='Catalog product media gallery';
 
     DROP TABLE IF EXISTS `{$this->getTable('catalog_product_entity_media_gallery_value')}`;
     CREATE TABLE `{$this->getTable('catalog_product_entity_media_gallery_value')}` (
@@ -69,7 +69,7 @@ $installer->run("
       KEY `FK_CATALOG_PRODUCT_MEDIA_GALLERY_VALUE_STORE` (`store_id`),
       CONSTRAINT `FK_CATALOG_PRODUCT_MEDIA_GALLERY_VALUE_GALLERY` FOREIGN KEY (`value_id`) REFERENCES `{$this->getTable('catalog_product_entity_media_gallery')}` (`value_id`) ON DELETE CASCADE,
       CONSTRAINT `FK_CATALOG_PRODUCT_MEDIA_GALLERY_VALUE_STORE` FOREIGN KEY (`store_id`) REFERENCES `{$this->getTable('core_store')}` (`store_id`) ON DELETE CASCADE
-    ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COMMENT='Catalogedit product media gallery values';
+    ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COMMENT='Catalog product media gallery values';
 
     DROP TABLE IF EXISTS `{$this->getTable('catalog_product_entity_media_gallery_image')}`;
     CREATE TABLE `{$this->getTable('catalog_product_entity_media_gallery_image')}` (
@@ -79,7 +79,7 @@ $installer->run("
       PRIMARY KEY  (`value_id`,`store_id`,`type`),
       CONSTRAINT `FK_CATALOG_PRODUCT_MEDIA_GALLERY_IMAGE_STORE` FOREIGN KEY (`store_id`) REFERENCES `{$this->getTable('core_store')}` (`store_id`) ON DELETE CASCADE,
       CONSTRAINT `FK_CATALOG_PRODUCT_MEDIA_GALLERY_IMAGE_GALLERY` FOREIGN KEY (`value_id`) REFERENCES `{$this->getTable('catalog_product_entity_media_gallery')}` (`value_id`) ON DELETE CASCADE
-    ) ENGINE=InnoDB DEFAULT CHARSET=latin1 COMMENT='Catalogedit product media gallery images';
+    ) ENGINE=InnoDB DEFAULT CHARSET=latin1 COMMENT='Catalog product media gallery images';
 ");
 
 $installer->endSetup();

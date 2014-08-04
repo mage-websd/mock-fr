@@ -25,7 +25,7 @@
  */
 
 /**
- * Catalogedit category helper
+ * Catalog category helper
  *
  * @author      Magento Core Team <core@magentocommerce.com>
  */

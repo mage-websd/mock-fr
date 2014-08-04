@@ -628,7 +628,7 @@ class Mage_CatalogIndex_Model_Resource_Indexer extends Mage_Core_Model_Resource_
     }
 
     /**
-     * Update prices for Catalogedit Product flat
+     * Update prices for Catalog Product flat
      *
      * @param int $storeId
      * @param unknown_type $productIds

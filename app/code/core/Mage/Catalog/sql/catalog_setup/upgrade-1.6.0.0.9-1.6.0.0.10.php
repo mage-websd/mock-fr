@@ -102,7 +102,7 @@ $table = $installer->getConnection()
         ),
         'website_id', $installer->getTable('core/website'), 'website_id',
         Varien_Db_Ddl_Table::ACTION_CASCADE, Varien_Db_Ddl_Table::ACTION_CASCADE)
-    ->setComment('Catalogedit Product Group Price Attribute Backend Table');
+    ->setComment('Catalog Product Group Price Attribute Backend Table');
 $installer->getConnection()->createTable($table);
 
 $installer->addAttribute('catalog_product', 'group_price', array(
@@ -170,7 +170,7 @@ $table = $connection
          ),
         'website_id', $installer->getTable('core/website'), 'website_id',
         Varien_Db_Ddl_Table::ACTION_CASCADE, Varien_Db_Ddl_Table::ACTION_CASCADE)
-    ->setComment('Catalogedit Product Group Price Index Table');
+    ->setComment('Catalog Product Group Price Index Table');
 $connection->createTable($table);
 
 $finalPriceIndexerTables = array(

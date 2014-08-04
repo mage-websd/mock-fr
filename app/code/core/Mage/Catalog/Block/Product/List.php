@@ -222,7 +222,7 @@ class Mage_Catalog_Block_Product_List extends Mage_Catalog_Block_Product_Abstrac
     }
 
     /**
-     * Retrieve Catalogedit Config object
+     * Retrieve Catalog Config object
      *
      * @return Mage_Catalog_Model_Config
      */

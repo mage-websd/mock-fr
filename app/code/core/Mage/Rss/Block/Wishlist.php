@@ -201,7 +201,7 @@ class Mage_Rss_Block_Wishlist extends Mage_Wishlist_Block_Abstract
     /**
      * Adding customized price template for product type, used as action in layouts
      *
-     * @param string $type Catalogedit Product Type
+     * @param string $type Catalog Product Type
      * @param string $block Block Type
      * @param string $template Template
      */

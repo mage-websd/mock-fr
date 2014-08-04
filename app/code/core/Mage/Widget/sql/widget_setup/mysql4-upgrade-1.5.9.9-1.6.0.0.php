@@ -170,7 +170,7 @@ $tables = array(
             'entities' => array(
                 'type'      => Varien_Db_Ddl_Table::TYPE_TEXT,
                 'length'    => '64K',
-                'comment'   => 'Catalogedit entities (comma separated)'
+                'comment'   => 'Catalog entities (comma separated)'
             )
         ),
         'comment' => 'Instance of Widget on Page'

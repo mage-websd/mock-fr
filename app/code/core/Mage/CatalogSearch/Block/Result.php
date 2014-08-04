@@ -30,12 +30,12 @@
  *
  * @category   Mage
  * @package    Mage_CatalogSearch
- * @module     Catalogedit
+ * @module     Catalog
  */
 class Mage_CatalogSearch_Block_Result extends Mage_Core_Block_Template
 {
     /**
-     * Catalogedit Product collection
+     * Catalog Product collection
      *
      * @var Mage_CatalogSearch_Model_Resource_Fulltext_Collection
      */

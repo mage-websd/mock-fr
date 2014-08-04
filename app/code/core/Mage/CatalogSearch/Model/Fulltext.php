@@ -25,7 +25,7 @@
  */
 
 /**
- * Catalogedit advanced search model
+ * Catalog advanced search model
  *
  * @method Mage_CatalogSearch_Model_Resource_Fulltext _getResource()
  * @method Mage_CatalogSearch_Model_Resource_Fulltext getResource()

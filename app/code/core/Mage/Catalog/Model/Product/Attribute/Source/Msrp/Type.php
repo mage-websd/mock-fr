@@ -25,7 +25,7 @@
  */
 
 /**
- * Catalogedit product MAP "Display Actual Price" attribute source
+ * Catalog product MAP "Display Actual Price" attribute source
  *
  * @category   Mage
  * @package    Mage_Catalog

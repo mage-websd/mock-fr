@@ -26,7 +26,7 @@
 
 
 /**
- * Catalogedit rules resource model
+ * Catalog rules resource model
  *
  * @category    Mage
  * @package     Mage_CatalogRule

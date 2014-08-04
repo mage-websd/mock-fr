@@ -26,7 +26,7 @@
 
 
 /**
- * Catalogedit product media gallery attribute backend resource
+ * Catalog product media gallery attribute backend resource
  *
  * @category    Mage
  * @package     Mage_Catalog

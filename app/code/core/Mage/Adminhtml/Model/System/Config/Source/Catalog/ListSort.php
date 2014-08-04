@@ -26,7 +26,7 @@
 
 
 /**
- * Adminhtml Catalogedit Product List Sortable allowed sortable attributes source
+ * Adminhtml Catalog Product List Sortable allowed sortable attributes source
  *
  * @category   Mage
  * @package    Mage_Adminhtml
@@ -56,7 +56,7 @@ class Mage_Adminhtml_Model_System_Config_Source_Catalog_ListSort
     }
 
     /**
-     * Retrieve Catalogedit Config Singleton
+     * Retrieve Catalog Config Singleton
      *
      * @return Mage_Catalog_Model_Config
      */

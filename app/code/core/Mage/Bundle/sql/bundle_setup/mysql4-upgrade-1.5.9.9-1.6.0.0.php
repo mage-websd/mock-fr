@@ -174,7 +174,7 @@ $tables = array(
                 'comment'   => 'Type'
             )
         ),
-        'comment' => 'Catalogedit Product Bundle Option'
+        'comment' => 'Catalog Product Bundle Option'
     ),
     $installer->getTable('bundle/option_value') => array(
         'columns' => array(
@@ -204,7 +204,7 @@ $tables = array(
                 'comment'   => 'Title'
             )
         ),
-        'comment' => 'Catalogedit Product Bundle Option Value'
+        'comment' => 'Catalog Product Bundle Option Value'
     ),
     $installer->getTable('bundle/selection') => array(
         'columns' => array(
@@ -276,7 +276,7 @@ $tables = array(
                 'comment'   => 'Selection Can Change Qty'
             )
         ),
-        'comment' => 'Catalogedit Product Bundle Selection'
+        'comment' => 'Catalog Product Bundle Selection'
     ),
     $installer->getTable('bundle/selection_price') => array(
         'columns' => array(
@@ -310,7 +310,7 @@ $tables = array(
                 'comment'   => 'Selection Price Value'
             )
         ),
-        'comment' => 'Catalogedit Product Bundle Selection Price'
+        'comment' => 'Catalog Product Bundle Selection Price'
     ),
     $installer->getTable('bundle/price_index') => array(
         'columns' => array(
@@ -350,7 +350,7 @@ $tables = array(
                 'comment'   => 'Max Price'
             )
         ),
-        'comment' => 'Catalogedit Product Bundle Price Index'
+        'comment' => 'Catalog Product Bundle Price Index'
     ),
     $installer->getTable('bundle/stock_index') => array(
         'columns' => array(
@@ -389,7 +389,7 @@ $tables = array(
                 'comment'   => 'Stock Status'
             )
         ),
-        'comment' => 'Catalogedit Product Bundle Stock Index'
+        'comment' => 'Catalog Product Bundle Stock Index'
     ),
     $installer->getTable('bundle/price_indexer_idx') => array(
         'columns' => array(
@@ -475,7 +475,7 @@ $tables = array(
                 'comment'   => 'Base Tier'
             )
         ),
-        'comment' => 'Catalogedit Product Index Price Bundle Idx'
+        'comment' => 'Catalog Product Index Price Bundle Idx'
     ),
     $installer->getTable('bundle/price_indexer_tmp') => array(
         'columns' => array(
@@ -561,7 +561,7 @@ $tables = array(
                 'comment'   => 'Base Tier'
             )
         ),
-        'comment' => 'Catalogedit Product Index Price Bundle Tmp',
+        'comment' => 'Catalog Product Index Price Bundle Tmp',
         'engine'  => 'InnoDB'
     ),
     $installer->getTable('bundle/selection_indexer_idx') => array(
@@ -628,7 +628,7 @@ $tables = array(
                 'comment'   => 'Tier Price'
             )
         ),
-        'comment' => 'Catalogedit Product Index Price Bundle Sel Idx'
+        'comment' => 'Catalog Product Index Price Bundle Sel Idx'
     ),
     $installer->getTable('bundle/selection_indexer_tmp') => array(
         'columns' => array(
@@ -694,7 +694,7 @@ $tables = array(
                 'comment'   => 'Tier Price'
             )
         ),
-        'comment' => 'Catalogedit Product Index Price Bundle Sel Tmp',
+        'comment' => 'Catalog Product Index Price Bundle Sel Tmp',
         'engine'  => 'InnoDB'
     ),
     $installer->getTable('bundle/option_indexer_idx') => array(
@@ -759,7 +759,7 @@ $tables = array(
                 'comment'   => 'Alt Tier Price'
             )
         ),
-        'comment' => 'Catalogedit Product Index Price Bundle Opt Idx'
+        'comment' => 'Catalog Product Index Price Bundle Opt Idx'
     ),
     $installer->getTable('bundle/option_indexer_tmp') => array(
         'columns' => array(
@@ -823,7 +823,7 @@ $tables = array(
                 'comment'   => 'Alt Tier Price'
             )
         ),
-        'comment' => 'Catalogedit Product Index Price Bundle Opt Tmp',
+        'comment' => 'Catalog Product Index Price Bundle Opt Tmp',
         'engine'  => 'InnoDB'
     )
 );

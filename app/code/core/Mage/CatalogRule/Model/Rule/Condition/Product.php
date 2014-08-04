@@ -26,7 +26,7 @@
 
 
 /**
- * Catalogedit Rule Product Condition data model
+ * Catalog Rule Product Condition data model
  */
 class Mage_CatalogRule_Model_Rule_Condition_Product extends Mage_Rule_Model_Condition_Product_Abstract
 {

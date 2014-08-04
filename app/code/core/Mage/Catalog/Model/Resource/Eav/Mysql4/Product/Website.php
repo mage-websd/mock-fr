@@ -26,7 +26,7 @@
 
 
 /**
- * Catalogedit Product Website Resource Model
+ * Catalog Product Website Resource Model
  *
  * @category    Mage
  * @package     Mage_Catalog

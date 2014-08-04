@@ -26,7 +26,7 @@
 
 
 /**
- * Catalogedit Layer Attribute Filter Resource Model
+ * Catalog Layer Attribute Filter Resource Model
  *
  * @category    Mage
  * @package     Mage_Catalog

@@ -49,7 +49,7 @@ abstract class Mage_Sitemap_Model_Resource_Catalog_Abstract extends Mage_Core_Mo
     protected $_attributesCache = array();
 
     /**
-     * Catalogedit factory instance
+     * Catalog factory instance
      *
      * @var Mage_Catalog_Model_Factory
      */

@@ -25,7 +25,7 @@
  */
 
 /**
- * Catalogedit rule edit form block
+ * Catalog rule edit form block
  */
 
 class Mage_Adminhtml_Block_Promo_Catalog_Edit extends Mage_Adminhtml_Block_Widget_Form_Container

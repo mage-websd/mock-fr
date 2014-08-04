@@ -26,7 +26,7 @@
 
 
 /**
- * Catalogedit Comapare Products Sidebar Block
+ * Catalog Comapare Products Sidebar Block
  *
  * @category   Mage
  * @package    Mage_Catalog

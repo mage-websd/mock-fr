@@ -25,7 +25,7 @@
  */
 
 /**
- * Adminhtml Catalogedit helper
+ * Adminhtml Catalog helper
  *
  * @category   Mage
  * @package    Mage_Adminhtml

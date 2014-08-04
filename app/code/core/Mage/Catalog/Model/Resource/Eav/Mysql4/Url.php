@@ -26,7 +26,7 @@
 
 
 /**
- * Catalogedit url rewrite resource model
+ * Catalog url rewrite resource model
  *
  * @category    Mage
  * @package     Mage_Catalog
