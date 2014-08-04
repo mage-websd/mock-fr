@@ -2,7 +2,7 @@
 /**
  * install script Mage_Catalog_Model_Resource_Setup
  *
- * add attibute status for category: new, hot
+ * add attibute status for category: new, hot,...
  */
 $installer = $this;
 $installer->startSetup();

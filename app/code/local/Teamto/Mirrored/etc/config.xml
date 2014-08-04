@@ -2,7 +2,7 @@
 <config>
     <modules>
         <Teamto_Mirrored>
-            <version>0.1.0</version>
+            <version>0.2.0</version>
         </Teamto_Mirrored>
     </modules>
     <global>
@@ -43,6 +43,7 @@
                     <use>core_read</use>
                 </connection>
             </teamto_mirrored_setup_read>
+
         </resources>
 
         <!--event: before save category => implement mirrored-->
