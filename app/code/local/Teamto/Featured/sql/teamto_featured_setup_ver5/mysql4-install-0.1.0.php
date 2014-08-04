@@ -1,7 +1,5 @@
 <?php
 
-//var_dump('dat');die;
-
 /**
  * Created by PhpStorm.
  * User: root
@@ -17,12 +15,12 @@ $installer->addAttribute('catalog_product', 'featured', array(
     'label'         => 'Featured Product',
     'group'         => 'General',
     'type'          => 'int',
-    'input'         => 'checkbox',
+    'input'         => 'select',
     'source'        => 'teamto_featured/resource_featured_attribute_unit',
     'global'        => Mage_Catalog_Model_Resource_Eav_Attribute::SCOPE_STORE,
     'visible'       => true,
     'required'      => false,
     'user_defined'  => false
 ));
-
+//eav/entity_attribute_source_boolean
 $installer->endSetup();
