@@ -65,7 +65,7 @@ class Mage_Paypal_Model_System_Config_Source_BmlSize
     }
 
     /**
-     * Options getter for Catalog Category Page and position Center
+     * Options getter for Catalogedit Category Page and position Center
      *
      * @return array
      */
@@ -82,7 +82,7 @@ class Mage_Paypal_Model_System_Config_Source_BmlSize
     }
 
     /**
-     * Options getter for Catalog Category Page and position Sidebar (right)
+     * Options getter for Catalogedit Category Page and position Sidebar (right)
      *
      * @return array
      */
@@ -100,7 +100,7 @@ class Mage_Paypal_Model_System_Config_Source_BmlSize
     }
 
     /**
-     * Options getter for Catalog Product Page and position Center
+     * Options getter for Catalogedit Product Page and position Center
      *
      * @return array
      */
@@ -117,7 +117,7 @@ class Mage_Paypal_Model_System_Config_Source_BmlSize
     }
 
     /**
-     * Options getter for Catalog Product Page and position Near Bill Me Later checkout button
+     * Options getter for Catalogedit Product Page and position Near Bill Me Later checkout button
      *
      * @return array
      */

@@ -84,7 +84,7 @@ class Mage_Adminhtml_Block_Promo_Widget_Chooser_Sku extends Mage_Adminhtml_Block
     }
 
     /**
-     * Prepare Catalog Product Collection for attribute SKU in Promo Conditions SKU chooser
+     * Prepare Catalogedit Product Collection for attribute SKU in Promo Conditions SKU chooser
      *
      * @return Mage_Adminhtml_Block_Promo_Widget_Chooser_Sku
      */

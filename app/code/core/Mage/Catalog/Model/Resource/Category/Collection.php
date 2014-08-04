@@ -77,7 +77,7 @@ class Mage_Catalog_Model_Resource_Category_Collection extends Mage_Catalog_Model
     protected $_loadWithProductCount     = false;
 
     /**
-     * Catalog factory instance
+     * Catalogedit factory instance
      *
      * @var Mage_Catalog_Model_Factory
      */

@@ -53,7 +53,7 @@ Default layout, loads most of the pages
         <block type="rss/wishlist" name="rss.wishlist" output="toHtml"/>
     </rss_index_wishlist>
 <!--
-Catalog layout
+Catalogedit layout
 -->
     <rss_catalog_new>
         <block type="rss/catalog_new" output="toHtml" name="rss.catalog.new"/>

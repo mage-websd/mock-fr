@@ -56,7 +56,7 @@ class Mage_Adminhtml_Model_Sales_Order_Create extends Varien_Object implements M
     protected $_cart;
 
     /**
-     * Catalog Compare List instance
+     * Catalogedit Compare List instance
      *
      * @var Mage_Catalog_Model_Product_Compare_List
      */

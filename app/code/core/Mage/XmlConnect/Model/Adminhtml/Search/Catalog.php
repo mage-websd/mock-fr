@@ -25,7 +25,7 @@
  */
 
 /**
- * Search Catalog Model
+ * Search Catalogedit Model
  *
  * @category    Mage
  * @package     Mage_XmlConnect

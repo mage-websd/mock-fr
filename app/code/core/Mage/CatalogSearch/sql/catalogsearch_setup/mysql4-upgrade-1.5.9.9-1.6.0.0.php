@@ -158,7 +158,7 @@ $tables = array(
                 'comment'   => 'Updated at'
             )
         ),
-        'comment' => 'Catalog search query table'
+        'comment' => 'Catalogedit search query table'
     ),
     $installer->getTable('catalogsearch/result') => array(
         'columns' => array(
@@ -185,7 +185,7 @@ $tables = array(
                 'comment'   => 'Relevance'
             )
         ),
-        'comment' => 'Catalog search result table'
+        'comment' => 'Catalogedit search result table'
     ),
     $installer->getTable('catalogsearch/fulltext') => array(
         'columns' => array(
@@ -207,7 +207,7 @@ $tables = array(
                 'comment'   => 'Data index'
             )
         ),
-        'comment' => 'Catalog search result table'
+        'comment' => 'Catalogedit search result table'
     )
 );
 

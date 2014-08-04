@@ -25,7 +25,7 @@
  */
 
 /**
- * Catalog price rules
+ * Catalogedit price rules
  *
  * @category    Mage
  * @category   Mage
@@ -44,7 +44,7 @@ class Mage_Adminhtml_Block_Promo_Catalog extends Mage_Adminhtml_Block_Widget_Gri
         ));
 
         $this->_controller = 'promo_catalog';
-        $this->_headerText = Mage::helper('catalogrule')->__('Catalog Price Rules');
+        $this->_headerText = Mage::helper('catalogrule')->__('Catalogedit Price Rules');
         $this->_addButtonLabel = Mage::helper('catalogrule')->__('Add New Rule');
         parent::__construct();
 

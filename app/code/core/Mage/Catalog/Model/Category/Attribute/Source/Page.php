@@ -25,7 +25,7 @@
  */
 
 /**
- * Catalog category landing page attribute source
+ * Catalogedit category landing page attribute source
  *
  * @category   Mage
  * @package    Mage_Catalog

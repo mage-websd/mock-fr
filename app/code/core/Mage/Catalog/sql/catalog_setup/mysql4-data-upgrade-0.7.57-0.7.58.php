@@ -70,7 +70,7 @@ foreach ($groups as $k => $groupProp) {
     $groups[$k]['id'] = $installer->getAttributeGroupId($entityTypeId, $attributeSetId, $groupProp['name']);
 }
 
-// Add Catalog Default Sort Attributes
+// Add Catalogedit Default Sort Attributes
 $installer->addAttribute($entityTypeId, 'available_sort_by', array(
     'input'         => 'multiselect',
     'type'          => 'text',

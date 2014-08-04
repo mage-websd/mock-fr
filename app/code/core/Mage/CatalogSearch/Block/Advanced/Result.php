@@ -41,7 +41,7 @@ class Mage_CatalogSearch_Block_Advanced_Result extends Mage_Core_Block_Template
                 'title'=>Mage::helper('catalogsearch')->__('Go to Home Page'),
                 'link'=>Mage::getBaseUrl()
             ))->addCrumb('search', array(
-                'label'=>Mage::helper('catalogsearch')->__('Catalog Advanced Search'),
+                'label'=>Mage::helper('catalogsearch')->__('Catalogedit Advanced Search'),
                 'link'=>$this->getUrl('*/*/')
             ))->addCrumb('search_result', array(
                 'label'=>Mage::helper('catalogsearch')->__('Results')

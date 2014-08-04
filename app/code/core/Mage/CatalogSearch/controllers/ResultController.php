@@ -25,7 +25,7 @@
  */
 
 /**
- * Catalog Search Controller
+ * Catalogedit Search Controller
  */
 class Mage_CatalogSearch_ResultController extends Mage_Core_Controller_Front_Action
 {

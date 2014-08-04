@@ -25,7 +25,7 @@
  */
 
 /**
- * Catalog Rule Combine Condition data model
+ * Catalogedit Rule Combine Condition data model
  */
 class Mage_CatalogRule_Model_Rule_Condition_Combine extends Mage_Rule_Model_Condition_Combine
 {

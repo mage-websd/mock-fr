@@ -498,7 +498,7 @@ CREATE TABLE {$this->getTable('catalog_product_visibility')} (
   PRIMARY KEY  (`visibility_id`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COMMENT='Available product visibility';
 
-insert  into {$this->getTable('catalog_product_visibility')}(`visibility_id`,`visibility_code`) values (1,'Nowhere'),(2,'Catalog'),(3,'Search'),(4,'Catalog, Search');
+insert  into {$this->getTable('catalog_product_visibility')}(`visibility_id`,`visibility_code`) values (1,'Nowhere'),(2,'Catalogedit'),(3,'Search'),(4,'Catalogedit, Search');
 
 ALTER TABLE `{$this->getTable('catalog_category_entity')}` ADD `path` VARCHAR( 255 ) NOT NULL, ADD `position` INT NOT NULL;
 
@@ -537,11 +537,11 @@ $installer->endSetup();
 
 $installer->installEntities();
 
-// Create Root Catalog Node
+// Create Root Catalogedit Node
 Mage::getModel('catalog/category')
     ->setId(1)
     ->setPath(1)
-    ->setName('Root Catalog')
+    ->setName('Root Catalogedit')
     ->setInitialSetupFlag(true)
     ->save();
 

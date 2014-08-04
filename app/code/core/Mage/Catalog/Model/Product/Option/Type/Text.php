@@ -25,7 +25,7 @@
  */
 
 /**
- * Catalog product option text type
+ * Catalogedit product option text type
  *
  * @category   Mage
  * @package    Mage_Catalog

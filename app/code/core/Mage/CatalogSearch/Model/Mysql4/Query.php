@@ -26,7 +26,7 @@
 
 
 /**
- * Catalog search query resource model
+ * Catalogedit search query resource model
  *
  * @category    Mage
  * @package     Mage_CatalogSearch

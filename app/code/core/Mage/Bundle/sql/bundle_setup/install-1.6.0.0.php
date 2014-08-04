@@ -61,7 +61,7 @@ $table = $installer->getConnection()
     ->addForeignKey($installer->getFkName('bundle/option', 'parent_id', 'catalog/product', 'entity_id'),
         'parent_id', $installer->getTable('catalog/product'), 'entity_id',
         Varien_Db_Ddl_Table::ACTION_CASCADE, Varien_Db_Ddl_Table::ACTION_CASCADE)
-    ->setComment('Catalog Product Bundle Option');
+    ->setComment('Catalogedit Product Bundle Option');
 $installer->getConnection()->createTable($table);
 
 /**
@@ -90,7 +90,7 @@ $table = $installer->getConnection()
     ->addForeignKey($installer->getFkName('bundle/option_value', 'option_id', 'bundle/option', 'option_id'),
         'option_id', $installer->getTable('bundle/option'), 'option_id',
         Varien_Db_Ddl_Table::ACTION_CASCADE, Varien_Db_Ddl_Table::ACTION_CASCADE)
-    ->setComment('Catalog Product Bundle Option Value');
+    ->setComment('Catalogedit Product Bundle Option Value');
 $installer->getConnection()->createTable($table);
 
 /**
@@ -151,7 +151,7 @@ $table = $installer->getConnection()
     ->addForeignKey($installer->getFkName('bundle/selection', 'product_id', 'catalog/product', 'entity_id'),
         'product_id', $installer->getTable('catalog/product'), 'entity_id',
         Varien_Db_Ddl_Table::ACTION_CASCADE, Varien_Db_Ddl_Table::ACTION_CASCADE)
-    ->setComment('Catalog Product Bundle Selection');
+    ->setComment('Catalogedit Product Bundle Selection');
 $installer->getConnection()->createTable($table);
 
 /**
@@ -186,7 +186,7 @@ $table = $installer->getConnection()
     ->addForeignKey($installer->getFkName('bundle/selection_price', 'selection_id', 'bundle/selection', 'selection_id'),
         'selection_id', $installer->getTable('bundle/selection'), 'selection_id',
         Varien_Db_Ddl_Table::ACTION_CASCADE, Varien_Db_Ddl_Table::ACTION_CASCADE)
-    ->setComment('Catalog Product Bundle Selection Price');
+    ->setComment('Catalogedit Product Bundle Selection Price');
 $installer->getConnection()->createTable($table);
 
 /**
@@ -228,7 +228,7 @@ $table = $installer->getConnection()
     ->addForeignKey($installer->getFkName('bundle/price_index', 'website_id', 'core/website', 'website_id'),
         'website_id', $installer->getTable('core/website'), 'website_id',
         Varien_Db_Ddl_Table::ACTION_CASCADE, Varien_Db_Ddl_Table::ACTION_CASCADE)
-    ->setComment('Catalog Product Bundle Price Index');
+    ->setComment('Catalogedit Product Bundle Price Index');
 $installer->getConnection()->createTable($table);
 
 /**
@@ -260,7 +260,7 @@ $table = $installer->getConnection()
     ->addColumn('stock_status', Varien_Db_Ddl_Table::TYPE_SMALLINT, null, array(
         'default'   => '0',
         ), 'Stock Status')
-    ->setComment('Catalog Product Bundle Stock Index');
+    ->setComment('Catalogedit Product Bundle Stock Index');
 $installer->getConnection()->createTable($table);
 
 /**
@@ -307,7 +307,7 @@ $table = $installer->getConnection()
         ), 'Tier Price')
     ->addColumn('base_tier', Varien_Db_Ddl_Table::TYPE_DECIMAL, '12,4', array(
         ), 'Base Tier')
-    ->setComment('Catalog Product Index Price Bundle Idx');
+    ->setComment('Catalogedit Product Index Price Bundle Idx');
 $installer->getConnection()->createTable($table);
 
 /**
@@ -354,7 +354,7 @@ $table = $installer->getConnection()
         ), 'Tier Price')
     ->addColumn('base_tier', Varien_Db_Ddl_Table::TYPE_DECIMAL, '12,4', array(
         ), 'Base Tier')
-    ->setComment('Catalog Product Index Price Bundle Tmp');
+    ->setComment('Catalogedit Product Index Price Bundle Tmp');
 $installer->getConnection()->createTable($table);
 
 /**
@@ -401,7 +401,7 @@ $table = $installer->getConnection()
         ), 'Price')
     ->addColumn('tier_price', Varien_Db_Ddl_Table::TYPE_DECIMAL, '12,4', array(
         ), 'Tier Price')
-    ->setComment('Catalog Product Index Price Bundle Sel Idx');
+    ->setComment('Catalogedit Product Index Price Bundle Sel Idx');
 $installer->getConnection()->createTable($table);
 
 /**
@@ -448,7 +448,7 @@ $table = $installer->getConnection()
         ), 'Price')
     ->addColumn('tier_price', Varien_Db_Ddl_Table::TYPE_DECIMAL, '12,4', array(
         ), 'Tier Price')
-    ->setComment('Catalog Product Index Price Bundle Sel Tmp');
+    ->setComment('Catalogedit Product Index Price Bundle Sel Tmp');
 $installer->getConnection()->createTable($table);
 
 /**
@@ -487,7 +487,7 @@ $table = $installer->getConnection()
         ), 'Tier Price')
     ->addColumn('alt_tier_price', Varien_Db_Ddl_Table::TYPE_DECIMAL, '12,4', array(
         ), 'Alt Tier Price')
-    ->setComment('Catalog Product Index Price Bundle Opt Idx');
+    ->setComment('Catalogedit Product Index Price Bundle Opt Idx');
 $installer->getConnection()->createTable($table);
 
 /**
@@ -526,7 +526,7 @@ $table = $installer->getConnection()
         ), 'Tier Price')
     ->addColumn('alt_tier_price', Varien_Db_Ddl_Table::TYPE_DECIMAL, '12,4', array(
         ), 'Alt Tier Price')
-    ->setComment('Catalog Product Index Price Bundle Opt Tmp');
+    ->setComment('Catalogedit Product Index Price Bundle Opt Tmp');
 $installer->getConnection()->createTable($table);
 
 /**

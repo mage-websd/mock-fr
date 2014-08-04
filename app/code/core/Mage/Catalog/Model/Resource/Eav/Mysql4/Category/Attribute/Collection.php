@@ -26,7 +26,7 @@
 
 
 /**
- * Catalog category EAV additional attribute resource collection
+ * Catalogedit category EAV additional attribute resource collection
  *
  * @category    Mage
  * @package     Mage_Catalog

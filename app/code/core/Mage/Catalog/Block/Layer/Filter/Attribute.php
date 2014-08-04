@@ -25,7 +25,7 @@
  */
 
 /**
- * Catalog attribute layer filter
+ * Catalogedit attribute layer filter
  *
  * @category   Mage
  * @package    Mage_Catalog

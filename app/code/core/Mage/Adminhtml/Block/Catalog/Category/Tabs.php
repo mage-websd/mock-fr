@@ -64,7 +64,7 @@ class Mage_Adminhtml_Block_Catalog_Category_Tabs extends Mage_Adminhtml_Block_Wi
     }
 
     /**
-     * Return Adminhtml Catalog Helper
+     * Return Adminhtml Catalogedit Helper
      *
      * @return Mage_Adminhtml_Helper_Catalog
      */

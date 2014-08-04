@@ -147,7 +147,7 @@ class Mage_Catalog_Model_Resource_Category_Indexer_Product extends Mage_Index_Mo
     }
 
     /**
-     * Process Catalog Product mass action
+     * Process Catalogedit Product mass action
      *
      * @param Mage_Index_Model_Event $event
      * @return Mage_Catalog_Model_Resource_Category_Indexer_Product

@@ -92,7 +92,7 @@ class Mage_Catalog_Model_Product_Indexer_Flat extends Mage_Index_Model_Indexer_A
     }
 
     /**
-     * Retrieve Catalog Product Flat Indexer model
+     * Retrieve Catalogedit Product Flat Indexer model
      *
      * @return Mage_Catalog_Model_Product_Flat_Indexer
      */

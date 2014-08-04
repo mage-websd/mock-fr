@@ -120,7 +120,7 @@ class Mage_Sales_Model_Observer
     }
 
     /**
-     * Catalog Product After Save (change status process)
+     * Catalogedit Product After Save (change status process)
      *
      * @param Varien_Event_Observer $observer
      * @return Mage_Sales_Model_Observer
@@ -138,7 +138,7 @@ class Mage_Sales_Model_Observer
     }
 
     /**
-     * Catalog Mass Status update process
+     * Catalogedit Mass Status update process
      *
      * @param Varien_Event_Observer $observer
      * @return Mage_Sales_Model_Observer

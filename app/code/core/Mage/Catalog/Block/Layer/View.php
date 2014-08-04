@@ -25,7 +25,7 @@
  */
 
 /**
- * Catalog layered navigation view block
+ * Catalogedit layered navigation view block
  *
  * @category    Mage
  * @package     Mage_Catalog

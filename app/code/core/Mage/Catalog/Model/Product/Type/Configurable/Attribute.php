@@ -26,7 +26,7 @@
 
 
 /**
- * Catalog Configurable Product Attribute Model
+ * Catalogedit Configurable Product Attribute Model
  *
  * @method Mage_Catalog_Model_Resource_Product_Type_Configurable_Attribute _getResource()
  * @method Mage_Catalog_Model_Resource_Product_Type_Configurable_Attribute getResource()

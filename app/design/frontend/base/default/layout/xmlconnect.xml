@@ -44,7 +44,7 @@
         <block type="xmlconnect/homebanners" name="xmlconnect.homebanners" output="toHtml"/>
     </xmlconnect_homebanners_index>
 
-    <!-- Catalog -->
+    <!-- Catalogedit -->
 
     <xmlconnect_catalog_filters>
         <block type="xmlconnect/catalog_filters" name="xmlconnect.catalog.filters" output="toHtml"/>

@@ -76,7 +76,7 @@ jQueryCommercebug.fn.commercebug = function(l_commercebug_json) {
                 params = {'class':val};
                 action = 'lookupClass';
             }               
-            $('#ascommercebug_lookup_results').load(collected_data.system_info.ajax_path + '/'+action,params);//?uri=catalog%2Fnavigation');             
+            $('#ascommercebug_lookup_results').load(collected_data.system_info.ajax_path + '/'+action,params);//?uri=catalog%2Fnavigation');
         }
     }
     

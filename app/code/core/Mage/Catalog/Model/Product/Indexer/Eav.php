@@ -26,7 +26,7 @@
 
 
 /**
- * Catalog Product Eav Indexer Model
+ * Catalogedit Product Eav Indexer Model
  *
  * @method Mage_Catalog_Model_Resource_Product_Indexer_Eav _getResource()
  * @method Mage_Catalog_Model_Resource_Product_Indexer_Eav getResource()

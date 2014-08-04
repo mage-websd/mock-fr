@@ -26,7 +26,7 @@
 
 
 /**
- * Catalog comapare controller
+ * Catalogedit comapare controller
  *
  * @category   Mage
  * @package    Mage_Catalog

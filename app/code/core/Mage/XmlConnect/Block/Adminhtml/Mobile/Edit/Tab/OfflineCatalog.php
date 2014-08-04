@@ -65,7 +65,7 @@ class Mage_XmlConnect_Block_Adminhtml_Mobile_Edit_Tab_OfflineCatalog
     protected function _addGenerateButton()
     {
         $generateButton = $this->getLayout()->createBlock('adminhtml/widget_button')->setData(array(
-            'label'     => $this->__('Generate Offline Catalog'),
+            'label'     => $this->__('Generate Offline Catalogedit'),
             'onclick'   => 'generateOfflineCatalog(); return false;',
             'class'     => 'save'
         ))->setName('generate_offline_catalog_button');
@@ -80,7 +80,7 @@ class Mage_XmlConnect_Block_Adminhtml_Mobile_Edit_Tab_OfflineCatalog
      */
     public function getTabLabel()
     {
-        return $this->__('Offline Catalog');
+        return $this->__('Offline Catalogedit');
     }
 
     /**
@@ -90,7 +90,7 @@ class Mage_XmlConnect_Block_Adminhtml_Mobile_Edit_Tab_OfflineCatalog
      */
     public function getTabTitle()
     {
-        return $this->__('Offline Catalog');
+        return $this->__('Offline Catalogedit');
     }
 
     /**

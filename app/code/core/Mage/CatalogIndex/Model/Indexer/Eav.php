@@ -26,7 +26,7 @@
 
 
 /**
- * Catalog indexer eav processor
+ * Catalogedit indexer eav processor
  *
  * @method Mage_CatalogIndex_Model_Resource_Indexer_Eav _getResource()
  * @method Mage_CatalogIndex_Model_Resource_Indexer_Eav getResource()

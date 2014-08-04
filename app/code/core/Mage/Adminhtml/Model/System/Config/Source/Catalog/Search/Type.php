@@ -26,7 +26,7 @@
 
 
 /**
- * Catalog search types
+ * Catalogedit search types
  *
  * @category   Mage
  * @package    Mage_Adminhtml

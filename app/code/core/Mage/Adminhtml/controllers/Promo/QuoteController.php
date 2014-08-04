@@ -57,7 +57,7 @@ class Mage_Adminhtml_Promo_QuoteController extends Mage_Adminhtml_Controller_Act
         $this->_title($this->__('Promotions'))->_title($this->__('Shopping Cart Price Rules'));
 
         $this->_initAction()
-            ->_addBreadcrumb(Mage::helper('salesrule')->__('Catalog'), Mage::helper('salesrule')->__('Catalog'))
+            ->_addBreadcrumb(Mage::helper('salesrule')->__('Catalogedit'), Mage::helper('salesrule')->__('Catalogedit'))
             ->renderLayout();
     }
 
