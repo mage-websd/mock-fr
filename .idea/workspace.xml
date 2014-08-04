@@ -1,33 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-<<<<<<< HEAD
-    <list default="true" id="dd81a9d4-7834-4b10-9d92-25a1747508d7" name="Default" comment="" />
-=======
-<<<<<<< HEAD
-    <list default="true" id="5f5bc1a7-44c3-41c9-a721-9b67200fee25" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/etc/modules/Teamto_Megamenu.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/code/local/Teamto/Megamenu/controllers/IndexController.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/gitlab_mock.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/code/local/Teamto/Megamenu/etc/config.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/magicento.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/code/local/Teamto/Megamenu/Helper/Data.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/scopes/scope_settings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/design/frontend/default/default/template/teamto/featured/widget/slideshow.phtml" afterPath="$PROJECT_DIR$/app/design/frontend/default/default/template/teamto/featured/widget/slideshow.phtml" />
-=======
     <list default="true" id="dd81a9d4-7834-4b10-9d92-25a1747508d7" name="Default" comment="">
-      <change type="DELETED" beforePath="D:\xampp\htdocs\mock\mockupprojectfr04\.idea\gitlab_mock.iml" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\mock\mockupprojectfr04\.idea\magicento\adminhtml.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\mock\mockupprojectfr04\.idea\magicento\config.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\mock\mockupprojectfr04\.idea\magicento\layout_adminhtml.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\mock\mockupprojectfr04\.idea\magicento\layout_frontend.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\mock\mockupprojectfr04\.idea\mockup_tuanpv.iml" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\mock\mockupprojectfr04\app\code\local\Teamto\Featured\sql\teamto_featured_setup\mysql4-install-0.1.0.php" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/.name" afterPath="$PROJECT_DIR$/.idea/.name" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/code/local/Teamto/Featured/etc/config.xml" afterPath="$PROJECT_DIR$/app/code/local/Teamto/Featured/etc/config.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/locks/index_process_1.lock" afterPath="$PROJECT_DIR$/var/locks/index_process_1.lock" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/locks/index_process_2.lock" afterPath="$PROJECT_DIR$/var/locks/index_process_2.lock" />
@@ -38,12 +12,9 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/locks/index_process_7.lock" afterPath="$PROJECT_DIR$/var/locks/index_process_7.lock" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/locks/index_process_8.lock" afterPath="$PROJECT_DIR$/var/locks/index_process_8.lock" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/locks/index_process_9.lock" afterPath="$PROJECT_DIR$/var/locks/index_process_9.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/etc/local.xml" afterPath="$PROJECT_DIR$/app/etc/local.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
->>>>>>> 04d6c879ce798c1dffbeadaf4ecd7f3556c0bd7d
+      <change type="MOVED" beforePath="D:\xampp\htdocs\mock\mockupprojectfr04\app\code\local\Teamto\Featured\sql\teamto_featured_setup_ver4\mysql4-install-0.1.0.php" afterPath="$PROJECT_DIR$/app/code/local/Teamto/Featured/sql/teamto_featured_setup_ver5/mysql4-install-0.1.0.php" />
     </list>
->>>>>>> 97493c10c59a0f7af0f807fe024de31e9b57e632
     <ignored path="mockupprojectfr04.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -65,12 +36,22 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-<<<<<<< HEAD
-      <file leaf-file-name="local.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/etc/local.xml">
+      <file leaf-file-name="FeaturedController.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/code/local/Teamto/Featured/controllers/FeaturedController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="41" column="28" selection-start="1456" selection-end="1456" vertical-scroll-proportion="0.0" vertical-offset="460" max-vertical-offset="1224">
+            <state line="10" column="1" selection-start="225" selection-end="225" vertical-scroll-proportion="-6.5384617" vertical-offset="0" max-vertical-offset="272">
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="mysql4-install-0.1.0.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/code/local/Teamto/Featured/sql/teamto_featured_setup_ver5/mysql4-install-0.1.0.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="1" column="0" selection-start="6" selection-end="6" vertical-scroll-proportion="-0.65384614" vertical-offset="0" max-vertical-offset="527">
+              <folding>
+                <element signature="e#7#86#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -78,47 +59,7 @@
       <file leaf-file-name="config.xml" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/code/local/Teamto/Featured/etc/config.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="62" column="9" selection-start="1611" selection-end="1611" vertical-scroll-proportion="0.9392857" vertical-offset="528" max-vertical-offset="1156">
-=======
-<<<<<<< HEAD
-      <file leaf-file-name="IndexController.php" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/code/local/Teamto/Mirrored/controllers/IndexController.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="31" selection-start="217" selection-end="217" vertical-scroll-proportion="0.1773913" vertical-offset="0" max-vertical-offset="575">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Category.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/code/local/Teamto/Mirrored/Model/Observer/Category.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="118" column="34" selection-start="4241" selection-end="4241" vertical-scroll-proportion="-22.23077" vertical-offset="1428" max-vertical-offset="2873">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CategoryController.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/code/core/Mage/Adminhtml/controllers/Catalog/CategoryController.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="124" column="31" selection-start="4286" selection-end="4286" vertical-scroll-proportion="170.0" vertical-offset="6137" max-vertical-offset="8364">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="config.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/code/local/Teamto/Mirrored/etc/config.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="49" column="42" selection-start="1495" selection-end="1524" vertical-scroll-proportion="0.0" vertical-offset="550" max-vertical-offset="1717">
-=======
-      <file leaf-file-name="local.xml" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/etc/local.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="41" column="28" selection-start="1456" selection-end="1456" vertical-scroll-proportion="0.4232143" vertical-offset="460" max-vertical-offset="1224">
->>>>>>> 04d6c879ce798c1dffbeadaf4ecd7f3556c0bd7d
->>>>>>> 97493c10c59a0f7af0f807fe024de31e9b57e632
+            <state line="40" column="0" selection-start="1142" selection-end="1142" vertical-scroll-proportion="1.2142857" vertical-offset="0" max-vertical-offset="1547">
               <folding />
             </state>
           </provider>
@@ -142,44 +83,19 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/app/code/local/Teamto/Featured/etc/config.xml" />
         <option value="$PROJECT_DIR$/app/etc/local.xml" />
-<<<<<<< HEAD
-        <option value="$PROJECT_DIR$/app/code/local/Teamto/Megamenu/Model/Resource/Setup/Category.php" />
-        <option value="$PROJECT_DIR$/app/code/local/Teamto/Megamenu/controllers/IndexController.php" />
-        <option value="$PROJECT_DIR$/app/design/adminhtml/default/default/template/widget/form/renderer/fieldset.phtml" />
-        <option value="$PROJECT_DIR$/app/design/adminhtml/default/default/template/teamto/megamenu/category/status.phtml" />
-        <option value="$PROJECT_DIR$/app/design/adminhtml/default/default/layout/catalog.xml" />
-        <option value="$PROJECT_DIR$/app/design/adminhtml/default/default/layout/teamto_megamenu.xml" />
-        <option value="$PROJECT_DIR$/app/code/local/Teamto/Megamenu/sql/teamto_megamenu_setup/upgrade-0.1.0-0.2.0.php" />
-        <option value="$PROJECT_DIR$/app/code/local/Teamto/Megamenu/sql/teamto_megamenu_setup/install-0.1.0.php" />
-        <option value="$PROJECT_DIR$/app/code/local/Teamto/Megamenu/etc/config.xml" />
-        <option value="$PROJECT_DIR$/skin/frontend/default/default/css/megamenu.css" />
-        <option value="$PROJECT_DIR$/app/code/local/Teamto/Mirrored/sql/teamto_mirrored_setup/mysql4-install-0.1.0.php" />
-        <option value="$PROJECT_DIR$/app/code/local/Teamto/Mirrored/sql/teamto_mirrored_setup/install-0.1.0.php" />
-        <option value="$PROJECT_DIR$/app/code/local/Teamto/Mirrored/Model/Resource/Category/Mirrored.php" />
-        <option value="$PROJECT_DIR$/app/code/local/Teamto/Link/etc/config.xml" />
-        <option value="$PROJECT_DIR$/app/code/local/Teamto/Featured/Helper/Link.php" />
-        <option value="$PROJECT_DIR$/app/design/frontend/default/default/template/teamto/layout/head_feature_slide.phtml" />
-        <option value="$PROJECT_DIR$/app/code/local/Teamto/Mirrored/controllers/IndexCotroller.php" />
-        <option value="$PROJECT_DIR$/app/design/frontend/default/default/template/teamto/layout/head.phtml" />
-        <option value="$PROJECT_DIR$/app/design/frontend/default/default/template/teamto/featured/widget/slideshow.phtml" />
-        <option value="$PROJECT_DIR$/app/code/local/Teamto/Link/Helper/Data.php" />
-        <option value="$PROJECT_DIR$/app/design/frontend/default/default/layout/megamenu.xml" />
-        <option value="$PROJECT_DIR$/app/design/frontend/default/default/template/teamto/megamenu/topmenu.phtml" />
-        <option value="$PROJECT_DIR$/app/code/local/Teamto/Megamenu/Block/Megamenu.php" />
-        <option value="$PROJECT_DIR$/app/design/adminhtml/default/default/template/teamto/layout/head.phtml" />
-        <option value="$PROJECT_DIR$/skin/adminhtml/default/default/js/noConflict-jquery.js" />
-        <option value="$PROJECT_DIR$/app/design/adminhtml/default/default/layout/teamto_mirrored.xml" />
-        <option value="$PROJECT_DIR$/skin/adminhtml/default/default/js/jquery-ui.min.js" />
-        <option value="$PROJECT_DIR$/app/design/adminhtml/default/default/template/teamto/layout/catgory_edit.phtml" />
-        <option value="$PROJECT_DIR$/skin/adminhtml/default/default/js/jquery-ui.js" />
-        <option value="$PROJECT_DIR$/skin/adminhtml/default/default/js/aucomplete-combox.js" />
-        <option value="$PROJECT_DIR$/app/code/local/Teamto/Mirrored/etc/config.xml" />
-        <option value="$PROJECT_DIR$/app/code/local/Teamto/Mirrored/Model/Observer/Category.php" />
-        <option value="$PROJECT_DIR$/app/code/local/Teamto/Mirrored/controllers/IndexController.php" />
-=======
->>>>>>> 04d6c879ce798c1dffbeadaf4ecd7f3556c0bd7d
+        <option value="$PROJECT_DIR$/app/code/local/Teamto/Featured/Helper/Data.php" />
+        <option value="$PROJECT_DIR$/app/code/local/Teamto/Featured/controllers/AdminFeaturedProController.php" />
+        <option value="$PROJECT_DIR$/app/code/local/Teamto/Featured/etc/adminhtml.xml" />
+        <option value="$PROJECT_DIR$/app/design/adminhtml/default/default/template/featured_product/featured_product_list.phtml.php" />
+        <option value="$PROJECT_DIR$/app/design/frontend/default/default/layout/smartosc.xml" />
+        <option value="$PROJECT_DIR$/app/design/frontend/default/default/layout/featured.xml" />
+        <option value="$PROJECT_DIR$/app/code/local/Teamto/Featured/controllers/FeaturedController.php" />
+        <option value="$PROJECT_DIR$/app/design/adminhtml/default/default/layout/smartosc.xml" />
+        <option value="$PROJECT_DIR$/app/design/adminhtml/default/default/template/teamto/featured_product_list.phtml" />
+        <option value="$PROJECT_DIR$/app/code/core/Mage/Catalog/Model/Product.php" />
+        <option value="$PROJECT_DIR$/app/code/local/Teamto/Featured/sql/teamto_featured_setup_ver4/mysql4-install-0.1.0.php" />
+        <option value="$PROJECT_DIR$/app/code/local/Teamto/Featured/etc/config.xml" />
       </list>
     </option>
   </component>
@@ -216,6 +132,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -266,24 +183,21 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-<<<<<<< HEAD
               <option name="myItemId" value="local" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="Teamto" />
-=======
-              <option name="myItemId" value="core" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="gitlab_mock" />
+              <option name="myItemId" value="mockupprojectfr04" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="gitlab_mock" />
+              <option name="myItemId" value="mockupprojectfr04" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -295,42 +209,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="core" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Mage" />
->>>>>>> 97493c10c59a0f7af0f807fe024de31e9b57e632
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-<<<<<<< HEAD
-              <option name="myItemId" value="mockupprojectfr04" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mockupprojectfr04" />
-=======
-              <option name="myItemId" value="gitlab_mock" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="gitlab_mock" />
->>>>>>> 97493c10c59a0f7af0f807fe024de31e9b57e632
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="code" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-<<<<<<< HEAD
               <option name="myItemId" value="local" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -340,35 +218,24 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="Featured" />
-=======
-              <option name="myItemId" value="core" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Mage" />
+              <option name="myItemId" value="sql" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Adminhtml" />
->>>>>>> 97493c10c59a0f7af0f807fe024de31e9b57e632
+              <option name="myItemId" value="teamto_featured_setup_ver5" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-<<<<<<< HEAD
               <option name="myItemId" value="mockupprojectfr04" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="mockupprojectfr04" />
-=======
-              <option name="myItemId" value="gitlab_mock" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="gitlab_mock" />
->>>>>>> 97493c10c59a0f7af0f807fe024de31e9b57e632
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -380,32 +247,115 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-<<<<<<< HEAD
               <option name="myItemId" value="local" />
-=======
-              <option name="myItemId" value="core" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Mage" />
+              <option name="myItemId" value="Teamto" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Adminhtml" />
+              <option name="myItemId" value="Featured" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="controllers" />
+              <option name="myItemId" value="Model" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="gitlab_mock" />
+              <option name="myItemId" value="mockupprojectfr04" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="gitlab_mock" />
+              <option name="myItemId" value="mockupprojectfr04" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="code" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="local" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Teamto" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Featured" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mockupprojectfr04" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mockupprojectfr04" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="code" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="local" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Teamto" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Featured" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="etc" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mockupprojectfr04" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mockupprojectfr04" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="code" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="local" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mockupprojectfr04" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mockupprojectfr04" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -420,39 +370,14 @@
               <option name="myItemId" value="core" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Mage" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Adminhtml" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="controllers" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Catalog" />
->>>>>>> 97493c10c59a0f7af0f807fe024de31e9b57e632
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-<<<<<<< HEAD
               <option name="myItemId" value="mockupprojectfr04" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="mockupprojectfr04" />
-=======
-              <option name="myItemId" value="gitlab_mock" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="gitlab_mock" />
->>>>>>> 97493c10c59a0f7af0f807fe024de31e9b57e632
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -466,29 +391,38 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-<<<<<<< HEAD
     <property name="FullScreen" value="false" />
-    <property name="SearchEverywhereHistory" value="$" />
-    <property name="LayoutCode.rearrangeEntriesXML" value="false" />
-=======
->>>>>>> 04d6c879ce798c1dffbeadaf4ecd7f3556c0bd7d
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\xampp\htdocs\mock\mockupprojectfr04\app\code\local\Teamto\Featured" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\xampp\htdocs\mock\mockupprojectfr04\app\design\adminhtml\default\default\template\teamto" />
+      <recent name="D:\xampp\htdocs\mock\mockupprojectfr04\app\design\adminhtml\default\default\layout" />
+      <recent name="D:\xampp\htdocs\mock\mockupprojectfr04\app\design\frontend\default\default\layout" />
       <recent name="D:\xampp\htdocs\mock\mockupprojectfr04\app\code\local\Teamto\Featured\sql" />
       <recent name="D:\xampp\htdocs\mock\mockupprojectfr04\app\code\local\Teamto\Featured" />
-      <recent name="D:\xampp\htdocs\mock\mockupprojectfr04\app\code\local\Teamto\Featured\etc" />
     </key>
   </component>
   <component name="RunManager">
+    <configuration default="true" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
+      <TestRunner />
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpLocalRunConfigurationType" factoryName="PHP Console">
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug" singleton="true">
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpUnitRemoteRunConfigurationType" factoryName="PHPUnit on Server">
+      <method />
+    </configuration>
     <list size="0" />
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
@@ -502,26 +436,26 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32935154" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2659091" sideWeight="0.67064846" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -536,256 +470,116 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-<<<<<<< HEAD
-    <entry file="file://$PROJECT_DIR$/app/code/local/Teamto/Megamenu/etc/config.xml">
+    <entry file="file://$PROJECT_DIR$/app/code/core/Mage/Catalog/Helper/Product.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="33" column="34" selection-start="835" selection-end="835" vertical-scroll-proportion="0.0" vertical-offset="23" max-vertical-offset="748" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/code/local/Teamto/Featured/etc/config.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="49" column="17" selection-start="832" selection-end="1277" vertical-scroll-proportion="0.0" vertical-offset="306" max-vertical-offset="969" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/design/frontend/default/default/template/teamto/featured/widget/slideshow.phtml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="51" column="79" selection-start="2001" selection-end="2001" vertical-scroll-proportion="0.0" vertical-offset="589" max-vertical-offset="1173" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/design/frontend/default/default/template/test.phtml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="11" selection-start="11" selection-end="11" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="575" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/skin/frontend/default/default/css/styles_giang.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="0" selection-start="156" selection-end="156" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="255" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/code/core/Mage/Page/Block/Html/Topmenu/Renderer.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-1.1832192" vertical-offset="691" max-vertical-offset="1275" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/code/core/Mage/Page/etc/config.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-1.0183028" vertical-offset="612" max-vertical-offset="2550" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/design/frontend/base/default/template/page/html/topmenu.phtml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="41" column="0" selection-start="1225" selection-end="1225" vertical-scroll-proportion="0.39865997" vertical-offset="0" max-vertical-offset="597" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/code/local/Teamto/Featured/Block/Featured/Widget/Slideshow.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="6" selection-start="129" selection-end="129" vertical-scroll-proportion="0.20695652" vertical-offset="0" max-vertical-offset="575" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/code/local/Teamto/Featured/etc/widget.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="10" selection-start="233" selection-end="233" vertical-scroll-proportion="0.1364366" vertical-offset="0" max-vertical-offset="623" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/etc/local.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="46" column="44" selection-start="1735" selection-end="1735" vertical-scroll-proportion="0.45257902" vertical-offset="510" max-vertical-offset="1224">
+        <state line="76" column="21" selection-start="2319" selection-end="2319" vertical-scroll-proportion="-2.610487" vertical-offset="2295" max-vertical-offset="7718">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
+    <entry file="file://$PROJECT_DIR$/app/code/core/Mage/Catalog/Model/Product.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="19" selection-start="190" selection-end="190" vertical-scroll-proportion="0.33943427" vertical-offset="0" max-vertical-offset="601" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/design/frontend/default/default/layout/featured.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="20" selection-start="738" selection-end="738" vertical-scroll-proportion="0.46388444" vertical-offset="0" max-vertical-offset="623">
+        <state line="537" column="35" selection-start="14876" selection-end="14876" vertical-scroll-proportion="0.16502947" vertical-offset="8654" max-vertical-offset="34884">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/code/core/Mage/Page/Block/Html/Topmenu.php">
+    <entry file="file://$PROJECT_DIR$/app/code/core/Mage/Adminhtml/Block/Catalog/Product.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="194" column="23" selection-start="5929" selection-end="5929" vertical-scroll-proportion="-0.6549414" vertical-offset="3298" max-vertical-offset="4250" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/design/frontend/base/default/layout/page.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="75" column="44" selection-start="4092" selection-end="4092" vertical-scroll-proportion="0.18021202" vertical-offset="1173" max-vertical-offset="3366">
+        <state line="42" column="5" selection-start="1377" selection-end="1377" vertical-scroll-proportion="-0.17790262" vertical-offset="418" max-vertical-offset="1309">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/design/adminhtml/default/default/layout/admin.xml">
+    <entry file="file://$PROJECT_DIR$/app/code/core/Mage/Adminhtml/Block/Catalog/Product/Edit/Tabs.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1496" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/design/adminhtml/default/default/layout/widget.xml">
-=======
-    <entry file="file://$PROJECT_DIR$/app/code/local/Teamto/Featured/controllers/IndexController.php">
->>>>>>> 04d6c879ce798c1dffbeadaf4ecd7f3556c0bd7d
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="560">
+        <state line="37" column="25" selection-start="1322" selection-end="1322" vertical-scroll-proportion="-1.846442" vertical-offset="1224" max-vertical-offset="3757">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/etc/local.xml">
+    <entry file="file://$PROJECT_DIR$/app/code/core/Mage/Catalog/Model/Abstract.php">
       <provider selected="true" editor-type-id="text-editor">
-<<<<<<< HEAD
-        <state line="41" column="28" selection-start="1456" selection-end="1456" vertical-scroll-proportion="0.0" vertical-offset="460" max-vertical-offset="1224">
-=======
-<<<<<<< HEAD
-        <state line="41" column="18" selection-start="813" selection-end="1095" vertical-scroll-proportion="0.6505824" vertical-offset="306" max-vertical-offset="969" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/design/frontend/default/default/template/teamto/layout/head_feature_slide.phtml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="5" selection-start="346" selection-end="346" vertical-scroll-proportion="0.37842464" vertical-offset="0" max-vertical-offset="1071" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/skin/frontend/default/default/css/megamenu.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="34" column="24" selection-start="533" selection-end="533" vertical-scroll-proportion="0.5457464" vertical-offset="238" max-vertical-offset="1819" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/design/frontend/default/default/template/teamto/featured/widget/slideshow.phtml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="63" column="9" selection-start="2303" selection-end="2303" vertical-scroll-proportion="0.9417808" vertical-offset="521" max-vertical-offset="1173" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/design/frontend/default/default/layout/home.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="610">
+        <state line="311" column="23" selection-start="8006" selection-end="8006" vertical-scroll-proportion="0.3483146" vertical-offset="4710" max-vertical-offset="5865">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/code/local/Teamto/Link/Helper/Data.php">
+    <entry file="file://$PROJECT_DIR$/app/code/core/Mage/Adminhtml/Block/Catalog/Form/Renderer/Fieldset/Element.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="66" selection-start="348" selection-end="348" vertical-scroll-proportion="0.38434783" vertical-offset="0" max-vertical-offset="575" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/design/frontend/default/default/template/teamto/layout/head.phtml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="24" selection-start="403" selection-end="403" vertical-scroll-proportion="0.27224198" vertical-offset="0" max-vertical-offset="562" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/design/frontend/default/default/layout/megamenu.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="14" selection-start="413" selection-end="413" vertical-scroll-proportion="0.28911564" vertical-offset="0" max-vertical-offset="588">
+        <state line="60" column="5" selection-start="1870" selection-end="1870" vertical-scroll-proportion="0.41385767" vertical-offset="408" max-vertical-offset="3128">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/code/local/Teamto/Megamenu/Block/Megamenu.php">
+    <entry file="file://$PROJECT_DIR$/skin/frontend/base/default/js/msrp.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="90" column="38" selection-start="2990" selection-end="2990" vertical-scroll-proportion="0.455516" vertical-offset="1274" max-vertical-offset="1938" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/design/frontend/default/default/template/teamto/megamenu/topmenu.phtml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="49" column="12" selection-start="1466" selection-end="1466" vertical-scroll-proportion="0.6504348" vertical-offset="0" max-vertical-offset="575" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/design/adminhtml/default/default/template/teamto/layout/head.phtml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="22" selection-start="0" selection-end="172" vertical-scroll-proportion="0.12099644" vertical-offset="0" max-vertical-offset="562" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/design/adminhtml/default/default/layout/teamto_mirrored.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="33" column="40" selection-start="1205" selection-end="1205" vertical-scroll-proportion="0.0" vertical-offset="147" max-vertical-offset="748">
+        <state line="259" column="8" selection-start="9217" selection-end="9217" vertical-scroll-proportion="-1.3351499" vertical-offset="4502" max-vertical-offset="5967">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/skin/adminhtml/default/default/js/jquery-ui.min.js">
+    <entry file="file://$PROJECT_DIR$/js/mage/adminhtml/form.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="14" selection-start="193912" selection-end="226015" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="306" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/skin/adminhtml/default/default/js/jquery-ui.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="1" selection-start="894" selection-end="894" vertical-scroll-proportion="0.0" vertical-offset="51" max-vertical-offset="274635" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/design/adminhtml/default/default/layout/catalog.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="284" column="27" selection-start="14019" selection-end="14019" vertical-scroll-proportion="0.2755102" vertical-offset="4666" max-vertical-offset="5746">
+        <state line="102" column="4" selection-start="3148" selection-end="3148" vertical-scroll-proportion="2.517857" vertical-offset="324" max-vertical-offset="9333">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/skin/adminhtml/default/default/js/noConflict-jquery.js">
+    <entry file="file://$PROJECT_DIR$/app/code/core/Mage/Adminhtml/Helper/Catalog.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="601" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/design/adminhtml/default/default/layout/main.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="138" column="62" selection-start="8790" selection-end="8805" vertical-scroll-proportion="0.52040815" vertical-offset="2040" max-vertical-offset="5066">
+        <state line="37" column="7" selection-start="1281" selection-end="1281" vertical-scroll-proportion="-1.4831461" vertical-offset="1030" max-vertical-offset="1564">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/design/adminhtml/default/default/template/teamto/layout/catgory_edit.phtml">
+    <entry file="file://$PROJECT_DIR$/app/code/local/Teamto/Featured/Model/Resource/Featured/Attribute/Unit.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="97" selection-start="187" selection-end="187" vertical-scroll-proportion="0.029565217" vertical-offset="0" max-vertical-offset="575" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/skin/adminhtml/default/default/js/aucomplete-combox.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="150" column="22" selection-start="4825" selection-end="4825" vertical-scroll-proportion="0.79761904" vertical-offset="2081" max-vertical-offset="2669" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/code/local/Teamto/Mirrored/Model/Resource/Category/Mirrored.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="31" selection-start="197" selection-end="197" vertical-scroll-proportion="0.19932999" vertical-offset="0" max-vertical-offset="597" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/code/local/Teamto/Mirrored/etc/config.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="49" column="42" selection-start="1495" selection-end="1524" vertical-scroll-proportion="0.0" vertical-offset="550" max-vertical-offset="1717">
+        <state line="14" column="25" selection-start="436" selection-end="436" vertical-scroll-proportion="-9.153846" vertical-offset="0" max-vertical-offset="442">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/code/core/Mage/Adminhtml/controllers/Catalog/CategoryController.php">
+    <entry file="file://$PROJECT_DIR$/app/code/local/Teamto/Featured/sql/teamto_featured_setup_ver5/mysql4-install-0.1.0.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="124" column="31" selection-start="4286" selection-end="4286" vertical-scroll-proportion="170.0" vertical-offset="6137" max-vertical-offset="8364">
+        <state line="1" column="0" selection-start="6" selection-end="6" vertical-scroll-proportion="-0.65384614" vertical-offset="0" max-vertical-offset="527">
+          <folding>
+            <element signature="e#7#86#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/code/core/Mage/Adminhtml/Block/Catalog/Product/Edit.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="99" column="48" selection-start="3722" selection-end="3722" vertical-scroll-proportion="0.57865167" vertical-offset="983" max-vertical-offset="4029">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/code/local/Teamto/Mirrored/Model/Observer/Category.php">
+    <entry file="file://$PROJECT_DIR$/app/design/adminhtml/default/default/template/catalog/product/edit.phtml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="118" column="34" selection-start="4241" selection-end="4241" vertical-scroll-proportion="-22.23077" vertical-offset="1428" max-vertical-offset="2873">
+        <state line="79" column="22" selection-start="3171" selection-end="3177" vertical-scroll-proportion="0.3326613" vertical-offset="753" max-vertical-offset="1938">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/code/local/Teamto/Mirrored/controllers/IndexController.php">
+    <entry file="file://$PROJECT_DIR$/app/design/adminhtml/default/default/template/catalog/product.phtml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="31" selection-start="217" selection-end="217" vertical-scroll-proportion="0.1773913" vertical-offset="0" max-vertical-offset="575">
-=======
-        <state line="62" column="9" selection-start="1611" selection-end="1611" vertical-scroll-proportion="0.9392857" vertical-offset="528" max-vertical-offset="1156">
->>>>>>> 97493c10c59a0f7af0f807fe024de31e9b57e632
+        <state line="39" column="8" selection-start="1348" selection-end="1348" vertical-scroll-proportion="0.4568138" vertical-offset="0" max-vertical-offset="521">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/code/local/Teamto/Featured/controllers/FeaturedController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="1" selection-start="225" selection-end="225" vertical-scroll-proportion="-6.5384617" vertical-offset="0" max-vertical-offset="272">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/code/local/Teamto/Featured/etc/config.xml">
       <provider selected="true" editor-type-id="text-editor">
-<<<<<<< HEAD
-        <state line="62" column="9" selection-start="1611" selection-end="1611" vertical-scroll-proportion="0.9392857" vertical-offset="528" max-vertical-offset="1156">
-=======
-        <state line="41" column="28" selection-start="1456" selection-end="1456" vertical-scroll-proportion="0.4232143" vertical-offset="460" max-vertical-offset="1224">
->>>>>>> 04d6c879ce798c1dffbeadaf4ecd7f3556c0bd7d
->>>>>>> 97493c10c59a0f7af0f807fe024de31e9b57e632
+        <state line="40" column="0" selection-start="1142" selection-end="1142" vertical-scroll-proportion="1.2142857" vertical-offset="0" max-vertical-offset="1547">
           <folding />
         </state>
       </provider>
