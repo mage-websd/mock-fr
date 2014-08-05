@@ -8,6 +8,7 @@
 class Teamto_Featured_IndexController extends Mage_Core_Controller_Front_Action {
 
     public function indexAction(){
-//        echo 'dat';die;
+        $this->loadLayout();
+        $this->renderLayout();
     }
 }
