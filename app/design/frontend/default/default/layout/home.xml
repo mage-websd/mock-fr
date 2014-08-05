@@ -22,13 +22,20 @@
             </action>
         </reference>
         <reference name="home_right">
-            <block type="core/text" name="hello">
+            <block type="core/template" name="hello">
+                <action method="setTemplate">
+                    <template>block/news.phtml</template>
+                </action>
+                <action method="setIsHandle">
+                <applied>1</applied>
+            </action>
                 <action method="setText">
                     <text>fuck content222</text>
                 </action>
             </block>
         </reference>
     </cms_index_index>
+    <!-- create list product by code -->
     <!--    <default>
         <reference name="content">
             <block type="catalog/product_new" name="home.catalog.product.new" template="catalog/product/new.phtml" after="cms_page">

@@ -3,18 +3,18 @@
     <div id="feedback" style="display:none" class="mini-newsletter">
         Thank you for subscribing to our newsletter! 
     </div>
-    <form name="newsletter-form" id="newsletter-form" method="post" onsubmit="myfunc(event)"> 
+    <form name="newsletter-form" id="newsletter-form" method="post" > 
         <div class="block-content" style="text-align: left;  ">
-                <input onkeypress="handleKeyPress(event,this.form)" type="text" placeholder="Email address" name="email" id="newsletter" title="<?php echo $this->__('Subscribe to Our Newsletter') ?>" class="required-entry input-subscribe" style="width:178px;" />
-                
-                <button type="button" title="<?php echo $this->__('Subscribe') ?>" onclick="myfunc(event);" class="button">
-                    <span><span>Subscribe</span></span>
-                </button>
-                <span class="news-loader" id="news-loader" style="text-align:center; display:none; ">
-                    <img src="<?php echo Mage::getBaseUrl('media'); ?>mymedia/load2.gif" width="20"/>
-                    <!--Loading...-->
-                </span> 
-                <div class="error-news-msg" id="error-news-msg" style="display:none;">Please enter a valid email address.</div>
+            <input  type="text" placeholder="Email address" name="email" id="newsletter" title="<?php echo $this->__('Subscribe to Our Newsletter') ?>" class="required-entry input-subscribe" style="width:178px;" />
+
+            <button type="button" title="<?php echo $this->__('Subscribe') ?>"  id="subcribe" class="button">
+                <span><span>Subscribe</span></span>
+            </button>
+            <span class="news-loader" id="news-loader" style="text-align:center; display:none; ">
+                <img src="<?php echo Mage::getBaseUrl('media'); ?>mymedia/load2.gif" width="20"/>
+                <!--Loading...-->
+            </span> 
+            <div class="error-news-msg" id="error-news-msg" style="display:none;">Please enter a valid email address.</div>
         </div>
     </form>    
 </div> 
@@ -22,31 +22,35 @@
 
 
 <script type="text/javascript">        
-    function myfunc(event)
+    //ajax send mail
+    jQuery("#subcribe").click(function()
     {    
-        var newsletterSubscriberFormDetail = new VarienForm('newsletter-form');
-        event.preventDefault();
-        var form_email = $('newsletter').getValue();
-        var params_form = $('newsletter-validate-detail');
-        //alert(params_form);
-        new Validation('newsletter');
+        var form_email = jQuery('#newsletter').val();
         if(echeck(form_email))
         {
-            //alert(form_email);
-            //alert(Form.serialize($('newsletter-validate-detail')));
-            new Ajax.Updater({ success: 'newsletter-form' }, '<?php echo $this->getUrl('newsletter/subscriber/new') ?>', {
-                asynchronous:true, evalScripts:false,
-                parameters: { email: form_email },
-                onComplete:function(request, json){Element.hide('newsletter-form'); Element.hide('news-loader'); Element.show('feedback');},
-                onLoading:function(request, json){Element.show('news-loader');}
-            });
+            jQuery.ajax({
+                type:'POST',
+                url:'<?php echo $this->getUrl('newsletter/subscriber/new') ?>',
+                dataType:'json',
+                data: {email:form_email},
+                beforeSend:function(){
+                    jQuery('#news-loader').show();
+                },
+                success:function(){
+                    jQuery('#news-loader').hide();
+                    jQuery('#newsletter-form').hide();
+                    jQuery('#feedback').show();
+                },
+                error:function(){
+                    jQuery('#news-loader').hide();
+                    jQuery('#newsletter-form').hide();
+                    jQuery('#feedback').show();
+                }
+
+            })
+               
         }
-        else
-        {
-            //alert(form_email);
-            return false;
-        }
-    }    
+    })    
     //check validate email
     function echeck(str) {
 
