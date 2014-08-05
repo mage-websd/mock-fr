@@ -7,4 +7,6 @@ class Teamto_Featured_FeaturedController extends Mage_Adminhtml_Controller_Actio
         $this->loadLayout();
         $this->renderLayout();
     }
+
+
 }

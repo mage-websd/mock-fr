@@ -45,10 +45,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="config.xml" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="config.xml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/code/local/Teamto/Featured/etc/config.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="20" column="28" selection-start="557" selection-end="572" vertical-scroll-proportion="0.028911564" vertical-offset="323" max-vertical-offset="1700">
+            <state line="33" column="0" selection-start="1024" selection-end="1024" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1683">
               <folding />
             </state>
           </provider>
@@ -63,10 +63,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="local.xml" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="local.xml" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/etc/local.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="45" column="52" selection-start="1681" selection-end="1681" vertical-scroll-proportion="0.0" vertical-offset="510" max-vertical-offset="1224">
+            <state line="45" column="64" selection-start="1693" selection-end="1693" vertical-scroll-proportion="0.31114808" vertical-offset="578" max-vertical-offset="1224">
               <folding />
             </state>
           </provider>
@@ -139,11 +139,11 @@
         <option value="$PROJECT_DIR$/app/code/local/Teamto/Mirrored/Model/Observer/Delete.php" />
         <option value="$PROJECT_DIR$/app/design/adminhtml/default/default/layout/teamto_mirrored.xml" />
         <option value="$PROJECT_DIR$/app/code/local/Teamto/Mirrored/Model/Observer/Category.php" />
-        <option value="$PROJECT_DIR$/app/code/local/Teamto/Featured/etc/config.xml" />
         <option value="$PROJECT_DIR$/app/code/local/Teamto/Featured/etc/widget.xml" />
         <option value="$PROJECT_DIR$/app/code/local/Teamto/Mirrored/controllers/IndexController.php" />
         <option value="$PROJECT_DIR$/app/code/local/Teamto/Megamenu/sql/teamto_megamenu_setup/install-0.1.0.php" />
         <option value="$PROJECT_DIR$/app/code/local/Teamto/Mirrored/etc/config.xml" />
+        <option value="$PROJECT_DIR$/app/code/local/Teamto/Featured/etc/config.xml" />
         <option value="$PROJECT_DIR$/app/etc/local.xml" />
       </list>
     </option>
@@ -1146,16 +1146,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/etc/local.xml">
+    <entry file="file://$PROJECT_DIR$/app/code/local/Teamto/Featured/etc/config.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="45" column="52" selection-start="1681" selection-end="1681" vertical-scroll-proportion="0.0" vertical-offset="510" max-vertical-offset="1224">
+        <state line="33" column="0" selection-start="1024" selection-end="1024" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1683">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/code/local/Teamto/Featured/etc/config.xml">
+    <entry file="file://$PROJECT_DIR$/app/etc/local.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="28" selection-start="557" selection-end="572" vertical-scroll-proportion="0.028911564" vertical-offset="323" max-vertical-offset="1700">
+        <state line="45" column="64" selection-start="1693" selection-end="1693" vertical-scroll-proportion="0.31114808" vertical-offset="578" max-vertical-offset="1224">
           <folding />
         </state>
       </provider>

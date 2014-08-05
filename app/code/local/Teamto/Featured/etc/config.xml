@@ -37,7 +37,6 @@
                 <class>Teamto_Featured_Helper</class>
             </teamto_featured>
         </helpers>
-
         <resources>
             <teamto_featured_setup_ver5>
                 <setup>
@@ -54,7 +53,7 @@
                 <use>standard</use>
                 <args>
                     <module>Teamto_Featured</module>
-                    <frontName>featured</frontName>
+                    <frontName>featured-product</frontName>
                 </args>
             </featured>
         </routers>
