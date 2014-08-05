@@ -5,13 +5,22 @@ class Teamto_Filter_Block_Layer_View extends Mage_Catalog_Block_Layer_View {
     public function getPriceRange() {
         return Mage::getModel('catalog/layer_filter_price')->getMaxPriceInt();
 
+//        $currentCategory = Mage::getModel('catalog/layer')->getCurrentCategory()->getData('url_path');
 //        $maxPrice = Mage::getModel('catalog/layer_filter_price')->getMaxPriceInt();
 //
-//        var_dump(Mage::getSingleton('core/session'));die;
+//        $aryPriceData = array(
+//            'max_price' => $maxPrice,
+//            'current_category' => $currentCategory
+//        );
 //
-//        if(!iss){
-//            Mage::getSingleton('core/session')->setMaxPrice($maxPrice);
+//        $arySesPriceData = Mage::getSingleton('core/session')->getAryPriceData();
+//        $arySession = Mage::getSingleton('core/session')->getData();
+//
+//        if(!in_array($currentCategory, $arySesPriceData)){
+//            return 'dat';
+//            Mage::getSingleton('core/session')->setAryPriceData($aryPriceData);
 //        }
-//        return ;
+//
+//        return Mage::getSingleton('core/session')->getData('max_price');
     }
 }
