@@ -6,7 +6,6 @@ class Teamto_Geoip_Model_Observer {
         $storeCode = "";
         $geoip = Mage::getSingleton('geoip/country');
         $countryCode = $geoip->getCountry();
-        var_dump($countryCode);
         switch ($countryCode)
         {
             case 'US':
