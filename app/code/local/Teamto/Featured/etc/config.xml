@@ -21,8 +21,6 @@
             <teamto_featured>
                 <class>Teamto_Featured_Block</class>
             </teamto_featured>
-
-
             <adminhtml>
                 <rewrite>
                     <catalog_product>Teamto_Featured_Block_Featured_List</catalog_product>
@@ -32,9 +30,6 @@
                 </rewrite>
             </adminhtml>
         </blocks>
-
-
-
         <helpers>
             <teamto_featured>
                 <class>Teamto_Featured_Helper</class>

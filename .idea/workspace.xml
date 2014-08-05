@@ -2,8 +2,26 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="229d8a55-5c27-4451-afd4-bab1da4462b6" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/catalog/product/cache/1/small_image/135x/9df78eab33525d08d6e5fb8d27136e95/a/c/ace000a_1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/catalog/product/cache/1/small_image/135x/9df78eab33525d08d6e5fb8d27136e95/a/c/ace002a_1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/etc/.gitignore" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/code/local/Teamto/Mirrored/controllers/IndexController.php" afterPath="$PROJECT_DIR$/app/code/local/Teamto/Mirrored/controllers/IndexController.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/code/local/Teamto/Featured/etc/config.xml" afterPath="$PROJECT_DIR$/app/code/local/Teamto/Featured/etc/config.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/code/local/Teamto/Mirrored/etc/config.xml" afterPath="$PROJECT_DIR$/app/code/local/Teamto/Mirrored/etc/config.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/locks/index_process_1.lock" afterPath="$PROJECT_DIR$/var/locks/index_process_1.lock" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/locks/index_process_2.lock" afterPath="$PROJECT_DIR$/var/locks/index_process_2.lock" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/locks/index_process_3.lock" afterPath="$PROJECT_DIR$/var/locks/index_process_3.lock" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/locks/index_process_4.lock" afterPath="$PROJECT_DIR$/var/locks/index_process_4.lock" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/locks/index_process_5.lock" afterPath="$PROJECT_DIR$/var/locks/index_process_5.lock" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/locks/index_process_6.lock" afterPath="$PROJECT_DIR$/var/locks/index_process_6.lock" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/locks/index_process_7.lock" afterPath="$PROJECT_DIR$/var/locks/index_process_7.lock" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/locks/index_process_8.lock" afterPath="$PROJECT_DIR$/var/locks/index_process_8.lock" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/locks/index_process_9.lock" afterPath="$PROJECT_DIR$/var/locks/index_process_9.lock" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/code/local/Teamto/Megamenu/sql/teamto_megamenu_setup/install-0.1.0.php" afterPath="$PROJECT_DIR$/app/code/local/Teamto/Megamenu/sql/teamto_megamenu_setup/install-0.1.0.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/etc/local.xml" afterPath="$PROJECT_DIR$/app/etc/local.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/code/local/Teamto/Featured/etc/widget.xml" afterPath="$PROJECT_DIR$/app/code/local/Teamto/Featured/etc/widget.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="mockup_tuanpv.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -35,19 +53,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="local.xml" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="local.xml" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/etc/local.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="51" column="38" selection-start="1961" selection-end="1961" vertical-scroll-proportion="0.0" vertical-offset="647" max-vertical-offset="1241">
+            <state line="44" column="53" selection-start="1623" selection-end="1623" vertical-scroll-proportion="0.37037036" vertical-offset="528" max-vertical-offset="1224">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="config.xml" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="config.xml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/code/local/Teamto/Featured/etc/config.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="20" column="29" selection-start="573" selection-end="573" vertical-scroll-proportion="0.4006734" vertical-offset="102" max-vertical-offset="1734">
+            <state line="31" column="17" selection-start="1022" selection-end="1022" vertical-scroll-proportion="0.0" vertical-offset="153" max-vertical-offset="1649">
               <folding />
             </state>
           </provider>
@@ -65,7 +83,7 @@
       <file leaf-file-name="widget.xml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/code/local/Teamto/Featured/etc/widget.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="1" column="4" selection-start="14" selection-end="14" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="187">
+            <state line="6" column="4" selection-start="228" selection-end="228" vertical-scroll-proportion="0.0" vertical-offset="85" max-vertical-offset="272">
               <folding />
             </state>
           </provider>
@@ -98,8 +116,8 @@
         <option value="$PROJECT_DIR$/app/code/local/Teamto/Featured/Block/FeatureProduct.php" />
         <option value="$PROJECT_DIR$/app/design/frontend/default/default/layout/featured.xml" />
         <option value="$PROJECT_DIR$/app/design/frontend/base/default/template/catalog/product/list/toolbar.phtml" />
-        <option value="$PROJECT_DIR$/app/etc/local.xml" />
         <option value="$PROJECT_DIR$/app/code/local/Teamto/Featured/etc/config.xml" />
+        <option value="$PROJECT_DIR$/app/etc/local.xml" />
       </list>
     </option>
   </component>
@@ -713,13 +731,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/etc/local.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="51" column="38" selection-start="1961" selection-end="1961" vertical-scroll-proportion="0.0" vertical-offset="647" max-vertical-offset="1241">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/code/local/Teamto/Featured/Block/FeatureProduct.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="26" column="1" selection-start="672" selection-end="673" vertical-scroll-proportion="0.77816904" vertical-offset="0" max-vertical-offset="568">
@@ -736,14 +747,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/code/local/Teamto/Featured/etc/widget.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="4" selection-start="14" selection-end="14" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="187">
+        <state line="6" column="4" selection-start="228" selection-end="228" vertical-scroll-proportion="0.0" vertical-offset="85" max-vertical-offset="272">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/code/local/Teamto/Featured/etc/config.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="29" selection-start="573" selection-end="573" vertical-scroll-proportion="0.4006734" vertical-offset="102" max-vertical-offset="1734">
+        <state line="31" column="17" selection-start="1022" selection-end="1022" vertical-scroll-proportion="0.0" vertical-offset="153" max-vertical-offset="1649">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/etc/local.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="44" column="53" selection-start="1623" selection-end="1623" vertical-scroll-proportion="0.37037036" vertical-offset="528" max-vertical-offset="1224">
           <folding />
         </state>
       </provider>

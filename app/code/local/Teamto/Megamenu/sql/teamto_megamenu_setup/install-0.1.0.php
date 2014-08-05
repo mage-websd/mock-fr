@@ -6,9 +6,9 @@
  */
 $installer = $this;
 $installer->startSetup();
-$entityTypeId     = $installer->getEntityTypeId('catalog_category');
+/*$entityTypeId     = $installer->getEntityTypeId('catalog_category');
 $attributeSetId   = $installer->getDefaultAttributeSetId($entityTypeId);
-$attributeGroupId = $installer->getDefaultAttributeGroupId($entityTypeId, $attributeSetId);
+$attributeGroupId = $installer->getDefaultAttributeGroupId($entityTypeId, $attributeSetId);*/
 $installer->addAttribute('catalog_category', 'status',  array(
     'type'     => 'varchar',
     'label'    => 'Status',
@@ -17,21 +17,22 @@ $installer->addAttribute('catalog_category', 'status',  array(
     'visible'           => true,
     'required'          => false,
     'user_defined'      => false,
-    'default'           => 'normal'
+    'default'           => 'normal',
+    'group'             => 'General',
 ));
-$installer->addAttributeToGroup(
+/*$installer->addAttributeToGroup(
     $entityTypeId,
     $attributeSetId,
     $attributeGroupId,
     'status',
     '11'                    //last Magento's attribute position in General tab is 10
-);
+);*/
 //add status for all category
-$attributeId = $installer->getAttributeId($entityTypeId, 'status');
+/*$attributeId = $installer->getAttributeId($entityTypeId, 'status');
 $installer->run("INSERT INTO `{$installer->getTable('catalog_category_entity_varchar')}`
                   (`entity_type_id`, `attribute_id`, `entity_id`, `value`)
     SELECT '{$entityTypeId}', '{$attributeId}', `entity_id`, 'normal'
-        FROM `{$installer->getTable('catalog_category_entity')}`;");
+        FROM `{$installer->getTable('catalog_category_entity')}`;");*/
 
 //this will set data of your custom attribute for root category
 Mage::getModel('catalog/category')

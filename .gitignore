@@ -1,4 +1,3 @@
-/app/etc/local.xml
 /var/
 /.idea/
 /app/code/core/
@@ -11,3 +10,5 @@
 /giangnt_key
 /mock_giangnt
 /nbproject/private/
+/.project
+/app/etc/local.xml

@@ -11,8 +11,10 @@ class Teamto_Mirrored_IndexController extends Mage_Core_Controller_Front_Action
     }
     public function indexAction()
     {
-
-
+        $pro = $this->_getModelProduct()->getCollection()
+            ->addAttributeToFilter('featured','1');
+        var_dump($pro->getData());
+        return;
         /*$p = Mage::getModel('catalog/product')->load(237);
         $array = $p->getCategoryIds();
         var_dump($array);*/

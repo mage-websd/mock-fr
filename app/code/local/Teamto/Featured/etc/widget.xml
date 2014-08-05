@@ -3,4 +3,9 @@
         <name>Featured: Slideshow</name>
         <description type="desc">Slideshow view featured product</description>
     </featured_slideshow>
+
+    <featured_slideshow_home type="teamto_featured/featured_widget_slideshow">
+        <name>Featured: Slideshow-Home</name>
+        <description type="desc">Slideshow view featured product</description>
+    </featured_slideshow_home>
 </widgets>
