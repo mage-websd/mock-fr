@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
+<<<<<<< HEAD
     <list default="true" id="a08b81cf-cfcc-478b-b821-a9790ce2bc53" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/.name" afterPath="$PROJECT_DIR$/.idea/.name" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/code/local/Teamto/Filter/Block/Layer/View.php" afterPath="$PROJECT_DIR$/app/code/local/Teamto/Filter/Block/Layer/View.php" />
@@ -10,6 +11,79 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="mockupprojectfr04.iws" />
+=======
+    <list default="true" id="229d8a55-5c27-4451-afd4-bab1da4462b6" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/wysiwyg/.thumbs/wysiwyg/404-banner-3.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/wysiwyg/.thumbs/wysiwyg/Accessoriesbagimg.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/wysiwyg/.thumbs/wysiwyg/Cataccessoriesmainimg.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/wysiwyg/.thumbs/wysiwyg/Catwomenmainimg.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/wysiwyg/.thumbs/wysiwyg/Homecatimg-books.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/wysiwyg/.thumbs/wysiwyg/Homecatimg-decor.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/wysiwyg/.thumbs/wysiwyg/Homecatimg-electronics.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/wysiwyg/.thumbs/wysiwyg/Mencat-shirtsimg.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/wysiwyg/.thumbs/wysiwyg/Mencat-teesimg.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/wysiwyg/.thumbs/wysiwyg/Mencategorymainimg.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/wysiwyg/WP_000036.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/wysiwyg/.thumbs/wysiwyg/WP_000036.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/wysiwyg/.thumbs/wysiwyg/Womennewarrivalsimg.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/wysiwyg/.thumbs/wysiwyg/Womenpantsimg.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/wysiwyg/.thumbs/wysiwyg/Womenskirtsimg.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/wysiwyg/.thumbs/wysiwyg/Womentopsimg.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/wysiwyg/.thumbs/wysiwyg/about-us2.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/wysiwyg/.thumbs/wysiwyg/about_us.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/wysiwyg/.thumbs/wysiwyg/accessorieseyewearimg.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/wysiwyg/.thumbs/wysiwyg/accessoriesshoesimg.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/wysiwyg/.thumbs/wysiwyg/acessoreiesjeweleryimg.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/wysiwyg/.thumbs/wysiwyg/catmen-newimg.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/wysiwyg/.thumbs/wysiwyg/catwomen-newimg.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/wysiwyg/.thumbs/wysiwyg/clp-sub-m-shirts.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/wysiwyg/.thumbs/wysiwyg/home_bed_bathimg.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/wysiwyg/.thumbs/wysiwyg/homepage-three-column-promo-01.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/wysiwyg/.thumbs/wysiwyg/homepage-three-column-promo-01B.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/wysiwyg/.thumbs/wysiwyg/homepage-three-column-promo-02.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/wysiwyg/.thumbs/wysiwyg/homepage-three-column-promo-03.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/wysiwyg/.thumbs/wysiwyg/mainimg-home_decorcategory.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/wysiwyg/.thumbs/wysiwyg/mencat-newarrivalsimg.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/wysiwyg/.thumbs/wysiwyg/mencat-pants.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/wysiwyg/.thumbs/wysiwyg/private-sales-banner.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/wysiwyg/.thumbs/wysiwyg/promo_banners_VIP.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/wysiwyg/.thumbs/wysiwyg/slide-1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/wysiwyg/.thumbs/wysiwyg/slide-2.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/wysiwyg/.thumbs/wysiwyg/slide-3.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/wysiwyg/.thumbs/wysiwyg/three_dots_white.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/wysiwyg/.thumbs/wysiwyg/three_dots_white_1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/wysiwyg/.thumbs/wysiwyg/three_dots_white_2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/wysiwyg/.thumbs/wysiwyg/three_dots_white_3.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/wysiwyg/.thumbs/wysiwyg/three_dots_white_4.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/wysiwyg/.thumbs/wysiwyg/three_dots_white_5.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/wysiwyg/.thumbs/wysiwyg/three_dots_white_6.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/wysiwyg/.thumbs/wysiwyg/vip-correctsize1.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/wysiwyg/.thumbs/wysiwyg/vipbannerimage.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/downloader/cache.cfg" afterPath="$PROJECT_DIR$/downloader/cache.cfg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/code/local/Teamto/Acpl/Model/Observer.php" afterPath="$PROJECT_DIR$/app/code/local/Teamto/Acpl/Model/Observer.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/code/local/Teamto/Geoip/Model/Observer.php" afterPath="$PROJECT_DIR$/app/code/local/Teamto/Geoip/Model/Observer.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/design/frontend/default/default/template/teamto/layout/head.phtml" afterPath="$PROJECT_DIR$/app/design/frontend/default/default/template/teamto/layout/head.phtml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.php" afterPath="$PROJECT_DIR$/index.php" />
+      <change type="MOVED" beforePath="E:\xampp\htdocs\mockup_tuanpv\app\code\community\Openstream\GeoIP\Block\Adminhtml\Notifications.php" afterPath="$PROJECT_DIR$/app/code/community/Sandfox/GeoIP/Block/Adminhtml/Notifications.php" />
+      <change type="MOVED" beforePath="E:\xampp\htdocs\mockup_tuanpv\app\code\community\Openstream\GeoIP\Block\System\Config\Status.php" afterPath="$PROJECT_DIR$/app/code/community/Sandfox/GeoIP/Block/System/Config/Status.php" />
+      <change type="MOVED" beforePath="E:\xampp\htdocs\mockup_tuanpv\app\code\community\Openstream\GeoIP\Block\System\Config\Synchronize.php" afterPath="$PROJECT_DIR$/app/code/community/Sandfox/GeoIP/Block/System/Config/Synchronize.php" />
+      <change type="MOVED" beforePath="E:\xampp\htdocs\mockup_tuanpv\app\code\community\Openstream\GeoIP\Helper\Data.php" afterPath="$PROJECT_DIR$/app/code/community/Sandfox/GeoIP/Helper/Data.php" />
+      <change type="MOVED" beforePath="E:\xampp\htdocs\mockup_tuanpv\app\code\community\Openstream\GeoIP\Model\Abstract.php" afterPath="$PROJECT_DIR$/app/code/community/Sandfox/GeoIP/Model/Abstract.php" />
+      <change type="MOVED" beforePath="E:\xampp\htdocs\mockup_tuanpv\app\code\community\Openstream\GeoIP\Model\Country.php" afterPath="$PROJECT_DIR$/app/code/community/Sandfox/GeoIP/Model/Country.php" />
+      <change type="MOVED" beforePath="E:\xampp\htdocs\mockup_tuanpv\app\code\community\Openstream\GeoIP\Model\Cron.php" afterPath="$PROJECT_DIR$/app/code/community/Sandfox/GeoIP/Model/Cron.php" />
+      <change type="MOVED" beforePath="E:\xampp\htdocs\mockup_tuanpv\app\code\community\Openstream\GeoIP\Model\Info.php" afterPath="$PROJECT_DIR$/app/code/community/Sandfox/GeoIP/Model/Info.php" />
+      <change type="MOVED" beforePath="E:\xampp\htdocs\mockup_tuanpv\app\code\community\Openstream\GeoIP\Model\Observer.php" afterPath="$PROJECT_DIR$/app/code/community/Sandfox/GeoIP/Model/Observer.php" />
+      <change type="MOVED" beforePath="E:\xampp\htdocs\mockup_tuanpv\app\code\community\Openstream\GeoIP\Model\Wrapper.php" afterPath="$PROJECT_DIR$/app/code/community/Sandfox/GeoIP/Model/Wrapper.php" />
+      <change type="MOVED" beforePath="E:\xampp\htdocs\mockup_tuanpv\app\code\community\Openstream\GeoIP\controllers\ProcessController.php" afterPath="$PROJECT_DIR$/app/code/community/Sandfox/GeoIP/controllers/Adminhtml/GeoipController.php" />
+      <change type="MOVED" beforePath="E:\xampp\htdocs\mockup_tuanpv\app\code\community\Openstream\GeoIP\etc\config.xml" afterPath="$PROJECT_DIR$/app/code/community/Sandfox/GeoIP/etc/config.xml" />
+      <change type="MOVED" beforePath="E:\xampp\htdocs\mockup_tuanpv\app\code\community\Openstream\GeoIP\etc\system.xml" afterPath="$PROJECT_DIR$/app/code/community/Sandfox/GeoIP/etc/system.xml" />
+      <change type="MOVED" beforePath="E:\xampp\htdocs\mockup_tuanpv\app\design\adminhtml\default\default\layout\openstream\geoip.xml" afterPath="$PROJECT_DIR$/app/design/adminhtml/default/default/layout/sandfox/geoip.xml" />
+      <change type="MOVED" beforePath="E:\xampp\htdocs\mockup_tuanpv\app\design\adminhtml\default\default\template\openstream\geoip\notifications.phtml" afterPath="$PROJECT_DIR$/app/design/adminhtml/default/default/template/sandfox/geoip/notifications.phtml" />
+      <change type="MOVED" beforePath="E:\xampp\htdocs\mockup_tuanpv\app\design\adminhtml\default\default\template\openstream\geoip\system\config\synchronize.phtml" afterPath="$PROJECT_DIR$/app/design/adminhtml/default/default/template/sandfox/geoip/system/config/synchronize.phtml" />
+      <change type="MOVED" beforePath="E:\xampp\htdocs\mockup_tuanpv\app\etc\modules\Openstream_GeoIP.xml" afterPath="$PROJECT_DIR$/app/etc/modules/Sandfox_GeoIP.xml" />
+    </list>
+    <ignored path="mockup_tuanpv.iws" />
+>>>>>>> d06aca538417bf60577907454a049c9e01665cfe
     <ignored path=".idea/workspace.xml" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -26,6 +100,7 @@
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FavoritesManager">
+<<<<<<< HEAD
     <favorites_list name="mockupprojectfr04" />
   </component>
   <component name="FileEditorManager">
@@ -34,20 +109,38 @@
         <entry file="file://$PROJECT_DIR$/app/code/local/Teamto/Featured/etc/config.xml">
           <provider selected="true" editor-type-id="text-editor">
             <state line="31" column="17" selection-start="1022" selection-end="1022" vertical-scroll-proportion="0.7589286" vertical-offset="102" max-vertical-offset="1649">
+=======
+    <favorites_list name="mockup_tuanpv" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="featured.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/design/frontend/default/default/layout/featured.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="2" column="13" selection-start="60" selection-end="60" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="629">
+>>>>>>> d06aca538417bf60577907454a049c9e01665cfe
               <folding />
             </state>
           </provider>
         </entry>
       </file>
+<<<<<<< HEAD
       <file leaf-file-name="View.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/code/local/Teamto/Filter/Block/Layer/View.php">
           <provider selected="true" editor-type-id="text-editor">
             <state line="5" column="39" selection-start="201" selection-end="201" vertical-scroll-proportion="-3.2692308" vertical-offset="0" max-vertical-offset="527">
+=======
+      <file leaf-file-name="filter.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/design/frontend/default/default/layout/filter.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="29" column="9" selection-start="966" selection-end="966" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="595">
+>>>>>>> d06aca538417bf60577907454a049c9e01665cfe
               <folding />
             </state>
           </provider>
         </entry>
       </file>
+<<<<<<< HEAD
       <file leaf-file-name="Layer.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/code/core/Mage/Catalog/Model/Layer.php">
           <provider selected="true" editor-type-id="text-editor">
@@ -70,6 +163,12 @@
         <entry file="file://$PROJECT_DIR$/app/design/frontend/default/default/template/teamto/layout/head.phtml">
           <provider selected="true" editor-type-id="text-editor">
             <state line="12" column="9" selection-start="306" selection-end="413" vertical-scroll-proportion="-6.5384617" vertical-offset="0" max-vertical-offset="289">
+=======
+      <file leaf-file-name="head.phtml" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/design/frontend/default/default/template/teamto/layout/head.phtml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="8" column="0" selection-start="268" selection-end="268" vertical-scroll-proportion="0.17957747" vertical-offset="0" max-vertical-offset="568">
+>>>>>>> d06aca538417bf60577907454a049c9e01665cfe
               <folding />
             </state>
           </provider>
@@ -93,10 +192,29 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
+<<<<<<< HEAD
         <option value="$PROJECT_DIR$/app/code/local/Teamto/Filter/Block/Layer/View.php" />
         <option value="$PROJECT_DIR$/app/design/frontend/default/default/template/teamto/filter/filter.phtml" />
         <option value="$PROJECT_DIR$/app/design/frontend/default/default/template/teamto/layout/head.phtml" />
         <option value="$PROJECT_DIR$/app/code/local/Teamto/Featured/etc/config.xml" />
+=======
+        <option value="$PROJECT_DIR$/app/code/local/Teamto/Featured/Block/Product/Featured.php" />
+        <option value="$PROJECT_DIR$/app/code/local/Teamto/Featured/Block/Product.php" />
+        <option value="$PROJECT_DIR$/app/code/local/Teamto/Featured/controllers/FeaturedController.php" />
+        <option value="$PROJECT_DIR$/app/design/frontend/default/default/template/teamto/featured/product/featured.phtml" />
+        <option value="$PROJECT_DIR$/app/code/local/Teamto/Featured/Block/Featured/Product.php" />
+        <option value="$PROJECT_DIR$/app/code/local/Teamto/Featured/controllers/IndexController.php" />
+        <option value="$PROJECT_DIR$/app/code/local/Teamto/Featured/Block/FeatureProduct.php" />
+        <option value="$PROJECT_DIR$/app/design/frontend/base/default/template/catalog/product/list/toolbar.phtml" />
+        <option value="$PROJECT_DIR$/app/code/local/Teamto/Featured/etc/config.xml" />
+        <option value="$PROJECT_DIR$/app/etc/local.xml" />
+        <option value="$PROJECT_DIR$/skin/frontend/default/default/js/noConflict.js" />
+        <option value="$PROJECT_DIR$/app/design/frontend/default/default/template/teamto/filter/filter.phtml" />
+        <option value="$PROJECT_DIR$/app/design/frontend/default/default/layout/filter.xml" />
+        <option value="$PROJECT_DIR$/app/design/frontend/default/default/layout/featured.xml" />
+        <option value="$PROJECT_DIR$/app/design/frontend/default/default/template/teamto/featured/widget/slideshow.phtml" />
+        <option value="$PROJECT_DIR$/app/design/frontend/default/default/template/teamto/layout/head.phtml" />
+>>>>>>> d06aca538417bf60577907454a049c9e01665cfe
       </list>
     </option>
   </component>
@@ -104,8 +222,13 @@
   <component name="ProjectFrameBounds">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
+<<<<<<< HEAD
     <option name="width" value="1382" />
     <option name="height" value="744" />
+=======
+    <option name="width" value="1296" />
+    <option name="height" value="776" />
+>>>>>>> d06aca538417bf60577907454a049c9e01665cfe
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -114,7 +237,11 @@
     <OptionsSetting value="true" id="Update" />
     <OptionsSetting value="true" id="Status" />
     <OptionsSetting value="true" id="Edit" />
+<<<<<<< HEAD
     <ConfirmationsSetting value="0" id="Add" />
+=======
+    <ConfirmationsSetting value="1" id="Add" />
+>>>>>>> d06aca538417bf60577907454a049c9e01665cfe
     <ConfirmationsSetting value="0" id="Remove" />
   </component>
   <component name="ProjectReloadState">
@@ -138,41 +265,61 @@
         <subPane>
           <PATH>
             <PATH_ELEMENT>
+<<<<<<< HEAD
               <option name="myItemId" value="mockupprojectfr04" />
+=======
+              <option name="myItemId" value="mockup_tuanpv" />
+>>>>>>> d06aca538417bf60577907454a049c9e01665cfe
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
+<<<<<<< HEAD
               <option name="myItemId" value="mockupprojectfr04" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="mockupprojectfr04" />
+=======
+              <option name="myItemId" value="mockup_tuanpv" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mockup_tuanpv" />
+>>>>>>> d06aca538417bf60577907454a049c9e01665cfe
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="mockupprojectfr04" />
+              <option name="myItemId" value="mockup_tuanpv" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="mockupprojectfr04" />
+              <option name="myItemId" value="mockup_tuanpv" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+<<<<<<< HEAD
               <option name="myItemId" value="app" />
+=======
+              <option name="myItemId" value="skin" />
+>>>>>>> d06aca538417bf60577907454a049c9e01665cfe
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
+<<<<<<< HEAD
               <option name="myItemId" value="mockupprojectfr04" />
+=======
+              <option name="myItemId" value="mockup_tuanpv" />
+>>>>>>> d06aca538417bf60577907454a049c9e01665cfe
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="mockupprojectfr04" />
+              <option name="myItemId" value="mockup_tuanpv" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -186,11 +333,19 @@
           </PATH>
           <PATH>
             <PATH_ELEMENT>
+<<<<<<< HEAD
               <option name="myItemId" value="mockupprojectfr04" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="mockupprojectfr04" />
+=======
+              <option name="myItemId" value="mockup_tuanpv" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mockup_tuanpv" />
+>>>>>>> d06aca538417bf60577907454a049c9e01665cfe
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -208,11 +363,15 @@
           </PATH>
           <PATH>
             <PATH_ELEMENT>
+<<<<<<< HEAD
               <option name="myItemId" value="mockupprojectfr04" />
+=======
+              <option name="myItemId" value="mockup_tuanpv" />
+>>>>>>> d06aca538417bf60577907454a049c9e01665cfe
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="mockupprojectfr04" />
+              <option name="myItemId" value="mockup_tuanpv" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -234,15 +393,45 @@
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="mockupprojectfr04" />
+              <option name="myItemId" value="mockup_tuanpv" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="mockupprojectfr04" />
+              <option name="myItemId" value="mockup_tuanpv" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+<<<<<<< HEAD
               <option name="myItemId" value="app" />
+=======
+              <option name="myItemId" value="skin" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="frontend" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="default" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="default" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mockup_tuanpv" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mockup_tuanpv" />
+>>>>>>> d06aca538417bf60577907454a049c9e01665cfe
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -262,17 +451,63 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+<<<<<<< HEAD
               <option name="myItemId" value="template" />
+=======
+              <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="filter" />
+>>>>>>> d06aca538417bf60577907454a049c9e01665cfe
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
+<<<<<<< HEAD
               <option name="myItemId" value="mockupprojectfr04" />
+=======
+              <option name="myItemId" value="mockup_tuanpv" />
+>>>>>>> d06aca538417bf60577907454a049c9e01665cfe
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="mockupprojectfr04" />
+              <option name="myItemId" value="mockup_tuanpv" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+<<<<<<< HEAD
+=======
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mockup_tuanpv" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mockup_tuanpv" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="etc" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mockup_tuanpv" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mockup_tuanpv" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -283,6 +518,26 @@
               <option name="myItemId" value="design" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mockup_tuanpv" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mockup_tuanpv" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+>>>>>>> d06aca538417bf60577907454a049c9e01665cfe
+            <PATH_ELEMENT>
+              <option name="myItemId" value="design" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+<<<<<<< HEAD
             <PATH_ELEMENT>
               <option name="myItemId" value="frontend" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
@@ -301,16 +556,131 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="teamto" />
+=======
+            <PATH_ELEMENT>
+              <option name="myItemId" value="frontend" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
+              <option name="myItemId" value="mockup_tuanpv" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mockup_tuanpv" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="design" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="frontend" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="default" />
+>>>>>>> d06aca538417bf60577907454a049c9e01665cfe
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+<<<<<<< HEAD
               <option name="myItemId" value="mockupprojectfr04" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="mockupprojectfr04" />
+=======
+              <option name="myItemId" value="mockup_tuanpv" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mockup_tuanpv" />
+>>>>>>> d06aca538417bf60577907454a049c9e01665cfe
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="design" />
+<<<<<<< HEAD
+=======
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="frontend" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="default" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="default" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="template" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mockup_tuanpv" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mockup_tuanpv" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="design" />
+>>>>>>> d06aca538417bf60577907454a049c9e01665cfe
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="frontend" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="default" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="default" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="template" />
+<<<<<<< HEAD
+=======
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="teamto" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mockup_tuanpv" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mockup_tuanpv" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -335,6 +705,7 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="template" />
+>>>>>>> d06aca538417bf60577907454a049c9e01665cfe
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -348,11 +719,15 @@
           </PATH>
           <PATH>
             <PATH_ELEMENT>
+<<<<<<< HEAD
               <option name="myItemId" value="mockupprojectfr04" />
+=======
+              <option name="myItemId" value="mockup_tuanpv" />
+>>>>>>> d06aca538417bf60577907454a049c9e01665cfe
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="mockupprojectfr04" />
+              <option name="myItemId" value="mockup_tuanpv" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -383,6 +758,15 @@
               <option name="myItemId" value="teamto" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+<<<<<<< HEAD
+            <PATH_ELEMENT>
+              <option name="myItemId" value="filter" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+=======
+>>>>>>> d06aca538417bf60577907454a049c9e01665cfe
             <PATH_ELEMENT>
               <option name="myItemId" value="filter" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
@@ -390,11 +774,15 @@
           </PATH>
           <PATH>
             <PATH_ELEMENT>
+<<<<<<< HEAD
               <option name="myItemId" value="mockupprojectfr04" />
+=======
+              <option name="myItemId" value="mockup_tuanpv" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="mockupprojectfr04" />
+              <option name="myItemId" value="mockup_tuanpv" />
+>>>>>>> d06aca538417bf60577907454a049c9e01665cfe
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -417,22 +805,43 @@
               <option name="myItemId" value="default" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-          </PATH>
-          <PATH>
             <PATH_ELEMENT>
+<<<<<<< HEAD
               <option name="myItemId" value="mockupprojectfr04" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+=======
+              <option name="myItemId" value="template" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+>>>>>>> d06aca538417bf60577907454a049c9e01665cfe
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="mockupprojectfr04" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+<<<<<<< HEAD
               <option name="myItemId" value="app" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="code" />
+=======
+              <option name="myItemId" value="featured" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="widget" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mockup_tuanpv" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mockup_tuanpv" />
+>>>>>>> d06aca538417bf60577907454a049c9e01665cfe
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -440,17 +849,49 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+<<<<<<< HEAD
               <option name="myItemId" value="Teamto" />
+=======
+              <option name="myItemId" value="design" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="frontend" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="default" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="default" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="template" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="teamto" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="featured" />
+>>>>>>> d06aca538417bf60577907454a049c9e01665cfe
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="mockupprojectfr04" />
+              <option name="myItemId" value="mockup_tuanpv" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+<<<<<<< HEAD
               <option name="myItemId" value="mockupprojectfr04" />
+=======
+              <option name="myItemId" value="mockup_tuanpv" />
+>>>>>>> d06aca538417bf60577907454a049c9e01665cfe
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -466,21 +907,29 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+<<<<<<< HEAD
               <option name="myItemId" value="Teamto" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="Filter" />
+=======
+              <option name="myItemId" value="default" />
+>>>>>>> d06aca538417bf60577907454a049c9e01665cfe
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
+<<<<<<< HEAD
               <option name="myItemId" value="mockupprojectfr04" />
+=======
+              <option name="myItemId" value="mockup_tuanpv" />
+>>>>>>> d06aca538417bf60577907454a049c9e01665cfe
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="mockupprojectfr04" />
+              <option name="myItemId" value="mockup_tuanpv" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -500,25 +949,61 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+<<<<<<< HEAD
               <option name="myItemId" value="Filter" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="Block" />
+=======
+              <option name="myItemId" value="default" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="layout" />
+>>>>>>> d06aca538417bf60577907454a049c9e01665cfe
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+<<<<<<< HEAD
               <option name="myItemId" value="Layer" />
+=======
+              <option name="myItemId" value="mockup_tuanpv" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mockup_tuanpv" />
+>>>>>>> d06aca538417bf60577907454a049c9e01665cfe
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+<<<<<<< HEAD
+              <option name="myItemId" value="mockupprojectfr04" />
+=======
+              <option name="myItemId" value="code" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="local" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Teamto" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="mockupprojectfr04" />
+              <option name="myItemId" value="mockup_tuanpv" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="mockupprojectfr04" />
+              <option name="myItemId" value="mockup_tuanpv" />
+>>>>>>> d06aca538417bf60577907454a049c9e01665cfe
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -537,6 +1022,11 @@
               <option name="myItemId" value="Teamto" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+<<<<<<< HEAD
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Featured" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+=======
             <PATH_ELEMENT>
               <option name="myItemId" value="Featured" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
@@ -544,11 +1034,22 @@
           </PATH>
           <PATH>
             <PATH_ELEMENT>
+              <option name="myItemId" value="mockup_tuanpv" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+>>>>>>> d06aca538417bf60577907454a049c9e01665cfe
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+<<<<<<< HEAD
               <option name="myItemId" value="mockupprojectfr04" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="mockupprojectfr04" />
+=======
+              <option name="myItemId" value="mockup_tuanpv" />
+>>>>>>> d06aca538417bf60577907454a049c9e01665cfe
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -578,11 +1079,19 @@
           </PATH>
           <PATH>
             <PATH_ELEMENT>
+<<<<<<< HEAD
               <option name="myItemId" value="mockupprojectfr04" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="mockupprojectfr04" />
+=======
+              <option name="myItemId" value="mockup_tuanpv" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mockup_tuanpv" />
+>>>>>>> d06aca538417bf60577907454a049c9e01665cfe
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -600,6 +1109,7 @@
           </PATH>
           <PATH>
             <PATH_ELEMENT>
+<<<<<<< HEAD
               <option name="myItemId" value="mockupprojectfr04" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
@@ -617,16 +1127,35 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="core" />
+=======
+              <option name="myItemId" value="Teamto" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Featured" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Block" />
+>>>>>>> d06aca538417bf60577907454a049c9e01665cfe
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
+<<<<<<< HEAD
               <option name="myItemId" value="mockupprojectfr04" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="mockupprojectfr04" />
+=======
+              <option name="myItemId" value="mockup_tuanpv" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mockup_tuanpv" />
+>>>>>>> d06aca538417bf60577907454a049c9e01665cfe
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -638,51 +1167,103 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+<<<<<<< HEAD
               <option name="myItemId" value="core" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Mage" />
+=======
+              <option name="myItemId" value="local" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Teamto" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Featured" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Block" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Featured" />
+>>>>>>> d06aca538417bf60577907454a049c9e01665cfe
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+<<<<<<< HEAD
+              <option name="myItemId" value="mockupprojectfr04" />
+=======
+              <option name="myItemId" value="mockup_tuanpv" />
+>>>>>>> d06aca538417bf60577907454a049c9e01665cfe
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mockup_tuanpv" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="code" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+<<<<<<< HEAD
+              <option name="myItemId" value="core" />
+=======
+              <option name="myItemId" value="local" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Teamto" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Featured" />
+>>>>>>> d06aca538417bf60577907454a049c9e01665cfe
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="Mage" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-          </PATH>
-          <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="mockupprojectfr04" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mockupprojectfr04" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="code" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="core" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Mage" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
+<<<<<<< HEAD
               <option name="myItemId" value="Catalog" />
+=======
+              <option name="myItemId" value="Featured" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Widget" />
+>>>>>>> d06aca538417bf60577907454a049c9e01665cfe
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
+<<<<<<< HEAD
               <option name="myItemId" value="mockupprojectfr04" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="mockupprojectfr04" />
+=======
+              <option name="myItemId" value="mockup_tuanpv" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mockup_tuanpv" />
+>>>>>>> d06aca538417bf60577907454a049c9e01665cfe
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -712,11 +1293,15 @@
           </PATH>
           <PATH>
             <PATH_ELEMENT>
+<<<<<<< HEAD
               <option name="myItemId" value="mockupprojectfr04" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="mockupprojectfr04" />
+=======
+              <option name="myItemId" value="mockup_tuanpv" />
+>>>>>>> d06aca538417bf60577907454a049c9e01665cfe
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -734,6 +1319,20 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
+<<<<<<< HEAD
+=======
+    <property name="FullScreen" value="false" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\xampp\htdocs\mockup_tuanpv\app\design\frontend\default\default\template\teamto\featured\product" />
+      <recent name="E:\xampp\htdocs\mockup_tuanpv\app\code\local\Teamto\Featured\Block" />
+      <recent name="E:\xampp\htdocs\mockup_tuanpv\app\code\local\Teamto\Featured" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\xampp\htdocs\mockup_tuanpv\app\code\local\Teamto\Featured\Block\Featured" />
+    </key>
+>>>>>>> d06aca538417bf60577907454a049c9e01665cfe
   </component>
   <component name="RunManager">
     <list size="0" />
@@ -741,22 +1340,38 @@
   <component name="ShelveChangesManager" show_recycled="false" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
+<<<<<<< HEAD
       <changelist id="a08b81cf-cfcc-478b-b821-a9790ce2bc53" name="Default" comment="" />
       <created>1407228738575</created>
       <updated>1407228738575</updated>
+=======
+      <changelist id="229d8a55-5c27-4451-afd4-bab1da4462b6" name="Default" comment="" />
+      <created>1407136439864</created>
+      <updated>1407136439864</updated>
+>>>>>>> d06aca538417bf60577907454a049c9e01665cfe
     </task>
     <servers />
   </component>
   <component name="ToolWindowManager">
+<<<<<<< HEAD
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+=======
+    <frame x="-8" y="-8" width="1296" height="776" extended-state="6" />
+>>>>>>> d06aca538417bf60577907454a049c9e01665cfe
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+<<<<<<< HEAD
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+=======
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.33792543" sideWeight="0.67202574" order="0" side_tool="false" content_ui="combo" />
+>>>>>>> d06aca538417bf60577907454a049c9e01665cfe
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
@@ -764,7 +1379,10 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+<<<<<<< HEAD
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+=======
+>>>>>>> d06aca538417bf60577907454a049c9e01665cfe
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -783,58 +1401,164 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/app/code/core/Mage/Catalog/Model/Layer/Filter/Price.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="39" column="1" selection-start="1310" selection-end="1310" vertical-scroll-proportion="-5.7940073" vertical-offset="3366" max-vertical-offset="9860">
+=======
+    <entry file="file://$PROJECT_DIR$/app/design/frontend/base/default/template/catalog/product/new.phtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="27" column="65" selection-start="1057" selection-end="1122" vertical-scroll-proportion="0.122522525" vertical-offset="0" max-vertical-offset="714">
+>>>>>>> d06aca538417bf60577907454a049c9e01665cfe
           <folding />
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/app/code/core/Mage/Catalog/Model/Layer/State.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="40" column="7" selection-start="1349" selection-end="1349" vertical-scroll-proportion="-0.43258426" vertical-offset="520" max-vertical-offset="1054">
+=======
+    <entry file="file://$PROJECT_DIR$/app/design/frontend/base/default/template/catalog/product/list/toolbar.phtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="33" column="59" selection-start="1123" selection-end="1123" vertical-scroll-proportion="0.18378378" vertical-offset="0" max-vertical-offset="1292">
+>>>>>>> d06aca538417bf60577907454a049c9e01665cfe
           <folding />
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/app/code/core/Mage/Catalog/Model/Layer/Filter/Category.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2822">
+=======
+    <entry file="file://$PROJECT_DIR$/app/code/core/Mage/Catalog/etc/config.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="827" column="33" selection-start="35942" selection-end="35942" vertical-scroll-proportion="1.4681584" vertical-offset="13206" max-vertical-offset="14722">
+>>>>>>> d06aca538417bf60577907454a049c9e01665cfe
           <folding />
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/app/code/core/Mage/Catalog/Model/Layer.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="34" column="30" selection-start="1121" selection-end="1145" vertical-scroll-proportion="110.5" vertical-offset="3060" max-vertical-offset="4743">
+=======
+    <entry file="file://$PROJECT_DIR$/app/code/local/Teamto/Featured/Block/FeatureProduct.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="26" column="1" selection-start="672" selection-end="673" vertical-scroll-proportion="0.77816904" vertical-offset="0" max-vertical-offset="568">
+>>>>>>> d06aca538417bf60577907454a049c9e01665cfe
           <folding />
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/app/code/local/Teamto/Filter/Block/Layer/View.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="5" column="39" selection-start="201" selection-end="201" vertical-scroll-proportion="-3.2692308" vertical-offset="0" max-vertical-offset="527">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/design/frontend/default/default/template/teamto/filter/filter.phtml">
+=======
+    <entry file="file://$PROJECT_DIR$/app/etc/local.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="2" selection-start="48" selection-end="48" vertical-scroll-proportion="-1.3076923" vertical-offset="0" max-vertical-offset="1581">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/design/frontend/default/default/template/teamto/layout/head.phtml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="9" selection-start="306" selection-end="413" vertical-scroll-proportion="-6.5384617" vertical-offset="0" max-vertical-offset="289">
+        <state line="43" column="57" selection-start="1532" selection-end="1569" vertical-scroll-proportion="0.25589225" vertical-offset="579" max-vertical-offset="1224">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/code/local/Teamto/Featured/etc/config.xml">
       <provider selected="true" editor-type-id="text-editor">
+        <state line="31" column="17" selection-start="1022" selection-end="1022" vertical-scroll-proportion="0.6296296" vertical-offset="153" max-vertical-offset="1649">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/code/local/Teamto/Featured/Block/Featured/Widget/Slideshow.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="55" selection-start="414" selection-end="414" vertical-scroll-proportion="0.47887325" vertical-offset="0" max-vertical-offset="568">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/code/local/Teamto/Featured/etc/widget.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="4" selection-start="228" selection-end="228" vertical-scroll-proportion="0.17171717" vertical-offset="0" max-vertical-offset="594">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/skin/frontend/default/default/js/filter/jquery-1.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="40" column="18" selection-start="1086" selection-end="1086" vertical-scroll-proportion="1.2252252" vertical-offset="0" max-vertical-offset="166515">
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/skin/frontend/default/default/js/noConflict.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="20" selection-start="20" selection-end="20" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="594">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/design/frontend/default/default/layout/megamenu.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="581">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/design/frontend/default/default/template/teamto/filter/filter.phtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="114" column="0" selection-start="5026" selection-end="5026" vertical-scroll-proportion="0.81621623" vertical-offset="1026" max-vertical-offset="1581">
+>>>>>>> d06aca538417bf60577907454a049c9e01665cfe
+          <folding />
+        </state>
+      </provider>
+    </entry>
+<<<<<<< HEAD
+    <entry file="file://$PROJECT_DIR$/app/design/frontend/default/default/template/teamto/filter/filter.phtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="2" selection-start="48" selection-end="48" vertical-scroll-proportion="-1.3076923" vertical-offset="0" max-vertical-offset="1581">
+=======
+    <entry file="file://$PROJECT_DIR$/app/design/frontend/default/default/template/teamto/featured/widget/slideshow.phtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="102" column="11" selection-start="2979" selection-end="2979" vertical-scroll-proportion="0.64324325" vertical-offset="1377" max-vertical-offset="2278">
+>>>>>>> d06aca538417bf60577907454a049c9e01665cfe
+          <folding />
+        </state>
+      </provider>
+    </entry>
+<<<<<<< HEAD
+    <entry file="file://$PROJECT_DIR$/app/design/frontend/default/default/template/teamto/layout/head.phtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="9" selection-start="306" selection-end="413" vertical-scroll-proportion="-6.5384617" vertical-offset="0" max-vertical-offset="289">
+=======
+    <entry file="file://$PROJECT_DIR$/app/design/frontend/default/default/layout/featured.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="13" selection-start="60" selection-end="60" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="629">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/design/frontend/default/default/layout/filter.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="29" column="9" selection-start="966" selection-end="966" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="595">
+>>>>>>> d06aca538417bf60577907454a049c9e01665cfe
+          <folding />
+        </state>
+      </provider>
+    </entry>
+<<<<<<< HEAD
+    <entry file="file://$PROJECT_DIR$/app/code/local/Teamto/Featured/etc/config.xml">
+      <provider selected="true" editor-type-id="text-editor">
         <state line="31" column="17" selection-start="1022" selection-end="1022" vertical-scroll-proportion="0.7589286" vertical-offset="102" max-vertical-offset="1649">
+=======
+    <entry file="file://$PROJECT_DIR$/app/design/frontend/default/default/template/teamto/layout/head.phtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="0" selection-start="268" selection-end="268" vertical-scroll-proportion="0.17957747" vertical-offset="0" max-vertical-offset="568">
+>>>>>>> d06aca538417bf60577907454a049c9e01665cfe
           <folding />
         </state>
       </provider>
