@@ -25,7 +25,7 @@
  */
 
 /**
- * Catalogedit product option model
+ * Catalog product option model
  *
  * @method Mage_Catalog_Model_Resource_Product_Option _getResource()
  * @method Mage_Catalog_Model_Resource_Product_Option getResource()

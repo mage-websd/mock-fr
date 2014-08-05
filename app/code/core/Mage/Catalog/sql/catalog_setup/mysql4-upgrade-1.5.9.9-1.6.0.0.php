@@ -1378,7 +1378,7 @@ $tables = array(
                 'comment'   => 'Update Time'
             )
         ),
-        'comment' => 'Catalogedit Product Table'
+        'comment' => 'Catalog Product Table'
     ),
     $installer->getTable('catalog/category') => array(
         'columns' => array(
@@ -1444,7 +1444,7 @@ $tables = array(
                 'comment'   => 'Child Count'
             )
         ),
-        'comment' => 'Catalogedit Category Table'
+        'comment' => 'Catalog Category Table'
     ),
     $installer->getTable('catalog/category_product') => array(
         'columns' => array(
@@ -1471,7 +1471,7 @@ $tables = array(
                 'comment'   => 'Position'
             )
         ),
-        'comment' => 'Catalogedit Product To Category Linkage Table'
+        'comment' => 'Catalog Product To Category Linkage Table'
     ),
     $installer->getTable('catalog/category_product_index') => array(
         'columns' => array(
@@ -1519,7 +1519,7 @@ $tables = array(
                 'comment'   => 'Visibility'
             )
         ),
-        'comment' => 'Catalogedit Category Product Index'
+        'comment' => 'Catalog Category Product Index'
     ),
     $installer->getTable('catalog/compare_item') => array(
         'columns' => array(
@@ -1556,7 +1556,7 @@ $tables = array(
                 'comment'   => 'Store ID'
             )
         ),
-        'comment' => 'Catalogedit Compare Table'
+        'comment' => 'Catalog Compare Table'
     ),
     $installer->getTable('catalog/product_website') => array(
         'columns' => array(
@@ -1577,7 +1577,7 @@ $tables = array(
                 'comment'   => 'Website ID'
             )
         ),
-        'comment' => 'Catalogedit Product To Website Linkage Table'
+        'comment' => 'Catalog Product To Website Linkage Table'
     ),
     $installer->getTable('catalog/product_enabled_index') => array(
         'columns' => array(
@@ -1605,7 +1605,7 @@ $tables = array(
                 'comment'   => 'Visibility'
             )
         ),
-        'comment' => 'Catalogedit Product Visibility Index Table'
+        'comment' => 'Catalog Product Visibility Index Table'
     ),
     $installer->getTable('catalog/product_link_type') => array(
         'columns' => array(
@@ -1624,7 +1624,7 @@ $tables = array(
                 'comment'   => 'Code'
             )
         ),
-        'comment' => 'Catalogedit Product Link Type Table'
+        'comment' => 'Catalog Product Link Type Table'
     ),
     $installer->getTable('catalog/product_link') => array(
         'columns' => array(
@@ -1658,7 +1658,7 @@ $tables = array(
                 'comment'   => 'Link Type ID'
             )
         ),
-        'comment' => 'Catalogedit Product To Product Linkage Table'
+        'comment' => 'Catalog Product To Product Linkage Table'
     ),
     $installer->getTable('catalog/product_link_attribute') => array(
         'columns' => array(
@@ -1690,7 +1690,7 @@ $tables = array(
                 'comment'   => 'Data Type'
             )
         ),
-        'comment' => 'Catalogedit Product Link Attribute Table'
+        'comment' => 'Catalog Product Link Attribute Table'
     ),
     $installer->getTable('catalog/product_link_attribute_decimal') => array(
         'columns' => array(
@@ -1723,7 +1723,7 @@ $tables = array(
                 'comment'   => 'Value'
             )
         ),
-        'comment' => 'Catalogedit Product Link Decimal Attribute Table'
+        'comment' => 'Catalog Product Link Decimal Attribute Table'
     ),
     $installer->getTable('catalog/product_link_attribute_int') => array(
         'columns' => array(
@@ -1754,7 +1754,7 @@ $tables = array(
                 'comment'   => 'Value'
             )
         ),
-        'comment' => 'Catalogedit Product Link Integer Attribute Table'
+        'comment' => 'Catalog Product Link Integer Attribute Table'
     ),
     $installer->getTable('catalog/product_link_attribute_varchar') => array(
         'columns' => array(
@@ -1786,7 +1786,7 @@ $tables = array(
                 'comment'   => 'Value'
             )
         ),
-        'comment' => 'Catalogedit Product Link Varchar Attribute Table'
+        'comment' => 'Catalog Product Link Varchar Attribute Table'
     ),
     $installer->getTable('catalog/product_super_attribute') => array(
         'columns' => array(
@@ -1820,7 +1820,7 @@ $tables = array(
                 'comment'   => 'Position'
             )
         ),
-        'comment' => 'Catalogedit Product Super Attribute Table'
+        'comment' => 'Catalog Product Super Attribute Table'
     ),
     $installer->getTable('catalog/product_super_attribute_label') => array(
         'columns' => array(
@@ -1858,7 +1858,7 @@ $tables = array(
                 'comment'   => 'Value'
             )
         ),
-        'comment' => 'Catalogedit Product Super Attribute Label Table'
+        'comment' => 'Catalog Product Super Attribute Label Table'
     ),
     $installer->getTable('catalog/product_super_attribute_pricing') => array(
         'columns' => array(
@@ -1903,7 +1903,7 @@ $tables = array(
                 'comment'   => 'Website ID'
             )
         ),
-        'comment' => 'Catalogedit Product Super Attribute Pricing Table'
+        'comment' => 'Catalog Product Super Attribute Pricing Table'
     ),
     $installer->getTable('catalog/product_super_link') => array(
         'columns' => array(
@@ -1930,7 +1930,7 @@ $tables = array(
                 'comment'   => 'Parent ID'
             )
         ),
-        'comment' => 'Catalogedit Product Super Link Table'
+        'comment' => 'Catalog Product Super Link Table'
     ),
     $installer->getTable('catalog/product_attribute_tier_price') => array(
         'columns' => array(
@@ -1986,7 +1986,7 @@ $tables = array(
                 'comment'   => 'Website ID'
             )
         ),
-        'comment' => 'Catalogedit Product Tier Price Attribute Backend Table'
+        'comment' => 'Catalog Product Tier Price Attribute Backend Table'
     ),
     $installer->getTable('catalog/product_attribute_media_gallery') => array(
         'columns' => array(
@@ -2018,7 +2018,7 @@ $tables = array(
                 'comment'   => 'Value'
             )
         ),
-        'comment' => 'Catalogedit Product Media Gallery Attribute Backend Table'
+        'comment' => 'Catalog Product Media Gallery Attribute Backend Table'
     ),
     $installer->getTable('catalog/product_attribute_media_gallery_value') => array(
         'columns' => array(
@@ -2056,7 +2056,7 @@ $tables = array(
                 'comment'   => 'Is Disabled'
             )
         ),
-        'comment' => 'Catalogedit Product Media Gallery Attribute Value Table'
+        'comment' => 'Catalog Product Media Gallery Attribute Value Table'
     ),
     $installer->getTable('catalog/product_option') => array(
         'columns' => array(
@@ -2120,7 +2120,7 @@ $tables = array(
                 'comment'   => 'Sort Order'
             )
         ),
-        'comment' => 'Catalogedit Product Option Table'
+        'comment' => 'Catalog Product Option Table'
     ),
     $installer->getTable('catalog/product_option_price') => array(
         'columns' => array(
@@ -2162,7 +2162,7 @@ $tables = array(
                 'comment'   => 'Price Type'
             )
         ),
-        'comment' => 'Catalogedit Product Option Price Table'
+        'comment' => 'Catalog Product Option Price Table'
     ),
     $installer->getTable('catalog/product_option_title') => array(
         'columns' => array(
@@ -2195,7 +2195,7 @@ $tables = array(
                 'comment'   => 'Title'
             )
         ),
-        'comment' => 'Catalogedit Product Option Title Table'
+        'comment' => 'Catalog Product Option Title Table'
     ),
     $installer->getTable('catalog/product_option_type_value') => array(
         'columns' => array(
@@ -2227,7 +2227,7 @@ $tables = array(
                 'comment'   => 'Sort Order'
             )
         ),
-        'comment' => 'Catalogedit Product Option Type Value Table'
+        'comment' => 'Catalog Product Option Type Value Table'
     ),
     $installer->getTable('catalog/product_option_type_price') => array(
         'columns' => array(
@@ -2269,7 +2269,7 @@ $tables = array(
                 'comment'   => 'Price Type'
             )
         ),
-        'comment' => 'Catalogedit Product Option Type Price Table'
+        'comment' => 'Catalog Product Option Type Price Table'
     ),
     $installer->getTable('catalog/product_option_type_title') => array(
         'columns' => array(
@@ -2302,7 +2302,7 @@ $tables = array(
                 'comment'   => 'Title'
             )
         ),
-        'comment' => 'Catalogedit Product Option Type Title Table'
+        'comment' => 'Catalog Product Option Type Title Table'
     ),
     $installer->getTable('catalog/eav_attribute') => array(
         'columns' => array(
@@ -2436,7 +2436,7 @@ $tables = array(
                 'comment'   => 'Is Used For Promo Rules'
             )
         ),
-        'comment' => 'Catalogedit EAV Attribute Table'
+        'comment' => 'Catalog EAV Attribute Table'
     ),
     $installer->getTable('catalog/product_relation') => array(
         'columns' => array(
@@ -2457,7 +2457,7 @@ $tables = array(
                 'comment'   => 'Child ID'
             )
         ),
-        'comment' => 'Catalogedit Product Relation Table'
+        'comment' => 'Catalog Product Relation Table'
     ),
     $installer->getTable('catalog/product_index_eav') => array(
         'columns' => array(
@@ -2494,7 +2494,7 @@ $tables = array(
                 'comment'   => 'Value'
             )
         ),
-        'comment' => 'Catalogedit Product EAV Index Table'
+        'comment' => 'Catalog Product EAV Index Table'
     ),
     $installer->getTable('catalog/product_index_eav_decimal') => array(
         'columns' => array(
@@ -2532,7 +2532,7 @@ $tables = array(
                 'comment'   => 'Value'
             )
         ),
-        'comment' => 'Catalogedit Product EAV Decimal Index Table'
+        'comment' => 'Catalog Product EAV Decimal Index Table'
     ),
     $installer->getTable('catalog/product_index_price') => array(
         'columns' => array(
@@ -2597,7 +2597,7 @@ $tables = array(
                 'comment'   => 'Tier Price'
             )
         ),
-        'comment' => 'Catalogedit Product Price Index Table'
+        'comment' => 'Catalog Product Price Index Table'
     ),
     $installer->getTable('catalog/product_index_tier_price') => array(
         'columns' => array(
@@ -2632,7 +2632,7 @@ $tables = array(
                 'comment'   => 'Min Price'
             )
         ),
-        'comment' => 'Catalogedit Product Tier Price Index Table'
+        'comment' => 'Catalog Product Tier Price Index Table'
     ),
     $installer->getTable('catalog/product_index_website') => array(
         'columns' => array(
@@ -2650,7 +2650,7 @@ $tables = array(
                 'comment'   => 'Rate'
             )
         ),
-        'comment' => 'Catalogedit Product Website Index Table'
+        'comment' => 'Catalog Product Website Index Table'
     ),
     $installer->getTable('catalog/product_price_indexer_cfg_option_aggregate_idx') => array(
         'columns' => array(
@@ -2699,7 +2699,7 @@ $tables = array(
                 'comment'   => 'Tier Price'
             )
         ),
-        'comment' => 'Catalogedit Product Price Indexer Config Option Aggregate Index '
+        'comment' => 'Catalog Product Price Indexer Config Option Aggregate Index '
     ),
     $installer->getTable('catalog/product_price_indexer_cfg_option_aggregate_tmp') => array(
         'columns' => array(
@@ -2748,7 +2748,7 @@ $tables = array(
                 'comment'   => 'Tier Price'
             )
         ),
-        'comment' => 'Catalogedit Product Price Indexer Config Option Aggregate Temp Table',
+        'comment' => 'Catalog Product Price Indexer Config Option Aggregate Temp Table',
         'engine'  => 'InnoDB'
     ),
     $installer->getTable('catalog/product_price_indexer_cfg_option_idx') => array(
@@ -2796,7 +2796,7 @@ $tables = array(
                 'comment'   => 'Tier Price'
             )
         ),
-        'comment' => 'Catalogedit Product Price Indexer Config Option Index Table'
+        'comment' => 'Catalog Product Price Indexer Config Option Index Table'
     ),
     $installer->getTable('catalog/product_price_indexer_cfg_option_tmp') => array(
         'columns' => array(
@@ -2843,7 +2843,7 @@ $tables = array(
                 'comment'   => 'Tier Price'
             )
         ),
-        'comment' => 'Catalogedit Product Price Indexer Config Option Temp Table',
+        'comment' => 'Catalog Product Price Indexer Config Option Temp Table',
         'engine'  => 'InnoDB'
     ),
     $installer->getTable('catalog/product_price_indexer_final_idx') => array(
@@ -2915,7 +2915,7 @@ $tables = array(
                 'comment'   => 'Base Tier'
             )
         ),
-        'comment' => 'Catalogedit Product Price Indexer Final Index Table'
+        'comment' => 'Catalog Product Price Indexer Final Index Table'
     ),
     $installer->getTable('catalog/product_price_indexer_final_tmp') => array(
         'columns' => array(
@@ -2986,7 +2986,7 @@ $tables = array(
                 'comment'   => 'Base Tier'
             )
         ),
-        'comment' => 'Catalogedit Product Price Indexer Final Temp Table',
+        'comment' => 'Catalog Product Price Indexer Final Temp Table',
         'engine'  => 'InnoDB'
     ),
     $installer->getTable('catalog/product_price_indexer_option_idx') => array(
@@ -3034,7 +3034,7 @@ $tables = array(
                 'comment'   => 'Tier Price'
             )
         ),
-        'comment' => 'Catalogedit Product Price Indexer Option Index Table'
+        'comment' => 'Catalog Product Price Indexer Option Index Table'
     ),
     $installer->getTable('catalog/product_price_indexer_option_tmp') => array(
         'columns' => array(
@@ -3081,7 +3081,7 @@ $tables = array(
                 'comment'   => 'Tier Price'
             )
         ),
-        'comment' => 'Catalogedit Product Price Indexer Option Temp Table',
+        'comment' => 'Catalog Product Price Indexer Option Temp Table',
         'engine'  => 'InnoDB'
     ),
     $installer->getTable('catalog/product_price_indexer_option_aggregate_idx') => array(
@@ -3137,7 +3137,7 @@ $tables = array(
                 'comment'   => 'Tier Price'
             )
         ),
-        'comment' => 'Catalogedit Product Price Indexer Option Aggregate Index Table'
+        'comment' => 'Catalog Product Price Indexer Option Aggregate Index Table'
     ),
     $installer->getTable('catalog/product_price_indexer_option_aggregate_tmp') => array(
         'columns' => array(
@@ -3192,7 +3192,7 @@ $tables = array(
                 'comment'   => 'Tier Price'
             )
         ),
-        'comment' => 'Catalogedit Product Price Indexer Option Aggregate Temp Table',
+        'comment' => 'Catalog Product Price Indexer Option Aggregate Temp Table',
         'engine'  => 'InnoDB'
     ),
     $installer->getTable('catalog/product_eav_indexer_idx') => array(
@@ -3230,7 +3230,7 @@ $tables = array(
                 'comment'   => 'Value'
             )
         ),
-        'comment' => 'Catalogedit Product EAV Indexer Index Table'
+        'comment' => 'Catalog Product EAV Indexer Index Table'
     ),
     $installer->getTable('catalog/product_eav_indexer_tmp') => array(
         'columns' => array(
@@ -3267,7 +3267,7 @@ $tables = array(
                 'comment'   => 'Value'
             )
         ),
-        'comment' => 'Catalogedit Product EAV Indexer Temp Table',
+        'comment' => 'Catalog Product EAV Indexer Temp Table',
         'engine'  => 'InnoDB'
     ),
     $installer->getTable('catalog/product_eav_decimal_indexer_idx') => array(
@@ -3306,7 +3306,7 @@ $tables = array(
                 'comment'   => 'Value'
             )
         ),
-        'comment' => 'Catalogedit Product EAV Decimal Indexer Index Table'
+        'comment' => 'Catalog Product EAV Decimal Indexer Index Table'
     ),
     $installer->getTable('catalog/product_eav_decimal_indexer_tmp') => array(
         'columns' => array(
@@ -3344,7 +3344,7 @@ $tables = array(
                 'comment'   => 'Value'
             )
         ),
-        'comment' => 'Catalogedit Product EAV Decimal Indexer Temp Table',
+        'comment' => 'Catalog Product EAV Decimal Indexer Temp Table',
         'engine'  => 'InnoDB'
     ),
     $installer->getTable('catalog/product_price_indexer_idx') => array(
@@ -3410,7 +3410,7 @@ $tables = array(
                 'comment'   => 'Tier Price'
             )
         ),
-        'comment' => 'Catalogedit Product Price Indexer Index Table'
+        'comment' => 'Catalog Product Price Indexer Index Table'
     ),
     $installer->getTable('catalog/product_price_indexer_tmp') => array(
         'columns' => array(
@@ -3475,7 +3475,7 @@ $tables = array(
                 'comment'   => 'Tier Price'
             )
         ),
-        'comment' => 'Catalogedit Product Price Indexer Temp Table',
+        'comment' => 'Catalog Product Price Indexer Temp Table',
         'engine'  => 'InnoDB'
     ),
     $installer->getTable('catalog/category_product_indexer_idx') => array(
@@ -3522,7 +3522,7 @@ $tables = array(
                 'comment'   => 'Visibility'
             )
         ),
-        'comment' => 'Catalogedit Category Product Indexer Index Table'
+        'comment' => 'Catalog Category Product Indexer Index Table'
     ),
     $installer->getTable('catalog/category_product_indexer_tmp') => array(
         'columns' => array(
@@ -3568,7 +3568,7 @@ $tables = array(
                 'comment'   => 'Visibility'
             )
         ),
-        'comment' => 'Catalogedit Category Product Indexer Temp Table',
+        'comment' => 'Catalog Category Product Indexer Temp Table',
         'engine'  => 'InnoDB'
     ),
     $installer->getTable('catalog/category_product_enabled_indexer_idx') => array(
@@ -3588,7 +3588,7 @@ $tables = array(
                 'comment'   => 'Visibility'
             )
         ),
-        'comment' => 'Catalogedit Category Product Enabled Indexer Index Table'
+        'comment' => 'Catalog Category Product Enabled Indexer Index Table'
     ),
     $installer->getTable('catalog/category_product_enabled_indexer_tmp') => array(
         'columns' => array(
@@ -3607,7 +3607,7 @@ $tables = array(
                 'comment'   => 'Visibility'
             )
         ),
-        'comment' => 'Catalogedit Category Product Enabled Indexer Temp Table',
+        'comment' => 'Catalog Category Product Enabled Indexer Temp Table',
         'engine'  => 'InnoDB'
     ),
     $installer->getTable('catalog/category_anchor_indexer_idx') => array(
@@ -3626,7 +3626,7 @@ $tables = array(
                 'comment'   => 'Path'
             )
         ),
-        'comment' => 'Catalogedit Category Anchor Indexer Index Table'
+        'comment' => 'Catalog Category Anchor Indexer Index Table'
     ),
     $installer->getTable('catalog/category_anchor_indexer_tmp') => array(
         'columns' => array(
@@ -3644,7 +3644,7 @@ $tables = array(
                 'comment'   => 'Path'
             )
         ),
-        'comment' => 'Catalogedit Category Anchor Indexer Temp Table',
+        'comment' => 'Catalog Category Anchor Indexer Temp Table',
         'engine'  => 'InnoDB'
     ),
     $installer->getTable('catalog/category_anchor_products_indexer_idx') => array(
@@ -3669,7 +3669,7 @@ $tables = array(
                 'comment'   => 'Position'
             )
         ),
-        'comment' => 'Catalogedit Category Anchor Product Indexer Index Table'
+        'comment' => 'Catalog Category Anchor Product Indexer Index Table'
     ),
     $installer->getTable('catalog/category_anchor_products_indexer_tmp') => array(
         'columns' => array(
@@ -3688,7 +3688,7 @@ $tables = array(
                 'comment'   => 'Product ID'
             )
         ),
-        'comment' => 'Catalogedit Category Anchor Product Indexer Temp Table',
+        'comment' => 'Catalog Category Anchor Product Indexer Temp Table',
         'engine'  => 'InnoDB'
     ),
     $installer->getTable(array('catalog/product','datetime')) => array(
@@ -3729,7 +3729,7 @@ $tables = array(
                 'comment'   => 'Value'
             )
         ),
-        'comment' => 'Catalogedit Product Datetime Attribute Backend Table'
+        'comment' => 'Catalog Product Datetime Attribute Backend Table'
     ),
     $installer->getTable(array('catalog/product','decimal')) => array(
         'columns' => array(
@@ -3771,7 +3771,7 @@ $tables = array(
                 'comment'   => 'Value'
             )
         ),
-        'comment' => 'Catalogedit Product Decimal Attribute Backend Table'
+        'comment' => 'Catalog Product Decimal Attribute Backend Table'
     ),
     $installer->getTable(array('catalog/product','int')) => array(
         'columns' => array(
@@ -3811,7 +3811,7 @@ $tables = array(
                 'comment'   => 'Value'
             )
         ),
-        'comment' => 'Catalogedit Product Integer Attribute Backend Table'
+        'comment' => 'Catalog Product Integer Attribute Backend Table'
     ),
     $installer->getTable(array('catalog/product','text')) => array(
         'columns' => array(
@@ -3852,7 +3852,7 @@ $tables = array(
                 'comment'   => 'Value'
             )
         ),
-        'comment' => 'Catalogedit Product Text Attribute Backend Table'
+        'comment' => 'Catalog Product Text Attribute Backend Table'
     ),
     $installer->getTable(array('catalog/product','varchar')) => array(
         'columns' => array(
@@ -3893,7 +3893,7 @@ $tables = array(
                 'comment'   => 'Value'
             )
         ),
-        'comment' => 'Catalogedit Product Varchar Attribute Backend Table'
+        'comment' => 'Catalog Product Varchar Attribute Backend Table'
     ),
     $installer->getTable(array('catalog/product','gallery')) => array(
         'columns' => array(
@@ -3940,7 +3940,7 @@ $tables = array(
                 'comment'   => 'Value'
             )
         ),
-        'comment' => 'Catalogedit Product Gallery Attribute Backend Table'
+        'comment' => 'Catalog Product Gallery Attribute Backend Table'
     ),
     $installer->getTable(array('catalog/category','datetime')) => array(
         'columns' => array(
@@ -3980,7 +3980,7 @@ $tables = array(
                 'comment'   => 'Value'
             )
         ),
-        'comment' => 'Catalogedit Category Datetime Attribute Backend Table'
+        'comment' => 'Catalog Category Datetime Attribute Backend Table'
     ),
     $installer->getTable(array('catalog/category','decimal')) => array(
         'columns' => array(
@@ -4022,7 +4022,7 @@ $tables = array(
                 'comment'   => 'Value'
             )
         ),
-        'comment' => 'Catalogedit Category Decimal Attribute Backend Table'
+        'comment' => 'Catalog Category Decimal Attribute Backend Table'
     ),
     $installer->getTable(array('catalog/category','int')) => array(
         'columns' => array(
@@ -4062,7 +4062,7 @@ $tables = array(
                 'comment'   => 'Value'
             )
         ),
-        'comment' => 'Catalogedit Category Integer Attribute Backend Table'
+        'comment' => 'Catalog Category Integer Attribute Backend Table'
     ),
     $installer->getTable(array('catalog/category','text')) => array(
         'columns' => array(
@@ -4103,7 +4103,7 @@ $tables = array(
                 'comment'   => 'Value'
             )
         ),
-        'comment' => 'Catalogedit Category Text Attribute Backend Table'
+        'comment' => 'Catalog Category Text Attribute Backend Table'
     ),
     $installer->getTable(array('catalog/category','varchar')) => array(
         'columns' => array(
@@ -4144,7 +4144,7 @@ $tables = array(
                 'comment'   => 'Value'
             )
         ),
-        'comment' => 'Catalogedit Category Varchar Attribute Backend Table'
+        'comment' => 'Catalog Category Varchar Attribute Backend Table'
     ),
     $installer->getTable('core/url_rewrite') => array(
         'columns' => array(

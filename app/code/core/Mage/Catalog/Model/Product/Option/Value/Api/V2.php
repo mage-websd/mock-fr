@@ -25,7 +25,7 @@
  */
 
 /**
- * Catalogedit product option values api
+ * Catalog product option values api
  *
  * @category   Mage
  * @package    Mage_Catalog

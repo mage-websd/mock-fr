@@ -26,7 +26,7 @@
 
 
 /**
- * Catalogedit Layer Decimal Attribute Filter Block
+ * Catalog Layer Decimal Attribute Filter Block
  *
  * @category    Mage
  * @package     Mage_Catalog

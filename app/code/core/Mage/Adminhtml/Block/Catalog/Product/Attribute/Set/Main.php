@@ -25,7 +25,7 @@
  */
 
 /**
- * Adminhtml Catalogedit Attribute Set Main Block
+ * Adminhtml Catalog Attribute Set Main Block
  *
  * @category    Mage
  * @package     Mage_Adminhtml

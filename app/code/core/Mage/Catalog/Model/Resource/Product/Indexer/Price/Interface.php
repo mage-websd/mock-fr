@@ -26,7 +26,7 @@
 
 
 /**
- * Catalogedit Product Type Price Indexer interface
+ * Catalog Product Type Price Indexer interface
  *
  * @category    Mage
  * @package     Mage_Catalog

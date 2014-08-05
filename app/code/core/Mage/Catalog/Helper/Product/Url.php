@@ -26,7 +26,7 @@
 
 
 /**
- * Catalogedit Product Url helper
+ * Catalog Product Url helper
  *
  * @category   Mage
  * @package    Mage_Catalog

@@ -36,7 +36,7 @@ class Mage_Adminhtml_Catalog_Product_SetController extends Mage_Adminhtml_Contro
 {
     public function indexAction()
     {
-        $this->_title($this->__('Catalogedit'))
+        $this->_title($this->__('Catalog'))
              ->_title($this->__('Attributes'))
              ->_title($this->__('Manage Attribute Sets'));
 
@@ -45,7 +45,7 @@ class Mage_Adminhtml_Catalog_Product_SetController extends Mage_Adminhtml_Contro
         $this->loadLayout();
         $this->_setActiveMenu('catalog/sets');
 
-        $this->_addBreadcrumb(Mage::helper('catalog')->__('Catalogedit'), Mage::helper('catalog')->__('Catalogedit'));
+        $this->_addBreadcrumb(Mage::helper('catalog')->__('Catalog'), Mage::helper('catalog')->__('Catalog'));
         $this->_addBreadcrumb(
             Mage::helper('catalog')->__('Manage Attribute Sets'),
             Mage::helper('catalog')->__('Manage Attribute Sets'));
@@ -58,7 +58,7 @@ class Mage_Adminhtml_Catalog_Product_SetController extends Mage_Adminhtml_Contro
 
     public function editAction()
     {
-        $this->_title($this->__('Catalogedit'))
+        $this->_title($this->__('Catalog'))
              ->_title($this->__('Attributes'))
              ->_title($this->__('Manage Attribute Sets'));
 
@@ -79,7 +79,7 @@ class Mage_Adminhtml_Catalog_Product_SetController extends Mage_Adminhtml_Contro
         $this->_setActiveMenu('catalog/sets');
         $this->getLayout()->getBlock('head')->setCanLoadExtJs(true);
 
-        $this->_addBreadcrumb(Mage::helper('catalog')->__('Catalogedit'), Mage::helper('catalog')->__('Catalogedit'));
+        $this->_addBreadcrumb(Mage::helper('catalog')->__('Catalog'), Mage::helper('catalog')->__('Catalog'));
         $this->_addBreadcrumb(
             Mage::helper('catalog')->__('Manage Product Sets'),
             Mage::helper('catalog')->__('Manage Product Sets'));
@@ -177,7 +177,7 @@ class Mage_Adminhtml_Catalog_Product_SetController extends Mage_Adminhtml_Contro
 
     public function addAction()
     {
-        $this->_title($this->__('Catalogedit'))
+        $this->_title($this->__('Catalog'))
              ->_title($this->__('Attributes'))
              ->_title($this->__('Manage Attribute Sets'))
              ->_title($this->__('New Set'));

@@ -26,7 +26,7 @@
 
 
 /**
- * Catalogedit product gallery attribute
+ * Catalog product gallery attribute
  *
  * @category   Mage
  * @package    Mage_Adminhtml

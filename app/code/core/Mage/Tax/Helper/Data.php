@@ -25,7 +25,7 @@
  */
 
 /**
- * Catalogedit data helper
+ * Catalog data helper
  */
 class Mage_Tax_Helper_Data extends Mage_Core_Helper_Abstract
 {
@@ -943,7 +943,7 @@ class Mage_Tax_Helper_Data extends Mage_Core_Helper_Abstract
 
     /**
      * Get taxes/discounts calculation sequence.
-     * This sequence depends on "Catalogedit price include tax", "Apply Tax After Discount"
+     * This sequence depends on "Catalog price include tax", "Apply Tax After Discount"
      * and "Apply Discount On Prices Including Tax" configuration options.
      *
      * @param   null|int|string|Mage_Core_Model_Store $store

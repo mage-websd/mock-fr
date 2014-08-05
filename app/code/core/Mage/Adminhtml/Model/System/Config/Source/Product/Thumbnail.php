@@ -26,7 +26,7 @@
 
 
 /**
- * Catalogedit products per page on Grid mode source
+ * Catalog products per page on Grid mode source
  *
  * @category   Mage
  * @package    Mage_Adminhtml

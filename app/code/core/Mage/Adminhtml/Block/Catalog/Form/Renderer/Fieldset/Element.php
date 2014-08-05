@@ -25,7 +25,7 @@
  */
 
 /**
- * Catalogedit fieldset element renderer
+ * Catalog fieldset element renderer
  *
  * @category   Mage
  * @package    Mage_Adminhtml
@@ -143,7 +143,7 @@ class Mage_Adminhtml_Block_Catalog_Form_Renderer_Fieldset_Element
 
         /*
          * Check if the current attribute is a 'price' attribute. If yes, check
-         * the config setting 'Catalogedit Price Scope' and modify the scope label.
+         * the config setting 'Catalog Price Scope' and modify the scope label.
          */
         $isGlobalPriceScope = false;
         if ($attribute->getFrontendInput() == 'price') {

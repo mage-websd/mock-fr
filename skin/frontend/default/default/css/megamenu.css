@@ -7,7 +7,7 @@ ul#nav-mega{
     position: relative;
     z-index: 9;
 }
-#nav-mega ul {
+#nav-mega li.mega-level0 > ul {
     position:absolute;
     display:none;
     z-index: 10;
@@ -55,10 +55,10 @@ ul.mega-level0.no-4{
     margin-left: -420px;
 }
 ul.mega-level0.no-5{
-    margin-left: -590px;
+    margin-left: -530px;
 }
 ul.mega-level0.no-6{
-    margin-left: -770px;
+    margin-left: -630px;
 }
 ul.mega-level0 li.mega-level1{
     min-width: 200px;

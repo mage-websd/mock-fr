@@ -26,7 +26,7 @@
 
 
 /**
- * Catalogedit category widgets controller for CMS WYSIWYG
+ * Catalog category widgets controller for CMS WYSIWYG
  *
  * @category   Mage
  * @package    Mage_Adminhtml

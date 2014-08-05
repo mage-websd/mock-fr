@@ -166,7 +166,7 @@ $table = $installer->getConnection()
     ->addColumn('page_for', Varien_Db_Ddl_Table::TYPE_TEXT, 25, array(
         ), 'For instance entities')
     ->addColumn('entities', Varien_Db_Ddl_Table::TYPE_TEXT, '64k', array(
-        ), 'Catalogedit entities (comma separated)')
+        ), 'Catalog entities (comma separated)')
     ->addColumn('page_template', Varien_Db_Ddl_Table::TYPE_TEXT, 255, array(
         ), 'Path to widget template')
     ->addIndex($installer->getIdxName('widget/widget_instance_page', 'instance_id'), 'instance_id')

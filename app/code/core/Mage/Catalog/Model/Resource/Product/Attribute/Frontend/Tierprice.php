@@ -26,7 +26,7 @@
 
 
 /**
- * Catalogedit product attribute tier price frontend model
+ * Catalog product attribute tier price frontend model
  *
  * @category    Mage
  * @package     Mage_Catalog

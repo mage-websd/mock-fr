@@ -71,7 +71,7 @@ if (!$connection->isTableExists($rulesWebsitesTable)) {
             'website_id', $websitesTable, 'website_id',
             Varien_Db_Ddl_Table::ACTION_CASCADE, Varien_Db_Ddl_Table::ACTION_CASCADE
         )
-        ->setComment('Catalogedit Rules To Websites Relations');
+        ->setComment('Catalog Rules To Websites Relations');
 
     $connection->createTable($table);
 }
@@ -115,7 +115,7 @@ if (!$connection->isTableExists($rulesCustomerGroupsTable)) {
             'customer_group_id', $customerGroupsTable, 'customer_group_id',
             Varien_Db_Ddl_Table::ACTION_CASCADE, Varien_Db_Ddl_Table::ACTION_CASCADE
         )
-        ->setComment('Catalogedit Rules To Customer Groups Relations');
+        ->setComment('Catalog Rules To Customer Groups Relations');
 
     $connection->createTable($table);
 }

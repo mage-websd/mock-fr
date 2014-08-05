@@ -25,7 +25,7 @@
  */
 
 /**
- * Catalogedit product option default type
+ * Catalog product option default type
  *
  * @category   Mage
  * @package    Mage_Catalog

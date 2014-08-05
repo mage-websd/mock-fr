@@ -26,7 +26,7 @@
 
 
 /**
- * Catalogedit Product Compare Helper
+ * Catalog Product Compare Helper
  *
  * @category   Mage
  * @package    Mage_Catalog
@@ -63,7 +63,7 @@ class Mage_Catalog_Helper_Product_Compare extends Mage_Core_Helper_Url
     protected $_customerId = null;
 
     /**
-     * Retrieve Catalogedit Session instance
+     * Retrieve Catalog Session instance
      *
      * @return Mage_Catalog_Model_Session
      */

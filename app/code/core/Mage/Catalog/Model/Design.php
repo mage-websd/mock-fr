@@ -26,7 +26,7 @@
 
 
 /**
- * Catalogedit Custom Category design Model
+ * Catalog Custom Category design Model
  *
  * @category   Mage
  * @package    Mage_Catalog

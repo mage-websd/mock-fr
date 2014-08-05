@@ -25,11 +25,11 @@
  */
 
 /**
- * Catalogedit Search Controller
+ * Catalog Search Controller
  *
  * @category   Mage
  * @package    Mage_CatalogSearch
- * @module     Catalogedit
+ * @module     Catalog
  */
 class Mage_CatalogSearch_AdvancedController extends Mage_Core_Controller_Front_Action
 {

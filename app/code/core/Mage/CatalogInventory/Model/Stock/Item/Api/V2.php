@@ -25,7 +25,7 @@
  */
 
 /**
- * Catalogedit inventory api V2
+ * Catalog inventory api V2
  *
  * @author     Magento Core Team <core@magentocommerce.com>
  */

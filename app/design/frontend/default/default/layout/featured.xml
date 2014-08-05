@@ -1,14 +1,12 @@
 <?xml version="1.0"?>
 <layout version="0.1.0">
-    <cms_index_index>
+    <default>
         <reference name="head">
             <block name="head.add.layout" type="core/template"
                    template="teamto/layout/head.phtml"/>
-            <block name="head.add.feature.home" type="core/template"
-                   template="teamto/layout/head_feature_slide.phtml"/>
         </reference>
 
-    </cms_index_index>
+    </default>
 
     <cms_page_view>
         <reference name="head">
@@ -25,10 +23,11 @@
         </reference>
 
         <reference name="content">
-            <block type="teamto_featured/featured_product" name="featured_product_collection" template="teamto/featured/product/featured.phtml">
+            <block type="teamto_featured/featureproduct" name="featured_product" template="teamto/featured/product/list.phtml">
                     <action method="setColumnCount"><columns>4</columns></action>
             </block>
         </reference>
+
     </featured_index_index>
 
 </layout>

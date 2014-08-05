@@ -26,7 +26,7 @@
 
 
 /**
- * Catalogedit EAV collection resource abstract model
+ * Catalog EAV collection resource abstract model
  * Implement using diferent stores for retrieve attribute values
  *
  * @category    Mage

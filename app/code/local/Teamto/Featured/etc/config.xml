@@ -21,24 +21,13 @@
             <teamto_featured>
                 <class>Teamto_Featured_Block</class>
             </teamto_featured>
-            <teamto_featured>
-                <rewrite>
-                    <product_list>Teamto_Featured_Block_Featured_Product</product_list>
-                </rewrite>
-            </teamto_featured>
-            <teamto_featured>
-                <rewrite>
-                    <list_toolbar>Teamto_Featured_Block_Toolbar</list_toolbar>
-                </rewrite>
-            </teamto_featured>
-        </blocks>
 
+        </blocks>
         <helpers>
             <teamto_featured>
                 <class>Teamto_Featured_Helper</class>
             </teamto_featured>
         </helpers>
-
         <resources>
             <teamto_featured_setup_ver5>
                 <setup>
@@ -55,7 +44,7 @@
                 <use>standard</use>
                 <args>
                     <module>Teamto_Featured</module>
-                    <frontName>featured</frontName>
+                    <frontName>featured-product</frontName>
                 </args>
             </featured>
         </routers>

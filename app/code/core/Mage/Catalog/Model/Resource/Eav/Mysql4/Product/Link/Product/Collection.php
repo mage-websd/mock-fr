@@ -26,7 +26,7 @@
 
 
 /**
- * Catalogedit product linked products collection
+ * Catalog product linked products collection
  *
  * @category    Mage
  * @package     Mage_Catalog

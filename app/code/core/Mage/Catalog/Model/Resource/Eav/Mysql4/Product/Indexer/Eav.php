@@ -26,7 +26,7 @@
 
 
 /**
- * Catalogedit Product Eav Indexer Resource Model
+ * Catalog Product Eav Indexer Resource Model
  *
  * @category    Mage
  * @package     Mage_Catalog

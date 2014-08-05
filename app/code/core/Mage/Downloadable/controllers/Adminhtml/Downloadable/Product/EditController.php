@@ -24,7 +24,7 @@
  * @license     http://opensource.org/licenses/osl-3.0.php  Open Software License (OSL 3.0)
  */
 
-require_once 'Mage/Adminhtml/controllers/Catalogedit/ProductController.php';
+require_once 'Mage/Adminhtml/controllers/Catalog/ProductController.php';
 
 /**
  * Adminhtml downloadable product edit

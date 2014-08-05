@@ -25,7 +25,7 @@
  */
 
 /**
- * Catalogedit product gallery controller
+ * Catalog product gallery controller
  *
  * @category   Mage
  * @package    Mage_Adminhtml
