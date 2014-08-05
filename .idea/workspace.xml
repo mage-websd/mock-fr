@@ -1,21 +1,77 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5f5bc1a7-44c3-41c9-a721-9b67200fee25" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/scopes/scope_settings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/code/local/Teamto/Megamenu/Helper/Data.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/gitlab_mock.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/etc/modules/Teamto_Megamenu.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/code/local/Teamto/Megamenu/controllers/IndexController.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/magicento.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/code/local/Teamto/Megamenu/etc/config.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/design/frontend/default/default/template/teamto/featured/widget/slideshow.phtml" afterPath="$PROJECT_DIR$/app/design/frontend/default/default/template/teamto/featured/widget/slideshow.phtml" />
+    <list default="true" id="229d8a55-5c27-4451-afd4-bab1da4462b6" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/wysiwyg/.thumbs/wysiwyg/404-banner-3.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/wysiwyg/.thumbs/wysiwyg/Accessoriesbagimg.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/wysiwyg/.thumbs/wysiwyg/Cataccessoriesmainimg.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/wysiwyg/.thumbs/wysiwyg/Catwomenmainimg.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/wysiwyg/.thumbs/wysiwyg/Homecatimg-books.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/wysiwyg/.thumbs/wysiwyg/Homecatimg-decor.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/wysiwyg/.thumbs/wysiwyg/Homecatimg-electronics.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/wysiwyg/.thumbs/wysiwyg/Mencat-shirtsimg.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/wysiwyg/.thumbs/wysiwyg/Mencat-teesimg.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/wysiwyg/.thumbs/wysiwyg/Mencategorymainimg.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/wysiwyg/WP_000036.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/wysiwyg/.thumbs/wysiwyg/WP_000036.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/wysiwyg/.thumbs/wysiwyg/Womennewarrivalsimg.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/wysiwyg/.thumbs/wysiwyg/Womenpantsimg.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/wysiwyg/.thumbs/wysiwyg/Womenskirtsimg.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/wysiwyg/.thumbs/wysiwyg/Womentopsimg.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/wysiwyg/.thumbs/wysiwyg/about-us2.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/wysiwyg/.thumbs/wysiwyg/about_us.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/wysiwyg/.thumbs/wysiwyg/accessorieseyewearimg.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/wysiwyg/.thumbs/wysiwyg/accessoriesshoesimg.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/wysiwyg/.thumbs/wysiwyg/acessoreiesjeweleryimg.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/wysiwyg/.thumbs/wysiwyg/catmen-newimg.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/wysiwyg/.thumbs/wysiwyg/catwomen-newimg.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/wysiwyg/.thumbs/wysiwyg/clp-sub-m-shirts.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/wysiwyg/.thumbs/wysiwyg/home_bed_bathimg.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/wysiwyg/.thumbs/wysiwyg/homepage-three-column-promo-01.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/wysiwyg/.thumbs/wysiwyg/homepage-three-column-promo-01B.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/wysiwyg/.thumbs/wysiwyg/homepage-three-column-promo-02.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/wysiwyg/.thumbs/wysiwyg/homepage-three-column-promo-03.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/wysiwyg/.thumbs/wysiwyg/mainimg-home_decorcategory.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/wysiwyg/.thumbs/wysiwyg/mencat-newarrivalsimg.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/wysiwyg/.thumbs/wysiwyg/mencat-pants.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/wysiwyg/.thumbs/wysiwyg/private-sales-banner.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/wysiwyg/.thumbs/wysiwyg/promo_banners_VIP.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/wysiwyg/.thumbs/wysiwyg/slide-1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/wysiwyg/.thumbs/wysiwyg/slide-2.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/wysiwyg/.thumbs/wysiwyg/slide-3.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/wysiwyg/.thumbs/wysiwyg/three_dots_white.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/wysiwyg/.thumbs/wysiwyg/three_dots_white_1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/wysiwyg/.thumbs/wysiwyg/three_dots_white_2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/wysiwyg/.thumbs/wysiwyg/three_dots_white_3.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/wysiwyg/.thumbs/wysiwyg/three_dots_white_4.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/wysiwyg/.thumbs/wysiwyg/three_dots_white_5.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/wysiwyg/.thumbs/wysiwyg/three_dots_white_6.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/wysiwyg/.thumbs/wysiwyg/vip-correctsize1.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/wysiwyg/.thumbs/wysiwyg/vipbannerimage.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/downloader/cache.cfg" afterPath="$PROJECT_DIR$/downloader/cache.cfg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/code/local/Teamto/Acpl/Model/Observer.php" afterPath="$PROJECT_DIR$/app/code/local/Teamto/Acpl/Model/Observer.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/code/local/Teamto/Geoip/Model/Observer.php" afterPath="$PROJECT_DIR$/app/code/local/Teamto/Geoip/Model/Observer.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/design/frontend/default/default/template/teamto/layout/head.phtml" afterPath="$PROJECT_DIR$/app/design/frontend/default/default/template/teamto/layout/head.phtml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.php" afterPath="$PROJECT_DIR$/index.php" />
+      <change type="MOVED" beforePath="E:\xampp\htdocs\mockup_tuanpv\app\code\community\Openstream\GeoIP\Block\Adminhtml\Notifications.php" afterPath="$PROJECT_DIR$/app/code/community/Sandfox/GeoIP/Block/Adminhtml/Notifications.php" />
+      <change type="MOVED" beforePath="E:\xampp\htdocs\mockup_tuanpv\app\code\community\Openstream\GeoIP\Block\System\Config\Status.php" afterPath="$PROJECT_DIR$/app/code/community/Sandfox/GeoIP/Block/System/Config/Status.php" />
+      <change type="MOVED" beforePath="E:\xampp\htdocs\mockup_tuanpv\app\code\community\Openstream\GeoIP\Block\System\Config\Synchronize.php" afterPath="$PROJECT_DIR$/app/code/community/Sandfox/GeoIP/Block/System/Config/Synchronize.php" />
+      <change type="MOVED" beforePath="E:\xampp\htdocs\mockup_tuanpv\app\code\community\Openstream\GeoIP\Helper\Data.php" afterPath="$PROJECT_DIR$/app/code/community/Sandfox/GeoIP/Helper/Data.php" />
+      <change type="MOVED" beforePath="E:\xampp\htdocs\mockup_tuanpv\app\code\community\Openstream\GeoIP\Model\Abstract.php" afterPath="$PROJECT_DIR$/app/code/community/Sandfox/GeoIP/Model/Abstract.php" />
+      <change type="MOVED" beforePath="E:\xampp\htdocs\mockup_tuanpv\app\code\community\Openstream\GeoIP\Model\Country.php" afterPath="$PROJECT_DIR$/app/code/community/Sandfox/GeoIP/Model/Country.php" />
+      <change type="MOVED" beforePath="E:\xampp\htdocs\mockup_tuanpv\app\code\community\Openstream\GeoIP\Model\Cron.php" afterPath="$PROJECT_DIR$/app/code/community/Sandfox/GeoIP/Model/Cron.php" />
+      <change type="MOVED" beforePath="E:\xampp\htdocs\mockup_tuanpv\app\code\community\Openstream\GeoIP\Model\Info.php" afterPath="$PROJECT_DIR$/app/code/community/Sandfox/GeoIP/Model/Info.php" />
+      <change type="MOVED" beforePath="E:\xampp\htdocs\mockup_tuanpv\app\code\community\Openstream\GeoIP\Model\Observer.php" afterPath="$PROJECT_DIR$/app/code/community/Sandfox/GeoIP/Model/Observer.php" />
+      <change type="MOVED" beforePath="E:\xampp\htdocs\mockup_tuanpv\app\code\community\Openstream\GeoIP\Model\Wrapper.php" afterPath="$PROJECT_DIR$/app/code/community/Sandfox/GeoIP/Model/Wrapper.php" />
+      <change type="MOVED" beforePath="E:\xampp\htdocs\mockup_tuanpv\app\code\community\Openstream\GeoIP\controllers\ProcessController.php" afterPath="$PROJECT_DIR$/app/code/community/Sandfox/GeoIP/controllers/Adminhtml/GeoipController.php" />
+      <change type="MOVED" beforePath="E:\xampp\htdocs\mockup_tuanpv\app\code\community\Openstream\GeoIP\etc\config.xml" afterPath="$PROJECT_DIR$/app/code/community/Sandfox/GeoIP/etc/config.xml" />
+      <change type="MOVED" beforePath="E:\xampp\htdocs\mockup_tuanpv\app\code\community\Openstream\GeoIP\etc\system.xml" afterPath="$PROJECT_DIR$/app/code/community/Sandfox/GeoIP/etc/system.xml" />
+      <change type="MOVED" beforePath="E:\xampp\htdocs\mockup_tuanpv\app\design\adminhtml\default\default\layout\openstream\geoip.xml" afterPath="$PROJECT_DIR$/app/design/adminhtml/default/default/layout/sandfox/geoip.xml" />
+      <change type="MOVED" beforePath="E:\xampp\htdocs\mockup_tuanpv\app\design\adminhtml\default\default\template\openstream\geoip\notifications.phtml" afterPath="$PROJECT_DIR$/app/design/adminhtml/default/default/template/sandfox/geoip/notifications.phtml" />
+      <change type="MOVED" beforePath="E:\xampp\htdocs\mockup_tuanpv\app\design\adminhtml\default\default\template\openstream\geoip\system\config\synchronize.phtml" afterPath="$PROJECT_DIR$/app/design/adminhtml/default/default/template/sandfox/geoip/system/config/synchronize.phtml" />
+      <change type="MOVED" beforePath="E:\xampp\htdocs\mockup_tuanpv\app\etc\modules\Openstream_GeoIP.xml" afterPath="$PROJECT_DIR$/app/etc/modules/Sandfox_GeoIP.xml" />
     </list>
-    <ignored path="gitlab_mock.iws" />
+    <ignored path="mockup_tuanpv.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -32,59 +88,32 @@
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FavoritesManager">
-    <favorites_list name="gitlab_mock" />
+    <favorites_list name="mockup_tuanpv" />
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="IndexController.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/code/local/Teamto/Mirrored/controllers/IndexController.php">
+      <file leaf-file-name="featured.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/design/frontend/default/default/layout/featured.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="14" column="26" selection-start="418" selection-end="418" vertical-scroll-proportion="-9.153846" vertical-offset="0" max-vertical-offset="3468">
+            <state line="2" column="13" selection-start="60" selection-end="60" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="629">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="config.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/code/local/Teamto/Featured/etc/config.xml">
+      <file leaf-file-name="filter.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/design/frontend/default/default/layout/filter.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="33" column="0" selection-start="1024" selection-end="1024" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1683">
+            <state line="29" column="9" selection-start="966" selection-end="966" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="595">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="install-0.1.0.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/code/local/Teamto/Mirrored/sql/teamto_mirrored_setup/install-0.1.0.php">
+      <file leaf-file-name="head.phtml" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/design/frontend/default/default/template/teamto/layout/head.phtml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="22" column="37" selection-start="730" selection-end="763" vertical-scroll-proportion="-11.115385" vertical-offset="0" max-vertical-offset="918">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="local.xml" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/etc/local.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="45" column="64" selection-start="1693" selection-end="1693" vertical-scroll-proportion="0.31114808" vertical-offset="578" max-vertical-offset="1224">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Slideshow.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/code/local/Teamto/Featured/Block/Featured/Widget/Slideshow.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="42" selection-start="401" selection-end="401" vertical-scroll-proportion="-10.461538" vertical-offset="0" max-vertical-offset="408">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="slideshow.phtml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/design/frontend/default/default/template/teamto/featured/widget/slideshow.phtml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="46" column="28" selection-start="1067" selection-end="1067" vertical-scroll-proportion="-12.423077" vertical-offset="459" max-vertical-offset="2244">
+            <state line="8" column="0" selection-start="268" selection-end="268" vertical-scroll-proportion="0.17957747" vertical-offset="0" max-vertical-offset="568">
               <folding />
             </state>
           </provider>
@@ -97,62 +126,42 @@
       <setting name="OPEN_NEW_TAB" value="false" />
     </FindUsagesManager>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitLogSettings">
+    <option name="myDateState">
+      <MyDateState />
+    </option>
+  </component>
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/app/design/frontend/default/default/template/test.phtml" />
-        <option value="$PROJECT_DIR$/app/design/frontend/base/default/template/page/html/topmenu.phtml" />
-        <option value="$PROJECT_DIR$/app/code/local/Teamto/Megamenu/Model/Resource/Setup/Category.php" />
-        <option value="$PROJECT_DIR$/app/code/local/Teamto/Megamenu/controllers/IndexController.php" />
-        <option value="$PROJECT_DIR$/app/design/adminhtml/default/default/template/widget/form/renderer/fieldset.phtml" />
-        <option value="$PROJECT_DIR$/app/design/adminhtml/default/default/template/teamto/megamenu/category/status.phtml" />
-        <option value="$PROJECT_DIR$/app/design/adminhtml/default/default/layout/catalog.xml" />
-        <option value="$PROJECT_DIR$/app/design/adminhtml/default/default/layout/teamto_megamenu.xml" />
-        <option value="$PROJECT_DIR$/app/code/local/Teamto/Megamenu/sql/teamto_megamenu_setup/upgrade-0.1.0-0.2.0.php" />
-        <option value="$PROJECT_DIR$/app/code/local/Teamto/Mirrored/sql/teamto_mirrored_setup/mysql4-install-0.1.0.php" />
-        <option value="$PROJECT_DIR$/app/code/local/Teamto/Link/etc/config.xml" />
-        <option value="$PROJECT_DIR$/app/code/local/Teamto/Featured/Helper/Link.php" />
-        <option value="$PROJECT_DIR$/app/code/local/Teamto/Mirrored/controllers/IndexCotroller.php" />
-        <option value="$PROJECT_DIR$/app/design/frontend/default/default/template/teamto/layout/head.phtml" />
-        <option value="$PROJECT_DIR$/app/code/local/Teamto/Link/Helper/Data.php" />
-        <option value="$PROJECT_DIR$/app/design/frontend/default/default/layout/megamenu.xml" />
-        <option value="$PROJECT_DIR$/app/design/frontend/default/default/template/teamto/megamenu/topmenu.phtml" />
-        <option value="$PROJECT_DIR$/app/design/adminhtml/default/default/template/teamto/layout/head.phtml" />
-        <option value="$PROJECT_DIR$/skin/adminhtml/default/default/js/noConflict-jquery.js" />
-        <option value="$PROJECT_DIR$/skin/adminhtml/default/default/js/jquery-ui.min.js" />
-        <option value="$PROJECT_DIR$/app/design/adminhtml/default/default/template/teamto/layout/catgory_edit.phtml" />
-        <option value="$PROJECT_DIR$/skin/adminhtml/default/default/js/jquery-ui.js" />
-        <option value="$PROJECT_DIR$/skin/adminhtml/default/default/js/aucomplete-combox.js" />
-        <option value="$PROJECT_DIR$/app/code/local/Teamto/Megamenu/etc/config.xml" />
-        <option value="$PROJECT_DIR$/app/code/core/Mage/Adminhtml/controllers/Catalog/CategoryController.php" />
-        <option value="$PROJECT_DIR$/app/code/local/Teamto/Mirrored/sql/teamto_mirrored_setup/upgrade-0.1.0-0.2.0.php" />
-        <option value="$PROJECT_DIR$/app/code/core/Mage/Catalog/Model/Category.php" />
-        <option value="$PROJECT_DIR$/skin/frontend/default/default/css/megamenu.css" />
-        <option value="$PROJECT_DIR$/skin/frontend/default/default/css/styles_giang.css" />
-        <option value="$PROJECT_DIR$/app/design/frontend/default/default/template/teamto/layout/head_feature_slide.phtml" />
-        <option value="$PROJECT_DIR$/app/design/frontend/default/default/template/teamto/featured/widget/slideshow.phtml" />
-        <option value="$PROJECT_DIR$/app/design/frontend/default/default/layout/featured.xml" />
-        <option value="$PROJECT_DIR$/app/code/local/Teamto/Mirrored/sql/teamto_mirrored_setup/install-0.1.0.php" />
-        <option value="$PROJECT_DIR$/app/code/local/Teamto/Mirrored/sql/teamto_mirrored_setup/upgrade-0.2.0-0.3.0.php" />
-        <option value="$PROJECT_DIR$/app/code/local/Teamto/Megamenu/Block/Megamenu.php" />
-        <option value="$PROJECT_DIR$/app/code/local/Teamto/Mirrored/Model/Resource/Category/Mirrored.php" />
-        <option value="$PROJECT_DIR$/app/code/local/Teamto/Mirrored/Model/Observer/Delete.php" />
-        <option value="$PROJECT_DIR$/app/design/adminhtml/default/default/layout/teamto_mirrored.xml" />
-        <option value="$PROJECT_DIR$/app/code/local/Teamto/Mirrored/Model/Observer/Category.php" />
-        <option value="$PROJECT_DIR$/app/code/local/Teamto/Featured/etc/widget.xml" />
-        <option value="$PROJECT_DIR$/app/code/local/Teamto/Mirrored/controllers/IndexController.php" />
-        <option value="$PROJECT_DIR$/app/code/local/Teamto/Megamenu/sql/teamto_megamenu_setup/install-0.1.0.php" />
-        <option value="$PROJECT_DIR$/app/code/local/Teamto/Mirrored/etc/config.xml" />
+        <option value="$PROJECT_DIR$/app/code/local/Teamto/Featured/Block/Product/Featured.php" />
+        <option value="$PROJECT_DIR$/app/code/local/Teamto/Featured/Block/Product.php" />
+        <option value="$PROJECT_DIR$/app/code/local/Teamto/Featured/controllers/FeaturedController.php" />
+        <option value="$PROJECT_DIR$/app/design/frontend/default/default/template/teamto/featured/product/featured.phtml" />
+        <option value="$PROJECT_DIR$/app/code/local/Teamto/Featured/Block/Featured/Product.php" />
+        <option value="$PROJECT_DIR$/app/code/local/Teamto/Featured/controllers/IndexController.php" />
+        <option value="$PROJECT_DIR$/app/code/local/Teamto/Featured/Block/FeatureProduct.php" />
+        <option value="$PROJECT_DIR$/app/design/frontend/base/default/template/catalog/product/list/toolbar.phtml" />
         <option value="$PROJECT_DIR$/app/code/local/Teamto/Featured/etc/config.xml" />
         <option value="$PROJECT_DIR$/app/etc/local.xml" />
+        <option value="$PROJECT_DIR$/skin/frontend/default/default/js/noConflict.js" />
+        <option value="$PROJECT_DIR$/app/design/frontend/default/default/template/teamto/filter/filter.phtml" />
+        <option value="$PROJECT_DIR$/app/design/frontend/default/default/layout/filter.xml" />
+        <option value="$PROJECT_DIR$/app/design/frontend/default/default/layout/featured.xml" />
+        <option value="$PROJECT_DIR$/app/design/frontend/default/default/template/teamto/featured/widget/slideshow.phtml" />
+        <option value="$PROJECT_DIR$/app/design/frontend/default/default/template/teamto/layout/head.phtml" />
       </list>
     </option>
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="50" />
-    <option name="width" value="1316" />
-    <option name="height" value="768" />
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1296" />
+    <option name="height" value="776" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -161,7 +170,7 @@
     <OptionsSetting value="true" id="Update" />
     <OptionsSetting value="true" id="Status" />
     <OptionsSetting value="true" id="Edit" />
-    <ConfirmationsSetting value="2" id="Add" />
+    <ConfirmationsSetting value="1" id="Add" />
     <ConfirmationsSetting value="0" id="Remove" />
   </component>
   <component name="ProjectReloadState">
@@ -180,32 +189,175 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="&lt;&lt;&lt;&lt;&lt;&lt;&lt; HEAD" />
+              <option name="myItemId" value="mockup_tuanpv" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="&lt;&lt;&lt;&lt;&lt;&lt;&lt; HEAD" />
+              <option name="myItemId" value="mockup_tuanpv" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="gitlab_mock" />
+              <option name="myItemId" value="mockup_tuanpv" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="&lt;&lt;&lt;&lt;&lt;&lt;&lt; HEAD" />
+              <option name="myItemId" value="mockup_tuanpv" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="gitlab_mock" />
+              <option name="myItemId" value="mockup_tuanpv" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="skin" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mockup_tuanpv" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mockup_tuanpv" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="skin" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="frontend" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mockup_tuanpv" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mockup_tuanpv" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="skin" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="frontend" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="default" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mockup_tuanpv" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mockup_tuanpv" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="skin" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="frontend" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="default" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="default" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mockup_tuanpv" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mockup_tuanpv" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="skin" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="frontend" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="default" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="default" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mockup_tuanpv" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mockup_tuanpv" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="skin" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="frontend" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="default" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="default" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="filter" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mockup_tuanpv" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mockup_tuanpv" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -215,11 +367,11 @@
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="&lt;&lt;&lt;&lt;&lt;&lt;&lt; HEAD" />
+              <option name="myItemId" value="mockup_tuanpv" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="gitlab_mock" />
+              <option name="myItemId" value="mockup_tuanpv" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -233,11 +385,11 @@
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="&lt;&lt;&lt;&lt;&lt;&lt;&lt; HEAD" />
+              <option name="myItemId" value="mockup_tuanpv" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="gitlab_mock" />
+              <option name="myItemId" value="mockup_tuanpv" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -251,11 +403,11 @@
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="&lt;&lt;&lt;&lt;&lt;&lt;&lt; HEAD" />
+              <option name="myItemId" value="mockup_tuanpv" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="gitlab_mock" />
+              <option name="myItemId" value="mockup_tuanpv" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -273,11 +425,11 @@
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="&lt;&lt;&lt;&lt;&lt;&lt;&lt; HEAD" />
+              <option name="myItemId" value="mockup_tuanpv" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="gitlab_mock" />
+              <option name="myItemId" value="mockup_tuanpv" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -299,11 +451,11 @@
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="&lt;&lt;&lt;&lt;&lt;&lt;&lt; HEAD" />
+              <option name="myItemId" value="mockup_tuanpv" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="gitlab_mock" />
+              <option name="myItemId" value="mockup_tuanpv" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -333,11 +485,11 @@
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="&lt;&lt;&lt;&lt;&lt;&lt;&lt; HEAD" />
+              <option name="myItemId" value="mockup_tuanpv" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="gitlab_mock" />
+              <option name="myItemId" value="mockup_tuanpv" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -371,11 +523,11 @@
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="&lt;&lt;&lt;&lt;&lt;&lt;&lt; HEAD" />
+              <option name="myItemId" value="mockup_tuanpv" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="gitlab_mock" />
+              <option name="myItemId" value="mockup_tuanpv" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -413,11 +565,141 @@
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="&lt;&lt;&lt;&lt;&lt;&lt;&lt; HEAD" />
+              <option name="myItemId" value="mockup_tuanpv" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="gitlab_mock" />
+              <option name="myItemId" value="mockup_tuanpv" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="design" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="frontend" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="default" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="default" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="template" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="teamto" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="filter" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mockup_tuanpv" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mockup_tuanpv" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="design" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="frontend" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="default" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="default" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="template" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="teamto" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="featured" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="widget" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mockup_tuanpv" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mockup_tuanpv" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="design" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="frontend" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="default" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="default" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="template" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="teamto" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="featured" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mockup_tuanpv" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mockup_tuanpv" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -443,11 +725,11 @@
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="&lt;&lt;&lt;&lt;&lt;&lt;&lt; HEAD" />
+              <option name="myItemId" value="mockup_tuanpv" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="gitlab_mock" />
+              <option name="myItemId" value="mockup_tuanpv" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -455,203 +737,33 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="code" />
+              <option name="myItemId" value="design" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="local" />
+              <option name="myItemId" value="frontend" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Teamto" />
+              <option name="myItemId" value="default" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Mirrored" />
+              <option name="myItemId" value="default" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="sql" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="teamto_mirrored_setup" />
+              <option name="myItemId" value="layout" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="&lt;&lt;&lt;&lt;&lt;&lt;&lt; HEAD" />
+              <option name="myItemId" value="mockup_tuanpv" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="gitlab_mock" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="code" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="local" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Teamto" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Mirrored" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="&lt;&lt;&lt;&lt;&lt;&lt;&lt; HEAD" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="gitlab_mock" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="code" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="local" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Teamto" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Mirrored" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="etc" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="&lt;&lt;&lt;&lt;&lt;&lt;&lt; HEAD" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="gitlab_mock" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="code" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="local" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Teamto" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Megamenu" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sql" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="teamto_megamenu_setup" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="&lt;&lt;&lt;&lt;&lt;&lt;&lt; HEAD" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="gitlab_mock" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="code" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="local" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Teamto" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Megamenu" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="etc" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="&lt;&lt;&lt;&lt;&lt;&lt;&lt; HEAD" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="gitlab_mock" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="code" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="local" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Teamto" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Megamenu" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="&lt;&lt;&lt;&lt;&lt;&lt;&lt; HEAD" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="gitlab_mock" />
+              <option name="myItemId" value="mockup_tuanpv" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -673,11 +785,11 @@
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="&lt;&lt;&lt;&lt;&lt;&lt;&lt; HEAD" />
+              <option name="myItemId" value="mockup_tuanpv" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="gitlab_mock" />
+              <option name="myItemId" value="mockup_tuanpv" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -703,11 +815,11 @@
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="&lt;&lt;&lt;&lt;&lt;&lt;&lt; HEAD" />
+              <option name="myItemId" value="mockup_tuanpv" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="gitlab_mock" />
+              <option name="myItemId" value="mockup_tuanpv" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -737,11 +849,125 @@
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="&lt;&lt;&lt;&lt;&lt;&lt;&lt; HEAD" />
+              <option name="myItemId" value="mockup_tuanpv" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="gitlab_mock" />
+              <option name="myItemId" value="mockup_tuanpv" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="code" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="local" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Teamto" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Featured" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Block" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mockup_tuanpv" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mockup_tuanpv" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="code" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="local" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Teamto" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Featured" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Block" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Featured" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mockup_tuanpv" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mockup_tuanpv" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="code" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="local" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Teamto" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Featured" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Block" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Featured" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Widget" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mockup_tuanpv" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mockup_tuanpv" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -759,11 +985,11 @@
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="&lt;&lt;&lt;&lt;&lt;&lt;&lt; HEAD" />
+              <option name="myItemId" value="mockup_tuanpv" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="gitlab_mock" />
+              <option name="myItemId" value="mockup_tuanpv" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -777,22 +1003,21 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="options.lastSelected" value="editor" />
-    <property name="options.splitter.main.proportions" value="0.3" />
-    <property name="options.splitter.details.proportions" value="0.2" />
-    <property name="options.searchVisible" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="FullScreen" value="false" />
-    <property name="SearchEverywhereHistory" value="&#10;$" />
-    <property name="LayoutCode.rearrangeEntriesXML" value="false" />
-    <property name="LayoutCode.rearrangeEntriesPHP" value="false" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/errors" />
+      <recent name="E:\xampp\htdocs\mockup_tuanpv\app\design\frontend\default\default\template\teamto\featured\product" />
+      <recent name="E:\xampp\htdocs\mockup_tuanpv\app\code\local\Teamto\Featured\Block" />
+      <recent name="E:\xampp\htdocs\mockup_tuanpv\app\code\local\Teamto\Featured" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\xampp\htdocs\mockup_tuanpv\app\code\local\Teamto\Featured\Block\Featured" />
     </key>
   </component>
   <component name="RunManager">
@@ -812,60 +1037,37 @@
     <list size="0" />
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
-  <component name="SvnConfiguration" maxAnnotateRevisions="500" myUseAcceleration="nothing" myAutoUpdateAfterCommit="false" cleanupOnStartRun="false" SSL_PROTOCOLS="all">
-    <option name="USER" value="" />
-    <option name="PASSWORD" value="" />
-    <option name="mySSHConnectionTimeout" value="30000" />
-    <option name="mySSHReadTimeout" value="30000" />
-    <option name="LAST_MERGED_REVISION" />
-    <option name="MERGE_DRY_RUN" value="false" />
-    <option name="MERGE_DIFF_USE_ANCESTRY" value="true" />
-    <option name="UPDATE_LOCK_ON_DEMAND" value="false" />
-    <option name="IGNORE_SPACES_IN_MERGE" value="false" />
-    <option name="CHECK_NESTED_FOR_QUICK_MERGE" value="false" />
-    <option name="IGNORE_SPACES_IN_ANNOTATE" value="true" />
-    <option name="SHOW_MERGE_SOURCES_IN_ANNOTATE" value="true" />
-    <option name="FORCE_UPDATE" value="false" />
-    <option name="IGNORE_EXTERNALS" value="false" />
-    <myIsUseDefaultProxy>false</myIsUseDefaultProxy>
-  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="5f5bc1a7-44c3-41c9-a721-9b67200fee25" name="Default" comment="" />
-      <created>1406684475091</created>
-      <updated>1406684475091</updated>
+      <changelist id="229d8a55-5c27-4451-afd4-bab1da4462b6" name="Default" comment="" />
+      <created>1407136439864</created>
+      <updated>1407136439864</updated>
     </task>
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="50" y="0" width="1316" height="768" extended-state="6" />
+    <frame x="-8" y="-8" width="1296" height="776" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3276923" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32522798" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.33792543" sideWeight="0.67202574" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3279743" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Command Line Tools Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32923076" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
     </layout>
-  </component>
-  <component name="Vcs.Log.UiProperties">
-    <option name="RECENTLY_FILTERED_USER_GROUPS">
-      <collection />
-    </option>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
@@ -879,283 +1081,116 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/design/adminhtml/default/default/layout/main.xml">
+    <entry file="file://$PROJECT_DIR$/app/design/frontend/base/default/template/catalog/product/new.phtml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="138" column="62" selection-start="8790" selection-end="8805" vertical-scroll-proportion="0.52040815" vertical-offset="2040" max-vertical-offset="5066" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/skin/adminhtml/default/default/js/aucomplete-combox.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="150" column="22" selection-start="4825" selection-end="4825" vertical-scroll-proportion="0.79761904" vertical-offset="2081" max-vertical-offset="2669" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/code/core/Mage/Core/Model/Url.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="962" column="20" selection-start="25405" selection-end="25405" vertical-scroll-proportion="1.0747331" vertical-offset="15359" max-vertical-offset="20791" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/code/core/Mage/Core/Block/Abstract.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="998" column="40" selection-start="25627" selection-end="25627" vertical-scroll-proportion="0.40582192" vertical-offset="16338" max-vertical-offset="24769">
+        <state line="27" column="65" selection-start="1057" selection-end="1122" vertical-scroll-proportion="0.122522525" vertical-offset="0" max-vertical-offset="714">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Mage.php">
+    <entry file="file://$PROJECT_DIR$/app/design/frontend/base/default/template/catalog/product/list/toolbar.phtml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="191" column="41" selection-start="4807" selection-end="4807" vertical-scroll-proportion="0.47773972" vertical-offset="2577" max-vertical-offset="16541">
+        <state line="33" column="59" selection-start="1123" selection-end="1123" vertical-scroll-proportion="0.18378378" vertical-offset="0" max-vertical-offset="1292">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/skin/frontend/default/default/css/styles_giang.css">
+    <entry file="file://$PROJECT_DIR$/app/code/core/Mage/Catalog/etc/config.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="2" selection-start="161" selection-end="161" vertical-scroll-proportion="0.30520648" vertical-offset="0" max-vertical-offset="557" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/design/frontend/default/default/layout/featured.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="14" selection-start="248" selection-end="248" vertical-scroll-proportion="0.19800332" vertical-offset="0" max-vertical-offset="601" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/skin/frontend/default/default/css/megamenu.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="60" column="20" selection-start="985" selection-end="985" vertical-scroll-proportion="0.47088185" vertical-offset="737" max-vertical-offset="1819" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/design/frontend/base/default/layout/cms.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="58" column="22" selection-start="2187" selection-end="2187" vertical-scroll-proportion="0.4506803" vertical-offset="721" max-vertical-offset="1615" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/design/frontend/base/default/layout/page.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="91" column="47" selection-start="4857" selection-end="4857" vertical-scroll-proportion="0.3622951" vertical-offset="1326" max-vertical-offset="3366" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/code/core/Mage/Catalog/Model/Resource/Category/Tree.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="19" selection-start="671" selection-end="674" vertical-scroll-proportion="0.33213645" vertical-offset="121" max-vertical-offset="11288" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/code/core/Mage/Catalog/Model/Resource/Category/Collection.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="248" column="52" selection-start="6429" selection-end="6438" vertical-scroll-proportion="0.33213645" vertical-offset="3640" max-vertical-offset="8024" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/code/core/Mage/Catalog/controllers/IndexController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="601" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/code/core/Mage/Catalog/controllers/ProductController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-3.2311645" vertical-offset="1887" max-vertical-offset="2703" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/design/frontend/base/default/template/catalog/category/view.phtml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="70" column="15" selection-start="2521" selection-end="2521" vertical-scroll-proportion="0.7882562" vertical-offset="288" max-vertical-offset="850" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/code/core/Mage/Catalog/Block/Product.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="850" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/code/core/Mage/Catalog/Block/Category/View.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="33" column="6" selection-start="1113" selection-end="1113" vertical-scroll-proportion="-3.2046263" vertical-offset="1971" max-vertical-offset="2533" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/code/core/Mage/Catalog/Block/Product/List.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="88" column="26" selection-start="3055" selection-end="3055" vertical-scroll-proportion="0.20695652" vertical-offset="986" max-vertical-offset="4318" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/design/frontend/base/default/layout/catalog.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="115" column="40" selection-start="5880" selection-end="5880" vertical-scroll-proportion="0.0867347" vertical-offset="1904" max-vertical-offset="7208" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/design/frontend/base/default/template/catalog/product/list.phtml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="61" column="34" selection-start="3234" selection-end="3234" vertical-scroll-proportion="0.0" vertical-offset="578" max-vertical-offset="1819" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/design/adminhtml/default/default/template/catalog/category/edit.phtml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3043" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/design/adminhtml/default/default/layout/catalog.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="289" column="95" selection-start="14330" selection-end="14330" vertical-scroll-proportion="0.42006803" vertical-offset="4666" max-vertical-offset="5746" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/code/local/Teamto/Mirrored/sql/teamto_mirrored_setup/upgrade-0.1.0-0.2.0.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="3" selection-start="0" selection-end="716" vertical-scroll-proportion="0.41391304" vertical-offset="0" max-vertical-offset="575" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/code/local/Teamto/Mirrored/sql/teamto_mirrored_setup/upgrade-0.2.0-0.3.0.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="5" selection-start="507" selection-end="507" vertical-scroll-proportion="0.42713568" vertical-offset="0" max-vertical-offset="597" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/code/local/Teamto/Featured/sql/teamto_featured_setup_ver5/mysql4-install-0.1.0.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="23" selection-start="699" selection-end="699" vertical-scroll-proportion="0.5695142" vertical-offset="0" max-vertical-offset="597" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/code/core/Mage/Adminhtml/controllers/Catalog/Category/WidgetController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="19" selection-start="671" selection-end="674" vertical-scroll-proportion="0.33271027" vertical-offset="128" max-vertical-offset="1326" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/code/core/Mage/Adminhtml/controllers/Catalog/CategoryController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="359" column="13" selection-start="13243" selection-end="13243" vertical-scroll-proportion="0.20560747" vertical-offset="5602" max-vertical-offset="8364" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/code/core/Mage/Catalog/controllers/CategoryController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="19" selection-start="671" selection-end="674" vertical-scroll-proportion="0.33271027" vertical-offset="128" max-vertical-offset="2941" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/code/core/Mage/Catalog/Model/Product.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="34884" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/code/core/Mage/Catalog/Helper/Category.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="174" column="7" selection-start="5277" selection-end="5277" vertical-scroll-proportion="0.4598131" vertical-offset="2712" max-vertical-offset="3247" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/code/core/Mage/Catalog/Model/Resource/Category.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="218" column="13" selection-start="6149" selection-end="6150" vertical-scroll-proportion="0.33271027" vertical-offset="3137" max-vertical-offset="15759" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/code/core/Mage/Catalog/Model/Category.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="222" column="70" selection-start="5996" selection-end="5996" vertical-scroll-proportion="0.36301368" vertical-offset="3171" max-vertical-offset="15997" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/code/core/Mage/Adminhtml/controllers/Catalog/ProductController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="816" column="34" selection-start="27682" selection-end="27682" vertical-scroll-proportion="0.11028037" vertical-offset="13422" max-vertical-offset="18904" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/code/local/Teamto/Megamenu/Block/Megamenu.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="98" column="50" selection-start="3171" selection-end="3171" vertical-scroll-proportion="-20.5" vertical-offset="1133" max-vertical-offset="1972" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/code/local/Teamto/Mirrored/Model/Resource/Category/Mirrored.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="66" column="7" selection-start="2364" selection-end="2364" vertical-scroll-proportion="0.80067" vertical-offset="644" max-vertical-offset="1241" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/design/adminhtml/default/default/template/teamto/layout/catgory_edit.phtml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="97" selection-start="187" selection-end="187" vertical-scroll-proportion="0.029565217" vertical-offset="0" max-vertical-offset="575" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/design/adminhtml/default/default/template/teamto/layout/head.phtml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="588" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/design/adminhtml/default/default/layout/teamto_mirrored.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="36" selection-start="786" selection-end="786" vertical-scroll-proportion="0.5730337" vertical-offset="17" max-vertical-offset="782">
+        <state line="827" column="33" selection-start="35942" selection-end="35942" vertical-scroll-proportion="1.4681584" vertical-offset="13206" max-vertical-offset="14722">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/code/local/Teamto/Mirrored/Model/Observer/Category.php">
+    <entry file="file://$PROJECT_DIR$/app/code/local/Teamto/Featured/Block/FeatureProduct.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="244" column="0" selection-start="8946" selection-end="8946" vertical-scroll-proportion="-11.115385" vertical-offset="3859" max-vertical-offset="5763" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/code/local/Teamto/Featured/etc/widget.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="48" selection-start="58" selection-end="58" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="272">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/code/local/Teamto/Mirrored/controllers/IndexController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="26" selection-start="418" selection-end="418" vertical-scroll-proportion="-9.153846" vertical-offset="0" max-vertical-offset="3468">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/design/frontend/default/default/template/teamto/featured/widget/slideshow.phtml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="46" column="28" selection-start="1067" selection-end="1067" vertical-scroll-proportion="-12.423077" vertical-offset="459" max-vertical-offset="2244">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/code/local/Teamto/Featured/Block/Featured/Widget/Slideshow.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="42" selection-start="401" selection-end="401" vertical-scroll-proportion="-10.461538" vertical-offset="0" max-vertical-offset="408">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/code/local/Teamto/Mirrored/etc/config.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="24" selection-start="95" selection-end="95" vertical-scroll-proportion="0.11744387" vertical-offset="0" max-vertical-offset="1717">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/code/local/Teamto/Megamenu/etc/config.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="12" selection-start="162" selection-end="162" vertical-scroll-proportion="0.19861831" vertical-offset="4" max-vertical-offset="1037">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/code/local/Teamto/Megamenu/sql/teamto_megamenu_setup/install-0.1.0.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="3" selection-start="802" selection-end="802" vertical-scroll-proportion="0.43826088" vertical-offset="105" max-vertical-offset="935">
-          <folding>
-            <marker date="1407225437507" expanded="true" signature="-1:-1" placeholder="INSERT INTO ..." />
-            <marker date="1407225437507" expanded="true" signature="-1:-1" placeholder="SELECT '{$en..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/code/local/Teamto/Mirrored/sql/teamto_mirrored_setup/install-0.1.0.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="37" selection-start="730" selection-end="763" vertical-scroll-proportion="-11.115385" vertical-offset="0" max-vertical-offset="918">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/design/frontend/default/default/template/teamto/layout/head.phtml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="86" selection-start="355" selection-end="355" vertical-scroll-proportion="0.21174377" vertical-offset="0" max-vertical-offset="562">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/code/local/Teamto/Featured/etc/config.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="33" column="0" selection-start="1024" selection-end="1024" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1683">
+        <state line="26" column="1" selection-start="672" selection-end="673" vertical-scroll-proportion="0.77816904" vertical-offset="0" max-vertical-offset="568">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/etc/local.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="45" column="64" selection-start="1693" selection-end="1693" vertical-scroll-proportion="0.31114808" vertical-offset="578" max-vertical-offset="1224">
+        <state line="43" column="57" selection-start="1532" selection-end="1569" vertical-scroll-proportion="0.25589225" vertical-offset="579" max-vertical-offset="1224">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/code/local/Teamto/Featured/etc/config.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="31" column="17" selection-start="1022" selection-end="1022" vertical-scroll-proportion="0.6296296" vertical-offset="153" max-vertical-offset="1649">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/code/local/Teamto/Featured/Block/Featured/Widget/Slideshow.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="55" selection-start="414" selection-end="414" vertical-scroll-proportion="0.47887325" vertical-offset="0" max-vertical-offset="568">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/code/local/Teamto/Featured/etc/widget.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="4" selection-start="228" selection-end="228" vertical-scroll-proportion="0.17171717" vertical-offset="0" max-vertical-offset="594">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/skin/frontend/default/default/js/filter/jquery-1.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="40" column="18" selection-start="1086" selection-end="1086" vertical-scroll-proportion="1.2252252" vertical-offset="0" max-vertical-offset="166515">
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/skin/frontend/default/default/js/noConflict.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="20" selection-start="20" selection-end="20" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="594">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/design/frontend/default/default/layout/megamenu.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="581">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/design/frontend/default/default/template/teamto/filter/filter.phtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="114" column="0" selection-start="5026" selection-end="5026" vertical-scroll-proportion="0.81621623" vertical-offset="1026" max-vertical-offset="1581">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/design/frontend/default/default/template/teamto/featured/widget/slideshow.phtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="102" column="11" selection-start="2979" selection-end="2979" vertical-scroll-proportion="0.64324325" vertical-offset="1377" max-vertical-offset="2278">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/design/frontend/default/default/layout/featured.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="13" selection-start="60" selection-end="60" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="629">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/design/frontend/default/default/layout/filter.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="29" column="9" selection-start="966" selection-end="966" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="595">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/design/frontend/default/default/template/teamto/layout/head.phtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="0" selection-start="268" selection-end="268" vertical-scroll-proportion="0.17957747" vertical-offset="0" max-vertical-offset="568">
           <folding />
         </state>
       </provider>
