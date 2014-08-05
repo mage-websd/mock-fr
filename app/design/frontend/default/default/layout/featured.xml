@@ -5,7 +5,6 @@
             <block name="head.add.layout" type="core/template"
                    template="teamto/layout/head.phtml"/>
         </reference>
-
     </default>
 
     <cms_page_view>
