@@ -2,7 +2,6 @@
 /var/
 /app/code/core/
 /app/design/frontend/base/
-/media/
 /.htaccess
 /giangnt.pub
 /giangnt_key.pub
