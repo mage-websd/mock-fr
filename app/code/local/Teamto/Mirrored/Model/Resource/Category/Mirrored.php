@@ -27,7 +27,7 @@ class Teamto_Mirrored_Model_Resource_Category_Mirrored extends
             for($i = 0 ; $i < $numberSymbol ; $i++) {
                 $label .= '__|'; //symbol is space
             }
-            $label .= "{$idRoot}: {$cate->getName()}";
+            $label .= " {$cate->getName()} - {$idRoot}";
             $this->_arrayOption[] = array(
                 'value' => $idRoot,
                 'label' => $label,
@@ -35,16 +35,16 @@ class Teamto_Mirrored_Model_Resource_Category_Mirrored extends
         }
 
         $collection = Mage::getResourceModel('catalog/category_collection')
-            ->addAttributeToSelect('*')
             ->addAttributeToFilter('is_active', array('in' => array(0,1)))
-            ->addAttributeToFilter('parent_id', $idRoot);
+            ->addAttributeToFilter('parent_id', $idRoot)
+            ->getColumnValues('entity_id');
         if($collection)
-            foreach($collection as $_cate) {
-                $this->_treeCateFormat($_cate->getData('entity_id'));
+            foreach($collection as $idSub) {
+                $this->_treeCateFormat($idSub);
             }
     }
 
-    private function _norformat() {
+    /*private function _norformat() {
         if (!$this->_options) {
             $singleton = Mage::getSingleton('catalog/category');
             $categories = $singleton->getCollection();
@@ -64,5 +64,5 @@ class Teamto_Mirrored_Model_Resource_Category_Mirrored extends
             }
             $this->_options = $array_option;
         }
-    }
+    }*/
 }
