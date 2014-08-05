@@ -1,14 +1,15 @@
+<!--
 <?xml version="1.0"?>
 <layout version="0.1.0">
     <adminhtml_catalog_category_edit>
         <reference name="head">
-            <!--<action method="addItem">
+            &lt;!&ndash;<action method="addItem">
                 <type>js_css</type>
                 <name>extjs/resources/css/ytheme-magento.css</name>
                 <params/>
                 <if/>
                 <condition>can_load_ext_js</condition>
-            </action>-->
+            </action>&ndash;&gt;
 
             <action method="addItem">
                 <type>skin_css</type>
@@ -22,18 +23,18 @@
                 <type>skin_js</type>
                 <name>js/noConflict-jquery.js</name>
             </action>
-            <!--<action method="addItem">
+            &lt;!&ndash;<action method="addItem">
                 <type>skin_js</type>
                 <name>js/jquery-ui.min.js</name>
             </action>
             <action method="addItem">
                 <type>skin_js</type>
                 <name>js/aucomplete-combox.js</name>
-            </action>-->
+            </action>&ndash;&gt;
         </reference>
         <reference name="before_body_end">
             <block type="core/template" name="content.category.add.custom"
                    template="teamto/layout/catgory_edit.phtml"/>
         </reference>
     </adminhtml_catalog_category_edit>
-</layout>
+</layout>-->

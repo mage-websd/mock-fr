@@ -45,20 +45,6 @@
             </teamto_mirrored_setup_read>
 
         </resources>
-
-        <!--event: before save category => implement mirrored-->
-        <events>
-            <catalog_category_prepare_save>
-                <observers>
-                    <mirrored>
-                        <type>singleton</type>
-                        <class>mirrored/observer_category</class>
-                        <method>category_before_save</method>
-                    </mirrored>
-                </observers>
-            </catalog_category_prepare_save>
-        </events>
-
     </global>
 
     <frontend>
@@ -92,6 +78,19 @@
                 </mirrored>
             </updates>
         </layout>
+
+        <events>
+            <catalog_category_prepare_save>
+                <observers>
+                    <mirrored>
+                        <type>singleton</type>
+                        <class>mirrored/observer_category</class>
+                        <method>category_before_save</method>
+                    </mirrored>
+                </observers>
+            </catalog_category_prepare_save>
+
+        </events>
     </adminhtml>
 
 </config>

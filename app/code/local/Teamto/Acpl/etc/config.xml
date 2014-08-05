@@ -28,6 +28,11 @@ and open the template in the editor.
         </layout>
     </frontend>
     <global>
+        <blocks>
+            <teamto_acpl>
+                <class>Teamto_Acpl_Block</class>
+            </teamto_acpl>
+        </blocks>
         <page>
             <layouts>
                 <custom_static_page_one>
@@ -36,7 +41,46 @@ and open the template in the editor.
                 </custom_static_page_one>
             </layouts>
         </page>
-<!--        <blocks>
+        
+        <models>
+            <news>
+                <class>Teamto_Acpl_Model</class>
+                <resourceModel>news_resource</resourceModel>
+            </news>
+            <news_resource>
+                <class>Teamto_Acpl_Model_Resource</class>
+            </news_resource>
+        </models>
+        <resources>
+            <news_setup1>
+                <setup>
+                    <module>Teamto_Acpl</module>
+                    <class>Teamto_Acpl_Model_Resource_Setup</class>
+                </setup>
+            </news_setup1>
+        </resources>
+        <events>
+            <cms_page_prepare_save>
+                <observers>
+                    <teamto_acpl_save>
+                        <type>singleton</type>
+                        <class>Teamto_Acpl_Model_Observer</class>
+                        <method>save_field_news</method>
+                    </teamto_acpl_save>
+                </observers>
+            </cms_page_prepare_save>
+            
+            <adminhtml_cms_page_edit_tab_main_prepare_form>
+                <observers>
+                    <teamto_acpl_edit_tab_main>
+                        <type>singleton</type>
+                        <class>Teamto_Acpl_Model_Observer</class>
+                        <method>show_field_news</method>
+                    </teamto_acpl_edit_tab_main>
+                </observers>
+            </adminhtml_cms_page_edit_tab_main_prepare_form>
+        </events>
+        <!--        <blocks>
             <catalog>
                 <rewrite>
                     <product_new>Teamto_Acpl_Block_Product_Newproducts</product_new>
@@ -44,4 +88,15 @@ and open the template in the editor.
             </catalog>
         </blocks>-->
     </global>
+<!--    <admin>
+        <routers>
+            <adminhtml>
+                <args>
+                    <modules>
+                        <teamto_acpl after="Mage_Adminhtml">Teamto_Acpl_Adminhtml</teamto_acpl>
+                    </modules>
+                </args>
+            </adminhtml>
+        </routers>
+    </admin>-->
 </config>

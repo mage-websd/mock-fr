@@ -2,13 +2,17 @@
 <layout>
     <adminhtml_featured_index>
         <reference name="head">
-            <action method="setTitle" translate="title"><title>SmartOSC / Featured Products</title></action>
+            <action method="setTitle" translate="title">
+                <title>SmartOSC / Featured Products</title>
+            </action>
         </reference>
         <reference name="menu">
-            <action method="setActive"><menupath>teamto/featured</menupath></action>
+            <action method="setActive">
+                <menupath>teamto/featured</menupath>
+            </action>
         </reference>
         <reference name="content">
-            <block type="adminhtml/catalog_product" name="products_list" template="teamto/featured_product_list.phtml"></block>
+            <block type="teamto_featured/featured_List" name="products_list" template="teamto/list.phtml"></block>
         </reference>
     </adminhtml_featured_index>
 </layout>

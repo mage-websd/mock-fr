@@ -1,24 +1,23 @@
 <?php
 class Teamto_Mirrored_IndexController extends Mage_Core_Controller_Front_Action
 {
+    private function _getModelProduct()
+    {
+        return Mage::getModel('catalog/product');
+    }
+    private function _getModelCategory()
+    {
+        return Mage::getModel('catalog/category');
+    }
     public function indexAction()
     {
-        /*$collection = Mage::getModel('catalog/product')
-            ->getCollection()
-            ->joinField('category_id', 'catalog/category_product', 'category_id',
-                'product_id = entity_id')
-            ->addAttributeToSelect('*')
-            ->addAttributeToFilter('category_id', array('eq' => 26));
-        foreach ($collection as $p) {
-            $idProduct = $p->getData('entity_id');
-            var_dump($idProduct);
-        }
-        exit;*/
+
+
         /*$p = Mage::getModel('catalog/product')->load(237);
         $array = $p->getCategoryIds();
         var_dump($array);*/
-        $ca = Mage::getModel('catalog/product')->load(237);
-        var_dump($ca->getCategoryIds());
+        $ca = Mage::getModel('catalog/category')->load(147);
+        var_dump($ca->getChildren());
         exit;
         //$collection = $category->getProductPosition();//->addAttributeToSort('position');
         //Mage::getModel('catalog/layer')->prepareProductCollection($collection);

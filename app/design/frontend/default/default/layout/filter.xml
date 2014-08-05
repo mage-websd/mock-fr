@@ -17,20 +17,9 @@
             </action>
         </reference>
 
-        <!--<reference name="catalog.leftnav">-->
-            <!--<remove>-->
-            <!--<action method="setTemplate">-->
-                <!--<template>Teamto/filter/filter.phtml</template>-->
-            <!--</action>-->
-        <!--</reference>-->
-
         <reference name="left">
             <remove name="catalog.leftnav"/>
             <block type="teamto_filter/layer_view" name="filter" after="currency" template="Teamto/filter/filter.phtml"/>
-            <!--<action method="setTemplate">-->
-                <!--<template>Teamto/filter/filter.phtml</template>-->
-            <!--</action>-->
-
         </reference>
     </catalog_category_layered>
 </layout>
