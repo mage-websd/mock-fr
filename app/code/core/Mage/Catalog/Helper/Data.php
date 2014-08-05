@@ -26,7 +26,7 @@
 
 
 /**
- * Catalogedit data helper
+ * Catalog data helper
  *
  * @category   Mage
  * @package    Mage_Catalog
@@ -227,7 +227,7 @@ class Mage_Catalog_Helper_Data extends Mage_Core_Helper_Abstract
     }
 
     /**
-     * Retrieve Catalogedit Price Scope
+     * Retrieve Catalog Price Scope
      *
      * @return int
      */

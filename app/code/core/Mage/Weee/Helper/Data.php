@@ -468,8 +468,8 @@ class Mage_Weee_Helper_Data extends Mage_Core_Helper_Abstract
         // $priceIncludesTax = Mage::getStoreConfig(Mage_Tax_Model_Config::CONFIG_XML_PATH_PRICE_INCLUDES_TAX, $store);
         $fptTaxConfig = $this->getTaxType($store);
 
-        // If FPT == Including tax & Catalogedit Prices Excluding Tax or
-        // FPT = Taxed (Meaning - go ahead and calculate tax on fpt and Catalogedit Prices Include tax)
+        // If FPT == Including tax & Catalog Prices Excluding Tax or
+        // FPT = Taxed (Meaning - go ahead and calculate tax on fpt and Catalog Prices Include tax)
         return (($fptTaxConfig == Mage_Tax_Model_Config::FPT_LOADED_DISPLAY_WITH_TAX && !$priceIncludesTax)
             || ($fptTaxConfig == Mage_Tax_Model_Config::FPT_TAXED && $priceIncludesTax));
     }

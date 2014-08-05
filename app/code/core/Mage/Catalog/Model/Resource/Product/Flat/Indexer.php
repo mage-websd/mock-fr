@@ -26,7 +26,7 @@
 
 
 /**
- * Catalogedit Product Flat Indexer Resource Model
+ * Catalog Product Flat Indexer Resource Model
  *
  * @category    Mage
  * @package     Mage_Catalog
@@ -110,7 +110,7 @@ class Mage_Catalog_Model_Resource_Product_Flat_Indexer extends Mage_Index_Model_
     }
 
     /**
-     * Rebuild Catalogedit Product Flat Data
+     * Rebuild Catalog Product Flat Data
      *
      * @param Mage_Core_Model_Store|int $store
      * @return Mage_Catalog_Model_Resource_Product_Flat_Indexer
@@ -140,7 +140,7 @@ class Mage_Catalog_Model_Resource_Product_Flat_Indexer extends Mage_Index_Model_
     }
 
     /**
-     * Retrieve Catalogedit Product Flat helper
+     * Retrieve Catalog Product Flat helper
      *
      * @return Mage_Catalog_Helper_Product_Flat
      */
@@ -217,7 +217,7 @@ class Mage_Catalog_Model_Resource_Product_Flat_Indexer extends Mage_Index_Model_
     }
 
     /**
-     * Retrieve Catalogedit Entity Type Id
+     * Retrieve Catalog Entity Type Id
      *
      * @return int
      */
@@ -291,7 +291,7 @@ class Mage_Catalog_Model_Resource_Product_Flat_Indexer extends Mage_Index_Model_
     }
 
     /**
-     * Retrieve Catalogedit Product Flat Table name
+     * Retrieve Catalog Product Flat Table name
      *
      * @param int $storeId
      * @return string
@@ -634,7 +634,7 @@ class Mage_Catalog_Model_Resource_Product_Flat_Indexer extends Mage_Index_Model_
 
         $maxIndex = Mage::getConfig()->getNode(self::XML_NODE_MAX_INDEX_COUNT);
         if (count($indexesNeed) > $maxIndex) {
-            Mage::throwException(Mage::helper('catalog')->__("The Flat Catalogedit module has a limit of %2\$d filterable and/or sortable attributes. Currently there are %1\$d of them. Please reduce the number of filterable/sortable attributes in order to use this module", count($indexesNeed), $maxIndex));
+            Mage::throwException(Mage::helper('catalog')->__("The Flat Catalog module has a limit of %2\$d filterable and/or sortable attributes. Currently there are %1\$d of them. Please reduce the number of filterable/sortable attributes in order to use this module", count($indexesNeed), $maxIndex));
         }
 
         // Process indexes to create names for them in MMDB-style and reformat to common index definition
@@ -696,7 +696,7 @@ class Mage_Catalog_Model_Resource_Product_Flat_Indexer extends Mage_Index_Model_
                     'child_id', $this->getTable('catalog/product'), 'entity_id',
                     Varien_Db_Ddl_Table::ACTION_CASCADE, Varien_Db_Ddl_Table::ACTION_CASCADE);
             }
-            $table->setComment("Catalogedit Product Flat (Store {$storeId})");
+            $table->setComment("Catalog Product Flat (Store {$storeId})");
 
             $adapter->createTable($table);
 
@@ -1379,7 +1379,7 @@ class Mage_Catalog_Model_Resource_Product_Flat_Indexer extends Mage_Index_Model_
     }
 
     /**
-     * Transactional rebuild Catalogedit Product Flat Data
+     * Transactional rebuild Catalog Product Flat Data
      *
      * @return Mage_Catalog_Model_Resource_Product_Flat_Indexer
      */

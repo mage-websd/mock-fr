@@ -145,7 +145,7 @@ class Mage_CatalogSearch_Model_Fulltext_Observer
     }
 
     /**
-     * Catalogedit Product mass website update
+     * Catalog Product mass website update
      *
      * @param Varien_Event_Observer $observer
      * @return Mage_CatalogSearch_Model_Fulltext_Observer

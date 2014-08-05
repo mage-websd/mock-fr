@@ -26,7 +26,7 @@
 
 
 /**
- * Catalogedit Product Eav Decimal Attributes Indexer resource model
+ * Catalog Product Eav Decimal Attributes Indexer resource model
  *
  * @category    Mage
  * @package     Mage_Catalog

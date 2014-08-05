@@ -25,7 +25,7 @@
  */
 
 /**
- * Catalogedit product media api
+ * Catalog product media api
  *
  * @category   Mage
  * @package    Mage_Catalog

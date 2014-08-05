@@ -636,7 +636,7 @@ class Mage_XmlConnect_Adminhtml_MobileController extends Mage_Adminhtml_Controll
     }
 
     /**
-     * Preview Catalogedit action handler
+     * Preview Catalog action handler
      *
      * @return null
      */
@@ -646,7 +646,7 @@ class Mage_XmlConnect_Adminhtml_MobileController extends Mage_Adminhtml_Controll
     }
 
     /**
-     * Preview Catalogedit landscape mode action handler
+     * Preview Catalog landscape mode action handler
      */
     public function previewCatalogHorAction()
     {

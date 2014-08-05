@@ -26,7 +26,7 @@
 
 
 /**
- * Catalogedit Product Abstract Block
+ * Catalog Product Abstract Block
  *
  * @category   Mage
  * @package    Mage_Catalog

@@ -25,7 +25,7 @@
  */
 
 /**
- * Catalogedit category attribute api
+ * Catalog category attribute api
  *
  * @category   Mage
  * @package    Mage_Catalog

@@ -116,7 +116,7 @@ class Mage_Reports_Model_Event_Observer
     }
 
     /**
-     * View Catalogedit Product action
+     * View Catalog Product action
      *
      * @param Varien_Event_Observer $observer
      * @return Mage_Reports_Model_Event_Observer

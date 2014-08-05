@@ -26,7 +26,7 @@
 
 
 /**
- * Catalogedit bundle product info block
+ * Catalog bundle product info block
  *
  * @category    Mage
  * @package     Mage_Bundle

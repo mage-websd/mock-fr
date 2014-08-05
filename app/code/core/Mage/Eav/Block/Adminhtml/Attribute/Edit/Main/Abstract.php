@@ -93,8 +93,8 @@ abstract class Mage_Eav_Block_Adminhtml_Attribute_Edit_Main_Abstract extends Mag
 
         $fieldset->addField('frontend_input', 'select', array(
             'name' => 'frontend_input',
-            'label' => Mage::helper('eav')->__('Catalogedit Input Type for Store Owner'),
-            'title' => Mage::helper('eav')->__('Catalogedit Input Type for Store Owner'),
+            'label' => Mage::helper('eav')->__('Catalog Input Type for Store Owner'),
+            'title' => Mage::helper('eav')->__('Catalog Input Type for Store Owner'),
             'value' => 'text',
             'values'=> $inputTypes
         ));

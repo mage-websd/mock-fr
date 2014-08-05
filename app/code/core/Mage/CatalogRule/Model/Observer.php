@@ -25,7 +25,7 @@
  */
 
 /**
- * Catalogedit Price rules observer model
+ * Catalog Price rules observer model
  */
 class Mage_CatalogRule_Model_Observer
 {
@@ -266,7 +266,7 @@ class Mage_CatalogRule_Model_Observer
         if ($disabledRulesCount) {
             Mage::getModel('catalogrule/rule')->applyAll();
             Mage::getSingleton('adminhtml/session')->addWarning(
-                Mage::helper('catalogrule')->__('%d Catalogedit Price Rules based on "%s" attribute have been disabled.', $disabledRulesCount, $attributeCode));
+                Mage::helper('catalogrule')->__('%d Catalog Price Rules based on "%s" attribute have been disabled.', $disabledRulesCount, $attributeCode));
         }
 
         return $this;
@@ -396,7 +396,7 @@ class Mage_CatalogRule_Model_Observer
     }
 
     /**
-     * Runs Catalogedit Product Price Reindex
+     * Runs Catalog Product Price Reindex
      *
      * @param Varien_Event_Observer $observer
      */

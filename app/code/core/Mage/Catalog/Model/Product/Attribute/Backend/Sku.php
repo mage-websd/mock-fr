@@ -26,7 +26,7 @@
 
 
 /**
- * Catalogedit product SKU backend attribute model
+ * Catalog product SKU backend attribute model
  *
  * @category   Mage
  * @package    Mage_Catalog

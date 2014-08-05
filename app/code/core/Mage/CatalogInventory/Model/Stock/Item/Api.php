@@ -25,7 +25,7 @@
  */
 
 /**
- * Catalogedit inventory api
+ * Catalog inventory api
  *
  * @category   Mage
  * @package    Mage_CatalogInventory

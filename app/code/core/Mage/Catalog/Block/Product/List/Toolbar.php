@@ -145,7 +145,7 @@ class Mage_Catalog_Block_Product_List_Toolbar extends Mage_Core_Block_Template
     protected $_paramsMemorizeAllowed = true;
 
     /**
-     * Retrieve Catalogedit Config object
+     * Retrieve Catalog Config object
      *
      * @return Mage_Catalog_Model_Config
      */

@@ -25,7 +25,7 @@
  */
 
 /**
- * Catalogedit downloadable product part block
+ * Catalog downloadable product part block
  *
  * @category    Mage
  * @package     Mage_Downloadable

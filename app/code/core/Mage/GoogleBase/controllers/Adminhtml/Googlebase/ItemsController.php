@@ -38,14 +38,14 @@ class Mage_GoogleBase_Adminhtml_Googlebase_ItemsController extends Mage_Adminhtm
     {
         $this->loadLayout()
             ->_setActiveMenu('catalog/googlebase/items')
-            ->_addBreadcrumb(Mage::helper('adminhtml')->__('Catalogedit'), Mage::helper('adminhtml')->__('Catalogedit'))
+            ->_addBreadcrumb(Mage::helper('adminhtml')->__('Catalog'), Mage::helper('adminhtml')->__('Catalog'))
             ->_addBreadcrumb(Mage::helper('adminhtml')->__('Google Base'), Mage::helper('adminhtml')->__('Google Base'));
         return $this;
     }
 
     public function indexAction()
     {
-        $this->_title($this->__('Catalogedit'))
+        $this->_title($this->__('Catalog'))
              ->_title($this->__('Google base'))
              ->_title($this->__('Manage Items'));
 

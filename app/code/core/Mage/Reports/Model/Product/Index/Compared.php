@@ -26,7 +26,7 @@
 
 
 /**
- * Catalogedit Compared Product Index Model
+ * Catalog Compared Product Index Model
  *
  * @method Mage_Reports_Model_Resource_Product_Index_Compared _getResource()
  * @method Mage_Reports_Model_Resource_Product_Index_Compared getResource()

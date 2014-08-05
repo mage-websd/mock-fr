@@ -73,7 +73,7 @@ class Mage_Adminhtml_Block_System_Cache_Edit extends Mage_Adminhtml_Block_Widget
     }
 
     /**
-     * Retrieve Catalogedit Tools Data
+     * Retrieve Catalog Tools Data
      *
      * @return array
      */
@@ -102,7 +102,7 @@ class Mage_Adminhtml_Block_System_Cache_Edit extends Mage_Adminhtml_Block_Widget
 
         return array(
             'refresh_catalog_rewrites'   => array(
-                'label'     => Mage::helper('adminhtml')->__('Catalogedit Rewrites'),
+                'label'     => Mage::helper('adminhtml')->__('Catalog Rewrites'),
                 'buttons'   => array(
                     array(
                         'name'      => 'refresh_catalog_rewrites',
@@ -154,7 +154,7 @@ class Mage_Adminhtml_Block_System_Cache_Edit extends Mage_Adminhtml_Block_Widget
                 ),
             ),
             'rebuild_catalog_index'         => array(
-                'label'     => Mage::helper('adminhtml')->__('Rebuild Catalogedit Index'),
+                'label'     => Mage::helper('adminhtml')->__('Rebuild Catalog Index'),
                 'buttons'   => array(
                     array(
                         'name'      => 'rebuild_catalog_index',
@@ -163,7 +163,7 @@ class Mage_Adminhtml_Block_System_Cache_Edit extends Mage_Adminhtml_Block_Widget
                 ),
             ),
             'rebuild_flat_catalog_category' => array(
-                'label'     => Mage::helper('adminhtml')->__('Rebuild Flat Catalogedit Category'),
+                'label'     => Mage::helper('adminhtml')->__('Rebuild Flat Catalog Category'),
                 'buttons'   => array(
                     array(
                         'name'      => 'rebuild_flat_catalog_category',
@@ -172,7 +172,7 @@ class Mage_Adminhtml_Block_System_Cache_Edit extends Mage_Adminhtml_Block_Widget
                 ),
             ),
             'rebuild_flat_catalog_product' => array(
-                'label'     => Mage::helper('adminhtml')->__('Rebuild Flat Catalogedit Product'),
+                'label'     => Mage::helper('adminhtml')->__('Rebuild Flat Catalog Product'),
                 'buttons'   => array(
                     array(
                         'name'      => 'rebuild_flat_catalog_product',

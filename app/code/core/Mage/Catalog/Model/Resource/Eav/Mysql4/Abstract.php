@@ -26,7 +26,7 @@
 
 
 /**
- * Catalogedit entity abstract model
+ * Catalog entity abstract model
  *
  * @category    Mage
  * @package     Mage_Catalog

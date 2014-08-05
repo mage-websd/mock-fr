@@ -26,7 +26,7 @@
 
 
 /**
- * Catalogedit Product Flat resource model
+ * Catalog Product Flat resource model
  *
  * @category    Mage
  * @package     Mage_Catalog
@@ -42,7 +42,7 @@ class Mage_Catalog_Model_Resource_Product_Flat extends Mage_Core_Model_Resource_
     protected $_storeId;
 
     /**
-     * Store flag which defines if Catalogedit Product Flat Data has been initialized
+     * Store flag which defines if Catalog Product Flat Data has been initialized
      *
      * @var array
      */
@@ -226,7 +226,7 @@ class Mage_Catalog_Model_Resource_Product_Flat extends Mage_Core_Model_Resource_
     }
 
     /**
-     * Check if Catalogedit Product Flat Data has been initialized
+     * Check if Catalog Product Flat Data has been initialized
      *
      * @param bool|int|\Mage_Core_Model_Store|null $storeView Store(id) for which the value is checked
      * @return bool

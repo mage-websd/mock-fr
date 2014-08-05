@@ -44,7 +44,7 @@ class Mage_Paypal_Model_System_Config_Source_BmlPosition
     }
 
     /**
-     * Bml positions source getter for Catalogedit Category Page
+     * Bml positions source getter for Catalog Category Page
      *
      * @return array
      */
@@ -58,7 +58,7 @@ class Mage_Paypal_Model_System_Config_Source_BmlPosition
     }
 
     /**
-     * Bml positions source getter for Catalogedit Product Page
+     * Bml positions source getter for Catalog Product Page
      *
      * @return array
      */

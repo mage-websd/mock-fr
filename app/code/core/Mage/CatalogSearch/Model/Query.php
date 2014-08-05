@@ -25,7 +25,7 @@
  */
 
 /**
- * Catalogedit search query model
+ * Catalog search query model
  *
  * @method Mage_CatalogSearch_Model_Resource_Query _getResource()
  * @method Mage_CatalogSearch_Model_Resource_Query getResource()

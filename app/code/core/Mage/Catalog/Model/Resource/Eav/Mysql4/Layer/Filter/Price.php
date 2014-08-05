@@ -26,7 +26,7 @@
 
 
 /**
- * Catalogedit Layer Price Filter resource model
+ * Catalog Layer Price Filter resource model
  *
  * @category    Mage
  * @package     Mage_Catalog

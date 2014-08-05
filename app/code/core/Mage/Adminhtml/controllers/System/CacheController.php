@@ -126,14 +126,14 @@ class Mage_Adminhtml_System_CacheController extends Mage_Adminhtml_Controller_Ac
                     try {
                         Mage::getSingleton('catalog/url')->refreshRewrites();
                         $this->_getSession()->addSuccess(
-                            Mage::helper('adminhtml')->__('The Catalogedit Rewrites were refreshed.')
+                            Mage::helper('adminhtml')->__('The Catalog Rewrites were refreshed.')
                         );
                     }
                     catch (Mage_Core_Exception $e) {
                         $this->_getSession()->addError($e->getMessage());
                     }
                     catch (Exception $e) {
-                        $this->_getSession()->addException($e, Mage::helper('adminhtml')->__('An error occurred while refreshing the Catalogedit Rewrites.'));
+                        $this->_getSession()->addException($e, Mage::helper('adminhtml')->__('An error occurred while refreshing the Catalog Rewrites.'));
                     }
                     break;
 
@@ -262,7 +262,7 @@ class Mage_Adminhtml_System_CacheController extends Mage_Adminhtml_Controller_Ac
                 case 'rebuild_flat_catalog_product':
                     try {
                         Mage::getResourceModel('catalog/product_flat_indexer')->rebuild();
-                        $this->_getSession()->addSuccess(Mage::helper('adminhtml')->__('The Flat Catalogedit Product was rebuilt'));
+                        $this->_getSession()->addSuccess(Mage::helper('adminhtml')->__('The Flat Catalog Product was rebuilt'));
                     }
                     catch (Mage_Core_Exception $e) {
                         $this->_getSession()->addError($e->getMessage());

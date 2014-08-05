@@ -26,7 +26,7 @@
 
 
 /**
- * Catalogedit Eav Sendfriend Resource Collection
+ * Catalog Eav Sendfriend Resource Collection
  *
  * @category    Mage
  * @package     Mage_Catalog

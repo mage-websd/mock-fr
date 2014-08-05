@@ -26,7 +26,7 @@
 
 
 /**
- * Catalogedit Inventory Stock Model
+ * Catalog Inventory Stock Model
  *
  * @method Mage_CatalogInventory_Model_Resource_Stock_Item _getResource()
  * @method Mage_CatalogInventory_Model_Resource_Stock_Item getResource()

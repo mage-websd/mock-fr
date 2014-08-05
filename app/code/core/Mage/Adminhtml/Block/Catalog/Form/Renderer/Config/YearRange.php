@@ -25,7 +25,7 @@
  */
 
 /**
- * Catalogedit Custom Options Config Renderer
+ * Catalog Custom Options Config Renderer
  *
  * @category   Mage
  * @package    Mage_Adminhtml

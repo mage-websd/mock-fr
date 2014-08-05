@@ -25,7 +25,7 @@
  */
 
 /**
- * Catalogedit category controller
+ * Catalog category controller
  *
  * @category   Mage
  * @package    Mage_Adminhtml
@@ -42,7 +42,7 @@ class Mage_Adminhtml_Catalog_CategoryController extends Mage_Adminhtml_Controlle
      */
     protected function _initCategory($getRootInstead = false)
     {
-        $this->_title($this->__('Catalogedit'))
+        $this->_title($this->__('Catalog'))
              ->_title($this->__('Categories'))
              ->_title($this->__('Manage Categories'));
 
@@ -78,7 +78,7 @@ class Mage_Adminhtml_Catalog_CategoryController extends Mage_Adminhtml_Controlle
         return $category;
     }
     /**
-     * Catalogedit categories index action
+     * Catalog categories index action
      */
     public function indexAction()
     {
@@ -203,7 +203,7 @@ class Mage_Adminhtml_Catalog_CategoryController extends Mage_Adminhtml_Controlle
         $this->getLayout()->getBlock('head')->setCanLoadExtJs(true)
             ->setContainerCssClass('catalog-categories');
 
-        $this->_addBreadcrumb(Mage::helper('catalog')->__('Manage Catalogedit Categories'),
+        $this->_addBreadcrumb(Mage::helper('catalog')->__('Manage Catalog Categories'),
              Mage::helper('catalog')->__('Manage Categories')
         );
 

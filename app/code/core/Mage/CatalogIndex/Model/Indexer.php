@@ -342,7 +342,7 @@ class Mage_CatalogIndex_Model_Indexer extends Mage_Core_Model_Abstract
             $this->_afterPlainReindex($stores, $products);
 
             /**
-             * Catalogedit Product Flat price update
+             * Catalog Product Flat price update
              */
             /** @var $productFlatHelper Mage_Catalog_Helper_Product_Flat */
             $productFlatHelper = Mage::helper('catalog/product_flat');
@@ -378,7 +378,7 @@ class Mage_CatalogIndex_Model_Indexer extends Mage_Core_Model_Abstract
         ));
 
         /**
-         * Catalogedit Product Flat price update
+         * Catalog Product Flat price update
          */
         /** @var $productFlatHelper Mage_Catalog_Helper_Product_Flat */
         $productFlatHelper = Mage::helper('catalog/product_flat');
@@ -788,7 +788,7 @@ class Mage_CatalogIndex_Model_Indexer extends Mage_Core_Model_Abstract
     }
 
 /**
-     * Prepare Catalogedit Product Flat Columns
+     * Prepare Catalog Product Flat Columns
      *
      * @param Varien_Object $object
      * @return Mage_CatalogIndex_Model_Indexer
@@ -801,7 +801,7 @@ class Mage_CatalogIndex_Model_Indexer extends Mage_Core_Model_Abstract
     }
 
     /**
-     * Prepare Catalogedit Product Flat Indexes
+     * Prepare Catalog Product Flat Indexes
      *
      * @param Varien_Object $object
      * @return Mage_CatalogIndex_Model_Indexer

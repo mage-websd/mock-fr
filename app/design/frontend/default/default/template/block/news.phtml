@@ -1,0 +1,37 @@
+
+<?php
+$collection = Mage::getModel('cms/page')->getCollection()->addStoreFilter(Mage::app()->getStore()->getId());
+$collection->getSelect()
+        ->where('is_active = 1')
+        ->where('is_news IS NOT NULL')
+        ->order('update_time', 'DESC')
+        ->limit(10);
+?>
+
+<div class="block">
+    <img src="http://1.bp.blogspot.com/-dpJjJKC1CF0/US9FknlsiDI/AAAAAAAAABI/40KiMn9m81I/s1600/avatar+dep+girl+viet+nam+(1).jpg" width="100%">
+    <div class="block-title">
+        <strong><span>Hot News</span></strong>
+    </div>
+    <div class="block-content">
+        <ul style="margin-left: 5px;">
+            <?php
+            $index = 1;
+          //  $collection = $this->getListNews();
+            foreach ($collection as $news) {
+                $data = $news->getData();
+                ?>
+            <li style="padding-bottom: 5px;padding-top: 5px">
+                    <a href ='<?php echo Mage::Helper('cms/page')->getPageUrl($data['page_id']) ?>'
+                       title=" <?php echo $data['update_time'] ?>"
+                       style="text-decoration: none">
+                           <?php echo $index.". " . $data['title'] ?>
+                    </a>
+                </li>
+                <?php
+                $index++;
+            }
+            ?>
+        </ul>
+    </div>
+</div>

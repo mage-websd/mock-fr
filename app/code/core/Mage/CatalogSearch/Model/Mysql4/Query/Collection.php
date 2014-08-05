@@ -26,7 +26,7 @@
 
 
 /**
- * Catalogedit search query collection
+ * Catalog search query collection
  *
  * @category    Mage
  * @package     Mage_CatalogSearch

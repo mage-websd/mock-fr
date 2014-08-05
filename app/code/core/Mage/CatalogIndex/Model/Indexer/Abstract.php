@@ -26,7 +26,7 @@
 
 
 /**
- * Catalogedit indexer abstract class
+ * Catalog indexer abstract class
  *
  * @author      Magento Core Team <core@magentocommerce.com>
  */

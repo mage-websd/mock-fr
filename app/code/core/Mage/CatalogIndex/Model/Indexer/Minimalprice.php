@@ -26,7 +26,7 @@
 
 
 /**
- * Catalogedit indexer price processor
+ * Catalog indexer price processor
  *
  * @method Mage_CatalogIndex_Model_Resource_Indexer_Minimalprice _getResource()
  * @method Mage_CatalogIndex_Model_Resource_Indexer_Minimalprice getResource()

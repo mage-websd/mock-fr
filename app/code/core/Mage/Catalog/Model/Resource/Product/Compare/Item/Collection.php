@@ -26,7 +26,7 @@
 
 
 /**
- * Catalogedit Product Compare Items Resource Collection
+ * Catalog Product Compare Items Resource Collection
  *
  * @category    Mage
  * @package     Mage_Catalog

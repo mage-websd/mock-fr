@@ -26,7 +26,7 @@
 
 
 /**
- * Catalogedit factory
+ * Catalog factory
  *
  * @category    Mage
  * @package     Mage_Catalog

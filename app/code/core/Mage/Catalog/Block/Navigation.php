@@ -26,7 +26,7 @@
 
 
 /**
- * Catalogedit navigation
+ * Catalog navigation
  *
  * @category   Mage
  * @package    Mage_Catalog

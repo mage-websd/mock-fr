@@ -8,9 +8,9 @@
 /* @var $installer Mage_Core_Model_Resource_Setup */
 $installer = $this;
 $installer->startSetup();
-$entityTypeId     = $installer->getEntityTypeId('catalog_category');
+/*$entityTypeId     = $installer->getEntityTypeId('catalog_category');
 $attributeSetId   = $installer->getDefaultAttributeSetId($entityTypeId);
-$attributeGroupId = $installer->getDefaultAttributeGroupId($entityTypeId, $attributeSetId);
+$attributeGroupId = $installer->getDefaultAttributeGroupId($entityTypeId, $attributeSetId);*/
 
 // add attribute mirrored to category parrent
 $installer->addAttribute('catalog_category', 'mirrored_to',  array(
@@ -24,6 +24,18 @@ $installer->addAttribute('catalog_category', 'mirrored_to',  array(
     'source'            => 'mirrored/resource_category_mirrored'
 ));
 
+
+// add attribute mirrored_copy_from_cate: data of sub category mirrored children
+// value is id of category copy
+$installer->addAttribute('catalog_category', 'mirrored_copy_from_cate',  array(
+    'type'     => 'int',
+    'label'    => 'Mirrored Copy From Category',
+    'input'    => 'hidden',
+    'visible'           => true,
+    'required'          => false,
+    'user_defined'      => false,
+));
+
 /*$installer->addAttributeToGroup(
     $entityTypeId,
     $attributeSetId,
@@ -31,16 +43,6 @@ $installer->addAttribute('catalog_category', 'mirrored_to',  array(
     'mirrored_to',
     '11'
 );*/
-
-// add attribute mirrored category children
-$installer->addAttribute('catalog_category', 'mirrored_child',  array(
-    'type'     => 'text',
-    'label'    => 'Mirrored Child',
-    'input'    => 'hidden',
-    'visible'           => true,
-    'required'          => false,
-    'user_defined'      => false,
-));
 
 //this will set data of your custom attribute for root category
 Mage::getModel('catalog/category')

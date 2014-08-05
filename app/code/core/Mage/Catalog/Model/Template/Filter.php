@@ -26,7 +26,7 @@
 
 
 /**
- * Catalogedit Template Filter Model
+ * Catalog Template Filter Model
  *
  * @category    Mage
  * @package     Mage_Catalog

@@ -26,7 +26,7 @@
 
 
 /**
- * Advanced Catalogedit Search resource model
+ * Advanced Catalog Search resource model
  *
  * @category    Mage
  * @package     Mage_CatalogSearch

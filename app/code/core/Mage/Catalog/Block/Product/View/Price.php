@@ -26,7 +26,7 @@
 
 
 /**
- * Catalogedit product price block
+ * Catalog product price block
  *
  * @category   Mage
  * @package    Mage_Catalog
