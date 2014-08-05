@@ -77,41 +77,8 @@ if (isset($_SERVER['MAGE_IS_DEVELOPER_MODE'])) {
 #ini_set('display_errors', 1);
 
 umask(0);
-$_SERVER['REMOTE_ADDR']='107.182.135.43';
-// Library for geo IP
 
-//define("GEOIP_DAT_FILE", dirname($_SERVER['SCRIPT_FILENAME']).'/lib/geoip/GeoIP.dat');
-//define("GEOIP_INC_FILE", dirname($_SERVER['SCRIPT_FILENAME']).'/lib/geoip/geoip.inc');
-//include(GEOIP_INC_FILE);
-//$geoip = geoip_open(GEOIP_DAT_FILE ,GEOIP_STANDARD);
-//$country_code = geoip_country_code_by_addr($geoip,$_SERVER['REMOTE_ADDR']); 
-//geoip_close($geoip);
-//var_dump($country_code);
 
-//switch($country_code)
-//{ 
-////    case "US":
-////        $mageRunCode = 'default';
-////        $mageRunType = 'store';
-////        break;
-////    case "DE":
-////        $mageRunCode = 'german';
-////        $mageRunType = 'store';
-////        break;
-////    case "FR":
-////        $mageRunCode = 'french';
-////        $mageRunType = 'store';
-////        break;
-//    case "AU":
-//        $mageRunCode = 'Australlia';
-//        $mageRunType = 'store';
-//        break;
-//    default:
-//        $mageRunCode = 'default';
-//        $mageRunType = 'store';
-//        break;
-//}
-//Mage::run($mageRunCode, $mageRunType);
 
 /* Store or website code */
 $mageRunCode = isset($_SERVER['MAGE_RUN_CODE']) ? $_SERVER['MAGE_RUN_CODE'] : '';
@@ -119,4 +86,6 @@ $mageRunCode = isset($_SERVER['MAGE_RUN_CODE']) ? $_SERVER['MAGE_RUN_CODE'] : ''
 /* Run store or run website */
 $mageRunType = isset($_SERVER['MAGE_RUN_TYPE']) ? $_SERVER['MAGE_RUN_TYPE'] : 'store';
 
+//test code ip og france
+$_SERVER['REMOTE_ADDR']='115.70.67.58';
 Mage::run($mageRunCode, $mageRunType);

@@ -11,10 +11,20 @@ class Teamto_Acpl_Model_Observer
                 'class' => 'fieldset-wide'
             )
         );
-        $fieldset->addField('is_news', 'checkbox', array(
+        $fieldset->addField('is_news', 'select', array(
             'name'  => 'is_news',
             'label' => 'Is Page News :',
             'title' => 'Page News',
+            'values' =>array(
+                array(
+                    'values'=>'1',
+                    'label'=>'is page'
+                ),
+                array(
+                    'values'=>'0',
+                    'label'=>'not page'
+                ),
+            ),
             'onclick' => 'this.value = this.checked ? 1 : null',
         ));
 //        $fieldset->addField('img', 'file', array(
