@@ -6,11 +6,6 @@
         </Teamto_Megamenu>
     </modules>
     <global>
-        <models>
-            <megamenu>
-                <class>Teamto_Megamenu_Model</class>
-            </megamenu>
-        </models>
         <blocks>
             <megamenu>
                 <class>Teamto_Megamenu_Block</class>
@@ -57,27 +52,5 @@
             </updates>
         </layout>
     </frontend>
-
-    <!--<admin>
-        <routers>
-            <adminhtml>
-                <args>
-                    <modules>
-                        <megamenu before="Mage_Adminhtml">Teamto_Megamenu_Adminhtml</megamenu>
-                    </modules>
-                </args>
-            </adminhtml>
-        </routers>
-    </admin>
-
-    <adminhtml>
-        <layout>
-            <updates>
-                <megamenu module="teamto_megamenu">
-                    <file>teamto_megamenu.xml</file>
-                </megamenu>
-            </updates>
-        </layout>
-    </adminhtml>-->
 
 </config>

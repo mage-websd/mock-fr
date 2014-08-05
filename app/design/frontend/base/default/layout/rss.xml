@@ -56,7 +56,7 @@
         </block>
     </rss_index_wishlist>
 <!--
-Catalog layout
+Catalogedit layout
 -->
     <rss_catalog_new>
         <block type="rss/catalog_new" output="toHtml" name="rss.catalog.new">

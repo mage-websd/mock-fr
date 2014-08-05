@@ -1,0 +1,96 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <Teamto_Mirrored>
+            <version>0.2.0</version>
+        </Teamto_Mirrored>
+    </modules>
+    <global>
+        <models>
+            <mirrored>
+                <class>Teamto_Mirrored_Model</class>
+                <resourceModel>teamto_mirrored_resource</resourceModel>
+            </mirrored>
+        </models>
+        <blocks>
+            <mirrored>
+                <class>Teamto_Mirrored_Block</class>
+            </mirrored>
+        </blocks>
+        <helpers>
+            <mirrored>
+                <class>Teamto_Mirrored_Helper</class>
+            </mirrored>
+        </helpers>
+        <resources>
+            <teamto_mirrored_setup>
+                <setup>
+                    <module>Teamto_Mirrored</module>
+                    <class>Mage_Catalog_Model_Resource_Setup</class>
+                </setup>
+                <connection>
+                    <use>core_setup</use>
+                </connection>
+            </teamto_mirrored_setup>
+
+            <teamto_mirrored_setup_write>
+                <connection>
+                    <use>core_write</use>
+                </connection>
+            </teamto_mirrored_setup_write>
+            <teamto_mirrored_setup_read>
+                <connection>
+                    <use>core_read</use>
+                </connection>
+            </teamto_mirrored_setup_read>
+
+        </resources>
+    </global>
+
+    <frontend>
+        <routers>
+            <mirrored>
+                <use>standard</use>
+                <args>
+                    <module>Teamto_Mirrored</module>
+                    <frontName>mirrored</frontName>
+                </args>
+            </mirrored>
+        </routers>
+    </frontend>
+    <admin>
+        <routers>
+            <adminhtml>
+                <args>
+                    <modules>
+                        <mirrored before="Mage_Adminhtml">Teamto_Megamenu_Adminhtml</mirrored>
+                    </modules>
+                </args>
+            </adminhtml>
+        </routers>
+    </admin>
+
+    <adminhtml>
+        <layout>
+            <updates>
+                <mirrored module='teamto_mirrored'>
+                    <file>teamto_mirrored.xml</file>
+                </mirrored>
+            </updates>
+        </layout>
+
+        <events>
+            <catalog_category_prepare_save>
+                <observers>
+                    <mirrored>
+                        <type>singleton</type>
+                        <class>mirrored/observer_category</class>
+                        <method>category_before_save</method>
+                    </mirrored>
+                </observers>
+            </catalog_category_prepare_save>
+
+        </events>
+    </adminhtml>
+
+</config>

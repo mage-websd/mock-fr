@@ -27,7 +27,7 @@
 -->
 
 <layout>
-    <!-- Catalog Price Rule -->
+    <!-- Catalogedit Price Rule -->
     <adminhtml_promo_catalog_index>
         <reference name="content">
             <block type="adminhtml/promo_catalog" name="promo_catalog"/>

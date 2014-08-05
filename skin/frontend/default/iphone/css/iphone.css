@@ -697,7 +697,7 @@ input[type="checkbox"]:checked {
     text-overflow:ellipsis;
 }
 
-/* Catalog List
+/* Catalogedit List
 -----------------------------*/
 .category-description { display:none; margin:0; padding:10px; }
 
@@ -1126,7 +1126,7 @@ input[type="checkbox"]:checked {
 
 .catalog-product-gallery .add-to-cart {}
 
-/* Catalog Search */
+/* Catalogedit Search */
 
 .catalogsearch-result-index .note-msg { padding:15px; }
         

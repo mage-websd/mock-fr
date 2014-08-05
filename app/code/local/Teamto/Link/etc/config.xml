@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <Teamto_Link>
+            <version>0.1.0</version>
+        </Teamto_Link>
+    </modules>
+    <global>
+        <helpers>
+            <link>
+                <class>Teamto_Link_Helper</class>
+            </link>
+        </helpers>
+    </global>
+</config>
