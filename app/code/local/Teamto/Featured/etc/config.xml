@@ -21,8 +21,7 @@
             <teamto_featured>
                 <class>Teamto_Featured_Block</class>
             </teamto_featured>
-<<<<<<< HEAD
-=======
+
 
             <adminhtml>
                 <rewrite>
@@ -33,9 +32,9 @@
                 </rewrite>
             </adminhtml>
         </blocks>
->>>>>>> 2f10d7f84c52d328ac8dc5fb75a956be507fc643
 
-        </blocks>
+
+
         <helpers>
             <teamto_featured>
                 <class>Teamto_Featured_Helper</class>
