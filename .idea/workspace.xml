@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="569488e7-b5ff-4986-b417-0440791d56b7" name="Default" comment="">
-      <change type="DELETED" beforePath="D:\xampp\htdocs\mock\mockupprojectfr04\skin\frontend\default\default\js\jquery-1.8.3.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/skin/frontend/default/default/js/jquery-1.8.3.min.js" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/code/local/Teamto/Filter/Block/Layer/View.php" afterPath="$PROJECT_DIR$/app/code/local/Teamto/Filter/Block/Layer/View.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/design/frontend/default/default/template/teamto/filter/filter.phtml" afterPath="$PROJECT_DIR$/app/design/frontend/default/default/template/teamto/filter/filter.phtml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/design/frontend/default/default/template/teamto/layout/head.phtml" afterPath="$PROJECT_DIR$/app/design/frontend/default/default/template/teamto/layout/head.phtml" />
@@ -789,6 +789,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="FullScreen" value="false" />
   </component>
   <component name="RunManager">
     <list size="0" />
