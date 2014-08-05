@@ -2,11 +2,74 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="229d8a55-5c27-4451-afd4-bab1da4462b6" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/design/frontend/default/default/layout/featured.xml" afterPath="$PROJECT_DIR$/app/design/frontend/default/default/layout/featured.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/design/frontend/default/default/template/teamto/filter/filter.phtml" afterPath="$PROJECT_DIR$/app/design/frontend/default/default/template/teamto/filter/filter.phtml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/design/frontend/default/default/layout/filter.xml" afterPath="$PROJECT_DIR$/app/design/frontend/default/default/layout/filter.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/wysiwyg/.thumbs/wysiwyg/404-banner-3.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/wysiwyg/.thumbs/wysiwyg/Accessoriesbagimg.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/wysiwyg/.thumbs/wysiwyg/Cataccessoriesmainimg.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/wysiwyg/.thumbs/wysiwyg/Catwomenmainimg.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/wysiwyg/.thumbs/wysiwyg/Homecatimg-books.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/wysiwyg/.thumbs/wysiwyg/Homecatimg-decor.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/wysiwyg/.thumbs/wysiwyg/Homecatimg-electronics.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/wysiwyg/.thumbs/wysiwyg/Mencat-shirtsimg.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/wysiwyg/.thumbs/wysiwyg/Mencat-teesimg.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/wysiwyg/.thumbs/wysiwyg/Mencategorymainimg.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/wysiwyg/WP_000036.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/wysiwyg/.thumbs/wysiwyg/WP_000036.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/wysiwyg/.thumbs/wysiwyg/Womennewarrivalsimg.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/wysiwyg/.thumbs/wysiwyg/Womenpantsimg.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/wysiwyg/.thumbs/wysiwyg/Womenskirtsimg.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/wysiwyg/.thumbs/wysiwyg/Womentopsimg.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/wysiwyg/.thumbs/wysiwyg/about-us2.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/wysiwyg/.thumbs/wysiwyg/about_us.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/wysiwyg/.thumbs/wysiwyg/accessorieseyewearimg.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/wysiwyg/.thumbs/wysiwyg/accessoriesshoesimg.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/wysiwyg/.thumbs/wysiwyg/acessoreiesjeweleryimg.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/wysiwyg/.thumbs/wysiwyg/catmen-newimg.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/wysiwyg/.thumbs/wysiwyg/catwomen-newimg.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/wysiwyg/.thumbs/wysiwyg/clp-sub-m-shirts.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/wysiwyg/.thumbs/wysiwyg/home_bed_bathimg.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/wysiwyg/.thumbs/wysiwyg/homepage-three-column-promo-01.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/wysiwyg/.thumbs/wysiwyg/homepage-three-column-promo-01B.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/wysiwyg/.thumbs/wysiwyg/homepage-three-column-promo-02.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/wysiwyg/.thumbs/wysiwyg/homepage-three-column-promo-03.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/wysiwyg/.thumbs/wysiwyg/mainimg-home_decorcategory.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/wysiwyg/.thumbs/wysiwyg/mencat-newarrivalsimg.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/wysiwyg/.thumbs/wysiwyg/mencat-pants.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/wysiwyg/.thumbs/wysiwyg/private-sales-banner.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/wysiwyg/.thumbs/wysiwyg/promo_banners_VIP.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/wysiwyg/.thumbs/wysiwyg/slide-1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/wysiwyg/.thumbs/wysiwyg/slide-2.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/wysiwyg/.thumbs/wysiwyg/slide-3.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/wysiwyg/.thumbs/wysiwyg/three_dots_white.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/wysiwyg/.thumbs/wysiwyg/three_dots_white_1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/wysiwyg/.thumbs/wysiwyg/three_dots_white_2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/wysiwyg/.thumbs/wysiwyg/three_dots_white_3.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/wysiwyg/.thumbs/wysiwyg/three_dots_white_4.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/wysiwyg/.thumbs/wysiwyg/three_dots_white_5.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/wysiwyg/.thumbs/wysiwyg/three_dots_white_6.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/wysiwyg/.thumbs/wysiwyg/vip-correctsize1.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/wysiwyg/.thumbs/wysiwyg/vipbannerimage.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/downloader/cache.cfg" afterPath="$PROJECT_DIR$/downloader/cache.cfg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/code/local/Teamto/Acpl/Model/Observer.php" afterPath="$PROJECT_DIR$/app/code/local/Teamto/Acpl/Model/Observer.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/code/local/Teamto/Geoip/Model/Observer.php" afterPath="$PROJECT_DIR$/app/code/local/Teamto/Geoip/Model/Observer.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/design/frontend/default/default/template/teamto/layout/head.phtml" afterPath="$PROJECT_DIR$/app/design/frontend/default/default/template/teamto/layout/head.phtml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/design/frontend/default/default/template/teamto/featured/widget/slideshow.phtml" afterPath="$PROJECT_DIR$/app/design/frontend/default/default/template/teamto/featured/widget/slideshow.phtml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.php" afterPath="$PROJECT_DIR$/index.php" />
+      <change type="MOVED" beforePath="E:\xampp\htdocs\mockup_tuanpv\app\code\community\Openstream\GeoIP\Block\Adminhtml\Notifications.php" afterPath="$PROJECT_DIR$/app/code/community/Sandfox/GeoIP/Block/Adminhtml/Notifications.php" />
+      <change type="MOVED" beforePath="E:\xampp\htdocs\mockup_tuanpv\app\code\community\Openstream\GeoIP\Block\System\Config\Status.php" afterPath="$PROJECT_DIR$/app/code/community/Sandfox/GeoIP/Block/System/Config/Status.php" />
+      <change type="MOVED" beforePath="E:\xampp\htdocs\mockup_tuanpv\app\code\community\Openstream\GeoIP\Block\System\Config\Synchronize.php" afterPath="$PROJECT_DIR$/app/code/community/Sandfox/GeoIP/Block/System/Config/Synchronize.php" />
+      <change type="MOVED" beforePath="E:\xampp\htdocs\mockup_tuanpv\app\code\community\Openstream\GeoIP\Helper\Data.php" afterPath="$PROJECT_DIR$/app/code/community/Sandfox/GeoIP/Helper/Data.php" />
+      <change type="MOVED" beforePath="E:\xampp\htdocs\mockup_tuanpv\app\code\community\Openstream\GeoIP\Model\Abstract.php" afterPath="$PROJECT_DIR$/app/code/community/Sandfox/GeoIP/Model/Abstract.php" />
+      <change type="MOVED" beforePath="E:\xampp\htdocs\mockup_tuanpv\app\code\community\Openstream\GeoIP\Model\Country.php" afterPath="$PROJECT_DIR$/app/code/community/Sandfox/GeoIP/Model/Country.php" />
+      <change type="MOVED" beforePath="E:\xampp\htdocs\mockup_tuanpv\app\code\community\Openstream\GeoIP\Model\Cron.php" afterPath="$PROJECT_DIR$/app/code/community/Sandfox/GeoIP/Model/Cron.php" />
+      <change type="MOVED" beforePath="E:\xampp\htdocs\mockup_tuanpv\app\code\community\Openstream\GeoIP\Model\Info.php" afterPath="$PROJECT_DIR$/app/code/community/Sandfox/GeoIP/Model/Info.php" />
+      <change type="MOVED" beforePath="E:\xampp\htdocs\mockup_tuanpv\app\code\community\Openstream\GeoIP\Model\Observer.php" afterPath="$PROJECT_DIR$/app/code/community/Sandfox/GeoIP/Model/Observer.php" />
+      <change type="MOVED" beforePath="E:\xampp\htdocs\mockup_tuanpv\app\code\community\Openstream\GeoIP\Model\Wrapper.php" afterPath="$PROJECT_DIR$/app/code/community/Sandfox/GeoIP/Model/Wrapper.php" />
+      <change type="MOVED" beforePath="E:\xampp\htdocs\mockup_tuanpv\app\code\community\Openstream\GeoIP\controllers\ProcessController.php" afterPath="$PROJECT_DIR$/app/code/community/Sandfox/GeoIP/controllers/Adminhtml/GeoipController.php" />
+      <change type="MOVED" beforePath="E:\xampp\htdocs\mockup_tuanpv\app\code\community\Openstream\GeoIP\etc\config.xml" afterPath="$PROJECT_DIR$/app/code/community/Sandfox/GeoIP/etc/config.xml" />
+      <change type="MOVED" beforePath="E:\xampp\htdocs\mockup_tuanpv\app\code\community\Openstream\GeoIP\etc\system.xml" afterPath="$PROJECT_DIR$/app/code/community/Sandfox/GeoIP/etc/system.xml" />
+      <change type="MOVED" beforePath="E:\xampp\htdocs\mockup_tuanpv\app\design\adminhtml\default\default\layout\openstream\geoip.xml" afterPath="$PROJECT_DIR$/app/design/adminhtml/default/default/layout/sandfox/geoip.xml" />
+      <change type="MOVED" beforePath="E:\xampp\htdocs\mockup_tuanpv\app\design\adminhtml\default\default\template\openstream\geoip\notifications.phtml" afterPath="$PROJECT_DIR$/app/design/adminhtml/default/default/template/sandfox/geoip/notifications.phtml" />
+      <change type="MOVED" beforePath="E:\xampp\htdocs\mockup_tuanpv\app\design\adminhtml\default\default\template\openstream\geoip\system\config\synchronize.phtml" afterPath="$PROJECT_DIR$/app/design/adminhtml/default/default/template/sandfox/geoip/system/config/synchronize.phtml" />
+      <change type="MOVED" beforePath="E:\xampp\htdocs\mockup_tuanpv\app\etc\modules\Openstream_GeoIP.xml" afterPath="$PROJECT_DIR$/app/etc/modules/Sandfox_GeoIP.xml" />
     </list>
     <ignored path="mockup_tuanpv.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -38,10 +101,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="filter.xml" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="filter.xml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/design/frontend/default/default/layout/filter.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="18" column="37" selection-start="568" selection-end="568" vertical-scroll-proportion="0.52667814" vertical-offset="0" max-vertical-offset="595">
+            <state line="29" column="9" selection-start="966" selection-end="966" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="595">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="head.phtml" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/design/frontend/default/default/template/teamto/layout/head.phtml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="8" column="0" selection-start="268" selection-end="268" vertical-scroll-proportion="0.17957747" vertical-offset="0" max-vertical-offset="568">
               <folding />
             </state>
           </provider>
@@ -1102,13 +1174,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/design/frontend/default/default/template/teamto/layout/head.phtml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="0" selection-start="268" selection-end="268" vertical-scroll-proportion="0.17957747" vertical-offset="0" max-vertical-offset="568">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/design/frontend/default/default/layout/featured.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="2" column="13" selection-start="60" selection-end="60" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="629">
@@ -1118,7 +1183,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/design/frontend/default/default/layout/filter.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="37" selection-start="568" selection-end="568" vertical-scroll-proportion="0.52667814" vertical-offset="0" max-vertical-offset="595">
+        <state line="29" column="9" selection-start="966" selection-end="966" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="595">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/design/frontend/default/default/template/teamto/layout/head.phtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="0" selection-start="268" selection-end="268" vertical-scroll-proportion="0.17957747" vertical-offset="0" max-vertical-offset="568">
           <folding />
         </state>
       </provider>
