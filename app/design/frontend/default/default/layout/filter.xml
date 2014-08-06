@@ -24,7 +24,7 @@
 
         <reference name="left">
             <remove name="catalog.leftnav"/>
-            <block type="teamto_filter/layer_view" name="filter" after="currency" template="Teamto/filter/filter.phtml"/>
+            <block type="teamto_filter/layer_view" name="filter" after="currency" template="teamto/filter/filter.phtml"/>
         </reference>
     </catalog_category_layered>
 </layout>
