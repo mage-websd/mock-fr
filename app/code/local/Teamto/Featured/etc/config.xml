@@ -22,12 +22,12 @@
                 <class>Teamto_Featured_Block</class>
             </teamto_featured>
             <adminhtml>
-                <rewrite>
-                    <catalog_product>Teamto_Featured_Block_Featured_List</catalog_product>
-                </rewrite>
-                <rewrite>
-                    <catalog_product_grid>Teamto_Featured_Block_Featured_Grid</catalog_product_grid>
-                </rewrite>
+                <!--<rewrite>-->
+                    <!--<catalog_product>Teamto_Featured_Block_Featured_List</catalog_product>-->
+                <!--</rewrite>-->
+                <!--<rewrite>-->
+                    <!--<catalog_product_grid>Teamto_Featured_Block_Featured_Grid</catalog_product_grid>-->
+                <!--</rewrite>-->
             </adminhtml>
         </blocks>
         <helpers>
@@ -72,6 +72,7 @@
                 <args>
                     <modules>
                         <Teamto_Featured after="Mage_Adminhtml">Teamto_Featured</Teamto_Featured>
+                        <!--<Teamto_Featured before="Mage_Adminhtml">Teamto_Featured</Teamto_Featured>-->
                         <frontName>admin</frontName>
                     </modules>
                 </args>

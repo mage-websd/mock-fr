@@ -6,7 +6,7 @@
  * block widget show slideshow featured product
  */
 class Teamto_Featured_Block_Featured_Widget_Slideshow
-    extends Mage_Core_Block_Template
+    extends Mage_Catalog_Block_Product_List
     implements Mage_Widget_Block_Interface
 {
     /**
@@ -16,4 +16,17 @@ class Teamto_Featured_Block_Featured_Widget_Slideshow
     {
         $this->setTemplate('teamto/featured/widget/slideshow.phtml');
     }
+
+
+    public function getLoadedProductCollection()
+    {
+        $this->_productCollection = Mage::getModel('catalog/product')
+                                        ->getCollection()
+                                        ->addAttributeToSelect('*')
+                                        ->addFieldToFilter('featured','1');
+
+        return $this->_productCollection;
+
+    }
+
 }

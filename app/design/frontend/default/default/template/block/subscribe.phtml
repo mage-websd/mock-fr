@@ -1,7 +1,7 @@
 <!-- subcribe -->
 <div class="block block-subscribe" style="width: 310px; float: right;margin-top: 20px;">
-    <div id="feedback" style="display:none" class="mini-newsletter">
-        Thank you for subscribing to our newsletter! 
+    <div id="feedback" class="mini-newsletter">
+        
     </div>
     <form name="newsletter-form" id="newsletter-form" method="post" > 
         <div class="block-content" style="text-align: left;  ">
@@ -22,7 +22,7 @@
 
 
 <script type="text/javascript">        
-    //ajax send mail
+    //ajax send mail Thank you for subscribing to our newsletter! 
     jQuery("#subcribe").click(function()
     {    
         var form_email = jQuery('#newsletter').val();
@@ -31,27 +31,20 @@
             jQuery.ajax({
                 type:'POST',
                 url:'<?php echo $this->getUrl('newsletter/subscriber/new') ?>',
-                dataType:'json',
                 data: {email:form_email},
                 beforeSend:function(){
                     jQuery('#news-loader').show();
                 },
-                success:function(){
+                success:function(mes){
                     jQuery('#news-loader').hide();
-                    jQuery('#newsletter-form').hide();
-                    jQuery('#feedback').show();
-                },
-                error:function(){
-                    jQuery('#news-loader').hide();
-                    jQuery('#newsletter-form').hide();
-                    jQuery('#feedback').show();
+                  //  jQuery('#newsletter-form').hide();
+                    jQuery('#feedback').html(mes);
                 }
-
             })
                
         }
     })    
-    //check validate email
+    //check validate email 
     function echeck(str) {
 
         var at="@"
