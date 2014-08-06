@@ -18,6 +18,13 @@ and open the template in the editor.
                     <frontName>customhome</frontName>
                 </args>
             </teamto_customhome>
+            <customnewsletter>
+                <use>standard</use>
+                <args>
+                    <module>Teamto_Customhome</module>
+                    <frontName>customnewsletter</frontName>
+                </args>
+            </customnewsletter>
         </routers>
         <layout>
             <updates>
@@ -33,6 +40,12 @@ and open the template in the editor.
                 <class>Teamto_Customhome_Block</class>
             </teamto_customhome>
         </blocks>
+            <rewrite>
+                <customnewsletter>
+                    <from><![CDATA[#^/newsletter/subscriber/#]]></from>
+                    <to>/customnewsletter/subscriber/</to>
+                </customnewsletter>
+            </rewrite>
         <page>
             <layouts>
                 <custom_static_page_one>
@@ -88,7 +101,7 @@ and open the template in the editor.
             </catalog>
         </blocks>-->
     </global>
-<!--    <admin>
+    <!--    <admin>
         <routers>
             <adminhtml>
                 <args>
