@@ -21,7 +21,7 @@ and open the template in the editor.
         </routers>
     </frontend>
     <global>
-        <events>
+<!--        <events>
             <controller_front_init_before>
                 <observers>
                     <teamto_geoip>
@@ -31,6 +31,6 @@ and open the template in the editor.
                     </teamto_geoip>
                 </observers>
             </controller_front_init_before>
-        </events>
+        </events>-->
     </global>
 </config>
