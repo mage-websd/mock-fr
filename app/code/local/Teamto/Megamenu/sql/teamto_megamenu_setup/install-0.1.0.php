@@ -17,7 +17,6 @@ $installer->addAttribute('catalog_category', 'status',  array(
     'visible'           => true,
     'required'          => false,
     'user_defined'      => false,
-    'default'           => 'normal',
     'group'             => 'General',
 ));
 /*$installer->addAttributeToGroup(

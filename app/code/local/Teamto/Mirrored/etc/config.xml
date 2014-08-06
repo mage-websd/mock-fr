@@ -12,16 +12,7 @@
                 <resourceModel>teamto_mirrored_resource</resourceModel>
             </mirrored>
         </models>
-        <blocks>
-            <mirrored>
-                <class>Teamto_Mirrored_Block</class>
-            </mirrored>
-        </blocks>
-        <helpers>
-            <mirrored>
-                <class>Teamto_Mirrored_Helper</class>
-            </mirrored>
-        </helpers>
+
         <resources>
             <teamto_mirrored_setup>
                 <setup>
@@ -48,17 +39,15 @@
     </global>
 
     <frontend>
-        <routers>
-            <mirrored>
-                <use>standard</use>
-                <args>
-                    <module>Teamto_Mirrored</module>
-                    <frontName>mirrored</frontName>
-                </args>
-            </mirrored>
-        </routers>
+        <layout>
+            <updates>
+                <mirrored>
+                    <file>teamto_mirrored.xml</file>
+                </mirrored>
+            </updates>
+        </layout>
     </frontend>
-    <admin>
+    <!--<admin>
         <routers>
             <adminhtml>
                 <args>
@@ -68,17 +57,9 @@
                 </args>
             </adminhtml>
         </routers>
-    </admin>
+    </admin>-->
 
     <adminhtml>
-        <layout>
-            <updates>
-                <mirrored module='teamto_mirrored'>
-                    <file>teamto_mirrored.xml</file>
-                </mirrored>
-            </updates>
-        </layout>
-
         <events>
             <catalog_category_prepare_save>
                 <observers>
@@ -89,7 +70,6 @@
                     </mirrored>
                 </observers>
             </catalog_category_prepare_save>
-
         </events>
     </adminhtml>
 

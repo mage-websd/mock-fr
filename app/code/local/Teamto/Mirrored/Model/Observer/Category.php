@@ -1,65 +1,143 @@
 <?php
 
+/**
+ * Class Teamto_Mirrored_Model_Observer_Category
+ */
 class Teamto_Mirrored_Model_Observer_Category
 {
+    /**
+     * Function main observer of event catalog_category_prepare_save
+     *
+     * @param $observer
+     */
     public function category_before_save($observer)
     {
         //get cate before save
-        $cate = $observer->getEvent();
-        $cate = $cate['category'];
+        $category = $observer->getEvent()['category'];
+        $idCategory = $category->getData('entity_id');
+        $this->_idCategory = $idCategory;
 
-        //onle mirrored category exists
-        if (!$cate->getData('entity_id')) { //if add new category, do not nothing
-            $cate->setData('mirrored_to','');
-
+        if (!$idCategory) { //if add new category, do not nothing
+            $category->setData('mirrored_to','');
         }
+        //onle mirrored category exists
         else{//eles edit category
 
-            $this->_copySetting($cate);//copy setting $cate to mirrored child
+            $idMirroredParent = $category->getData('mirrored_to'); //mirrored id parent submit
 
-            $mirrored_to_id = $cate->getData('mirrored_to'); //mirrored id parent submit
-
-            if($mirrored_to_id == $cate->getData('entity_id')) {//if mirrored to self, exit
-
+            if($idMirroredParent == $idCategory) {//if mirrored to self
             }
             else{
-                $cate_old = $this->_getSingletonCategory()->load($cate->getData('entity_id')); // category old before save
-                $mirrored_to_old_id = $cate_old->getData('mirrored_to'); //mirrored old before save
-                if ($mirrored_to_old_id != $mirrored_to_id) { //if mirrored change
-                    if (!$mirrored_to_old_id) { //if mirrored old is null
-                        if ($mirrored_to_id) { //if mirrored submit not null
-                            $this->_addCateForPro($mirrored_to_id, $cate->getData('entity_id'));
-                            $this->_copyCateSub($this->_getModelCategory()->load($mirrored_to_id), $cate);
-                            $this->_mirroredSetting($mirrored_to_id,$cate->getData('entity_id'));
+
+                $idMirroredParentOld = $category->getOrigData('mirrored_to'); //mirrored old before submit
+                if ($idMirroredParent != $idMirroredParentOld) { //if mirrored change
+                    if (!$idMirroredParentOld) { //if mirrored old is null
+                        if ($idMirroredParent) { //if mirrored submit not null
+
+                            $this->_mirroredSetting($idMirroredParent, $category);
+
+                            $this->_addPostedProductsMirrored($idMirroredParent,$category);
+
+                            $this->_copyCateSub($idMirroredParent, $category);
+
                         }
                     }
                     else { //mirrored old is not null
-                        $this->_deleteCateSub($cate->getData('entity_id'));
-                        $this->_deleteSelfProduct($cate->getData('entity_id'));
+                        $this->_deleteCateSub($idCategory);
+                        $this->_deleteProductMirroredChild($idCategory);
 
-                        if ($mirrored_to_id) { //if mirrored submit not null
-                            $this->_addCateForPro($mirrored_to_id, $cate->getData('entity_id'));
-                            $this->_copyCateSub($this->_getModelCategory()->load($mirrored_to_id), $cate);
-                            $this->_mirroredSetting($mirrored_to_id,$cate->getData('entity_id'));
+                        if ($idMirroredParent) { //if mirrored submit not null
+                            $this->_mirroredSetting($idMirroredParent, $category);
+                            $this->_addPostedProductsMirrored($idMirroredParent,$category);
+                            $this->_copyCateSub($idMirroredParent, $category);
                         }
                     }
                 }
+            }
+            $this->_copySetting($category);//copy setting category $category to mirrored child when $category change
+        }
+    }
+
+    /**
+     * copy data setting of mirrored parent to mirrored child when exec mirrored
+     *
+     * @param $idMirroredParent
+     * @param $mirroredChild
+     */
+    private function _mirroredSetting($idMirroredParent, &$mirroredChild)
+    {
+        $categoryParent = $this->_getModelCategory()->load($idMirroredParent);
+        foreach ($this->_arrayColumnMirroredParent as $column) {
+            $mirroredChild->setData($column,$categoryParent->getData($column));
+        }
+    }
+
+    private function _addPostedProductsMirrored($idMirroredParent, &$categoryNew)
+    {
+        $arrayPostedProducts = $this->_getPostProducts($idMirroredParent);
+        if($arrayPostedProducts)
+            $categoryNew->setData('posted_products',$arrayPostedProducts);
+    }
+
+    /**
+     * copy all sub category of mirrored parent to mirrored child
+     *
+     * @param $idMirroredParent
+     * @param $mirroredChild
+     */
+    private function _copyCateSub($idMirroredParent, $mirroredChild)
+    {
+        //find id catedub of mirrored parent
+        $collection = Mage::getModel('catalog/category')->getCollection()
+            ->addAttributeToFilter('is_active', array('in' => array(0,1)))
+            ->addAttributeToFilter('parent_id', "{$idMirroredParent}")
+            ->getColumnValues('entity_id');
+        if(count($collection)){
+            foreach ($collection as $idSub) {
+                //dont copy sub of mirrored child
+                if($idSub == $this->_idCategory)
+                    continue;
+
+                $cateNew = $this->_getModelCategory();
+                $cateSub = $this->_getModelCategory()->load($idSub);
+                foreach($this->_arrayColumnMirroredChild as $column) {
+                    $cateNew->setData($column,$cateSub->getData($column));
+                }
+                $cateNew->setData('mirrored_copy_from_cate', $idSub);
+                $cateNew->setLevel($mirroredChild->getLevel()+1);
+                $cateNew->setPath($mirroredChild->getPath());
+                $this->_addPostedProductsMirrored($idSub, $cateNew);
+                $cateNew->save();
+
+                $this->_copyCateSub($idSub, $cateNew); //call recursive add new all category
             }
         }
     }
 
     /**
-     * copy all data from mirrored parent to mirrored child
-     *      include: setting, sub category and product
+     * get array id product posted to add category mirrored child and sub
      *
-     * @param $cate_parent
-     * @param $cate_child
+     * @param $idMirroredParent
+     * @return array|null
      */
-    private function _copyData($cate_parent, &$cate_child)
+    private function _getPostProducts($idMirroredParent)
     {
-        $this->_copyCateSub($cate_parent, $cate_child);
+        //get all product of category $cate_parent
+        $collection = $this->_getModelProduct()
+            ->getCollection()
+            ->joinField('category_id', 'catalog/category_product', 'category_id',
+                'product_id = entity_id')
+            ->addAttributeToFilter('category_id', array('eq' => "{$idMirroredParent}"))
+            ->getColumnValues('entity_id');
 
-        //$this->_mirroredSetting($cate_parent, $cate_child);
+        if(count($collection)) {
+            $arrayPostedProducts = array();
+            foreach($collection as $idProduct) {
+                $arrayPostedProducts["{$idProduct}"] = 1;
+            }
+            return $arrayPostedProducts;
+        }
+        return null;
     }
 
     /**
@@ -69,232 +147,64 @@ class Teamto_Mirrored_Model_Observer_Category
      */
     private function _copySetting($categoryParent)
     {
-        $array_not_copy_mirrored_sub = array(
-            'entity_id',
-            'parent_id',
-            'created_at',
-            'updated_at',
-            'level',
-            'path',
-            'url_path',
-            'mirrored_to',
-            'mirrored_copy_from_cate',
-        );
-
-        $array_not_copy_mirrored_parent = array(
-            'entity_id',
-            'parent_id',
-            'created_at',
-            'updated_at',
-            'name',
-            'level',
-            'path',
-            'url_key',
-            'url_path',
-            'mirrored_to',
-            'mirrored_copy_from_cate'
-        );
-
         //category  mirrored change
-        $categories = $this->_getSingletonCategory()->getCollection()
+        $categories = $this->_getModelCategory()->getCollection()
             ->addAttributeToFilter('mirrored_to',array('eq'=> $categoryParent->getData('entity_id')));
-        if($categories){
-            foreach( $categories as $category ) {
-                foreach($categoryParent->getData() as $key => $value) {
-                    if (in_array($key, $array_not_copy_mirrored_parent))
-                        continue;
-                    $category->setData($key, $value);
+        if(count($categories)) {
+            foreach ($categories as $cate) {
+                foreach( $this->_arrayColumnMirroredParent as $column) {
+                    $cate->setData($column, $categoryParent->getData($column));
                 }
-                $category->save();
+                $cate->save();
             }
         }
 
-        //category sub mirrored change
-        $categories = $this->_getSingletonCategory()->getCollection()
+        //sub category mirrored change
+        $categories = $this->_getModelCategory()->getCollection()
             ->addAttributeToFilter('mirrored_copy_from_cate',array('eq'=> $categoryParent->getData('entity_id')));
-        if($categories){
-            foreach( $categories as $category ) {
-                foreach($categoryParent->getData() as $key => $value) {
-                    if (in_array($key, $array_not_copy_mirrored_sub))
-                        continue;
-                    $category->setData($key, $value);
+        if(count($categories)) {
+            foreach ($categories as $cate) {
+                foreach( $this->_arrayColumnMirroredChild as $column) {
+                    $cate->setData($column, $categoryParent->getData($column));
                 }
-                $category->save();
+                $cate->save();
             }
         }
     }
 
     /**
-     * copy setting mirrored parent to mirrored child
+     * delete sub category of mirrored child
      *
-     * @param $id_mirrored_parent: id category mirrored parent
-     * @param $id_mirrored_child: id category mirrored child
+     * @param $idCateSub
      */
-    private function _mirroredSetting($id_mirrored_parent,$id_mirrored_child)
-    {
-        $array_not_copy_mirrored_sub = array(
-            'entity_id',
-            'parent_id',
-            'created_at',
-            'updated_at',
-            'level',
-            'path',
-            'url_path',
-            'mirrored_to',
-            'mirrored_copy_from_cate',
-            'name',
-        );
-
-        $categoryParent = $this->_getSingletonCategory()->load($id_mirrored_parent);
-        $categoryChild = $this->_getSingletonCategory()->load($id_mirrored_child);
-        foreach($categoryParent->getData() as $key => $value) {
-            if (in_array($key, $array_not_copy_mirrored_sub))
-                continue;
-            $categoryChild->setData($key, $value);
-        }
-        $categoryChild->save();
-    }
-
-    /**
-     * copy Subcategory mirrored parent to mirrored child
-     *
-     * @param $mirrored_parent
-     * @param $mirrored_child
-     */
-    private function _copyCateSub($mirrored_parent, $mirrored_child)
-    {
-        $array_not_copy = array(
-            'entity_id',
-            'parent_id',
-            'created_at',
-            'updated_at',
-            'level',
-            'path',
-            'url_path',
-            'mirrored_to',
-            'mirrored_copy_from_cate',
-        );
-
-        $this->_addNewAllCateSub(
-            $mirrored_parent->getData('entity_id'),
-            $mirrored_child->getData('entity_id'),
-            $mirrored_child->getData('level'),
-            $array_not_copy
-        ); //call function add new all category
-
-    }
-
-    /**
-     * add new all category mirrored
-     *      function recursive
-     * @param $id_mirrored_parent : id of category copy
-     * @param $id_mirrored_child : id of mirrored child new category
-     * @param $level_mirrored_child : level of mirrored child
-     * @param array $array_not_copy - fix
-     */
-    private function _addNewAllCateSub($id_mirrored_parent, $id_mirrored_child,
-                                       $level_mirrored_child, $array_not_copy = array())
-    {
-        $collection = Mage::getResourceModel('catalog/category_collection')
-            ->addAttributeToFilter('is_active', array('in' => array(0,1)))
-            ->addAttributeToFilter('parent_id', $id_mirrored_parent)
-            ->getColumnValues('entity_id');
-        if($collection){
-            define('pathToMirroredChild', $this->_getSingletonCategory()->load($id_mirrored_child)->getPath());
-            foreach ($collection as $id_sub) {
-                $cateSub = $this->_getSingletonCategory()->load($id_sub);
-                $cateNew = $this->_getModelCategory();
-                foreach ($cateSub->getData() as $key => $value) {
-                    if (in_array($key, $array_not_copy)) //not copy data
-                        continue;
-                    $cateNew->setData($key, $value);
-                }
-                $cateNew->setData('level', ($level_mirrored_child + 1));
-
-                $cateNew->setData('mirrored_copy_from_cate', $id_sub);
-
-                $cateNew->setPath(pathToMirroredChild);
-                $cateNew->save();
-                //add category for product of sub category mirrored parent
-                $this->_addCateForPro($id_sub, $cateNew->getData('entity_id'));
-
-                $this->_addNewAllCateSub(
-                    $id_sub,
-                    $cateNew->getData('entity_id'),
-                    ($level_mirrored_child + 1),
-                    $array_not_copy
-                ); //call recursive add new all category
-            }
-        }
-    }
-
-    /**
-     * Add category for product
-     *
-     * @param $id_cate_parent: id category parent
-     * @param $id_cate_child: id category child
-     */
-    private function _addCateForPro($id_cate_parent, $id_cate_child)
-    {
-        //get all product of category $cate_parent
-        $collection = $this->_getModelProduct()
-            ->getCollection()
-            ->joinField('category_id', 'catalog/category_product', 'category_id',
-                'product_id = entity_id')
-            ->addAttributeToFilter('category_id', array('eq' => $id_cate_parent));
-
-        if($collection)
-            foreach ($collection as $product) {
-                //$product = $this->_getModelProduct()->load($p->getEntityId());
-
-                $arrayCategory = $product->getCategoryIds();
-
-                $arrayCategory[] = $id_cate_child; //add category for product
-
-                $product->setCategoryIds($arrayCategory);
-
-                $product->save();
-            }
-
-    }
-
-    private function _deleteCateSub($id_cate_mirrored_child)
+    private function _deleteCateSub($idCateSub)
     {
         //find all id sub category
         $categoryResource = Mage::getResourceModel('catalog/category_collection')
             ->addAttributeToFilter('is_active', array('in' => array(0,1)))
-            ->addAttributeToFilter('parent_id', $id_cate_mirrored_child)
+            ->addAttributeToFilter('parent_id', $idCateSub)
             ->getColumnValues('entity_id');
-        if($categoryResource)
+        if(count($categoryResource))
             //delete category => sub and product auto delete
             foreach($categoryResource as $idSub) {
                 $this->_getModelCategory()->load($idSub)->delete();
             }
     }
 
-    private function _deleteSelfProduct($id_cate_mirrored_child)
+    /**
+     * delete product of mirrored child
+     *
+     * @param $idCateChild: id category mirrored child
+     */
+    private function _deleteProductMirroredChild($idCateChild)
     {
-        $collection = $this->_getModelProduct()
-            ->getCollection()
-            ->joinField('category_id', 'catalog/category_product', 'category_id',
-                'product_id = entity_id')
-            ->addAttributeToFilter('category_id',
-                array('eq' => $id_cate_mirrored_child)
-            );
-        if($collection){
-            foreach ($collection as $product) {
-                $arrayCategory = $product->getCategoryIds();
-
-                $key = array_search($id_cate_mirrored_child,$arrayCategory);
-                unset($arrayCategory[$key]);
-                $product->setCategoryIds($arrayCategory);
-                $product->save();
-            }
-        }
+        $category = $this->_getModelCategory()->load($idCateChild);
+        $category->setData('posted_products',array());
+        $category->save();
     }
 
     /**
-     * return Model 'catalog/category'
+     * get model catalog/category
      *
      * @return false|Mage_Core_Model_Abstract
      */
@@ -303,31 +213,74 @@ class Teamto_Mirrored_Model_Observer_Category
         return Mage::getModel('catalog/category');
     }
 
+    /**
+     * get model catalog product
+     *
+     * @return false|Mage_Core_Model_Abstract
+     */
     private function _getModelProduct()
     {
         return Mage::getModel('catalog/product');
     }
-    private function _getSingletonCategory()
-    {
-        return Mage::getSingleton('catalog/category');
-    }
-    private function _getSingletonProduct()
-    {
-        return Mage::getSingleton('catalog/product');
-    }
 
-    private function toString($array)
-    {
-        $str = '';
-        foreach ($array as $key => $value) {
-            $str .= "{$key}:{$value} , ";
-        }
-        $str .= ' -- \n --';
-        return $str;
-    }
+    private $_idCategory = null; //id category submit
+
+    /**
+     * @var array: columns for copy data from mirrored parent to mirrored child
+     */
+    private $_arrayColumnMirroredParent = array(
+            'position',
+            'meta_title',
+            'display_mode',
+            'custom_design',
+            'page_layout',
+            'image',
+            'is_active',
+            'include_in_menu',
+            'landing_page',
+            'is_anchor',
+            'custom_use_parent_settings',
+            'custom_apply_to_products',
+            'description',
+            'meta_keywords',
+            'meta_description',
+            'custom_layout_update',
+            'available_sort_by',
+            'custom_design_from',
+            'custom_design_to',
+            'filter_price_range',
+        );
+
+    /**
+     * @var array: columns for copy data from mirrored parent sub category to mirrored child sub category
+     */
+    private $_arrayColumnMirroredChild = array(
+        'position',
+        'meta_title',
+        'display_mode',
+        'custom_design',
+        'page_layout',
+        'image',
+        'is_active',
+        'include_in_menu',
+        'landing_page',
+        'is_anchor',
+        'custom_use_parent_settings',
+        'custom_apply_to_products',
+        'description',
+        'meta_keywords',
+        'meta_description',
+        'custom_layout_update',
+        'available_sort_by',
+        'custom_design_from',
+        'custom_design_to',
+        'filter_price_range',
+        'name',
+        'url_key',
+    );
 
     private function console($string)
     {
-        echo '<script>console.log("' . $string . '");</script>';
+        echo '<script>console.log("'.$string.'")</script>';
     }
 }
