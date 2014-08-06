@@ -27,7 +27,7 @@ class Teamto_Mirrored_Model_Resource_Category_Mirrored extends
             for($i = 0 ; $i < $numberSymbol ; $i++) {
                 $label .= '__|'; //symbol is space
             }
-            $label .= " {$cate->getName()} - {$idRoot}";
+            $label .= " {$cate->getName()} - id:{$idRoot}";
             $this->_arrayOption[] = array(
                 'value' => $idRoot,
                 'label' => $label,

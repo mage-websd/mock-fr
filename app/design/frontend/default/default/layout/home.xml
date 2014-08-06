@@ -1,18 +1,27 @@
 <?xml version="1.0"?>
 <layout version="0.1.0">
     <default>
+        <reference name="head">
+            <action method="addItem">
+                <type>skin_js</type>
+                <name>js/jquery-1.11.1.min.js</name>
+            </action>
+            <action method="addItem">
+                <type>skin_js</type>
+                <name>js/noConflict.js</name>
+            </action>
+        </reference>
         <reference name="footer">
             <block type="page/html" name="block_sub" as="block_sub"
                    template="block/subscribe.phtml" />
         </reference>
         <reference name="left">
-            <remove name="left.newsletter" />
+            <!--<remove name="left.newsletter" />-->
         </reference>
 
     </default>
     <cms_index_index>
         <reference name="root">
-            <!--<remove name="right" />-->
             <action method="setTemplate">
                 <template>page/home-teamto.phtml</template>
             </action>

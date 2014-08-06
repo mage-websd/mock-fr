@@ -8,9 +8,6 @@
 /* @var $installer Mage_Core_Model_Resource_Setup */
 $installer = $this;
 $installer->startSetup();
-/*$entityTypeId     = $installer->getEntityTypeId('catalog_category');
-$attributeSetId   = $installer->getDefaultAttributeSetId($entityTypeId);
-$attributeGroupId = $installer->getDefaultAttributeGroupId($entityTypeId, $attributeSetId);*/
 
 // add attribute mirrored to category parrent
 $installer->addAttribute('catalog_category', 'mirrored_to',  array(
@@ -35,14 +32,6 @@ $installer->addAttribute('catalog_category', 'mirrored_copy_from_cate',  array(
     'required'          => false,
     'user_defined'      => false,
 ));
-
-/*$installer->addAttributeToGroup(
-    $entityTypeId,
-    $attributeSetId,
-    $attributeGroupId,
-    'mirrored_to',
-    '11'
-);*/
 
 //this will set data of your custom attribute for root category
 Mage::getModel('catalog/category')
