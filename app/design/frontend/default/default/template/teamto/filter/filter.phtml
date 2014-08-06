@@ -23,7 +23,9 @@
             <?php if ($this->canShowOptions()): ?>
                 <p class="block-subtitle"><?php echo $this->__('Shopping Options') ?></p>
                 <dl id="narrow-by-list">
-                    <?php $_filters = $this->getFilters() ?>
+                    <?php $_filters = $this->getFilters();
+                        ksort($_filters);
+                    ?>
                     <?php foreach ($_filters as $_filter): ?>
                         <?php if ($_filter->getItemsCount()): ?>
                             <dt><?php echo $this->__($_filter->getName()) ?></dt>
@@ -53,35 +55,64 @@
 
         <script>
             //jQuery.noConflict();
-            jQuery(document).ready(function () {
-                jQuery("#slider-range").slider({
-                    range: true,
-                    min: 0,
-                    max: <?php echo $this->getPriceRange(); ?>,
-                    values: [ 0, "<?php echo $this->getPriceRange(); ?>" ],
-                    slide: function (event, ui) {
-                        jQuery("#amount").val("$" + ui.values[ 0 ] + " - $" + ui.values[ 1 ]);
-                        var min = ui.values[0];
-                        var max = ui.values[1];
+<!--            jQuery(document).ready(function () {-->
+<!--                jQuery("#slider-range").slider({-->
+<!--                    range: true,-->
+<!--                    min: 0,-->
+<!--                    max: --><?php //echo $this->getPriceRange(); ?><!--,-->
+<!--                    values: [ 0, "--><?php //echo $this->getPriceRange(); ?><!--" ],-->
+<!--                    slide: function (event, ui) {-->
+<!--                        jQuery("#amount").val("$" + ui.values[ 0 ] + " - $" + ui.values[ 1 ]);-->
+<!--                        var min = ui.values[0];-->
+<!--                        var max = ui.values[1];-->
+<!---->
+<!--                        var strVar = document.URL;-->
+<!--                        var currentPrice = "--><?php //echo $_GET['price']; ?><!--";-->
+<!--                        if(strVar.indexOf("?") == -1){-->
+<!--                            var url = strVar + '?price=' + min + '-' + max;-->
+<!--                        } else {-->
+<!--                            if(currentPrice == ''){-->
+<!--                                var url = strVar + '&price=' + min + '-' + max;-->
+<!--                            } else {-->
+<!--                                var minPrice = "--><?php //echo $aryPrice[0]; ?><!--";-->
+<!--                                var maxPrice = "--><?php //echo $aryPrice[1]; ?><!--";-->
+<!--                                var url = strVar.replace(minPrice, min);-->
+<!--                                var url = strVar.replace(maxPrice, max);-->
+<!--                            }-->
+<!--                        }-->
+<!--                        window.history.pushState("GET", '', url);-->
+<!--                        jQuery("#slider-range").slider({ disabled: true });-->
+<!--                        location.reload();-->
+<!--                    }-->
+<!--                });-->
+<!--                jQuery("#amount").val("$" + jQuery("#slider-range").slider("values", 0) +-->
+<!--                    " - $" + jQuery("#slider-range").slider("values", 1));-->
+<!--            });-->
 
-                        var strVar = document.URL;
-                        var currentPrice = "<?php echo $_GET['price']; ?>";
-                        if(strVar.indexOf("?") == -1){
-                            var url = strVar + '?price=' + min + '-' + max;
-                        } else {
-                            if(currentPrice == ''){
-                                var url = strVar + '&price=' + min + '-' + max;
-                            } else {
-                                var minPrice = "<?php echo $aryPrice[0]; ?>";
-                                var maxPrice = "<?php echo $aryPrice[1]; ?>";
-                                var url = strVar.replace(minPrice, min);
-                                var url = strVar.replace(maxPrice, max);
-                            }
+
+            jQuery(document).ready(function () {
+
+                jQuery("#slider-range").slider({
+                        range: true,
+                        min: 0,
+                        max: <?php echo $this->getPriceRange(); ?>,
+                        values: [ 0, "<?php echo $this->getPriceRange(); ?>" ],
+                        slide: function (event, ui) {
+                            jQuery("#slider-range").mouseup(function(){
+                                jQuery('span.ui-slider-handle.ui-state-default.ui-corner-all').change()
+                                jQuery("#amount").val("$" + ui.values[ 0 ] + " - $" + ui.values[ 1 ]);
+                                var min = ui.values[0];
+                                var max = ui.values[1];
+//                                alert(min);
+//                                alert(max);
+                                var currentPrice = "<?php echo $_GET['price']; ?>";
+                                var aryCurrentPrice = {
+                                    min: "<?php echo $aryPrice[0]; ?>",
+                                    max: "<?php echo $aryPrice[1]; ?>"
+                                };
+                                Filter.filter(min, max, currentPrice, aryCurrentPrice);
+                            });
                         }
-                        window.history.pushState("GET", '', url);
-                        jQuery("#slider-range").slider({ disabled: true });
-                        location.reload();
-                    }
                 });
                 jQuery("#amount").val("$" + jQuery("#slider-range").slider("values", 0) +
                     " - $" + jQuery("#slider-range").slider("values", 1));
@@ -89,3 +120,6 @@
         </script>
     </div>
 <?php endif; ?>
+
+
+
