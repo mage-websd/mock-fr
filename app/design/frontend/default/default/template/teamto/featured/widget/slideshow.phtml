@@ -37,16 +37,22 @@
     #widget-slideshow-home {
         float: left;
         position: relative;
-        margin-top: -25px;
     }
 
-    p.btn-cart-p button{
-        margin-left: 16px;
+    .swiper-slide {
+        text-align: center;
+        margin-top: 20px;
     }
-     li{
+
+    li {
         list-style: none;
-      }
-
+    }
+    #page-slider {
+        position: absolute;
+        top: 0px;
+        left: 300px;
+        color: #203548
+    }
 
 
 </style>
@@ -56,34 +62,51 @@ $_helper = $this->helper('catalog/output');
 ?>
 <div id="widget-slideshow-home">
     <div class="swiper-container">
+        <div class="pagination" id="page-slider"></div>
         <div class="swiper-wrapper">
-           <?php foreach ($_productCollection as $_product): ?>
+            <?php foreach ($_productCollection as $_product): ?>
                 <div class="swiper-slide">
-                    <li class="item<?php if( ++$_iterator == sizeof($_productCollection) ): ?> last<?php endif; ?>">
+                    <li class="item<?php if (++$_iterator == sizeof($_productCollection)): ?> last<?php endif; ?>">
                         <?php // Product Image ?>
-                        <a href="<?php echo $_product->getProductUrl() ?>" title="<?php echo $this->stripTags($this->getImageLabel($_product, 'small_image'), null, true) ?>" class="product-image"><img src="<?php echo $this->helper('catalog/image')->init($_product, 'small_image')->resize(135); ?>" width="135" height="135" alt="<?php echo $this->stripTags($this->getImageLabel($_product, 'small_image'), null, true) ?>" /></a>
+                        <a href="<?php echo $_product->getProductUrl() ?>"
+                           title="<?php echo $this->stripTags($this->getImageLabel($_product, 'small_image'), null, true) ?>"
+                           class="product-image"><img
+                                src="<?php echo $this->helper('catalog/image')->init($_product, 'small_image')->resize(135); ?>"
+                                width="135" height="135"
+                                alt="<?php echo $this->stripTags($this->getImageLabel($_product, 'small_image'), null, true) ?>"/></a>
                         <?php // Product description ?>
                         <div class="product-shop">
                             <div class="f-fix">
                                 <?php $_productNameStripped = $this->stripTags($_product->getName(), null, true); ?>
-                                <h2 class="product-name"><a href="<?php echo $_product->getProductUrl() ?>" title="<?php echo $_productNameStripped; ?>"><?php echo $_helper->productAttribute($_product, $_product->getName() , 'name'); ?></a></h2>
+                                <h2 class="product-name"><a href="<?php echo $_product->getProductUrl() ?>"
+                                                            title="<?php echo $_productNameStripped; ?>"><?php echo $_helper->productAttribute($_product, $_product->getName(), 'name'); ?></a>
+                                </h2>
 
-                                <?php if($_product->getRatingSummary()): ?>
+                                <?php if ($_product->getRatingSummary()): ?>
                                     <?php echo $this->getReviewsSummaryHtml($_product) ?>
                                 <?php endif; ?>
-                             <?php echo $this->getPriceHtml($_product, true)?>
-                                <?php if($_product->isSaleable()): ?>
-                                    <p class="btn-cart-p"><button type="button" title="<?php echo $this->__('Add to Cart') ?>" class="button btn-cart" onclick="setLocation('<?php echo $this->getAddToCartUrl($_product) ?>')"><span><span><?php echo $this->__('Add to Cart') ?></span></span></button></p>
+                                <?php echo $this->getPriceHtml($_product, true) ?>
+                                <?php if ($_product->isSaleable()): ?>
+                                    <p class="btn-cart-p">
+                                        <button type="button" title="<?php echo $this->__('Add to Cart') ?>"
+                                                class="button btn-cart"
+                                                onclick="setLocation('<?php echo $this->getAddToCartUrl($_product) ?>')">
+                                            <span><span><?php echo $this->__('Add to Cart') ?></span></span></button>
+                                    </p>
                                 <?php else: ?>
-                                    <p class="availability out-of-stock"><span><?php echo $this->__('Out of stock') ?></span></p>
+                                    <p class="availability out-of-stock">
+                                        <span><?php echo $this->__('Out of stock') ?></span></p>
                                 <?php endif; ?>
 
                                 <ul class="add-to-links">
                                     <?php if ($this->helper('wishlist')->isAllow()) : ?>
-                                        <li><a href="<?php echo $this->helper('wishlist')->getAddUrl($_product) ?>" class="link-wishlist"><?php echo $this->__('Add to Wishlist') ?></a></li>
+                                        <li><a href="<?php echo $this->helper('wishlist')->getAddUrl($_product) ?>"
+                                               class="link-wishlist"><?php echo $this->__('Add to Wishlist') ?></a></li>
                                     <?php endif; ?>
-                                    <?php if($_compareUrl=$this->getAddToCompareUrl($_product)): ?>
-                                        <li><span class="separator">|</span> <a href="<?php echo $_compareUrl ?>" class="link-compare"><?php echo $this->__('Add to Compare') ?></a></li>
+                                    <?php if ($_compareUrl = $this->getAddToCompareUrl($_product)): ?>
+                                        <li><span class="separator">|</span> <a href="<?php echo $_compareUrl ?>"
+                                                                                class="link-compare"><?php echo $this->__('Add to Compare') ?></a>
+                                        </li>
                                     <?php endif; ?>
                                 </ul>
                             </div>
@@ -92,11 +115,11 @@ $_helper = $this->helper('catalog/output');
                 </div>
             <?php endforeach; ?>
 
-           <!-- <div class="swiper-slide pink-slide">
-                <div class="title"><a href="#">Slide 5</a></div>
-            </div>-->
+            <!-- <div class="swiper-slide pink-slide">
+                 <div class="title"><a href="#">Slide 5</a></div>
+             </div>-->
         </div>
-        <div class="pagination"></div>
+
     </div>
 </div>
 <script src="<?php echo Mage::helper('link')->getSkinFrontend(); ?>js/jquery-1.11.1.min.js"></script>
@@ -124,8 +147,8 @@ $_helper = $this->helper('catalog/output');
         }
 
         /*setInterval(function () {
-            nextSlile();
-        }, 8000);*/
+         nextSlile();
+         }, 8000);*/
     });
 
 </script>
