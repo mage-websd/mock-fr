@@ -4,7 +4,7 @@ class Teamto_Geoip_Model_Observer {
 
     public function geoip_store() {
         $session = Mage::getSingleton('core/session');
-        if ($session->getView() === null) {
+        if (NULL === $session->getView()) {
             $session->setView(true);
             $storeCode = "";
             $geoip = Mage::getSingleton('geoip/country');
@@ -19,9 +19,9 @@ class Teamto_Geoip_Model_Observer {
                 default :
                     $storeCode = 'default';
             }
-
             $storeCodeCurrent = Mage::app()->getStore()->getCode();
             if ($storeCodeCurrent != $storeCode) {
+                
                 $response = Mage::app()->getResponse();
                 $response->setRedirect(Mage::getBaseUrl() . "?___store=" . $storeCode . "&___from_store=" . $storeCodeCurrent);
                 Mage::app()->getResponse()->sendResponse();
