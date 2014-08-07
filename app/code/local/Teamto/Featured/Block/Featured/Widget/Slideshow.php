@@ -21,6 +21,7 @@ class Teamto_Featured_Block_Featured_Widget_Slideshow
 
     public function getLoadedProductCollection()
     {
+        $limit = Mage::getStoreConfig('slideshow_option/messages/slide_number');
         $this->_productCollection = Mage::getModel('catalog/product')
                                         ->getCollection()
                                         ->addAttributeToSelect('*')
@@ -30,10 +31,10 @@ class Teamto_Featured_Block_Featured_Widget_Slideshow
                                             'is_in_stock',
                                             'product_id=entity_id','is_in_stock>=0', 'left'
                                         )
-                                        ->addFieldToFilter('inventory_in_stock','1');
-
+                                        ->addFieldToFilter('inventory_in_stock','1')
+                                        ->setOrder('updated_at','desc')
+                                        ->setPageSize($limit);;
         return $this->_productCollection;
 
     }
-
 }

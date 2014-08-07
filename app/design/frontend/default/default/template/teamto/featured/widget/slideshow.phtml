@@ -4,8 +4,9 @@ if(count($_productCollection)) { //if exists product feature
     $_helper = $this->helper('catalog/output');
 
     $timelife = Mage::getStoreConfig('slideshow_option/messages/slide_lifetime');
-    if(!$timelife)
+    if(!$timelife || $timelife < 1)
         $timelife = 5;
+    $timelife *= 1000;
 ?>
 <link rel="stylesheet" href="<?php echo Mage::helper('link')->getSkinFrontend(); ?>swiper/css/idangerous.swiper.css"/>
 <style>
