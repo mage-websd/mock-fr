@@ -9,15 +9,14 @@
                 <type>skin_js</type>
                 <name>js/noConflict.js</name>
             </action>
-
             <action method="addItem">
                 <type>skin_js</type>
-                <name>js/filter/filter.js</name>
+                <name>js/filter/jquery-ui.js</name>
             </action>
 
             <action method="addItem">
                 <type>skin_js</type>
-                <name>js/filter/jquery-ui.js</name>
+                <name>js/filter/filter.js</name>
             </action>
 
             <action method="addItem">
