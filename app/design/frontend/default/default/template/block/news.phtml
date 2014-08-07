@@ -1,4 +1,7 @@
 
+<link rel="stylesheet" href="<?php echo Mage::getBaseUrl('media')?>mymedia/css/idangerous.swiper.css">
+<link rel="stylesheet" href="<?php echo Mage::getBaseUrl('media')?>mymedia/css/swiper.css">
+
 <?php
 $collection = Mage::getModel('cms/page')->getCollection()->addStoreFilter(Mage::app()->getStore()->getId());
 $collection->getSelect()
@@ -7,9 +10,49 @@ $collection->getSelect()
         ->order('update_time', 'DESC')
         ->limit(10);
 ?>
+<div class="swiper-container">
+    <div class="swiper-wrapper">
+    <?php
+//    foreach ($collection as $news) {
+//
+//        $data = $news->getData();
+//        $conten = $data['content'];
+//        $pattem = "/<img src=\"{{media url=\"(.*)\"}}\" alt=\"\" \/>/";
+//        preg_match($pattem, $conten, $a_matches);
+//        
+//        $img = str_replace("}", "", $a_matches[1]);
+//        if($img==""){
+//            continue;
+//        }
+        ?>
+    
+<!--      <div class="swiper-slide blue-slide">
+        <div class="title">Vertical Mode</div>
+        <p>Swipe to the Top or to the Bottom</p>
+        <img src="<?php echo Mage::getBaseUrl('media') . $img ?>" width="50">
+      </div>-->
+        <div class="swiper-slide blue-slide">
+        <div class="title">Vertical Mode</div>
+        <p>Swipe to the Top or to the Bottom</p>
+      </div>
+      <div class="swiper-slide red-slide">
+        <div class="title">Slide 2</div>
+        <p>Keep swiping</p>
+      </div>
+      <div class="swiper-slide orange-slide">
+        <div class="title">Slide 3</div>
+        <p>The last one</p>
+      </div>
+      
 
+        
+    <?php // } ?>
+         </div>
+    <div class="pagination"></div>
+  </div>
 <div class="block">
-    <img src="http://1.bp.blogspot.com/-dpJjJKC1CF0/US9FknlsiDI/AAAAAAAAABI/40KiMn9m81I/s1600/avatar+dep+girl+viet+nam+(1).jpg" width="100%">
+    
+
     <div class="block-title">
         <strong><span>Hot News</span></strong>
     </div>
@@ -17,15 +60,15 @@ $collection->getSelect()
         <ul style="margin-left: 5px;">
             <?php
             $index = 1;
-          //  $collection = $this->getListNews();
+            //  $collection = $this->getListNews();
             foreach ($collection as $news) {
                 $data = $news->getData();
                 ?>
-            <li style="padding-bottom: 5px;padding-top: 5px">
+                <li style="padding-bottom: 5px;padding-top: 5px">
                     <a href ='<?php echo Mage::Helper('cms/page')->getPageUrl($data['page_id']) ?>'
                        title=" <?php echo $data['update_time'] ?>"
                        style="text-decoration: none">
-                           <?php echo $index.". " . $data['title'] ?>
+                        <?php echo $index . ". " . $data['title'] ?>
                     </a>
                 </li>
                 <?php
@@ -35,3 +78,12 @@ $collection->getSelect()
         </ul>
     </div>
 </div>
+<script src="<?php echo Mage::getBaseUrl('media')?>mymedia/js/jquery-1.10.1.min.js"></script>
+<script src="<?php echo Mage::getBaseUrl('media')?>mymedia/js/idangerous.swiper-2.1.min.js"></script>
+ <script>
+  var mySwiper = new Swiper('.swiper-container',{
+    pagination: '.pagination',
+    paginationClickable: true,
+    mode: 'vertical'
+  })
+  </script>
