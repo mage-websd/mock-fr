@@ -14,7 +14,8 @@ class Teamto_Featured_Block_Featured_Widget_Slideshow
      */
     public function __construct()
     {
-        $this->setTemplate('teamto/featured/widget/slideshow.phtml');
+        if(Mage::getStoreConfig('slideshow_option/messages/slide_enable'))
+            $this->setTemplate('teamto/featured/widget/slideshow.phtml');
     }
 
 
