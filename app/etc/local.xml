@@ -42,8 +42,13 @@
                 <connection>
                     <host><![CDATA[localhost]]></host>
                     <username><![CDATA[root]]></username>
+<<<<<<< HEAD
                     <password><![CDATA[]]></password>
                     <dbname><![CDATA[magento]]></dbname>
+=======
+                    <password><![CDATA[giang]]></password>
+                    <dbname><![CDATA[mage_mock_1]]></dbname>
+>>>>>>> 89cf00c05b2fc845d3badaf42d9c1c20a3cd0092
                     <initStatements><![CDATA[SET NAMES utf8]]></initStatements>
                     <model><![CDATA[mysql4]]></model>
                     <type><![CDATA[pdo_mysql]]></type>
