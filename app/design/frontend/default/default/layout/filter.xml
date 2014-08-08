@@ -7,7 +7,7 @@
             </action>
             <action method="addItem">
                 <type>skin_js</type>
-                <name>js/noConflict.js</name>
+                <name>js/noConflict-jquery.js</name>
             </action>
             <action method="addItem">
                 <type>skin_js</type>

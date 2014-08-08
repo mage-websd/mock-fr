@@ -14,7 +14,7 @@
 
             <action method="addItem">
                 <type>skin_js</type>
-                <name>js/noConflict-jquery.js</name>
+                <name>js/noConflict.js</name>
             </action>
 
             <action method="setTitle" translate="title">
@@ -32,23 +32,6 @@
     </adminhtml_featured_index>
 
     <adminhtml_featured_grid>
-        <!--<reference name="head">-->
-            <!--<action method="addItem">-->
-                <!--<type>skin_js</type>-->
-                <!--<name>js/featuredProduct/featuredProduct.js</name>-->
-            <!--</action>-->
-
-            <!--<action method="addItem">-->
-                <!--<type>skin_js</type>-->
-                <!--<name>js/jquery-1.11.1.min.js</name>-->
-            <!--</action>-->
-
-            <!--<action method="addItem">-->
-                <!--<type>skin_js</type>-->
-                <!--<name>js/noConflict-jquery.js</name>-->
-            <!--</action>-->
-        <!--</reference>-->
-
         <block type="core/text_list" name="root" output="toHtml">
             <block type="teamto_featured/featured_grid" name="featured.product.grid"/>
         </block>
