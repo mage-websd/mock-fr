@@ -1,7 +1,7 @@
 <layout version="1.0">
     <catalog_category_layered>
         <reference name="head">
-            <action method="addItem">
+            <!--<action method="addItem">
                 <type>skin_js</type>
                 <name>js/jquery-1.11.1.min.js</name>
             </action>
@@ -17,7 +17,7 @@
             <action method="addItem">
                 <type>skin_js</type>
                 <name>js/filter/filter.js</name>
-            </action>
+            </action>-->
 
             <action method="addItem">
                 <type>skin_css</type>

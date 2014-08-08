@@ -71,7 +71,7 @@
                 <use>admin</use>
                 <args>
                     <modules>
-                        <Teamto_Featured after="Mage_Adminhtml">Teamto_Featured</Teamto_Featured>
+                        <Teamto_Featured before="Mage_Adminhtml">Teamto_Featured</Teamto_Featured>
                         <!--<Teamto_Featured before="Mage_Adminhtml">Teamto_Featured</Teamto_Featured>-->
                         <frontName>admin</frontName>
                     </modules>

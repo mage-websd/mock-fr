@@ -17,11 +17,12 @@
         <div class="block-content">
             <?php echo $this->getStateHtml() ?>
             <?php if ($this->getLayer()->getState()->getFilters()): ?>
-                <div class="actions"><a
-                        href="<?php echo $this->getClearUrl() ?>"><?php echo $this->__('Clear All') ?></a></div>
+                <div class="actions">
+                    <a href="<?php echo $this->getClearUrl() ?>"><?php echo $this->__('Clear All') ?></a>
+                </div>
             <?php endif; ?>
             <?php if ($this->canShowOptions()): ?>
-                <p class="block-subtitle"><?php echo $this->__('Shopping Options') ?></p>
+                <p class="block-subtitle"><?php echo $this->__('Shopping Options') ?><span id="clear-filter-custom"style="display: none;float: right;cursor: pointer">clear</span></p>
                 <dl id="narrow-by-list">
                     <?php $_filters = $this->getFilters();
                         ksort($_filters);
@@ -52,7 +53,8 @@
         </div>
 
         <?php $aryPrice = explode('-', $_GET['price']); ?>
-
+        <script src="<?php echo Mage::helper('link')->getSkinFrontend();?>js/filter/jquery-ui.js"></script>
+        <script src="<?php echo Mage::helper('link')->getSkinFrontend();?>js/filter/filter.js"></script>
         <script>
             //jQuery.noConflict();
 <!--            jQuery(document).ready(function () {-->
@@ -104,8 +106,7 @@
                                 jQuery("#amount").val("$" + ui.values[ 0 ] + " - $" + ui.values[ 1 ]);
                                 var min = ui.values[0];
                                 var max = ui.values[1];
-//                                alert(min);
-//                                alert(max);
+                                jQuery("#slider-range").slider({ disabled: true });
                                 var currentPrice = "<?php echo $_GET['price']; ?>";
                                 var aryCurrentPrice = {
                                     min: "<?php echo $aryPrice[0]; ?>",

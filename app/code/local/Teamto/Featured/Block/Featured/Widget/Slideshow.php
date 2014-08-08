@@ -33,8 +33,7 @@ class Teamto_Featured_Block_Featured_Widget_Slideshow
                                         )
                                         ->addFieldToFilter('inventory_in_stock','1')
                                         ->setOrder('updated_at','desc')
-                                        ->setPageSize($limit);;
+                                        ->setPageSize($limit);
         return $this->_productCollection;
-
     }
 }

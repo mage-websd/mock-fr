@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<layout version="0.1.0">
+    <catalog_category_layered>
+        <reference name="footer">
+            <block type="core/template" name="footer.jquery.filter" after="-"
+                   template="teamto/filterajax/category.phtml"/>
+        </reference>
+    </catalog_category_layered>
+
+    <!--catalog/product_list-->
+    <filterajax_index_index>
+        <block name="root" type="catalog/product_list"
+               template="teamto/filterajax/result_filter.phtml">
+
+        </block>
+    </filterajax_index_index>
+</layout>

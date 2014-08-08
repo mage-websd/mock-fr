@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <Teamto_Filterajax>
+            <active>false</active>
+            <codePool>local</codePool>
+        </Teamto_Filterajax>
+    </modules>
+</config>
