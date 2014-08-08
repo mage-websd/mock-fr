@@ -3,8 +3,6 @@
 class Teamto_Filter_Block_Layer_View extends Mage_Catalog_Block_Layer_View {
 
     public function getPriceRange() {
-//        return Mage::getModel('catalog/layer_filter_price')->getMaxPriceInt();
-
         $currentCategory = Mage::getModel('catalog/layer')->getCurrentCategory()->getData('url_path');
         $maxPrice = Mage::getModel('catalog/layer_filter_price')->getMaxPriceInt();
 

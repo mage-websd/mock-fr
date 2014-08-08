@@ -1,11 +1,10 @@
 var Filter = {
-    filter: function (min, max, currentPrice, aryCurrentPrice) {
+    filter : function(min, max, currentPrice, aryCurrentPrice){
         var strVar = document.URL;
-
-        if (strVar.indexOf("?") == -1) {
+        if(strVar.indexOf("?") == -1){
             var url = strVar + '?price=' + min + '-' + max;
         } else {
-            if (currentPrice == '') {
+            if(currentPrice == ''){
                 var url = strVar + '&price=' + min + '-' + max;
             } else {
                 var minPrice = 'price=' + aryCurrentPrice['min'];
@@ -15,7 +14,7 @@ var Filter = {
                 var url = url2.replace(maxPrice, max);
             }
         }
-        window.history.pushState("GET", '', url);
-        setLocation(url);
+            window.history.pushState("GET", '', url);
+            setLocation(url);
     }
 }

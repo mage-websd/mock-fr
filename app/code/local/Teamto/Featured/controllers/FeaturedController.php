@@ -57,7 +57,19 @@ class Teamto_Featured_FeaturedController extends Mage_Adminhtml_Controller_Actio
 
         if ($aryCheckedBoxes) {
             try {
-                // update featured attribute of
+                // disable indexing
+                $pCollection = Mage::getSingleton('index/indexer')->getProcessesCollection();
+                foreach ($pCollection as $process) {
+                    $process->setMode(Mage_Index_Model_Process::MODE_MANUAL)->save();
+                    //$process->setMode(Mage_Index_Model_Process::MODE_REAL_TIME)->save();
+                }
+
+                $indexingProcesses = Mage::getSingleton('index/indexer')->getProcessesCollection();
+                foreach ($indexingProcesses as $process) {
+                    $process->reindexEverything();
+                }
+
+                // update featured attribute
                 foreach ($aryProduct as $product) {
                     if( in_array($product->getData('entity_id'), $aryCheckedBoxes) ){
                         $product->load()->setFeatured(1)->save();

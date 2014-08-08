@@ -2,6 +2,15 @@
 <layout version="0.1.0">
     <default>
         <reference name="head">
+            <action method="addItem">
+                <type>skin_js</type>
+                <name>js/jquery-1.11.1.min.js</name>
+            </action>
+
+            <action method="addItem">
+                <type>skin_js</type>
+                <name>js/noConflict.js</name>
+            </action>
             <block name="head.add.layout" type="core/template"
                    template="teamto/layout/head.phtml"/>
         </reference>

@@ -1,7 +1,4 @@
 <?php
-//var_dump($this->getPriceRange());die;
-?>
-<?php
 /**
  * Category layered navigation
  *
@@ -17,12 +14,11 @@
         <div class="block-content">
             <?php echo $this->getStateHtml() ?>
             <?php if ($this->getLayer()->getState()->getFilters()): ?>
-                <div class="actions">
-                    <a href="<?php echo $this->getClearUrl() ?>"><?php echo $this->__('Clear All') ?></a>
-                </div>
+                <div class="actions"><a
+                        href="<?php echo $this->getClearUrl() ?>"><?php echo $this->__('Clear All') ?></a></div>
             <?php endif; ?>
             <?php if ($this->canShowOptions()): ?>
-                <p class="block-subtitle"><?php echo $this->__('Shopping Options') ?><span id="clear-filter-custom"style="display: none;float: right;cursor: pointer">clear</span></p>
+                <p class="block-subtitle"><?php echo $this->__('Shopping Options') ?></p>
                 <dl id="narrow-by-list">
                     <?php $_filters = $this->getFilters();
                         ksort($_filters);
@@ -37,11 +33,9 @@
                 <script type="text/javascript">decorateDataList('narrow-by-list')</script>
             <?php endif; ?>
         </div>
-
-
         <p>
             <label for="amount">Price range:</label>
-            <input value="$0 - $200" id="amount" style="border:0; color:#f6931f; font-weight:bold;"
+            <input value="$8 - $200" id="amount" readonly="readonly" style="border:0; color:#f6931f; font-weight:bold;"
                    type="text">
         </p>
 
@@ -53,49 +47,9 @@
         </div>
 
         <?php $aryPrice = explode('-', $_GET['price']); ?>
-        <script src="<?php echo Mage::helper('link')->getSkinFrontend();?>js/filter/jquery-ui.js"></script>
-        <script src="<?php echo Mage::helper('link')->getSkinFrontend();?>js/filter/filter.js"></script>
         <script>
-            //jQuery.noConflict();
-<!--            jQuery(document).ready(function () {-->
-<!--                jQuery("#slider-range").slider({-->
-<!--                    range: true,-->
-<!--                    min: 0,-->
-<!--                    max: --><?php //echo $this->getPriceRange(); ?><!--,-->
-<!--                    values: [ 0, "--><?php //echo $this->getPriceRange(); ?><!--" ],-->
-<!--                    slide: function (event, ui) {-->
-<!--                        jQuery("#amount").val("$" + ui.values[ 0 ] + " - $" + ui.values[ 1 ]);-->
-<!--                        var min = ui.values[0];-->
-<!--                        var max = ui.values[1];-->
-<!---->
-<!--                        var strVar = document.URL;-->
-<!--                        var currentPrice = "--><?php //echo $_GET['price']; ?><!--";-->
-<!--                        if(strVar.indexOf("?") == -1){-->
-<!--                            var url = strVar + '?price=' + min + '-' + max;-->
-<!--                        } else {-->
-<!--                            if(currentPrice == ''){-->
-<!--                                var url = strVar + '&price=' + min + '-' + max;-->
-<!--                            } else {-->
-<!--                                var minPrice = "--><?php //echo $aryPrice[0]; ?><!--";-->
-<!--                                var maxPrice = "--><?php //echo $aryPrice[1]; ?><!--";-->
-<!--                                var url = strVar.replace(minPrice, min);-->
-<!--                                var url = strVar.replace(maxPrice, max);-->
-<!--                            }-->
-<!--                        }-->
-<!--                        window.history.pushState("GET", '', url);-->
-<!--                        jQuery("#slider-range").slider({ disabled: true });-->
-<!--                        location.reload();-->
-<!--                    }-->
-<!--                });-->
-<!--                jQuery("#amount").val("$" + jQuery("#slider-range").slider("values", 0) +-->
-<!--                    " - $" + jQuery("#slider-range").slider("values", 1));-->
-<!--            });-->
-
-
             jQuery(document).ready(function () {
-                var $ = jQuery;
-
-                $("#slider-range").slider({
+                jQuery("#slider-range").slider({
                         range: true,
                         min: 0,
                         max: <?php echo $this->getPriceRange(); ?>,
@@ -112,13 +66,12 @@
                                     min: "<?php echo $aryPrice[0]; ?>",
                                     max: "<?php echo $aryPrice[1]; ?>"
                                 };
-                                console.log(min+' - '+max);
-                                //Filter.filter(min, max, currentPrice, aryCurrentPrice);
+                                Filter.filter(min, max, currentPrice, aryCurrentPrice);
                             });
                         }
-            });
-                $("#amount").val("$" + $("#slider-range").slider("values", 0) +
-                    " - $" + $("#slider-range").slider("values", 1));
+                });
+                jQuery("#amount").val("$" + jQuery("#slider-range").slider("values", 0) +
+                    " - $" + jQuery("#slider-range").slider("values", 1));
             });
         </script>
     </div>

@@ -5,19 +5,21 @@
                 <type>skin_js</type>
                 <name>js/jquery-1.11.1.min.js</name>
             </action>
+
             <action method="addItem">
                 <type>skin_js</type>
-                <name>js/noConflict-jquery.js</name>
-            </action>
-            <action method="addItem">
-                <type>skin_js</type>
-                <name>js/filter/jquery-ui.js</name>
-            </action>
+                <name>js/noConflict.js</name>
+            </action>-->
 
             <action method="addItem">
                 <type>skin_js</type>
                 <name>js/filter/filter.js</name>
-            </action>-->
+            </action>
+
+            <action method="addItem">
+                <type>skin_js</type>
+                <name>js/filter/jquery-ui.js</name>
+            </action>
 
             <action method="addItem">
                 <type>skin_css</type>
