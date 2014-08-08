@@ -41,19 +41,35 @@
 
     .swiper-slide {
         text-align: center;
-        margin-top: 20px;
     }
 
     li {
         list-style: none;
     }
     #page-slider {
-        position: absolute;
-        top: 0px;
-        left: 300px;
-        color: #203548
+        display: none;
+    }
+    #slider-next-pre{
+        height: 20px;
+        color: blue;
+        position: relative;
+    }
+    #slider-next-pre span{
+        cursor: pointer;
+    }
+    #slider-next-pre span:hover{
+        background-color: #dbdbdb;
     }
 
+    #slider-next-pre span.next{
+        float: right;
+    }
+    #slider-next-pre span.pre{
+        float: left;
+    }
+    .clear{
+        clear: both;
+    }
 
 </style>
 <?php
@@ -62,6 +78,10 @@ $_helper = $this->helper('catalog/output');
 ?>
 <div id="widget-slideshow-home">
     <div class="swiper-container">
+        <div id="slider-next-pre">
+            <span class="pre">&lt;&lt;&nbsp;pre</span>
+            <span class="next">next&nbsp;&gt;&gt;</span>
+        </div>
         <div class="pagination" id="page-slider"></div>
         <div class="swiper-wrapper">
             <?php foreach ($_productCollection as $_product): ?>
@@ -122,8 +142,6 @@ $_helper = $this->helper('catalog/output');
 
     </div>
 </div>
-<script src="<?php echo Mage::helper('link')->getSkinFrontend(); ?>js/jquery-1.11.1.min.js"></script>
-<script src="<?php echo Mage::helper('link')->getSkinFrontend(); ?>js/noConflict.js"></script>
 
 <script src="<?php echo Mage::helper('link')->getSkinFrontend(); ?>swiper/js/idangerous.swiper-2.1.min.js"></script>
 <script>
@@ -136,19 +154,38 @@ $_helper = $this->helper('catalog/output');
 </script>
 <script type="text/javascript">
     jQuery(document).ready(function () {
+        var $ = jQuery;
         function nextSlile() {
-            $slideActive = jQuery('.pagination').find('.swiper-active-switch');
-            if ($slideActive.is(':last-child')) {
-                jQuery('.pagination').children().first().click();
+            slideActive = $('.pagination').find('.swiper-active-switch');
+            if (slideActive.is(':last-child')) {
+                $('.pagination').children().first().click();
             }
             else {
-                $slideActive.next().click();
+                slideActive.next().click();
             }
         }
 
-        /*setInterval(function () {
+        function preSlile() {
+            slideActive = $('.pagination').find('.swiper-active-switch');
+            if (slideActive.is(':first-child')) {
+                $('.pagination').children().last().click();
+            }
+            else {
+                slideActive.prev().click();
+            }
+        }
+        $('#slider-next-pre span').click(function(){
+            var classValue = $(this).attr('class');
+            if(classValue == 'next') {
+                nextSlile();
+            }
+            else{
+                preSlile();
+            }
+        });
+        setInterval(function () {
          nextSlile();
-         }, 8000);*/
+         }, 8000);
     });
 
 </script>
