@@ -18,7 +18,8 @@ $installer->addAttribute('catalog_category', 'mirrored_to',  array(
     'required'          => false,
     'user_defined'      => false,
     'group'             => 'General',
-    'source'            => 'mirrored/resource_category_mirrored'
+    'source'            => 'mirrored/resource_category_mirrored',
+
 ));
 
 

@@ -1,2 +1,12 @@
-<script src="<?php echo Mage::helper('link')->getSkinAdmin();?>js/jquery-ui.js"></script>
-<script src="<?php echo Mage::helper('link')->getSkinAdmin();?>js/aucomplete-combox.js"></script>
+<script src="<?php echo Mage::helper('link')->getSkinAdmin();?>js/jquery-1.11.1.min.js"></script>
+<script src="<?php echo Mage::helper('link')->getSkinAdmin();?>js/noConflict.js"></script>
+<script>
+jQuery(document).ready(function(){
+    var $ = jQuery;
+    setTimeout(function(){
+        textNoteMirrored = 'only use with category exists<br/>When mirrored success, reload page !!!'
+        tagNoteMirrored = '<p class="note"><span>'+textNoteMirrored+'</span></p>';
+        $(tagNoteMirrored).insertAfter('#group_3mirrored_to');
+    },10);
+});
+</script>

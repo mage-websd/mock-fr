@@ -3,9 +3,10 @@
 class Teamto_Geoip_Model_Observer {
 
     public function geoip_store() {
+       
         $session = Mage::getSingleton('core/session');
-        if (NULL === $session->getView()) {
-            $session->setView(true);
+        if (NULL === $session->getView2()) {
+            $session->setView2(2);
             $storeCode = "";
             $geoip = Mage::getSingleton('geoip/country');
             $countryCode = $geoip->getCountry();

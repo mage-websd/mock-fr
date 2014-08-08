@@ -47,17 +47,6 @@
             </updates>
         </layout>
     </frontend>
-    <!--<admin>
-        <routers>
-            <adminhtml>
-                <args>
-                    <modules>
-                        <mirrored before="Mage_Adminhtml">Teamto_Megamenu_Adminhtml</mirrored>
-                    </modules>
-                </args>
-            </adminhtml>
-        </routers>
-    </admin>-->
 
     <adminhtml>
         <events>
@@ -71,6 +60,15 @@
                 </observers>
             </catalog_category_prepare_save>
         </events>
+
+        <layout>
+            <updates>
+                <mirrored module="teamto_mirrored">
+                    <file>teamto_mirrored.xml</file>
+                </mirrored>
+            </updates>
+        </layout>
+
     </adminhtml>
 
 </config>
