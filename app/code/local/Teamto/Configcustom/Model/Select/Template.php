@@ -10,7 +10,6 @@ class Teamto_Configcustom_Model_Select_Template{
     {
         $option = array(
             array('value'=>1, 'label'=> 'Slideshow Template'),
-            array('value'=>2, 'label'=> 'test'),
         );
         return $option;
     }

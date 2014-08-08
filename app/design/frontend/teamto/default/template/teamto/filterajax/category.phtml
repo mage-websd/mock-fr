@@ -1,0 +1,108 @@
+<style>
+    #ajax-custom{
+        width: 100%;
+        height: 100%;
+        position: fixed;
+        top: 0px;
+        left:0px;
+        z-index: 11;
+        display: none;
+    }
+    #ajax-opacity{
+        width: 100%;
+        height: 100%;
+        background-color: #d8d8d8;
+        opacity: 0.5;
+        position: absolute;
+    }
+    #ajax-img-load{
+        width: 128px;
+        height: 128px;
+        margin: 0px auto;
+        margin-top: 80px;
+        opacity: 1 !important;
+    }
+    #ajax-img-load img{
+        width: 128px;
+        height: 128px;
+        opacity: 1 !important;
+    }
+</style>
+<div id="ajax-custom">
+    <div id="ajax-opacity"></div>
+    <div id="ajax-img-load">
+        <img src="<?php echo Mage::helper('link')->getSkinFrontend();?>img/ajax.gif" />
+    </div>
+
+</div>
+<script>
+jQuery(document).ready(function(){
+    function alertArray(arrayVar) {
+        str = '';
+        for(i = 0 ; i < arrayVar.length ; i++ ) {
+            str += i + ': ' + arrayVar[i] + '  --  ';
+        }
+        alert(str);
+    }
+    function resetFilter(arrayFilter) {
+        for(i = 0 ; i < arrayFilter.length ; i++ ) {
+            arrayFilter[i] = '';
+        }
+        return arrayFilter;
+    }
+    var $ = jQuery;
+    arrayFilter = Array();
+    arrayFilter[0] = ''; //category
+    arrayFilter[1] = '';//price
+    arrayFilter[2] = '' //color
+    arrayFilter[3] = '' //size
+
+    $('#clear-filter-custom').click(function(){
+        arrayFilter = resetFilter(arrayFilter);
+        $(this).hide();
+    }) ;
+    $('#narrow-by-list a').click(function(e){
+        $('#ajax-custom').show();
+        url = $(this).attr('href');
+        i = 0
+        for(; i < url.length ; i++){
+            if(url[i] == '?')
+            break;
+        }
+        strParam = url.substr(i+1); //get param
+        i = 0;
+        for(; i < strParam.length ; i++){
+            if(strParam[i] == '=')
+                break;
+        }
+        paramName = strParam.substr(0,i);
+        paramValue = strParam.substr(i+1);
+        //set value array filter
+        switch (paramName) {
+            case 'cat': arrayFilter[0] = paramValue;break;
+            case 'price': arrayFilter[1] = paramValue;break;
+            case 'color': arrayFilter[2] = paramValue;break;
+            case 'size': arrayFilter[3] = paramValue;break;
+        }
+        if(arrayFilter[0] == '')
+            arrayFilter[0] = <?php echo Mage::registry('current_category')->getEntityId(); ?>;
+        dataSubmit = 'isajax=1&category='+arrayFilter[0]+'&price='+arrayFilter[1]+'&color='+arrayFilter[2]+'&size='+arrayFilter[3];
+        $.ajax({
+            url: '<?php echo Mage::getBaseUrl();?>filterajax',
+            type: 'get',
+            data: dataSubmit,
+            success: function(dataReturn){
+                //alert(dataReturn);
+                $('.category-products').html(dataReturn);
+
+                $('#clear-filter-custom').show();
+                $('#ajax-custom').hide();
+            }
+        });
+        e.preventDefault();
+    });
+});
+</script>
+<?php
+
+?>

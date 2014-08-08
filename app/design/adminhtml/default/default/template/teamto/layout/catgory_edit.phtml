@@ -8,7 +8,7 @@ jQuery(document).ready(function(){
      */
     $(document).on('click','#group_3mirrored_to',function(){
         if(!$('#note-mirrored').length){
-            textNoteMirrored = 'Only use with category exists<br/>When mirrored success, reload page!'
+            textNoteMirrored = 'Only use when category exists<br/>After mirrored action success, please reload page!'
             tagNoteMirrored = '<p class="note" id="note-mirrored"><span>'+textNoteMirrored+'</span></p>';
             $(tagNoteMirrored).insertAfter('#group_3mirrored_to');
         }

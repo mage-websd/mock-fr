@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<layout version="0.1.1">
+    <catalog_category_view>
+        <reference name="head">
+            <block type="core/template" name="head.add.canonical"
+                   template="teamto/mirrored/canonical.phtml"/>
+        </reference>
+    </catalog_category_view>
+</layout>

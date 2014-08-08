@@ -7,7 +7,7 @@
  */
 class Teamto_Link_Helper_Data extends Mage_Core_Helper_Abstract {
     public function getSkinFrontend(){
-        return Mage::getBaseUrl('skin').'frontend/default/default/';
+        return Mage::getBaseUrl('skin').'frontend/teamto/default/';
     }
 
     public function getSkinAdmin(){
