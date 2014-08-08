@@ -1,6 +1,7 @@
 var Filter = {
     filter: function (min, max, currentPrice, aryCurrentPrice) {
         var strVar = document.URL;
+
         if (strVar.indexOf("?") == -1) {
             var url = strVar + '?price=' + min + '-' + max;
         } else {

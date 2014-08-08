@@ -40,7 +40,7 @@
 
         <p>
             <label for="amount">Price range:</label>
-            <input value="$8 - $200" id="amount" readonly="readonly" style="border:0; color:#f6931f; font-weight:bold;"
+            <input value="$0 - $200" id="amount" style="border:0; color:#f6931f; font-weight:bold;"
                    type="text">
         </p>
 
@@ -91,8 +91,9 @@
 
 
             jQuery(document).ready(function () {
+                var $ = jQuery;
 
-                jQuery("#slider-range").slider({
+                $("#slider-range").slider({
                         range: true,
                         min: 0,
                         max: <?php echo $this->getPriceRange(); ?>,
@@ -109,12 +110,13 @@
                                     min: "<?php echo $aryPrice[0]; ?>",
                                     max: "<?php echo $aryPrice[1]; ?>"
                                 };
-                                Filter.filter(min, max, currentPrice, aryCurrentPrice);
+                                console.log(min+' - '+max);
+                                //Filter.filter(min, max, currentPrice, aryCurrentPrice);
                             });
                         }
-                });
-                jQuery("#amount").val("$" + jQuery("#slider-range").slider("values", 0) +
-                    " - $" + jQuery("#slider-range").slider("values", 1));
+            });
+                $("#amount").val("$" + $("#slider-range").slider("values", 0) +
+                    " - $" + $("#slider-range").slider("values", 1));
             });
         </script>
     </div>

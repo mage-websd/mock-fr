@@ -51,7 +51,7 @@
                 <use>standard</use>
                 <args>
                     <module>Teamto_Featured</module>
-                    <frontName>featured-product</frontName>
+                    <frontName>featured-products</frontName>
                 </args>
             </featured>
         </routers>
