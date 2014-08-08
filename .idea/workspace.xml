@@ -2,222 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a08b81cf-cfcc-478b-b821-a9790ce2bc53" name="Default" comment="">
-      <change type="DELETED" beforePath="D:\xampp\htdocs\mock\mockupprojectfr04\skin\frontend\default\default\bootstrap-3.2.0\css\bootstrap-theme.css" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\mock\mockupprojectfr04\skin\frontend\default\default\bootstrap-3.2.0\css\bootstrap-theme.css.map" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\mock\mockupprojectfr04\skin\frontend\default\default\bootstrap-3.2.0\css\bootstrap-theme.min.css" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\mock\mockupprojectfr04\skin\frontend\default\default\bootstrap-3.2.0\css\bootstrap.css" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\mock\mockupprojectfr04\skin\frontend\default\default\bootstrap-3.2.0\css\bootstrap.css.map" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\mock\mockupprojectfr04\skin\frontend\default\default\bootstrap-3.2.0\css\bootstrap.min.css" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\mock\mockupprojectfr04\skin\frontend\default\default\bootstrap-3.2.0\fonts\glyphicons-halflings-regular.eot" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\mock\mockupprojectfr04\skin\frontend\default\default\bootstrap-3.2.0\fonts\glyphicons-halflings-regular.svg" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\mock\mockupprojectfr04\skin\frontend\default\default\bootstrap-3.2.0\fonts\glyphicons-halflings-regular.ttf" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\mock\mockupprojectfr04\skin\frontend\default\default\bootstrap-3.2.0\fonts\glyphicons-halflings-regular.woff" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\mock\mockupprojectfr04\skin\frontend\default\default\bootstrap-3.2.0\js\bootstrap.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\mock\mockupprojectfr04\skin\frontend\default\default\bootstrap-3.2.0\js\bootstrap.min.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\mock\mockupprojectfr04\skin\frontend\default\default\css\filter\jquery-ui.css" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\mock\mockupprojectfr04\skin\frontend\default\default\css\megamenu.css" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\mock\mockupprojectfr04\skin\frontend\default\default\css\oauth-simple.css" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\mock\mockupprojectfr04\skin\frontend\default\default\css\print.css" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\mock\mockupprojectfr04\skin\frontend\default\default\css\styles-ie.css" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\mock\mockupprojectfr04\skin\frontend\default\default\css\styles.css" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\mock\mockupprojectfr04\skin\frontend\default\default\css\styles_giang.css" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\mock\mockupprojectfr04\skin\frontend\default\default\css\styles_tuan.css" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\mock\mockupprojectfr04\skin\frontend\default\default\favicon.ico" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\mock\mockupprojectfr04\skin\frontend\default\default\images\best_selling_tr_even_bg.gif" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\mock\mockupprojectfr04\skin\frontend\default\default\images\best_selling_tr_odd_bg.gif" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\mock\mockupprojectfr04\skin\frontend\default\default\images\bkg_account_box.gif" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\mock\mockupprojectfr04\skin\frontend\default\default\images\bkg_block-actions.gif" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\mock\mockupprojectfr04\skin\frontend\default\default\images\bkg_block-currency.gif" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\mock\mockupprojectfr04\skin\frontend\default\default\images\bkg_block-layered-dd.gif" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\mock\mockupprojectfr04\skin\frontend\default\default\images\bkg_block-layered-dt.gif" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\mock\mockupprojectfr04\skin\frontend\default\default\images\bkg_block-layered-label.gif" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\mock\mockupprojectfr04\skin\frontend\default\default\images\bkg_block-layered-li.gif" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\mock\mockupprojectfr04\skin\frontend\default\default\images\bkg_block-layered-title.gif" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\mock\mockupprojectfr04\skin\frontend\default\default\images\bkg_block-layered1.gif" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\mock\mockupprojectfr04\skin\frontend\default\default\images\bkg_block-title-account.gif" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\mock\mockupprojectfr04\skin\frontend\default\default\images\bkg_block-title.gif" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\mock\mockupprojectfr04\skin\frontend\default\default\images\bkg_body.gif" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\mock\mockupprojectfr04\skin\frontend\default\default\images\bkg_buttons-set1.gif" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\mock\mockupprojectfr04\skin\frontend\default\default\images\bkg_checkout.gif" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\mock\mockupprojectfr04\skin\frontend\default\default\images\bkg_collapse-gm.gif" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\mock\mockupprojectfr04\skin\frontend\default\default\images\bkg_collapse.gif" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\mock\mockupprojectfr04\skin\frontend\default\default\images\bkg_divider1.gif" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\mock\mockupprojectfr04\skin\frontend\default\default\images\bkg_form-search.gif" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\mock\mockupprojectfr04\skin\frontend\default\default\images\bkg_grand-total.gif" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\mock\mockupprojectfr04\skin\frontend\default\default\images\bkg_grid.gif" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\mock\mockupprojectfr04\skin\frontend\default\default\images\bkg_header.jpg" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\mock\mockupprojectfr04\skin\frontend\default\default\images\bkg_login-box.gif" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\mock\mockupprojectfr04\skin\frontend\default\default\images\bkg_main1.gif" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\mock\mockupprojectfr04\skin\frontend\default\default\images\bkg_main2.gif" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\mock\mockupprojectfr04\skin\frontend\default\default\images\bkg_nav0.jpg" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\mock\mockupprojectfr04\skin\frontend\default\default\images\bkg_nav1.gif" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\mock\mockupprojectfr04\skin\frontend\default\default\images\bkg_nav2.gif" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\mock\mockupprojectfr04\skin\frontend\default\default\images\bkg_opc-title-off.gif" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\mock\mockupprojectfr04\skin\frontend\default\default\images\bkg_pipe1.gif" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\mock\mockupprojectfr04\skin\frontend\default\default\images\bkg_pipe2.gif" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\mock\mockupprojectfr04\skin\frontend\default\default\images\bkg_pipe3.gif" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\mock\mockupprojectfr04\skin\frontend\default\default\images\bkg_product-view.gif" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\mock\mockupprojectfr04\skin\frontend\default\default\images\bkg_product_collateral.gif" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\mock\mockupprojectfr04\skin\frontend\default\default\images\bkg_rating.gif" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\mock\mockupprojectfr04\skin\frontend\default\default\images\bkg_sp-methods.gif" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\mock\mockupprojectfr04\skin\frontend\default\default\images\bkg_tfoot.gif" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\mock\mockupprojectfr04\skin\frontend\default\default\images\bkg_th-v.gif" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\mock\mockupprojectfr04\skin\frontend\default\default\images\bkg_th.gif" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\mock\mockupprojectfr04\skin\frontend\default\default\images\bkg_toolbar.gif" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\mock\mockupprojectfr04\skin\frontend\default\default\images\btn_checkout.gif" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\mock\mockupprojectfr04\skin\frontend\default\default\images\btn_edit.gif" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\mock\mockupprojectfr04\skin\frontend\default\default\images\btn_gm-close.gif" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\mock\mockupprojectfr04\skin\frontend\default\default\images\btn_google_checkout.gif" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\mock\mockupprojectfr04\skin\frontend\default\default\images\btn_paypal_checkout.gif" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\mock\mockupprojectfr04\skin\frontend\default\default\images\btn_place_order.gif" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\mock\mockupprojectfr04\skin\frontend\default\default\images\btn_previous.gif" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\mock\mockupprojectfr04\skin\frontend\default\default\images\btn_proceed_to_checkout.gif" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\mock\mockupprojectfr04\skin\frontend\default\default\images\btn_proceed_to_checkout_dis.gif" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\mock\mockupprojectfr04\skin\frontend\default\default\images\btn_remove.gif" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\mock\mockupprojectfr04\skin\frontend\default\default\images\btn_remove2.gif" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\mock\mockupprojectfr04\skin\frontend\default\default\images\btn_search.gif" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\mock\mockupprojectfr04\skin\frontend\default\default\images\btn_trash.gif" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\mock\mockupprojectfr04\skin\frontend\default\default\images\btn_window_close.gif" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\mock\mockupprojectfr04\skin\frontend\default\default\images\calendar.gif" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\mock\mockupprojectfr04\skin\frontend\default\default\images\catalog\product\placeholder\image.jpg" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\mock\mockupprojectfr04\skin\frontend\default\default\images\catalog\product\placeholder\small_image.jpg" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\mock\mockupprojectfr04\skin\frontend\default\default\images\catalog\product\placeholder\thumbnail.jpg" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\mock\mockupprojectfr04\skin\frontend\default\default\images\cvv.gif" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\mock\mockupprojectfr04\skin\frontend\default\default\images\cvv.jpg" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\mock\mockupprojectfr04\skin\frontend\default\default\images\fam_book_open.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\mock\mockupprojectfr04\skin\frontend\default\default\images\free_shipping_callout.jpg" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\mock\mockupprojectfr04\skin\frontend\default\default\images\grid-cal.gif" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\mock\mockupprojectfr04\skin\frontend\default\default\images\home_left_callout.jpg" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\mock\mockupprojectfr04\skin\frontend\default\default\images\home_main_callout.jpg" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\mock\mockupprojectfr04\skin\frontend\default\default\images\i_arrow-top.gif" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\mock\mockupprojectfr04\skin\frontend\default\default\images\i_asc_arrow.gif" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\mock\mockupprojectfr04\skin\frontend\default\default\images\i_availability_only.gif" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\mock\mockupprojectfr04\skin\frontend\default\default\images\i_availability_only_arrow.gif" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\mock\mockupprojectfr04\skin\frontend\default\default\images\i_block-cart.gif" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\mock\mockupprojectfr04\skin\frontend\default\default\images\i_block-currency.gif" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\mock\mockupprojectfr04\skin\frontend\default\default\images\i_block-list.gif" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\mock\mockupprojectfr04\skin\frontend\default\default\images\i_block-poll.gif" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\mock\mockupprojectfr04\skin\frontend\default\default\images\i_block-related.gif" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\mock\mockupprojectfr04\skin\frontend\default\default\images\i_block-subscribe.gif" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\mock\mockupprojectfr04\skin\frontend\default\default\images\i_block-tags.gif" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\mock\mockupprojectfr04\skin\frontend\default\default\images\i_block-viewed.gif" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\mock\mockupprojectfr04\skin\frontend\default\default\images\i_block-wishlist.gif" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\mock\mockupprojectfr04\skin\frontend\default\default\images\i_desc_arrow.gif" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\mock\mockupprojectfr04\skin\frontend\default\default\images\i_discount.gif" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\mock\mockupprojectfr04\skin\frontend\default\default\images\i_folder-table.gif" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\mock\mockupprojectfr04\skin\frontend\default\default\images\i_ma-info.gif" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\mock\mockupprojectfr04\skin\frontend\default\default\images\i_ma-reviews.gif" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\mock\mockupprojectfr04\skin\frontend\default\default\images\i_ma-tags.gif" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\mock\mockupprojectfr04\skin\frontend\default\default\images\i_msg-error.gif" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\mock\mockupprojectfr04\skin\frontend\default\default\images\i_msg-note.gif" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\mock\mockupprojectfr04\skin\frontend\default\default\images\i_msg-success.gif" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\mock\mockupprojectfr04\skin\frontend\default\default\images\i_notice.gif" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\mock\mockupprojectfr04\skin\frontend\default\default\images\i_page1.gif" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\mock\mockupprojectfr04\skin\frontend\default\default\images\i_page2.gif" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\mock\mockupprojectfr04\skin\frontend\default\default\images\i_pager-next.gif" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\mock\mockupprojectfr04\skin\frontend\default\default\images\i_pager-prev.gif" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\mock\mockupprojectfr04\skin\frontend\default\default\images\i_print.gif" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\mock\mockupprojectfr04\skin\frontend\default\default\images\i_rss-big.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\mock\mockupprojectfr04\skin\frontend\default\default\images\i_rss.gif" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\mock\mockupprojectfr04\skin\frontend\default\default\images\i_search_criteria.gif" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\mock\mockupprojectfr04\skin\frontend\default\default\images\i_shipping.gif" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\mock\mockupprojectfr04\skin\frontend\default\default\images\i_tag_add.gif" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\mock\mockupprojectfr04\skin\frontend\default\default\images\i_tier.gif" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\mock\mockupprojectfr04\skin\frontend\default\default\images\i_type_grid.gif" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\mock\mockupprojectfr04\skin\frontend\default\default\images\i_type_list.gif" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\mock\mockupprojectfr04\skin\frontend\default\default\images\logo.gif" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\mock\mockupprojectfr04\skin\frontend\default\default\images\logo_email.gif" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\mock\mockupprojectfr04\skin\frontend\default\default\images\logo_print.gif" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\mock\mockupprojectfr04\skin\frontend\default\default\images\magnifier_handle.gif" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\mock\mockupprojectfr04\skin\frontend\default\default\images\map_popup_arrow.gif" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\mock\mockupprojectfr04\skin\frontend\default\default\images\media\404_callout1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\mock\mockupprojectfr04\skin\frontend\default\default\images\media\404_callout2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\mock\mockupprojectfr04\skin\frontend\default\default\images\media\about_us_img.jpg" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\mock\mockupprojectfr04\skin\frontend\default\default\images\media\best_selling_img01.jpg" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\mock\mockupprojectfr04\skin\frontend\default\default\images\media\best_selling_img02.jpg" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\mock\mockupprojectfr04\skin\frontend\default\default\images\media\best_selling_img03.jpg" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\mock\mockupprojectfr04\skin\frontend\default\default\images\media\best_selling_img04.jpg" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\mock\mockupprojectfr04\skin\frontend\default\default\images\media\best_selling_img05.jpg" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\mock\mockupprojectfr04\skin\frontend\default\default\images\media\best_selling_img06.jpg" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\mock\mockupprojectfr04\skin\frontend\default\default\images\media\cell_phone_landing_banner1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\mock\mockupprojectfr04\skin\frontend\default\default\images\media\col_left_callout.jpg" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\mock\mockupprojectfr04\skin\frontend\default\default\images\media\col_right_callout.jpg" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\mock\mockupprojectfr04\skin\frontend\default\default\images\media\electronics_cellphones.jpg" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\mock\mockupprojectfr04\skin\frontend\default\default\images\media\electronics_digitalcameras.jpg" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\mock\mockupprojectfr04\skin\frontend\default\default\images\media\electronics_laptops.jpg" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\mock\mockupprojectfr04\skin\frontend\default\default\images\media\furniture_callout_spot.jpg" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\mock\mockupprojectfr04\skin\frontend\default\default\images\media\furnitures_bed_room.jpg" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\mock\mockupprojectfr04\skin\frontend\default\default\images\media\furnitures_living_room.jpg" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\mock\mockupprojectfr04\skin\frontend\default\default\images\media\head_electronics_cellphones.gif" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\mock\mockupprojectfr04\skin\frontend\default\default\images\media\head_electronics_digicamera.gif" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\mock\mockupprojectfr04\skin\frontend\default\default\images\media\head_electronics_laptops.gif" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\mock\mockupprojectfr04\skin\frontend\default\default\images\media\laptop_callout_mid1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\mock\mockupprojectfr04\skin\frontend\default\default\images\media\laptop_callout_mid2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\mock\mockupprojectfr04\skin\frontend\default\default\images\media\laptop_callout_mid3.jpg" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\mock\mockupprojectfr04\skin\frontend\default\default\images\media\laptop_callout_spot.jpg" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\mock\mockupprojectfr04\skin\frontend\default\default\images\media\shirts_landing_banner1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\mock\mockupprojectfr04\skin\frontend\default\default\images\np_cart_thumb.gif" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\mock\mockupprojectfr04\skin\frontend\default\default\images\np_more_img.gif" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\mock\mockupprojectfr04\skin\frontend\default\default\images\np_product_main.gif" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\mock\mockupprojectfr04\skin\frontend\default\default\images\np_thumb.gif" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\mock\mockupprojectfr04\skin\frontend\default\default\images\np_thumb2.gif" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\mock\mockupprojectfr04\skin\frontend\default\default\images\opc-ajax-loader.gif" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\mock\mockupprojectfr04\skin\frontend\default\default\images\pager_arrow_left.gif" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\mock\mockupprojectfr04\skin\frontend\default\default\images\pager_arrow_right.gif" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\mock\mockupprojectfr04\skin\frontend\default\default\images\ph_callout_left_rebel.jpg" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\mock\mockupprojectfr04\skin\frontend\default\default\images\ph_callout_left_top.gif" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\mock\mockupprojectfr04\skin\frontend\default\default\images\product_zoom_overlay_magnif.gif" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\mock\mockupprojectfr04\skin\frontend\default\default\images\slider_bg.gif" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\mock\mockupprojectfr04\skin\frontend\default\default\images\slider_btn_zoom_in.gif" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\mock\mockupprojectfr04\skin\frontend\default\default\images\slider_btn_zoom_out.gif" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\mock\mockupprojectfr04\skin\frontend\default\default\images\spacer.gif" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\mock\mockupprojectfr04\skin\frontend\default\default\images\validation_advice_bg.gif" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\mock\mockupprojectfr04\skin\frontend\default\default\images\xmlconnect\catalog\category\placeholder\image.jpg" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\mock\mockupprojectfr04\skin\frontend\default\default\images\xmlconnect\catalog\category\placeholder\small_image.jpg" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\mock\mockupprojectfr04\skin\frontend\default\default\images\xmlconnect\catalog\category\placeholder\thumbnail.jpg" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\mock\mockupprojectfr04\skin\frontend\default\default\images\xmlconnect\tab_account.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\mock\mockupprojectfr04\skin\frontend\default\default\images\xmlconnect\tab_cart.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\mock\mockupprojectfr04\skin\frontend\default\default\images\xmlconnect\tab_home.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\mock\mockupprojectfr04\skin\frontend\default\default\images\xmlconnect\tab_more.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\mock\mockupprojectfr04\skin\frontend\default\default\images\xmlconnect\tab_page.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\mock\mockupprojectfr04\skin\frontend\default\default\images\xmlconnect\tab_search.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\mock\mockupprojectfr04\skin\frontend\default\default\images\xmlconnect\tab_shop.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\mock\mockupprojectfr04\skin\frontend\default\default\img\ajax.gif" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\mock\mockupprojectfr04\skin\frontend\default\default\img\ajax2.gif" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\mock\mockupprojectfr04\skin\frontend\default\default\js\filter\filter.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\mock\mockupprojectfr04\skin\frontend\default\default\js\filter\jquery-1.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\mock\mockupprojectfr04\skin\frontend\default\default\js\filter\jquery-ui.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\mock\mockupprojectfr04\skin\frontend\default\default\js\jquery-1.11.1.min.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\mock\mockupprojectfr04\skin\frontend\default\default\js\jquery-1.8.3.min.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\mock\mockupprojectfr04\skin\frontend\default\default\js\jquery.elevateZoom-3.0.8.min.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\mock\mockupprojectfr04\skin\frontend\default\default\js\noConflict-jquery.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\mock\mockupprojectfr04\skin\frontend\default\default\js\noConflict.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\mock\mockupprojectfr04\skin\frontend\default\default\js\zoom.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\mock\mockupprojectfr04\skin\frontend\default\default\swiper\css\idangerous.swiper.css" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\mock\mockupprojectfr04\skin\frontend\default\default\swiper\css\idangerous.swiper.scrollbar.css" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\mock\mockupprojectfr04\skin\frontend\default\default\swiper\img\arrows.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\mock\mockupprojectfr04\skin\frontend\default\default\swiper\img\bb.jpg" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\mock\mockupprojectfr04\skin\frontend\default\default\swiper\img\slider1-1.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\mock\mockupprojectfr04\skin\frontend\default\default\swiper\img\slider1-2.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\mock\mockupprojectfr04\skin\frontend\default\default\swiper\js\idangerous.swiper-2.1.min.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\mock\mockupprojectfr04\skin\frontend\default\default\swiper\js\idangerous.swiper.scrollbar-2.1.js" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/code/local/Teamto/Link/Helper/Data.php" afterPath="$PROJECT_DIR$/app/code/local/Teamto/Link/Helper/Data.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/code/local/Teamto/Configcustom/Model/Select/Template.php" afterPath="$PROJECT_DIR$/app/code/local/Teamto/Configcustom/Model/Select/Template.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/design/adminhtml/default/default/template/teamto/layout/catgory_edit.phtml" afterPath="$PROJECT_DIR$/app/design/adminhtml/default/default/template/teamto/layout/catgory_edit.phtml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/code/local/Teamto/Featured/etc/config.xml" afterPath="$PROJECT_DIR$/app/code/local/Teamto/Featured/etc/config.xml" />
+      <change type="DELETED" beforePath="D:\xampp\htdocs\mock\mockupprojectfr04\app\code\local\Teamto\Filterajax\Block\Productlist.php" afterPath="" />
+      <change type="DELETED" beforePath="D:\xampp\htdocs\mock\mockupprojectfr04\app\code\local\Teamto\Filterajax\Helper\Data.php" afterPath="" />
+      <change type="DELETED" beforePath="D:\xampp\htdocs\mock\mockupprojectfr04\app\code\local\Teamto\Filterajax\controllers\IndexController.php" afterPath="" />
+      <change type="DELETED" beforePath="D:\xampp\htdocs\mock\mockupprojectfr04\app\code\local\Teamto\Filterajax\etc\config.xml" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/locks/index_process_1.lock" afterPath="$PROJECT_DIR$/var/locks/index_process_1.lock" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/locks/index_process_2.lock" afterPath="$PROJECT_DIR$/var/locks/index_process_2.lock" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/locks/index_process_3.lock" afterPath="$PROJECT_DIR$/var/locks/index_process_3.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/locks/index_process_4.lock" afterPath="$PROJECT_DIR$/var/locks/index_process_4.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/locks/index_process_5.lock" afterPath="$PROJECT_DIR$/var/locks/index_process_5.lock" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/locks/index_process_6.lock" afterPath="$PROJECT_DIR$/var/locks/index_process_6.lock" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/locks/index_process_7.lock" afterPath="$PROJECT_DIR$/var/locks/index_process_7.lock" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/locks/index_process_8.lock" afterPath="$PROJECT_DIR$/var/locks/index_process_8.lock" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/locks/index_process_9.lock" afterPath="$PROJECT_DIR$/var/locks/index_process_9.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/etc/local.xml" afterPath="$PROJECT_DIR$/app/etc/local.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/code/local/Teamto/Featured/etc/widget.xml" afterPath="$PROJECT_DIR$/app/code/local/Teamto/Featured/etc/widget.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MOVED" beforePath="D:\xampp\htdocs\mock\mockupprojectfr04\app\code\local\Teamto\Featured\controllers\FeaturedController.php" afterPath="$PROJECT_DIR$/app/code/local/Teamto/Featured/controllers/Adminhtml/FeaturedController.php" />
     </list>
     <ignored path="mockupprojectfr04.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -252,7 +47,7 @@
       <file leaf-file-name="Slideshow.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/code/local/Teamto/Featured/Block/Featured/Widget/Slideshow.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="748">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="748">
               <folding />
             </state>
           </provider>
@@ -261,7 +56,7 @@
       <file leaf-file-name="widget.xml" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/code/local/Teamto/Featured/etc/widget.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="9" selection-start="9" selection-end="9" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="539">
+            <state line="5" column="10" selection-start="255" selection-end="255" vertical-scroll-proportion="0.15769945" vertical-offset="0" max-vertical-offset="539">
               <folding />
             </state>
           </provider>
@@ -270,7 +65,7 @@
       <file leaf-file-name="FeaturedController.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/code/local/Teamto/Featured/controllers/Adminhtml/FeaturedController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="50" selection-start="82" selection-end="82" vertical-scroll-proportion="-3.2692308" vertical-offset="0" max-vertical-offset="1666">
+            <state line="5" column="50" selection-start="82" selection-end="82" vertical-scroll-proportion="0.0" vertical-offset="85" max-vertical-offset="1666">
               <folding />
             </state>
           </provider>
@@ -279,7 +74,7 @@
       <file leaf-file-name="Data.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/code/local/Teamto/Featured/Helper/Data.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="187">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="272">
               <folding />
             </state>
           </provider>
@@ -288,7 +83,7 @@
       <file leaf-file-name="Teamto_Featured.xml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/etc/modules/Teamto_Featured.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="24" selection-start="95" selection-end="95" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="238">
+            <state line="4" column="24" selection-start="95" selection-end="95" vertical-scroll-proportion="0.0" vertical-offset="68" max-vertical-offset="238">
               <folding />
             </state>
           </provider>
@@ -297,7 +92,7 @@
       <file leaf-file-name="filter.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/skin/frontend/teamto/default/js/filter/filter.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="63" selection-start="329" selection-end="329" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="425">
+            <state line="7" column="63" selection-start="329" selection-end="329" vertical-scroll-proportion="0.0" vertical-offset="119" max-vertical-offset="425">
               <folding />
             </state>
           </provider>
@@ -306,7 +101,7 @@
       <file leaf-file-name="Data.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/code/local/Teamto/Link/Helper/Data.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="58" selection-start="339" selection-end="339" vertical-scroll-proportion="-8.5" vertical-offset="0" max-vertical-offset="357">
+            <state line="13" column="58" selection-start="339" selection-end="339" vertical-scroll-proportion="0.0" vertical-offset="221" max-vertical-offset="357">
               <folding />
             </state>
           </provider>
@@ -315,7 +110,7 @@
       <file leaf-file-name="head.phtml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/design/adminhtml/default/default/template/teamto/layout/head.phtml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="170">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="170">
               <folding />
             </state>
           </provider>
@@ -324,7 +119,7 @@
       <file leaf-file-name="catgory_edit.phtml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/design/adminhtml/default/default/template/teamto/layout/catgory_edit.phtml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="103" selection-start="0" selection-end="751" vertical-scroll-proportion="-6.5384617" vertical-offset="0" max-vertical-offset="391">
+            <state line="10" column="103" selection-start="0" selection-end="751" vertical-scroll-proportion="0.0" vertical-offset="170" max-vertical-offset="391">
               <folding />
             </state>
           </provider>
@@ -982,12 +777,12 @@
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder0" value="0" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../../magento" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth2" value="151" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth3" value="825" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth3" value="825" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth3" value="825" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth2" value="151" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth1" value="150" />
-    <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder2" value="2" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder3" value="3" />
     <property name="FullScreen" value="false" />
   </component>
@@ -1047,10 +842,9 @@
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32935154" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.28863636" sideWeight="0.7303754" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2931818" sideWeight="0.7303754" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -1059,6 +853,7 @@
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32935154" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -1079,9 +874,9 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.275" sideWeight="0.67064846" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
     </layout-to-restore>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -1100,44 +895,32 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/app/code/local/Teamto/Featured/Block/Featured/List.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="43" column="27" selection-start="1110" selection-end="1110" vertical-scroll-proportion="-0.12921348" vertical-offset="800" max-vertical-offset="1360">
-          <folding />
-        </state>
+        <state line="43" column="27" selection-start="1110" selection-end="1110" vertical-scroll-proportion="-0.12921348" vertical-offset="800" max-vertical-offset="1360" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/code/local/Teamto/Featured/etc/adminhtml.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="561">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="561" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/etc/local.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="45" column="41" selection-start="1661" selection-end="1665" vertical-scroll-proportion="0.6375" vertical-offset="408" max-vertical-offset="1224">
-          <folding />
-        </state>
+        <state line="45" column="41" selection-start="1661" selection-end="1665" vertical-scroll-proportion="0.6375" vertical-offset="408" max-vertical-offset="1224" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/code/local/Teamto/Configcustom/etc/system.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1309">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1309" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/code/local/Teamto/Configcustom/Model/Select/Template.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="62" selection-start="276" selection-end="276" vertical-scroll-proportion="-7.1923075" vertical-offset="0" max-vertical-offset="357">
-          <folding />
-        </state>
+        <state line="11" column="62" selection-start="276" selection-end="276" vertical-scroll-proportion="-7.1923075" vertical-offset="0" max-vertical-offset="357" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/design/frontend/teamto/default/template/teamto/filter/filter.phtml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="57" column="71" selection-start="2707" selection-end="2707" vertical-scroll-proportion="-7.1923075" vertical-offset="714" max-vertical-offset="1411">
-          <folding />
-        </state>
+        <state line="57" column="71" selection-start="2707" selection-end="2707" vertical-scroll-proportion="-7.1923075" vertical-offset="714" max-vertical-offset="1411" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/skin/frontend/teamto/default/js/filter/filter.js">
@@ -1156,7 +939,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/code/local/Teamto/Featured/controllers/Adminhtml/FeaturedController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="50" selection-start="82" selection-end="82" vertical-scroll-proportion="-3.2692308" vertical-offset="0" max-vertical-offset="1666">
+        <state line="5" column="50" selection-start="82" selection-end="82" vertical-scroll-proportion="0.0" vertical-offset="85" max-vertical-offset="1666">
           <folding />
         </state>
       </provider>
@@ -1170,7 +953,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/code/local/Teamto/Link/Helper/Data.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="58" selection-start="339" selection-end="339" vertical-scroll-proportion="-8.5" vertical-offset="0" max-vertical-offset="357">
+        <state line="13" column="58" selection-start="339" selection-end="339" vertical-scroll-proportion="0.0" vertical-offset="221" max-vertical-offset="357">
           <folding />
         </state>
       </provider>
@@ -1184,7 +967,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/design/adminhtml/default/default/template/teamto/layout/catgory_edit.phtml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="103" selection-start="0" selection-end="751" vertical-scroll-proportion="-6.5384617" vertical-offset="0" max-vertical-offset="391">
+        <state line="10" column="103" selection-start="0" selection-end="751" vertical-scroll-proportion="0.0" vertical-offset="170" max-vertical-offset="391">
           <folding />
         </state>
       </provider>
@@ -1205,7 +988,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/code/local/Teamto/Featured/etc/widget.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="9" selection-start="9" selection-end="9" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="539">
+        <state line="5" column="10" selection-start="255" selection-end="255" vertical-scroll-proportion="0.15769945" vertical-offset="0" max-vertical-offset="539">
           <folding />
         </state>
       </provider>
