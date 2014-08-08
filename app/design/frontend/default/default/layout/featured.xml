@@ -7,15 +7,6 @@
         </reference>
     </default>
 
-   <!-- <cms_page_view>
-        <reference name="head">
-            <block name="head.add.layout" type="core/template"
-                   template="teamto/layout/head.phtml"/>
-            <block name="head.add.feature.home" type="core/template"
-                   template="teamto/layout/head_feature_slide.phtml"/>
-        </reference>
-    </cms_page_view>-->
-
     <featured_index_index>
         <reference name="root">
             <action method="setTemplate"><template>page/2columns-left.phtml</template></action>
