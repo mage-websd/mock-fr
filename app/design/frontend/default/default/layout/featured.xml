@@ -13,7 +13,7 @@
         </reference>
 
         <reference name="content">
-            <block type="teamto_featured/featureproduct" name="featured_product" template="teamto/featured/product/list.phtml">
+            <block type="teamto_featured/featuredproduct" name="featured_product" template="teamto/featured/product/list.phtml">
                     <action method="setColumnCount"><columns>4</columns></action>
             </block>
         </reference>

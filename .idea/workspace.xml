@@ -1,9 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
+<<<<<<< HEAD
+    <list default="true" id="da3590e2-9fdc-41d2-98a6-fe71310d364c" name="Default" comment="">
+      <change type="DELETED" beforePath="E:\xampp\htdocs\mockup_tuanpv\app\code\local\Teamto\Featured\Block\FeatureProduct.php" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/code/local/Teamto/Featured/Block/Featured/Widget/Slideshow.php" afterPath="$PROJECT_DIR$/app/code/local/Teamto/Featured/Block/Featured/Widget/Slideshow.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/design/frontend/default/default/layout/featured.xml" afterPath="$PROJECT_DIR$/app/design/frontend/default/default/layout/featured.xml" />
+=======
     <list default="true" id="b9dd2670-fac9-4b06-8165-4337f5b64688" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/design/frontend/default/default/template/teamto/featured/widget/slideshow.phtml" afterPath="$PROJECT_DIR$/app/design/frontend/default/default/template/teamto/featured/widget/slideshow.phtml" />
+<<<<<<< HEAD
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/etc/local.xml" afterPath="$PROJECT_DIR$/app/etc/local.xml" />
+=======
+>>>>>>> 2fa879f51d512ac1ce85926ffd4cc452adb34c3d
+>>>>>>> c53097c1adcbc82cfcedd0e4a17f6717f3cc8b5e
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/code/local/Teamto/Featured/Block/Featured/Widget/Slideshow.php" afterPath="$PROJECT_DIR$/app/code/local/Teamto/Featured/Block/Featured/Widget/Slideshow.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/code/local/Teamto/Featured/controllers/IndexController.php" afterPath="$PROJECT_DIR$/app/code/local/Teamto/Featured/controllers/IndexController.php" />
@@ -28,6 +38,7 @@
     <favorites_list name="mock_t2_finall" />
   </component>
   <component name="FileEditorManager">
+<<<<<<< HEAD
     <leaf>
       <file leaf-file-name="result_filter.phtml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/design/frontend/default/default/template/teamto/filterajax/result_filter.phtml">
@@ -64,30 +75,58 @@
         <entry file="file://$PROJECT_DIR$/app/etc/modules/Teamto_Filterajax.xml">
           <provider selected="true" editor-type-id="text-editor">
             <state line="4" column="25" selection-start="98" selection-end="98" vertical-scroll-proportion="0.113144755" vertical-offset="0" max-vertical-offset="601">
+=======
+<<<<<<< HEAD
+    <leaf>
+      <file leaf-file-name="Slideshow.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/code/local/Teamto/Featured/Block/Featured/Widget/Slideshow.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="33" column="41" selection-start="1240" selection-end="1240" vertical-scroll-proportion="-17.653847" vertical-offset="102" max-vertical-offset="731">
+>>>>>>> c53097c1adcbc82cfcedd0e4a17f6717f3cc8b5e
               <folding />
             </state>
           </provider>
         </entry>
       </file>
+<<<<<<< HEAD
       <file leaf-file-name="CategoryController.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/code/core/Mage/Catalog/controllers/CategoryController.php">
           <provider selected="true" editor-type-id="text-editor">
             <state line="149" column="38" selection-start="5353" selection-end="5374" vertical-scroll-proportion="0.0" vertical-offset="2533" max-vertical-offset="2941">
+=======
+      <file leaf-file-name="config.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/code/local/Teamto/Featured/etc/config.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="20" column="29" selection-start="573" selection-end="573" vertical-scroll-proportion="0.0" vertical-offset="102" max-vertical-offset="1666">
+>>>>>>> c53097c1adcbc82cfcedd0e4a17f6717f3cc8b5e
               <folding />
             </state>
           </provider>
         </entry>
       </file>
+<<<<<<< HEAD
       <file leaf-file-name="teamto_filterajax.xml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/design/frontend/default/default/layout/teamto_filterajax.xml">
           <provider selected="true" editor-type-id="text-editor">
             <state line="11" column="43" selection-start="413" selection-end="413" vertical-scroll-proportion="0.0" vertical-offset="187" max-vertical-offset="374">
+=======
+      <file leaf-file-name="featured.xml" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/design/frontend/default/default/layout/featured.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="10" column="31" selection-start="305" selection-end="305" vertical-scroll-proportion="0.2915952" vertical-offset="0" max-vertical-offset="629">
+>>>>>>> c53097c1adcbc82cfcedd0e4a17f6717f3cc8b5e
               <folding />
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
+<<<<<<< HEAD
+=======
+=======
+    <leaf />
+>>>>>>> 2fa879f51d512ac1ce85926ffd4cc452adb34c3d
+>>>>>>> c53097c1adcbc82cfcedd0e4a17f6717f3cc8b5e
   </component>
   <component name="FindManager">
     <FindUsagesManager>
@@ -100,6 +139,12 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
+<<<<<<< HEAD
+        <option value="$PROJECT_DIR$/app/code/local/Teamto/Featured/Block/FeatureProduct.php" />
+        <option value="$PROJECT_DIR$/app/code/local/Teamto/Featured/etc/config.xml" />
+        <option value="$PROJECT_DIR$/app/code/local/Teamto/Featured/Block/Featured/Widget/Slideshow.php" />
+        <option value="$PROJECT_DIR$/app/design/frontend/default/default/layout/featured.xml" />
+=======
         <option value="$PROJECT_DIR$/app/design/adminhtml/default/default/layout/teamto_slideshowconfig.xml" />
         <option value="$PROJECT_DIR$/app/code/local/Teamto/Featured/controllers/ConfigslideController.php" />
         <option value="$PROJECT_DIR$/app/code/local/Teamto/Featured/controllers/Adminhtml/ConfigslideController.php" />
@@ -126,6 +171,7 @@
         <option value="$PROJECT_DIR$/app/design/frontend/default/default/template/teamto/featured/widget/slideshow.phtml" />
         <option value="$PROJECT_DIR$/app/code/local/Teamto/Featured/controllers/IndexController.php" />
         <option value="$PROJECT_DIR$/app/code/local/Teamto/Featured/Block/Featured/Widget/Slideshow.php" />
+<<<<<<< HEAD
         <option value="$PROJECT_DIR$/app/design/adminhtml/default/default/template/teamto/layout/catgory_edit.phtml" />
         <option value="$PROJECT_DIR$/app/design/frontend/default/default/layout/filter.xml" />
         <option value="$PROJECT_DIR$/app/design/frontend/default/default/template/teamto/filter/filter.phtml" />
@@ -137,6 +183,9 @@
         <option value="$PROJECT_DIR$/app/design/frontend/default/default/layout/featured.xml" />
         <option value="$PROJECT_DIR$/app/code/local/Teamto/Filterajax/controllers/IndexController.php" />
         <option value="$PROJECT_DIR$/app/etc/modules/Teamto_Filterajax.xml" />
+=======
+>>>>>>> 2fa879f51d512ac1ce85926ffd4cc452adb34c3d
+>>>>>>> c53097c1adcbc82cfcedd0e4a17f6717f3cc8b5e
       </list>
     </option>
   </component>
@@ -501,12 +550,43 @@
               <option name="myItemId" value="template" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+<<<<<<< HEAD
             <PATH_ELEMENT>
               <option name="myItemId" value="teamto" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="filterajax" />
+=======
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mockup_tuanpv" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mockup_tuanpv" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="design" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="frontend" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="default" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="default" />
+>>>>>>> c53097c1adcbc82cfcedd0e4a17f6717f3cc8b5e
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -884,7 +964,15 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+<<<<<<< HEAD
               <option name="myItemId" value="Filterajax" />
+=======
+              <option name="myItemId" value="Featured" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="etc" />
+>>>>>>> c53097c1adcbc82cfcedd0e4a17f6717f3cc8b5e
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -989,6 +1077,83 @@
               <option name="myItemId" value="Block" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+<<<<<<< HEAD
+=======
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Featured" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+<<<<<<< HEAD
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mockup_tuanpv" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mockup_tuanpv" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="code" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="local" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Teamto" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Featured" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Block" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Featured" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+=======
+>>>>>>> 2fa879f51d512ac1ce85926ffd4cc452adb34c3d
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Widget" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+<<<<<<< HEAD
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mockup_tuanpv" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mockup_tuanpv" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="code" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="local" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+=======
+>>>>>>> 2fa879f51d512ac1ce85926ffd4cc452adb34c3d
+>>>>>>> c53097c1adcbc82cfcedd0e4a17f6717f3cc8b5e
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -1037,6 +1202,7 @@
               <option name="myItemId" value="code" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+<<<<<<< HEAD
             <PATH_ELEMENT>
               <option name="myItemId" value="local" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
@@ -1288,12 +1454,24 @@
           </PATH>
         </subPane>
       </pane>
+=======
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+>>>>>>> c53097c1adcbc82cfcedd0e4a17f6717f3cc8b5e
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="FullScreen" value="false" />
+<<<<<<< HEAD
     <property name="options.lastSelected" value="preferences.keymap" />
+=======
+<<<<<<< HEAD
+=======
+    <property name="options.lastSelected" value="preferences.pluginManager" />
+>>>>>>> c53097c1adcbc82cfcedd0e4a17f6717f3cc8b5e
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
@@ -1302,6 +1480,7 @@
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/app/code/local/Teamto/Featured/controllers/Adminhtml" />
     </key>
+>>>>>>> 2fa879f51d512ac1ce85926ffd4cc452adb34c3d
   </component>
   <component name="RunManager">
     <configuration default="true" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
@@ -1329,15 +1508,38 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
+<<<<<<< HEAD
     <frame x="43" y="24" width="1323" height="744" extended-state="6" />
     <editor active="true" />
+=======
+<<<<<<< HEAD
+    <frame x="-8" y="-8" width="1296" height="776" extended-state="6" />
+    <editor active="true" />
+=======
+    <frame x="43" y="-4" width="1323" height="772" extended-state="6" />
+    <editor active="false" />
+>>>>>>> 2fa879f51d512ac1ce85926ffd4cc452adb34c3d
+>>>>>>> c53097c1adcbc82cfcedd0e4a17f6717f3cc8b5e
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+<<<<<<< HEAD
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.28798187" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+=======
+<<<<<<< HEAD
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.33792543" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+=======
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32988167" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.28798187" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+>>>>>>> 2fa879f51d512ac1ce85926ffd4cc452adb34c3d
+>>>>>>> c53097c1adcbc82cfcedd0e4a17f6717f3cc8b5e
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -1346,7 +1548,11 @@
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+<<<<<<< HEAD
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32988167" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+=======
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+>>>>>>> c53097c1adcbc82cfcedd0e4a17f6717f3cc8b5e
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -1371,16 +1577,32 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/app/code/local/Teamto/Filterajax/controllers/IndexController.php">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state line="32" column="25" selection-start="1354" selection-end="1354" vertical-scroll-proportion="0.0" vertical-offset="339" max-vertical-offset="1258">
+=======
+<<<<<<< HEAD
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="596" />
+=======
+        <state line="2" column="0" selection-start="31" selection-end="31" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="136">
+>>>>>>> c53097c1adcbc82cfcedd0e4a17f6717f3cc8b5e
           <folding />
         </state>
+>>>>>>> 2fa879f51d512ac1ce85926ffd4cc452adb34c3d
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/design/frontend/default/default/layout/teamto_filterajax.xml">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state line="11" column="43" selection-start="413" selection-end="413" vertical-scroll-proportion="0.0" vertical-offset="187" max-vertical-offset="374">
+=======
+<<<<<<< HEAD
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="596" />
+=======
+        <state line="14" column="0" selection-start="370" selection-end="370" vertical-scroll-proportion="0.0" vertical-offset="238" max-vertical-offset="1377">
+>>>>>>> c53097c1adcbc82cfcedd0e4a17f6717f3cc8b5e
           <folding />
         </state>
+>>>>>>> 2fa879f51d512ac1ce85926ffd4cc452adb34c3d
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/code/core/Mage/Catalog/Block/Product/List.php">
@@ -1390,27 +1612,64 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/var/.htaccess">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state line="2" column="0" selection-start="31" selection-end="31" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="136" />
+=======
+<<<<<<< HEAD
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1156" />
+=======
+        <state line="2" column="0" selection-start="31" selection-end="31" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="120">
+          <folding />
+        </state>
+>>>>>>> c53097c1adcbc82cfcedd0e4a17f6717f3cc8b5e
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/code/local/Teamto/Mirrored/etc/config.xml">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state line="14" column="0" selection-start="370" selection-end="370" vertical-scroll-proportion="0.0" vertical-offset="238" max-vertical-offset="1377" />
+=======
+        <state line="22" column="41" selection-start="668" selection-end="668" vertical-scroll-proportion="0.0" vertical-offset="330" max-vertical-offset="1215">
+          <folding />
+        </state>
+>>>>>>> 2fa879f51d512ac1ce85926ffd4cc452adb34c3d
+>>>>>>> c53097c1adcbc82cfcedd0e4a17f6717f3cc8b5e
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/var/.htaccess">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state line="2" column="0" selection-start="31" selection-end="31" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="120" />
+=======
+<<<<<<< HEAD
+        <state line="69" column="11" selection-start="1325" selection-end="1325" vertical-scroll-proportion="0.5099099" vertical-offset="890" max-vertical-offset="3332" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/code/local/Teamto/Featured/Block/Featured/Widget/Slideshow.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="33" column="41" selection-start="1240" selection-end="1240" vertical-scroll-proportion="-17.653847" vertical-offset="102" max-vertical-offset="731">
+=======
+        <state line="2" column="0" selection-start="31" selection-end="31" vertical-scroll-proportion="0.052388288" vertical-offset="0" max-vertical-offset="649">
+          <folding />
+        </state>
+>>>>>>> c53097c1adcbc82cfcedd0e4a17f6717f3cc8b5e
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/code/local/Teamto/Mirrored/etc/config.xml">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state line="22" column="41" selection-start="668" selection-end="668" vertical-scroll-proportion="0.0" vertical-offset="330" max-vertical-offset="1215" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/var/.htaccess">
       <provider selected="true" editor-type-id="text-editor">
         <state line="2" column="0" selection-start="31" selection-end="31" vertical-scroll-proportion="0.052388288" vertical-offset="0" max-vertical-offset="649" />
+=======
+        <state line="210" column="40" selection-start="7737" selection-end="7737" vertical-scroll-proportion="2.090164" vertical-offset="2295" max-vertical-offset="4964">
+>>>>>>> 2fa879f51d512ac1ce85926ffd4cc452adb34c3d
+          <folding />
+        </state>
+>>>>>>> c53097c1adcbc82cfcedd0e4a17f6717f3cc8b5e
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/design/adminhtml/default/default/layout/smartosc.xml">
@@ -1604,13 +1863,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/design/frontend/default/default/layout/featured.xml">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state line="7" column="14" selection-start="248" selection-end="248" vertical-scroll-proportion="0.20238096" vertical-offset="0" max-vertical-offset="588">
+=======
+<<<<<<< HEAD
+        <state line="20" column="29" selection-start="573" selection-end="573" vertical-scroll-proportion="0.0" vertical-offset="102" max-vertical-offset="1666">
+=======
+        <state line="25" column="1" selection-start="549" selection-end="549" vertical-scroll-proportion="0.35473517" vertical-offset="0" max-vertical-offset="623">
+>>>>>>> 2fa879f51d512ac1ce85926ffd4cc452adb34c3d
+>>>>>>> c53097c1adcbc82cfcedd0e4a17f6717f3cc8b5e
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/code/local/Teamto/Featured/Block/FeatureProduct.php">
+    <entry file="file://$PROJECT_DIR$/app/design/frontend/default/default/layout/featured.xml">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state line="21" column="89" selection-start="229" selection-end="991" vertical-scroll-proportion="0.3495652" vertical-offset="156" max-vertical-offset="731" />
       </provider>
     </entry>
@@ -1622,6 +1890,13 @@
             <marker date="1407471903656" expanded="true" signature="7010:7145" placeholder="..." />
             <marker date="1407471903656" expanded="true" signature="7965:8098" placeholder="..." />
           </folding>
+=======
+<<<<<<< HEAD
+        <state line="10" column="31" selection-start="305" selection-end="305" vertical-scroll-proportion="0.2915952" vertical-offset="0" max-vertical-offset="629">
+=======
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="731">
+          <folding />
+>>>>>>> c53097c1adcbc82cfcedd0e4a17f6717f3cc8b5e
         </state>
       </provider>
     </entry>
@@ -1653,7 +1928,12 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/etc/modules/Teamto_Filterajax.xml">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state line="4" column="25" selection-start="98" selection-end="98" vertical-scroll-proportion="0.113144755" vertical-offset="0" max-vertical-offset="601">
+=======
+        <state line="8" column="22" selection-start="338" selection-end="338" vertical-scroll-proportion="0.22295082" vertical-offset="0" max-vertical-offset="3434">
+>>>>>>> 2fa879f51d512ac1ce85926ffd4cc452adb34c3d
+>>>>>>> c53097c1adcbc82cfcedd0e4a17f6717f3cc8b5e
           <folding />
         </state>
       </provider>

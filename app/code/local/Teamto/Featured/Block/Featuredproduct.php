@@ -1,6 +1,6 @@
 <?php
 
-class Teamto_Featured_Block_FeatureProduct extends Mage_Catalog_Block_Product_List
+class Teamto_Featured_Block_Featuredproduct extends Mage_Catalog_Block_Product_List
 {
 
 

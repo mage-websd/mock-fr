@@ -106,8 +106,7 @@
                                 jQuery("#amount").val("$" + ui.values[ 0 ] + " - $" + ui.values[ 1 ]);
                                 var min = ui.values[0];
                                 var max = ui.values[1];
-//                                alert(min);
-//                                alert(max);
+                                jQuery("#slider-range").slider({ disabled: true });
                                 var currentPrice = "<?php echo $_GET['price']; ?>";
                                 var aryCurrentPrice = {
                                     min: "<?php echo $aryPrice[0]; ?>",
