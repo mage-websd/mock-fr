@@ -6,16 +6,16 @@ class Teamto_Featured_Block_Featured_List extends Mage_Adminhtml_Block_Widget_Co
 
     protected function _prepareLayout()
     {
-        $this->_addButton('add_new', array(
+        $this->_addButton('save', array(
             'label'   => Mage::helper('catalog')->__('Save Featured Products'),
-            'onclick' => "setLocation('{$this->getUrl('*/*/new')}')",
-            'class'   => 'add'
+            'onclick' => "FeaturedProduct.save('{$this->getUrl('*/*/save')}')",
+            'class'   => 'save',
+//            'type' => 'submit'
         ));
 
-        $this->setChild('grid', $this->getLayout()->createBlock('adminhtml/catalog_product_grid', 'product.grid'));
+        $this->setChild('grid', $this->getLayout()->createBlock('teamto_featured/featured_grid', 'admin.teamto.grid"'));
         return parent::_prepareLayout();
     }
-
 
     /**
      * Set template
@@ -23,7 +23,7 @@ class Teamto_Featured_Block_Featured_List extends Mage_Adminhtml_Block_Widget_Co
     public function __construct()
     {
         parent::__construct();
-        $this->setTemplate('catalog/product.phtml');
+        $this->setTemplate('teamto/list.phtml');
     }
 
     /**
@@ -57,6 +57,19 @@ class Teamto_Featured_Block_Featured_List extends Mage_Adminhtml_Block_Widget_Co
             return false;
         }
         return true;
+    }
+
+    public function getFeaturedProductId(){
+        $collection = Mage::getModel('catalog/product')->getCollection()
+            ->addAttributeToSelect('entity_id')
+            ->addFieldToFilter('featured', 1)
+        ;
+
+        foreach($collection as $value){
+            $aryProduct[] = $value->getData('entity_id');
+        }
+
+        return $aryProduct;
     }
 
 }
