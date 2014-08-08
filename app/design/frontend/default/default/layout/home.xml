@@ -16,7 +16,7 @@
                    template="block/subscribe.phtml" />
         </reference>
         <reference name="left">
-            <!--<remove name="left.newsletter" />-->
+            <remove name="left.newsletter" />
         </reference>
 
     </default>
@@ -38,9 +38,6 @@
                 <action method="setIsHandle">
                 <applied>1</applied>
             </action>
-                <action method="setText">
-                    <text>fuck content222</text>
-                </action>
             </block>
         </reference>
     </cms_index_index>

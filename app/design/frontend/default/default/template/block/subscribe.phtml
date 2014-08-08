@@ -21,7 +21,15 @@
 <!-- subcribe -->
 
 
-<script type="text/javascript">        
+<script type="text/javascript">      
+    jQuery(document).ready(function(){
+         jQuery('#newsletter').keypress(function(e){
+            if(e.keyCode == 13){
+                jQuery('#subcribe').click();
+                return false;
+            }
+        })
+    });
     //ajax send mail Thank you for subscribing to our newsletter! 
     jQuery("#subcribe").click(function()
     {    
