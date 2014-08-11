@@ -2,6 +2,9 @@
 
 class Teamto_Filter_Block_Layer_View extends Mage_Catalog_Block_Layer_View {
 
+    /*
+     *  get price range
+     */
     public function getPriceRange() {
         $currentCategory = Mage::getModel('catalog/layer')->getCurrentCategory()->getData('url_path');
         $maxPrice = Mage::getModel('catalog/layer_filter_price')->getMaxPriceInt();
@@ -20,6 +23,9 @@ class Teamto_Filter_Block_Layer_View extends Mage_Catalog_Block_Layer_View {
         return $arySesPriceData['max_price'];
     }
 
+    /*
+     *  get attributes to filter
+     */
     public function getFilters(){
         $filters = array();
         if ($categoryFilter = $this->_getCategoryFilter()) {
