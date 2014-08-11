@@ -1,4 +1,5 @@
 <?xml version="1.0"?>
+<!--add tab/section/group config for widget slideshow-->
 <config>
     <tabs>
         <widgetoption translate="label" module="configcustom">

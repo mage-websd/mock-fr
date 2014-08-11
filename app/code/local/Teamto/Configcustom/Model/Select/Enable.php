@@ -3,7 +3,7 @@
 /**
  * Class Teamto_Configcustom_Model_Select_Enable
  *
- * option select enable or disable slideshow
+ * option select enable or disable slideshow widget
  */
 class Teamto_Configcustom_Model_Select_Enable
 {

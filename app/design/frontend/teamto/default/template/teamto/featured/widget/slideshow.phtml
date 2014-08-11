@@ -3,7 +3,7 @@ $_productCollection = $this->getLoadedProductCollection();
 if(count($_productCollection)) { //if exists product feature
     $_helper = $this->helper('catalog/output');
 
-    $timelife = Mage::getStoreConfig('slideshow_option/messages/slide_lifetime');
+    $timelife = Mage::getStoreConfig('slideshow_option/messages/slide_lifetime');//time next slide
     if(!$timelife || $timelife < 1)
         $timelife = 5;
     $timelife *= 1000;
@@ -157,6 +157,10 @@ if(count($_productCollection)) { //if exists product feature
 <script type="text/javascript">
     jQuery(document).ready(function () {
         var $ = jQuery;
+
+        /**
+         * next slide
+         */
         function nextSlile() {
             slideActive = $('.pagination').find('.swiper-active-switch');
             if (slideActive.is(':last-child')) {
@@ -167,6 +171,9 @@ if(count($_productCollection)) { //if exists product feature
             }
         }
 
+        /**
+         * preview slide
+         */
         function preSlile() {
             slideActive = $('.pagination').find('.swiper-active-switch');
             if (slideActive.is(':first-child')) {
@@ -176,6 +183,7 @@ if(count($_productCollection)) { //if exists product feature
                 slideActive.prev().click();
             }
         }
+
         $('#slider-next-pre span').click(function(){
             var classValue = $(this).attr('class');
             if(classValue == 'next') {
@@ -185,6 +193,7 @@ if(count($_productCollection)) { //if exists product feature
                 preSlile();
             }
         });
+
         setInterval(
             function(){nextSlile()},
             <?php echo $timelife;?>

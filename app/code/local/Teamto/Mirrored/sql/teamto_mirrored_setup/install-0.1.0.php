@@ -1,15 +1,9 @@
 <?php
-/**
- * Created by PhpStorm.
- * User: root
- * Date: 7/31/14
- * Time: 2:23 PM
- */ 
 /* @var $installer Mage_Core_Model_Resource_Setup */
 $installer = $this;
 $installer->startSetup();
 
-// add attribute mirrored to category parrent
+// add attribute 'mirrored_to'
 $installer->addAttribute('catalog_category', 'mirrored_to',  array(
     'type'     => 'int',
     'label'    => 'Mirrored to',
@@ -24,7 +18,6 @@ $installer->addAttribute('catalog_category', 'mirrored_to',  array(
 
 
 // add attribute mirrored_copy_from_cate: data of sub category mirrored children
-// value is id of category copy
 $installer->addAttribute('catalog_category', 'mirrored_copy_from_cate',  array(
     'type'     => 'int',
     'label'    => 'Mirrored Copy From Category',
@@ -34,7 +27,7 @@ $installer->addAttribute('catalog_category', 'mirrored_copy_from_cate',  array(
     'user_defined'      => false,
 ));
 
-//this will set data of your custom attribute for root category
+//this will set data of attribute for root category
 Mage::getModel('catalog/category')
     ->load(1)
     ->setImportedCatId(0)

@@ -7,18 +7,21 @@
 class Teamto_Megamenu_Block_Megamenu extends Mage_Core_Block_Template
 {
     private $_cate_current_id = 0; //category current id
-    /**
-     * get current category id
-     */
+
     public function __construct()
     {
-        $cate_current = Mage::registry('current_category');
+        $cate_current = Mage::registry('current_category'); //current category
         if($cate_current){
-            $this->_cate_current_id = $this->_getIdCurrentCateLevel2($cate_current);//$cate_current->getData('entity_id');
+            $this->_cate_current_id = $this->_getIdCurrentCateLevel2($cate_current); //get category level 2
         }
         parent::__construct();
     }
 
+    /**
+     * return string menu category format html
+     *
+     * @return string
+     */
     public function getHtml()
     {
         $rootcatID = Mage::app()->getStore()->getRootCategoryId();
@@ -26,10 +29,10 @@ class Teamto_Megamenu_Block_Megamenu extends Mage_Core_Block_Template
     }
     /**
      * get category and all sub category
-     *
+     *   format html
      * 
      * @param $id_category: id category
-     * @param $no: #no level
+     * @param $no: #no category same level
      * @return string
      */
     protected function _getSubCategory($id_category, $no)
@@ -39,7 +42,7 @@ class Teamto_Megamenu_Block_Megamenu extends Mage_Core_Block_Template
         if(!$cate->getData('include_in_menu') || !$cate->getData('is_active'))
             return '';
         $level = $cate->getData('level');
-        //not display category have level > 5
+        //not display category have level > 4
         if($level>4)
             return '';
         if ($level > 1) {
@@ -52,7 +55,7 @@ class Teamto_Megamenu_Block_Megamenu extends Mage_Core_Block_Template
                 <a href="' . Mage::getBaseUrl().$cate->getData('url_path'). '">'
                 . $cate->getData('name')
                 . '</a>';
-            //check status category
+            //check status category, display if level = 3
             if($level==3) {
                 $status = $cate->getData('status');
                 if(strtolower($status) != 'normal' && $status != ''){
@@ -61,6 +64,7 @@ class Teamto_Megamenu_Block_Megamenu extends Mage_Core_Block_Template
                 }
             }
         }
+
         $str_subCategories = $cate->getChildren();
         if ($str_subCategories) {
             if($level > 1) {
@@ -72,7 +76,7 @@ class Teamto_Megamenu_Block_Megamenu extends Mage_Core_Block_Template
             }
             $no_sub = 0;
             foreach (explode(',', $str_subCategories) as $idChild) {
-                $html .= $this->_getSubCategory($idChild,$no_sub);
+                $html .= $this->_getSubCategory($idChild,$no_sub); // call recursive with sub category
                 $no_sub++;
             }
 
@@ -86,9 +90,9 @@ class Teamto_Megamenu_Block_Megamenu extends Mage_Core_Block_Template
     }
 
     /**
-     * get id catagory current level 2
+     * get id catagory current level 2, menu level 1
      *
-     * @param $cate_current
+     * @param $cate_current: category current
      * @return id category current level 2
      */
     private function _getIdCurrentCateLevel2($cate_current)
@@ -103,6 +107,11 @@ class Teamto_Megamenu_Block_Megamenu extends Mage_Core_Block_Template
         return $cate_parrent->getData('entity_id');
     }
 
+    /**
+     * get model catalog/category
+     *
+     * @return false|Mage_Core_Model_Abstract
+     */
     private function _getModelCategory()
     {
         return Mage::getModel('catalog/category');

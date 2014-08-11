@@ -18,17 +18,6 @@
             </configcustom>
         </helpers>
     </global>
-    <frontend>
-        <routers>
-            <configcustom>
-                <use>standard</use>
-                <args>
-                    <module>Teamto_Configcustom</module>
-                    <frontName>config</frontName>
-                </args>
-            </configcustom>
-        </routers>
-    </frontend>
 
     <adminhtml>
         <acl>

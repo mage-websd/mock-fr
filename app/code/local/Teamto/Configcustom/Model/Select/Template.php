@@ -3,7 +3,7 @@
 /**
  * Class Teamto_Configcustom_Model_Select_Template
  *
- * option select type widget
+ * option select type template widget
  */
 class Teamto_Configcustom_Model_Select_Template{
     public function toOptionArray()

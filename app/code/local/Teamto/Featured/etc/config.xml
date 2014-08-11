@@ -60,11 +60,9 @@
     <admin>
         <routers>
             <adminhtml>
-                <!--<use>admin</use>-->
                 <args>
                     <modules>
                         <Teamto_Featured before="Mage_Adminhtml">Teamto_Featured_Adminhtml</Teamto_Featured>
-                        <!--<frontName>admin</frontName>-->
                     </modules>
                 </args>
             </adminhtml>

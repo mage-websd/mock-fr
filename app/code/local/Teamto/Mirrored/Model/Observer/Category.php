@@ -226,7 +226,7 @@ class Teamto_Mirrored_Model_Observer_Category
     private $_idCategory = null; //id category submit
 
     /**
-     * @var array: columns for copy data from mirrored parent to mirrored child
+     * @var array: setting columns for copy data from mirrored parent to mirrored child
      */
     private $_arrayColumnMirroredParent = array(
             'position',
@@ -252,7 +252,7 @@ class Teamto_Mirrored_Model_Observer_Category
         );
 
     /**
-     * @var array: columns for copy data from mirrored parent sub category to mirrored child sub category
+     * @var array: setting columns for copy data from mirrored parent sub category to mirrored child sub category
      */
     private $_arrayColumnMirroredChild = array(
         'position',
@@ -278,9 +278,4 @@ class Teamto_Mirrored_Model_Observer_Category
         'name',
         'url_key',
     );
-
-    private function console($string)
-    {
-        echo '<script>console.log("'.$string.'")</script>';
-    }
 }

@@ -14,11 +14,16 @@ class Teamto_Featured_Block_Featured_Widget_Slideshow
      */
     public function __construct()
     {
+        //if enable config slideshow widget
         if(Mage::getStoreConfig('slideshow_option/messages/slide_enable'))
             $this->setTemplate('teamto/featured/widget/slideshow.phtml');
     }
 
-
+    /**
+     * get featured product for widget slideshow
+     *
+     * @return Mage_Eav_Model_Entity_Collection_Abstract
+     */
     public function getLoadedProductCollection()
     {
         $limit = Mage::getStoreConfig('slideshow_option/messages/slide_number');

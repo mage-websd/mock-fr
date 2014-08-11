@@ -2,16 +2,13 @@
 /**
  * add canonical url if category is mirrored
  */
-$urlCurrent = Mage::helper('core/url')->getCurrentUrl();
-$categoryMirrored = Mage::getModel('catalog/category')->getCollection()->addAttributeToFilter('mirrored_to');
+$categoryCurrent = Mage::registry('current_category');
 
-if(count($categoryMirrored)) {
-    $urlCurrent = '';
+if($categoryCurrent->getData('mirrored_to') || $categoryCurrent->getData('mirrored_copy_from_cate')){
+    $urlCurrent = Mage::helper('core/url')->getCurrentUrl();
 }
-else {
-    $categoryMirrored = Mage::getModel('catalog/category')->getCollection()->addAttributeToFilter('mirrored_copy_from_cate');
-    if(count($categoryMirrored))
-        $urlCurrent = '';
+else{
+    $urlCurrent = '';
 }
 if($urlCurrent) {
     echo "<link rel='canonical' href='{$urlCurrent}' />";

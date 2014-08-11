@@ -19,11 +19,17 @@ class Teamto_Mirrored_Model_Resource_Category_Mirrored extends
         }
         return $this->_options;
     }
+
+    /**
+     * get all category with format tree
+     *
+     * @param $idRoot: id category root
+     */
     private function _treeCateFormat($idRoot) {
         $cate = Mage::getModel('catalog/category')->load($idRoot);
         if($cate->getData('level') != 0) { //dont show catgory 'Root category'
             $label = '';
-            $numberSymbol = (int)$cate->getLevel() -1 ;
+            $numberSymbol = (int)$cate->getLevel() -1 ; // 1 grade level add symbol '__|'
             for($i = 0 ; $i < $numberSymbol ; $i++) {
                 $label .= '__|'; //symbol is space
             }
@@ -34,6 +40,7 @@ class Teamto_Mirrored_Model_Resource_Category_Mirrored extends
             );
         }
 
+        //find all sub category
         $collection = Mage::getResourceModel('catalog/category_collection')
             ->addAttributeToFilter('is_active', array('in' => array(0,1)))
             ->addAttributeToFilter('parent_id', $idRoot)
@@ -43,26 +50,4 @@ class Teamto_Mirrored_Model_Resource_Category_Mirrored extends
                 $this->_treeCateFormat($idSub);
             }
     }
-
-    /*private function _norformat() {
-        if (!$this->_options) {
-            $singleton = Mage::getSingleton('catalog/category');
-            $categories = $singleton->getCollection();
-            $array_option = array();
-            $array_option[] = array('value'=>'','label'=>'--Choose category parrent--');
-            foreach($categories as $cate) {
-                if($cate->getData('level') == 0) //not mirrored root category
-                    continue;
-                $id_cate = $cate->getData('entity_id');
-                $cate_one = $singleton->load($id_cate);
-
-
-                $array_option[] = array(
-                    'value'=> $id_cate,
-                    'label'=> $cate_one->getData('name').' - '.$id_cate,
-                );
-            }
-            $this->_options = $array_option;
-        }
-    }*/
 }
