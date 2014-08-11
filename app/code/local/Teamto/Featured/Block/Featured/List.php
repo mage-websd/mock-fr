@@ -1,7 +1,5 @@
 <?php
 
-//Mage_Adminhtml_Block_Catalog_Product
-//Mage_Adminhtml_Block_Widget_Container
 class Teamto_Featured_Block_Featured_List extends Mage_Adminhtml_Block_Widget_Container {
 
     protected function _prepareLayout()
@@ -57,19 +55,6 @@ class Teamto_Featured_Block_Featured_List extends Mage_Adminhtml_Block_Widget_Co
             return false;
         }
         return true;
-    }
-
-    public function getFeaturedProductId(){
-        $collection = Mage::getModel('catalog/product')->getCollection()
-            ->addAttributeToSelect('entity_id')
-            ->addFieldToFilter('featured', 1)
-        ;
-
-        foreach($collection as $value){
-            $aryProduct[] = $value->getData('entity_id');
-        }
-
-        return $aryProduct;
     }
 
 }

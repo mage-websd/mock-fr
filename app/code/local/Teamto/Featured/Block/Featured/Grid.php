@@ -1,7 +1,5 @@
 <?php
 
-//Mage_Adminhtml_Block_Catalog_Product_Grid
-//Mage_Adminhtml_Block_Widget_Grid
 class Teamto_Featured_Block_Featured_Grid extends Mage_Adminhtml_Block_Widget_Grid{
 
     public function __construct()
@@ -16,6 +14,9 @@ class Teamto_Featured_Block_Featured_Grid extends Mage_Adminhtml_Block_Widget_Gr
         $this->setVarNameFilter('product_filter');
     }
 
+    /*
+     *  add columm
+     */
     public function _prepareColumns(){
         $this->addColumn('checkbox',
             array(
@@ -24,9 +25,8 @@ class Teamto_Featured_Block_Featured_Grid extends Mage_Adminhtml_Block_Widget_Gr
                 'index' => 'entity_id',
                 'type' => 'checkbox',
                 'align' => 'center',
-                'filterable' => true,
+                'is_filterable' => true,
                 'sortable' => false,
-//                'values' => array('1', '2')
                 'values' => 'checked'
             ));
 
@@ -61,13 +61,13 @@ class Teamto_Featured_Block_Featured_Grid extends Mage_Adminhtml_Block_Widget_Gr
         return parent::_prepareColumns();
     }
 
-    public function _prepareMassaction(){
-        $this->setMassactionIdField('entity_id');
-        $this->getMassactionBlock()->setFormFieldName('product');
-
-        Mage::dispatchEvent('adminhtml_catalog_product_grid_prepare_massaction', array('block' => $this));
-        return $this;
-    }
+//    public function _prepareMassaction(){
+//        $this->setMassactionIdField('entity_id');
+//        $this->getMassactionBlock()->setFormFieldName('product');
+//
+//        Mage::dispatchEvent('adminhtml_catalog_product_grid_prepare_massaction', array('block' => $this));
+//        return $this;
+//    }
 
     protected function _getStore()
     {
@@ -179,4 +179,19 @@ class Teamto_Featured_Block_Featured_Grid extends Mage_Adminhtml_Block_Widget_Gr
         );
     }
 
+    /*
+     *  get featured products 's ids
+     */
+    public function getFeaturedProductId(){
+        $collection = Mage::getModel('catalog/product')->getCollection()
+            ->addAttributeToSelect('entity_id')
+            ->addFieldToFilter('featured', 1)
+        ;
+
+        foreach($collection as $value){
+            $aryProduct[] = $value->getData('entity_id');
+        }
+
+        return $aryProduct;
+    }
 }

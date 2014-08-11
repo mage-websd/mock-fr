@@ -26,13 +26,7 @@ class Teamto_Featured_Block_Featuredproduct extends Mage_Catalog_Block_Product_L
                 $this->_productCollection ->addAttributeToSort($order,$dir);
             }
 
-            /*echo '<pre>';
-            print_r($this->_productCollection->getData());
-            die;*/
-
          return $this->_productCollection;
-
-
     }
 
 }
