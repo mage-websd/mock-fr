@@ -1,7 +1,5 @@
+/app/etc/local.xml
 /.idea/
-/app/code/core/
-/app/design/frontend/base/
-/.htaccess
 /giangnt.pub
 /giangnt_key.pub
 /mock_giangnt.pub
@@ -10,5 +8,4 @@
 /mock_giangnt
 /nbproject/private/
 /.project
-/app/etc/local.xml
 /nbproject/private

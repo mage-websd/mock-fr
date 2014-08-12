@@ -1,0 +1,103 @@
+<!--<script src="<?php echo Mage::getBaseUrl('media') ?>mymedia/js/prototype.js" type="text/javascript"></script>-->
+<!--<script src="<?php echo Mage::getBaseUrl('media') ?>mymedia/js/scriptaculous.js" type="text/javascript"></script>-->
+<script src="<?php echo Mage::getBaseUrl('media') ?>mymedia/js/simple-slide-show.js" type="text/javascript"></script>
+<style>
+    #slide-images{
+        position:relative;
+        display:block;
+        margin:0px;
+        padding:0px;
+        max-width: 100%;
+        height: auto;  
+        height:150px;
+        overflow:hidden;
+    }
+
+    #slide-images li{
+        position:absolute;
+        display:block;
+        list-style-type:none;
+        margin:0px;
+        padding:0px;
+        background-color:#FFFFFF;
+    }
+
+    #slide-images li img{
+        display:block;
+        background-color:#FFFFFF;
+    }
+
+</style>
+
+<?php
+$collection = Mage::getModel('cms/page')->getCollection()->addStoreFilter(Mage::app()->getStore()->getId());
+$collection->getSelect()
+        ->where('is_active = 1')
+        ->where('is_news IS NOT NULL')
+        ->order('update_time', 'DESC')
+        ->limit(10);
+?>
+
+
+
+
+
+<div class="block">
+    <div class="block-title">
+        <strong><span>Hot News</span></strong>
+    </div>
+    <div id="slide-show">
+        <ul id="slide-images">
+            <?php
+            foreach ($collection as $news):
+
+                $data = $news->getData();
+                $conten = $data['content'];
+                $pattem = "/<img src=\"{{media url=\"(.*)\"}}\" alt=\"\" \/>/";
+                preg_match($pattem, $conten, $a_matches);
+
+                $img = str_replace("}", "", $a_matches[1]);
+                if ($img == "") {
+                    continue;
+                }
+                ?>
+
+                <li>
+<!--                    <p style="margin-bottom: 110px; position: absolute;color: white; padding: 5px"> 
+                        <?php echo $data['title'] ?></p>-->
+                    <a href="<?php echo Mage::Helper('cms/page')->getPageUrl($data['page_id']) ?>"
+                       title=" <?php echo $data['title'] ?>"
+                       >
+                        <img src="<?php echo Mage::getBaseUrl('media') . $img ?>" width="100%">
+                    </a>
+
+                </li>
+            <?php endforeach; ?>
+        </ul>
+
+
+    </div>
+
+
+    <div class="block-content">
+        <ul style="margin-left: 5px;">
+            <?php
+            $index = 1;
+            //  $collection = $this->getListNews();
+            foreach ($collection as $news) {
+                $data = $news->getData();
+                ?>
+                <li style="padding-bottom: 5px;padding-top: 5px">
+                    <a href ='<?php echo Mage::Helper('cms/page')->getPageUrl($data['page_id']) ?>'
+                       title=" <?php echo $data['update_time'] ?>"
+                       style="text-decoration: none">
+                        <?php echo $index . ". " . $data['title'] ?>
+                    </a>
+                </li>
+                <?php
+                $index++;
+            }
+            ?>
+        </ul>
+    </div>
+</div>

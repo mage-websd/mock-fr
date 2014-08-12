@@ -1,0 +1,206 @@
+<?php
+$_productCollection = $this->getLoadedProductCollection();
+if(count($_productCollection)) { //if exists product feature
+    $_helper = $this->helper('catalog/output');
+
+    $timelife = Mage::getStoreConfig('slideshow_option/messages/slide_lifetime');//time next slide
+    if(!$timelife || $timelife < 1)
+        $timelife = 5;
+    $timelife *= 1000;
+?>
+<link rel="stylesheet" href="<?php echo Mage::helper('link')->getSkinFrontend(); ?>swiper/css/idangerous.swiper.css"/>
+<style>
+    .swiper-container {
+        width: 660px;
+        height: 300px;
+        color: #fff;
+    }
+
+    .pagination {
+        position: absolute;
+        z-index: 20;
+        left: 10px;
+        bottom: 10px;
+    }
+
+    .swiper-pagination-switch {
+        display: inline-block;
+        width: 8px;
+        height: 8px;
+        border-radius: 8px;
+        background: #222;
+        margin-right: 5px;
+        opacity: 0.8;
+        border: 1px solid #fff;
+        cursor: pointer;
+    }
+
+    .swiper-visible-switch {
+        background: #aaa;
+
+    }
+
+    .swiper-active-switch {
+        background: #fff;
+    }
+
+    #widget-slideshow-home {
+        float: left;
+        position: relative;
+    }
+
+    .swiper-slide {
+        text-align: center;
+    }
+
+    li {
+        list-style: none;
+    }
+    #page-slider {
+        display: none;
+    }
+    #slider-next-pre{
+        height: 20px;
+        color: blue;
+        position: relative;
+    }
+    #slider-next-pre span{
+        cursor: pointer;
+    }
+    #slider-next-pre span:hover{
+        background-color: #dbdbdb;
+    }
+
+    #slider-next-pre span.next{
+        float: right;
+    }
+    #slider-next-pre span.pre{
+        float: left;
+    }
+    .clear{
+        clear: both;
+    }
+
+</style>
+<div id="widget-slideshow-home">
+    <div class="swiper-container">
+        <div id="slider-next-pre">
+            <span class="pre">&lt;&lt;&nbsp;pre</span>
+            <span class="next">next&nbsp;&gt;&gt;</span>
+        </div>
+        <div class="pagination" id="page-slider"></div>
+        <div class="swiper-wrapper">
+            <?php foreach ($_productCollection as $_product): ?>
+                <div class="swiper-slide">
+                    <li class="item<?php if (++$_iterator == sizeof($_productCollection)): ?> last<?php endif; ?>">
+                        <?php // Product Image ?>
+                        <a href="<?php echo $_product->getProductUrl() ?>"
+                           title="<?php echo $this->stripTags($this->getImageLabel($_product, 'small_image'), null, true) ?>"
+                           class="product-image"><img
+                                src="<?php echo $this->helper('catalog/image')->init($_product, 'small_image')->resize(135); ?>"
+                                width="135" height="135"
+                                alt="<?php echo $this->stripTags($this->getImageLabel($_product, 'small_image'), null, true) ?>"/></a>
+                        <?php // Product description ?>
+                        <div class="product-shop">
+                            <div class="f-fix">
+                                <?php $_productNameStripped = $this->stripTags($_product->getName(), null, true); ?>
+                                <h2 class="product-name"><a href="<?php echo $_product->getProductUrl() ?>"
+                                                            title="<?php echo $_productNameStripped; ?>"><?php echo $_helper->productAttribute($_product, $_product->getName(), 'name'); ?></a>
+                                </h2>
+
+                                <?php if ($_product->getRatingSummary()): ?>
+                                    <?php echo $this->getReviewsSummaryHtml($_product) ?>
+                                <?php endif; ?>
+                                <?php echo $this->getPriceHtml($_product, true) ?>
+                                <?php if ($_product->isSaleable()): ?>
+                                    <p class="btn-cart-p">
+                                        <button type="button" title="<?php echo $this->__('Add to Cart') ?>"
+                                                class="button btn-cart"
+                                                onclick="setLocation('<?php echo $this->getAddToCartUrl($_product) ?>')">
+                                            <span><span><?php echo $this->__('Add to Cart') ?></span></span></button>
+                                    </p>
+                                <?php else: ?>
+                                    <p class="availability out-of-stock">
+                                        <span><?php echo $this->__('Out of stock') ?></span></p>
+                                <?php endif; ?>
+
+                                <ul class="add-to-links">
+                                    <?php if ($this->helper('wishlist')->isAllow()) : ?>
+                                        <li><a href="<?php echo $this->helper('wishlist')->getAddUrl($_product) ?>"
+                                               class="link-wishlist"><?php echo $this->__('Add to Wishlist') ?></a></li>
+                                    <?php endif; ?>
+                                    <?php if ($_compareUrl = $this->getAddToCompareUrl($_product)): ?>
+                                        <li><span class="separator">|</span> <a href="<?php echo $_compareUrl ?>"
+                                                                                class="link-compare"><?php echo $this->__('Add to Compare') ?></a>
+                                        </li>
+                                    <?php endif; ?>
+                                </ul>
+                            </div>
+                        </div>
+                    </li>
+                </div>
+            <?php endforeach; ?>
+        </div>
+
+    </div>
+</div>
+
+<script src="<?php echo Mage::helper('link')->getSkinFrontend(); ?>swiper/js/idangerous.swiper-2.1.min.js"></script>
+<script>
+    var mySwiper = new Swiper('.swiper-container', {
+        pagination: '.pagination',
+        paginationClickable: true,
+        slidesPerView: 3,
+        loop: true
+    })
+</script>
+<script type="text/javascript">
+    jQuery(document).ready(function () {
+        var $ = jQuery;
+
+        /**
+         * next slide
+         */
+        function nextSlile() {
+            slideActive = $('.pagination').find('.swiper-active-switch');
+            if (slideActive.is(':last-child')) {
+                $('.pagination').children().first().click();
+            }
+            else {
+                slideActive.next().click();
+            }
+        }
+
+        /**
+         * preview slide
+         */
+        function preSlile() {
+            slideActive = $('.pagination').find('.swiper-active-switch');
+            if (slideActive.is(':first-child')) {
+                $('.pagination').children().last().click();
+            }
+            else {
+                slideActive.prev().click();
+            }
+        }
+
+        $('#slider-next-pre span').click(function(){
+            var classValue = $(this).attr('class');
+            if(classValue == 'next') {
+                nextSlile();
+            }
+            else{
+                preSlile();
+            }
+        });
+
+        setInterval(
+            function(){nextSlile()},
+            <?php echo $timelife;?>
+        );
+    });
+
+</script>
+<?php
+} //end if check exists product
+?>

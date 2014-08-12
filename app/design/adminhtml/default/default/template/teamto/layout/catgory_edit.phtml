@@ -1,0 +1,22 @@
+<?php
+/**
+ * add note for select mirrored
+ */
+?>
+<script src="<?php echo Mage::helper('link')->getSkinAdmin();?>js/jquery-1.11.1.min.js"></script>
+<script src="<?php echo Mage::helper('link')->getSkinAdmin();?>js/noConflict.js"></script>
+<script>
+jQuery(document).ready(function(){
+    var $ = jQuery;
+    /**
+     * insert note for mirrored select
+     */
+    $(document).on('click','#group_3mirrored_to',function(){
+        if(!$('#note-mirrored').length){
+            textNoteMirrored = 'Only use when category exists<br/>After mirrored action success, please reload page!'
+            tagNoteMirrored = '<p class="note" id="note-mirrored"><span>'+textNoteMirrored+'</span></p>';
+            $(tagNoteMirrored).insertAfter('#group_3mirrored_to');
+        }
+    });
+});
+</script>

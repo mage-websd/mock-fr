@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<layout version="0.1.0">
+    <adminhtml_catalog_category_edit>
+        <reference name="before_body_end">
+            <block type="core/template" name="content.category.add.custom"
+                   template="teamto/layout/catgory_edit.phtml"/>
+        </reference>
+    </adminhtml_catalog_category_edit>
+</layout>

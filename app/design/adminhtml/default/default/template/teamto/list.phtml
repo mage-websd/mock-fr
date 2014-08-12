@@ -1,0 +1,27 @@
+<form method="POST" action="<?php echo $this->getUrl('*/*/save'); ?>" id='featured_products'>
+    <input name="form_key" type="hidden" value="<?php echo Mage::getSingleton('core/session')->getFormKey(); ?>">
+    <input type="hidden" value="" name="aryCheckedBoxes" id="aryCheckedBoxes">
+    <input type="hidden" value="" name="aryUncheckedBoxes" id="aryUncheckedBoxes">
+    <input type="hidden" value="" name="aryInitialCheckedBoxes" id="aryInitialCheckedBoxes">
+    <input type="hidden" value="" name="aryInitialUncheckedBoxes" id="aryInitialUncheckedBoxes">
+
+    <div class="content-header">
+        <table cellspacing="0">
+            <tr>
+                <td style="width:50%;"><h3
+                        class="icon-head head-products"><?php echo Mage::helper('catalog')->__('Featured Products') ?></h3>
+                </td>
+
+                <td class="a-right">
+                    <?php echo $this->getButtonsHtml() ?>
+                </td>
+            </tr>
+        </table>
+    </div>
+    <?php if (!$this->isSingleStoreMode()): ?>
+        <?php echo $this->getChildHtml('store_switcher'); ?>
+    <?php endif; ?>
+    <div>
+        <?php echo $this->getGridHtml() ?>
+    </div>
+</form>

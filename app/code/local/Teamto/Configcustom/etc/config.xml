@@ -1,0 +1,43 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <Teamto_Configcustom>
+            <version>0.1.0</version>
+        </Teamto_Configcustom>
+    </modules>
+    <global>
+        <models>
+            <configcustom>
+                <class>Teamto_Configcustom_Model</class>
+            </configcustom>
+        </models>
+
+        <helpers>
+            <configcustom>
+                <class>Teamto_Configcustom_Helper</class>
+            </configcustom>
+        </helpers>
+    </global>
+
+    <adminhtml>
+        <acl>
+            <resources>
+                <admin>
+                    <children>
+                        <system>
+                            <children>
+                                <config>
+                                    <children>
+                                        <slideshow_option>
+                                            <title>Slideshow option</title>
+                                        </slideshow_option>
+                                    </children>
+                                </config>
+                            </children>
+                        </system>
+                    </children>
+                </admin>
+            </resources>
+        </acl>
+    </adminhtml>
+</config>

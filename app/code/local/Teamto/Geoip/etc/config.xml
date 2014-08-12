@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+To change this template, choose Tools | Templates
+and open the template in the editor.
+-->
+<config>
+    <modules>
+        <Teamto_Geoip>
+            <version>0.1.0</version>
+        </Teamto_Geoip>
+    </modules>
+    <frontend>
+        <routers>
+            <teamto_geoip>
+                <use>standard</use>
+                <args>
+                    <module>Teamto_Geoip</module>
+                    <frontName>geoip</frontName>
+                </args>
+            </teamto_geoip>
+        </routers>
+    </frontend>
+    <global>
+        <events>
+            <controller_front_init_before>
+                <observers>
+                    <teamto_geoip>
+                        <type>singleton</type>
+                        <class>Teamto_Geoip_Model_Observer</class>
+                        <method>geoip_store</method>
+                    </teamto_geoip>
+                </observers>
+            </controller_front_init_before>
+        </events>
+    </global>
+</config>
