@@ -1,9 +1,0 @@
-<?xml version="1.0"?>
-<config>
-    <modules>
-        <Teamto_Catalogedit>
-            <active>true</active>
-            <codePool>local</codePool>
-        </Teamto_Catalogedit>
-    </modules>
-</config>
