@@ -1,0 +1,14 @@
+/.idea/
+/app/code/core/
+/app/design/frontend/base/
+/.htaccess
+/giangnt.pub
+/giangnt_key.pub
+/mock_giangnt.pub
+/giangnt
+/giangnt_key
+/mock_giangnt
+/nbproject/private/
+/.project
+/app/etc/local.xml
+/nbproject/private
